@@ -9,11 +9,11 @@
 #### Deep-dive ...
 
     call stacks and variables ...
-    
+
 ####
 
     com.facebook.katana/com.facebook.kanata.LoginActivity -> login
-    
+
 ####
 
     adb shell sqlite3 /data/data/com.facebook.katana/databases/fb.db '.dump user_values'
@@ -49,3 +49,25 @@
     INSERT INTO "user_values" VALUES(8,'sync','true');
     INSERT INTO "user_values" VALUES(9,'current_account','honesthenry@gmail.com');
     COMMIT;
+
+####
+
+    Thread [<9> Thread-163] (Suspended (entry into method parseObjectJson in JMParser))
+        JMParser.parseObjectJson(JsonParser, Class clazz) line: 499
+            clazz com.facebook.katana.service.method.AuthLogin$FacebookApiSessionInfo
+        AuthLogin.parseJSON(JsonParser) line: 175
+            jsonParser: jsonFactory.createJsonParser(responseString)
+        AuthLogin(ApiMethod).parseResponse(String response) line: 482
+            response "{
+                "session_key":"88a6d322ef95d8cb400c59e5.0-647577191",
+                "uid":647577191,
+                "secret":"d35e5891511d16f1126538ff349d5117",
+                "access_token":"AAAAAUaZA8jlABAIbUPY2ospZBKR7xSgAYwVwzd6wTCZAcaDcmSOAGUHBYtvjnJaCXpOXtTZBJG5MOhZCLQXRwILzQIwbmZCq0ZD"
+            }"
+        ApiMethod$ApiHttpListener.onHttpOperationComplete(
+            HttpOperation thread, int errorCode: 200,
+            String reasonPhrase: "OK", OutputStream json, 
+            Exception ex: null) line: 132
+        HttpOperation.run() line: 345
+
+
