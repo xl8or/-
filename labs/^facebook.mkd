@@ -22,7 +22,25 @@
     BEGIN TRANSACTION;
     CREATE TABLE user_values (_id INTEGER PRIMARY KEY,name TEXT,value TEXT);
     INSERT INTO "user_values" VALUES(1,'ringtone','true');
-    INSERT INTO "user_values" VALUES(2,'active_session_info','{"uid":647577191,"secret":"44388c5b1b2f75a04ec895c676f0aa82","username":"honesthenry@gmail.com","filter":"nf","access_token":"AAAAAUaZA8jlABACvlYkEfeIwCZB6d7O83ZB7lZCM3LpDrL97VCTSvZBjaou9xnHzTR2zTsS0j0tT1W2aOZAkrPFxA2Doi0p1AZD","session_key":"902ba3f53f221be902288533.0-647577191","profile":{"last_name":"Lee","uid":647577191,"first_name":"Henry Hm","pic_square":"http:\/\/profile.ak.fbcdn.net\/hprofile-ak-ash2\/274976_647577191_931918644_q.jpg","name":"Henry Hm Lee"}}');
+    INSERT INTO "user_values" VALUES(
+        2,
+        'active_session_info',
+        '{
+            "uid":647577191,
+            "secret":"44388c5b1b2f75a04ec895c676f0aa82",
+            "username":"honesthenry@gmail.com",
+            "filter":"nf",
+            "access_token":"AAAAAUaZA8jlABACvlYkEfeIwCZB6d7O83ZB7lZCM3LpDrL97VCTSvZBjaou9xnHzTR2zTsS0j0tT1W2aOZAkrPFxA2Doi0p1AZD",
+            "session_key":"902ba3f53f221be902288533.0-647577191",
+            "profile":{
+                "last_name":"Lee",
+                "uid":647577191,
+                "first_name":"Henry Hm",
+                "pic_square":"http:\/\/profile.ak.fbcdn.net\/hprofile-ak-ash2\/274976_647577191_931918644_q.jpg",
+                "name":"Henry Hm Lee"
+            }
+        }'
+    );
     INSERT INTO "user_values" VALUES(3,'last_seen_id_message','1320375395');
     INSERT INTO "user_values" VALUES(4,'last_seen_id_poke','1288366455');
     INSERT INTO "user_values" VALUES(5,'last_seen_id_friend_request','100001623277692');
@@ -31,7 +49,3 @@
     INSERT INTO "user_values" VALUES(8,'sync','true');
     INSERT INTO "user_values" VALUES(9,'current_account','honesthenry@gmail.com');
     COMMIT;
-
-####
-
-> INSERT INTO "user_values" VALUES(2,'active_session_info','{"uid":647577191,"secret":"44388c5b1b2f75a04ec895c676f0aa82","username":"honesthenry@gmail.com","filter":"nf","access_token":"AAAAAUaZA8jlABACvlYkEfeIwCZB6d7O83ZB7lZCM3LpDrL97VCTSvZBjaou9xnHzTR2zTsS0j0tT1W2aOZAkrPFxA2Doi0p1AZD","session_key":"902ba3f53f221be902288533.0-647577191","profile":{"last_name":"Lee","uid":647577191,"first_name":"Henry Hm","pic_square":"http:\/\/profile.ak.fbcdn.net\/hprofile-ak-ash2\/274976_647577191_931918644_q.jpg","name":"Henry Hm Lee"}}');
