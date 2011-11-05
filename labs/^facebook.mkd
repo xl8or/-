@@ -78,7 +78,8 @@
             String url: "https://api.facebook.com/restserver.php?
                 api_key=882a8490361da98702bf97a021ddc14d&
                 email=honesthenry%40gmail.com&
-                format=JSON&locale=user&
+                format=JSON&
+                locale=user&
                 method=auth.login&
                 migrations_override=%7B%27empty_json%27%3A+true%7D&
                 password=passw0rd&
