@@ -75,7 +75,15 @@
     Thread [<1> main] (Suspended (entry into method <init> in HttpOperation))
         HttpOperation.<init>(Context facebookApp, 
             String method: "GET", 
-            String url: "https://api.facebook.com/restserver.php?api_key=882a8490361da98702bf97a021ddc14d&email=honesthenry%40gmail.com&format=JSON&locale=user&method=auth.login&migrations_override=%7B%27empty_json%27%3A+true%7D&password=passw0rd&return_ssl_resources=0&sig=5bcc3cc8aac2e2313bd9a75814650a6d&v=1.0", 
+            String url: "https://api.facebook.com/restserver.php?
+                api_key=882a8490361da98702bf97a021ddc14d&
+                email=honesthenry%40gmail.com&
+                format=JSON&locale=user&
+                method=auth.login&
+                migrations_override=%7B%27empty_json%27%3A+true%7D&
+                password=passw0rd&
+                return_ssl_resources=0&
+                sig=5bcc3cc8aac2e2313bd9a75814650a6d&v=1.0", 
             OutputStream, 
             HttpOperation$HttpOperationListener, 
             boolean includeUserAgent: true) line: 181
