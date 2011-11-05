@@ -72,13 +72,34 @@
 
 #### JSON Request
 
-Thread [<1> main] (Suspended (entry into method <init> in HttpOperation))
-    HttpOperation.<init>(Context, String, String, OutputStream, HttpOperation$HttpOperationListener, boolean) line: 181
-    AuthLogin(ApiMethod).start() line: 223
-    FacebookService.startOp(String, ApiMethod) line: 1250
-    FacebookService.onStart(Intent, int startId: 3) line: 742
-        intent   Intent  (id=830008672960)
-            mComponent  ComponentName: ComponentInfo{com.facebook.katana/com.facebook.katana.service.FacebookService}
-            mExtras Bundle  [{sid=0, pwd=passw0rd, type=1, rid=1, un=honesthenry@gmail.com}]
-    FacebookService(Service).onStartCommand(Intent , int flags: 2, int: startId: 3) line: 428
+    Thread [<1> main] (Suspended (entry into method <init> in HttpOperation))
+        HttpOperation.<init>(Context facebookApp, 
+            String method: "GET", 
+            String url: "https://api.facebook.com/restserver.php?api_key=882a8490361da98702bf97a021ddc14d&email=honesthenry%40gmail.com&format=JSON&locale=user&method=auth.login&migrations_override=%7B%27empty_json%27%3A+true%7D&password=passw0rd&return_ssl_resources=0&sig=5bcc3cc8aac2e2313bd9a75814650a6d&v=1.0", 
+            OutputStream, 
+            HttpOperation$HttpOperationListener, 
+            boolean includeUserAgent: true) line: 181
+        AuthLogin(ApiMethod).start() line: 223
+        FacebookService.startOp(String id: "1", ApiMethod operation) line: 1250
+            operation   AuthLogin  (id=830008615552)
+                mBaseUrl    "https://api.facebook.com/restserver.php" (id=830008616032)
+                mContext    FacebookApplication
+                mFacebookMethod "auth.login"
+                mHttpListener   ApiMethod$ApiHttpListener  (id=830008514992)
+                mHttpMethod "GET" (id=830008615608)
+                mHttpOp null
+                mListener   AuthLogin$LoginListener  (id=830008302176)
+                mParams TreeMap {
+                    api_key=882a8490361da98702bf97a021ddc14d, email=honesthenry@gmail.com, 
+                    format=JSON, locale=user, method=auth.login, migrations_override={'empty_json': true}, 
+                    password=password, return_ssl_resources=0, sig=5bcc3cc8aac2e2313bd9a75814650a6d, v=1.0
+                } 
+                mReqIntent  Intent -- same as below
+                mSessionInfo    null
+                mUserListener   FacebookService  (id=830008384656)
+        FacebookService.onStart(Intent, int startId: 3) line: 742
+            intent   Intent  (id=830008672960)
+                mComponent  ComponentName: ComponentInfo{com.facebook.katana/com.facebook.katana.service.FacebookService}
+                mExtras Bundle  [{sid=0, pwd=passw0rd, type=1, rid=1, un=honesthenry@gmail.com}]
+        FacebookService(Service).onStartCommand(Intent , int flags: 2, int: startId: 3) line: 428
 
