@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_new_one_account_fmt">
+        <item quantity="other">Irakurri gabe: %1$1$d (%2$2$s)</item>
+        <item quantity="one">Irakurri gabe: 1 (%2$s)</item>
+        <item quantity="few">Irakurri gabe: %1$1$d (%2$2$s)</item>
+    </plurals>
+    <plurals name="notification_new_multi_account_fmt">
+        <item quantity="other">%d kontutan</item>
+        <item quantity="few">%d kontutan</item>
+    </plurals>
+    <plurals name="message_deleted_toast">
+        <item quantity="other">Mezuak ezabatu dira</item>
+        <item quantity="one">Mezua ezabatu da</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$1$d emaitza hemen: %2$2$s</item>
+        <item quantity="one">1 emaitza hemen: %2$s</item>
+    </plurals>
+</resources>

@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="account_detail_mailsize_labels">
+        <item>@string/mail_size_limit_header_only</item>
+        <item>@string/mail_size_limit_1kb</item>
+        <item>@string/mail_size_limit_5kb</item>
+        <item>@string/mail_size_limit_25kb</item>
+        <item>@string/mail_size_limit_50kb</item>
+        <item>@string/mail_size_limit_100kb</item>
+        <item>@string/mail_size_limit_1mb</item>
+        <item>@string/mail_size_limit_no_limit</item>
+    </array>
+    <string-array name="account_detail_mailsize_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <array name="account_detail_poll_frequency_labels">
+        <item>@string/account_detail_poll_frequency_default</item>
+        <item>@string/poll_freq_5mins</item>
+        <item>@string/poll_freq_10mins</item>
+        <item>@string/poll_freq_15mins</item>
+        <item>@string/poll_freq_30mins</item>
+        <item>@string/poll_freq_1hour</item>
+        <item>@string/poll_freq_2hours</item>
+        <item>@string/poll_freq_4hours</item>
+        <item>@string/poll_freq_24hours</item>
+    </array>
+    <string-array name="account_detail_poll_frequency_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <array name="account_detail_fetch_mail_labels">
+        <item>@string/fetch_mail_20</item>
+        <item>@string/fetch_mail_40</item>
+        <item>@string/fetch_mail_60</item>
+        <item>@string/fetch_mail_80</item>
+        <item>@string/fetch_mail_100</item>
+    </array>
+    <string-array name="account_detail_fetch_mail_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <array name="account_detail_fetch_mail_by_day_labels">
+        <item>@string/fetch_mail_by_day_1</item>
+        <item>@string/fetch_mail_by_day_3</item>
+        <item>@string/fetch_mail_by_day_7</item>
+        <item>@string/fetch_mail_by_day_14</item>
+        <item>@string/fetch_mail_by_day_30</item>
+        <item>@string/fetch_mail_by_day_0</item>
+    </array>
+    <string-array name="account_detail_fetch_mail_by_day_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="account_detail_preview_lines_labels">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="account_detail_preview_lines_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <array name="account_detail_font_size_labels">
+        <item>@string/font_size_largest</item>
+        <item>@string/font_size_larger</item>
+        <item>@string/account_detail_font_size_default</item>
+        <item>@string/font_size_smaller</item>
+        <item>@string/font_size_smallest</item>
+    </array>
+    <string-array name="account_detail_font_size_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <array name="preview_number_for_glance">
+        <item>@string/fetch_mail_20</item>
+        <item>@string/fetch_mail_40</item>
+        <item>@string/fetch_mail_60</item>
+        <item>@string/fetch_mail_80</item>
+        <item>@string/fetch_mail_100</item>
+    </array>
+    <string-array name="preview_number_for_glance_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <array name="account_detail_attachment_location_labels">
+        <item>@string/account_detail_internal_storage</item>
+        <item>@string/att_location_external</item>
+    </array>
+    <string-array name="account_detail_attachment_location_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <array name="sort_dialog_items">
+        <item>@string/sort_order_lastest_on_top</item>
+        <item>@string/sort_order_oldest_on_top</item>
+        <item>@string/sort_order_subject_a_z</item>
+        <item>@string/sort_order_subject_z_a</item>
+        <item>@string/sort_order_sender_a_z</item>
+        <item>@string/sort_order_sender_z_a</item>
+        <item>@string/sort_order_size_large_on_top</item>
+        <item>@string/sort_order_size_small_on_top</item>
+    </array>
+    <array name="sort_dialog_items2">
+        <item>@string/sort_order_lastest_on_top</item>
+        <item>@string/sort_order_oldest_on_top</item>
+        <item>@string/sort_order_subject_a_z</item>
+        <item>@string/sort_order_subject_z_a</item>
+        <item>@string/sort_order_size_large_on_top</item>
+        <item>@string/sort_order_size_small_on_top</item>
+    </array>
+    <array name="sort_dialog_items_plus_priority">
+        <item>@string/sort_order_lastest_on_top</item>
+        <item>@string/sort_order_oldest_on_top</item>
+        <item>@string/sort_order_priority_high_on_top</item>
+        <item>@string/sort_order_priority_low_on_top</item>
+        <item>@string/sort_order_subject_a_z</item>
+        <item>@string/sort_order_subject_z_a</item>
+        <item>@string/sort_order_sender_a_z</item>
+        <item>@string/sort_order_sender_z_a</item>
+        <item>@string/sort_order_size_large_on_top</item>
+        <item>@string/sort_order_size_small_on_top</item>
+    </array>
+    <array name="sort_dialog_outbox">
+        <item>@string/sort_order_lastest_on_top</item>
+        <item>@string/sort_order_oldest_on_top</item>
+        <item>@string/sort_order_subject_a_z</item>
+        <item>@string/sort_order_subject_z_a</item>
+        <item>@string/sort_order_size_large_on_top</item>
+        <item>@string/sort_order_size_small_on_top</item>
+    </array>
+    <array name="sort_dialog_outbox_plus_priority">
+        <item>@string/sort_order_lastest_on_top</item>
+        <item>@string/sort_order_oldest_on_top</item>
+        <item>@string/sort_order_priority_high_on_top</item>
+        <item>@string/sort_order_priority_low_on_top</item>
+        <item>@string/sort_order_subject_a_z</item>
+        <item>@string/sort_order_subject_z_a</item>
+        <item>@string/sort_order_size_large_on_top</item>
+        <item>@string/sort_order_size_small_on_top</item>
+    </array>
+    <array name="sort_dialog_threaded">
+        <item>@string/sort_order_lastest_on_top</item>
+        <item>@string/sort_order_oldest_on_top</item>
+        <item>@string/sort_order_subject_a_z</item>
+        <item>@string/sort_order_subject_z_a</item>
+    </array>
+    <array name="charset_dialog_item_labels">
+        <item>@string/charset_label_0</item>
+        <item>@string/charset_label_1</item>
+        <item>@string/charset_label_2</item>
+        <item>@string/charset_label_3</item>
+        <item>@string/charset_label_4</item>
+        <item>@string/charset_label_5</item>
+        <item>@string/charset_label_6</item>
+        <item>@string/charset_label_7</item>
+        <item>@string/charset_label_8</item>
+        <item>@string/charset_label_9</item>
+    </array>
+    <array name="charset_dialog_item_values">
+        <item>@string/charset_value_0</item>
+        <item>@string/charset_value_1</item>
+        <item>@string/charset_value_2</item>
+        <item>@string/charset_value_3</item>
+        <item>@string/charset_value_4</item>
+        <item>@string/charset_value_5</item>
+        <item>@string/charset_value_6</item>
+        <item>@string/charset_value_7</item>
+        <item>@string/charset_value_8</item>
+        <item>@string/charset_value_9</item>
+    </array>
+    <string-array name="scheduling_entries">
+        <item>Manuel</item>
+        <item>Push posta</item>
+        <item>Her 5 dakikada</item>
+        <item>Her 10 dakikada</item>
+        <item>Her 15 dakikada</item>
+        <item>Her 30 dakikada</item>
+        <item>Her saat</item>
+        <item>Her 2 saat</item>
+        <item>Her 4 saat</item>
+        <item>Günde bir</item>
+    </string-array>
+    <string-array name="scheduling_entries_wording_change">
+        <item>Manuel</item>
+        <item>Öğeler geldikçe (Push)</item>
+        <item>Her 5 dakikada</item>
+        <item>Her 10 dakikada</item>
+        <item>Her 15 dakikada</item>
+        <item>Her 30 dakikada</item>
+        <item>Her saat</item>
+        <item>Her 2 saatte bir</item>
+        <item>Her 4 saatte bir</item>
+        <item>Günde bir</item>
+    </string-array>
+    <string-array name="scheduling_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="c_resolve_entries">
+        <item>Telefondaki öğelerle değiştir</item>
+        <item>Telefondaki öğeleri tut</item>
+    </string-array>
+    <string-array name="c_resolve_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="c_resolve_record_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="mail_dl_days_entries">
+        <item>1 gün</item>
+        <item>3 gün</item>
+        <item>7 gün</item>
+        <item>14 gün</item>
+        <item>30 gün</item>
+        <item>Tümü</item>
+    </string-array>
+    <string-array name="mail_dl_days_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mail_dl_days_record_values">
+        <item>1</item>
+        <item>3</item>
+        <item>7</item>
+        <item>14</item>
+        <item>30</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="mail_dl_size_entries">
+        <item>Salt başlık</item>
+        <item>2 KB</item>
+        <item>5 KB</item>
+        <item>10 KB</item>
+        <item>20 KB</item>
+        <item>50 KB</item>
+        <item>Salt metin, resim yok</item>
+        <item>Maksimum boyut</item>
+    </string-array>
+    <string-array name="mail_2003_dl_size_entries">
+        <item>Salt başlık</item>
+        <item>2 KB</item>
+        <item>5 KB</item>
+        <item>10 KB</item>
+        <item>20 KB</item>
+        <item>50 KB</item>
+        <item>Maksimum boyut</item>
+    </string-array>
+    <string-array name="mail_mime_dl_size_entries">
+        <item>Salt başlık</item>
+        <item>4 KB</item>
+        <item>5 KB</item>
+        <item>7 KB</item>
+        <item>10 KB</item>
+        <item>20 KB</item>
+        <item>50 KB</item>
+        <item>Maksimum boyut</item>
+    </string-array>
+    <string-array name="mail_dl_size_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="mail_fmt_entries">
+        <item>HTML</item>
+        <item>Düz metin</item>
+    </string-array>
+    <string-array name="mail_fmt_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="mail_fmt_record_values">
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="mail_dl_attach_entries">
+        <item>Asla</item>
+        <item>"25 KB'den küçük"</item>
+        <item>"100 KB'den küçük"</item>
+        <item>"500 KB'den küçük"</item>
+        <item>"1 MB'den küçük"</item>
+        <item>"2 MB'den küçük"</item>
+        <item>Her zaman</item>
+    </string-array>
+    <string-array name="mail_dl_attach_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="mail_dl_attach_record_values">
+        <item>0</item>
+        <item>25</item>
+        <item>100</item>
+        <item>500</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>9999</item>
+    </string-array>
+    <string-array name="cal_sync_days_entries">
+        <item>2 hafta</item>
+        <item>1 ay</item>
+        <item>3 ay</item>
+        <item>6 ay</item>
+        <item>Tümü</item>
+    </string-array>
+    <string-array name="cal_sync_days_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <array name="compose_attachment_appshare">
+        <item>@string/attach_image</item>
+        <item>@string/attach_video</item>
+        <item>@string/attach_sound</item>
+        <item>@string/text_app_share</item>
+        <item>@string/compose_location_hint_text</item>
+        <item>@string/text_document</item>
+        <item>@string/htc_attach_vcard_contact</item>
+        <item>@string/htc_attach_vcal_appointment</item>
+        <item>@string/text_file</item>
+    </array>
+    <array name="compose_attachment_dialog1">
+        <item>@string/attach_image</item>
+        <item>@string/attach_video</item>
+        <item>@string/attach_sound</item>
+        <item>@string/compose_location_hint_text</item>
+        <item>@string/text_document</item>
+        <item>@string/htc_attach_vcard_contact</item>
+        <item>@string/htc_attach_vcal_appointment</item>
+        <item>@string/text_file</item>
+    </array>
+    <array name="compose_attachment_picture">
+        <item>@string/attach_take_photo</item>
+        <item>@string/text_photos</item>
+    </array>
+    <array name="compose_attachment_video">
+        <item>@string/text_camcorder</item>
+        <item>@string/text_videos</item>
+    </array>
+    <array name="compose_attachment_audio">
+        <item>@string/text_voice_recorder</item>
+        <item>@string/text_browse</item>
+    </array>
+    <array name="compose_attachment_document">
+        <item>@string/PDF</item>
+        <item>@string/OFFICE</item>
+    </array>
+    <array name="compose_attachment_dialog2">
+        <item>@string/attach_take_photo</item>
+        <item>@string/attach_record_video</item>
+        <item>@string/attach_record_sound</item>
+    </array>
+    <array name="compose_attachment_dialog_dopod">
+        <item>@string/attach_image</item>
+        <item>@string/attach_video</item>
+        <item>@string/attach_sound</item>
+        <item>@string/text_document</item>
+    </array>
+    <array name="oof_i_am_doing">
+        <item>@string/oof_currently_in_office</item>
+        <item>@string/menu_out_of_the_office</item>
+    </array>
+    <string-array name="days_of_week">
+        <item>Pazartesi</item>
+        <item>Salı</item>
+        <item>Çarşamba</item>
+        <item>Perşembe</item>
+        <item>Cuma</item>
+        <item>Cumartesi</item>
+        <item>Pazar</item>
+    </string-array>
+    <string-array name="days_of_week_short">
+        <item>Pzt</item>
+        <item>Sal</item>
+        <item>Çar</item>
+        <item>Per</item>
+        <item>Cum</item>
+        <item>Ctes</item>
+        <item>Paz</item>
+    </string-array>
+    <array name="set_mail_priority">
+        <item>@string/priority_high</item>
+        <item>@string/priority_normal</item>
+        <item>@string/priority_low</item>
+    </array>
+    <array name="account_mail_body_preview_entries">
+        <item>@string/none_security</item>
+        <item>@string/account_detail_preview_one_line</item>
+        <item>@string/account_detail_preview_two_line</item>
+        <item>@string/account_detail_preview_three_line</item>
+        <item>@string/account_detail_preview_four_line</item>
+        <item>@string/account_detail_preview_five_line</item>
+    </array>
+    <string-array name="account_mail_body_preview_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

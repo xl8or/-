@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/account_field" android:layout_width="fill_parent" android:layout_height="96.0px" android:layout_marginLeft="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/account_color" android:visibility="visible" android:layout_width="5.0px" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/account_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.2999878dip" android:scaleType="fitCenter" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="3.3299866dip" android:paddingBottom="3.3299866dip" android:layout_width="fill_parent" android:layout_height="96.0px" android:layout_marginLeft="10.0px">
+        <TextView android:textSize="33.0px" android:typeface="sans" android:textColor="@drawable/p1_text_color_from000000_toffffff" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/account_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textSize="21.0px" android:textColor="@drawable/p1_text_color_from3484c8_toffffff" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/account_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/btn_toggle_off_pressed_holo_dark" android:id="@id/check_mail" android:title="@string/refresh_action" android:alphabeticShortcut="r" />
+    <item android:icon="@android:drawable/ic_menu_add" android:id="@id/add_new_account" android:title="@string/add_account_action" />
+</menu>

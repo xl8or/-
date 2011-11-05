@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="20.0sp" android:textColor="?android:textColorPrimary" android:id="@id/instructions" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/accounts_welcome" />
+            <ImageView android:layout_gravity="left|center" android:id="@id/branded_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/preset_account_margin" android:minWidth="@dimen/preset_account_image_minwidth" android:minHeight="@dimen/preset_account_image_minheight" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <EditText android:gravity="left|center" android:id="@id/account_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_setup_basics_email_hint" android:inputType="textEmailAddress" android:imeOptions="actionNext" />
+            <EditText android:gravity="left|center" android:id="@id/account_password" android:nextFocusDown="@id/next" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_setup_basics_password_hint" android:inputType="textPassword" android:imeOptions="actionDone" />
+            <CheckBox android:id="@id/account_default" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_basics_default_label" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/bottom_bar" android:paddingLeft="6.0dip" android:paddingTop="5.0dip" android:paddingRight="6.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <Button android:id="@id/manual_setup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/button_minWidth" android:text="@string/account_setup_basics_manual_setup_action" android:layout_weight="1.0" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <Button android:id="@id/next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/button_minWidth" android:text="@string/next_action" android:drawableRight="@drawable/button_indicator_next" android:layout_weight="1.0" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

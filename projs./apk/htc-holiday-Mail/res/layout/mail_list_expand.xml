@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.widget.HtcExpandableListView android:textSize="18.0sp" android:id="@id/expandlist" android:background="#ffffffff" android:visibility="gone" android:scrollbars="vertical" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:drawSelectorOnTop="false" android:stackFromBottom="false" android:cacheColorHint="@android:color/transparent" android:groupIndicator="@drawable/expander_group" android:indicatorLeft="10.0dip" android:childDivider="@34080191" android:divider="@34080191" android:layout_weight="1.0" android:layout_above="@id/toolbarhome" android:layout_below="@33685591" android:fastScrollEnabled="false" mail:topBorderHeight="0.0px" mail:bottomBorderHeight="8.0px" mail:shouldFillEmpty="false"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:mail="http://schemas.android.com/apk/res/com.htc.android.mail" />

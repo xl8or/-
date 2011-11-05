@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/screenshots_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/details_screenshots" />
+    <include android:id="@id/trailers_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/details_generic" />
+    <include android:id="@id/description_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/details_text" />
+    <include android:id="@id/new_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/details_text" />
+    <include android:id="@id/videos_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/details_generic" />
+    <include android:id="@id/sample_reviews_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/details_reviews" />
+    <include android:id="@id/related_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/details_pack_layout" />
+    <include android:id="@id/market_content_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/details_listing_layout" />
+</merge>

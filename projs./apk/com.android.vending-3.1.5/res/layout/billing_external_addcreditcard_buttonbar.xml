@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/cancel_button" android:layout_width="0.0dip" android:text="@string/skip" android:layout_weight="1.0" style="@style/SetupWizardButton" />
+    <View android:visibility="invisible" android:layout_width="@dimen/setup_wizard_button_horizontal_margin" android:layout_height="0.0dip" />
+    <Button android:id="@id/save_button" android:layout_width="0.0dip" android:text="@string/save" android:layout_weight="1.0" style="@style/SetupWizardButton" />
+</LinearLayout>

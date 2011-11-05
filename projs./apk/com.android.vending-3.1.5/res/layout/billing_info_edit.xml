@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/billing_form_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/carrier_billing_edit" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:scrollbarStyle="insideInset" android:orientation="vertical" android:id="@id/scroll_content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="top|center" android:orientation="vertical" android:id="@id/edit_section" android:nextFocusDown="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/title_bar_shadow">
+                <TextView android:id="@id/enter_your_billing_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/enter_your_address_sentence" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="12.0dip" android:text="@string/phone_number" />
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:id="@id/phone_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="-6.0dip" />
+                <EditText android:id="@id/phone_number_edit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:singleLine="true" android:inputType="phone" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="12.0dip" android:text="@string/name_label" />
+                <EditText android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginBottom="10.0dip" android:singleLine="true" android:inputType="textPersonName|textCapWords" />
+                <include android:id="@id/address_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" layout="@layout/address_layout" />
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:background="@drawable/bottombar_portrait_565" android:paddingLeft="2.0dip" android:paddingTop="4.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="52.0dip">
+            <Button android:id="@id/save_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@android:string/ok" android:layout_weight="1.0" />
+            <Button android:id="@id/cancel_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@android:string/cancel" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

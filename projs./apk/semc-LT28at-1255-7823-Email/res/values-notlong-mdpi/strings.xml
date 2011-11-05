@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="unread_action">Mrk unread</string>
+    <string name="message_view_show_pictures_instructions">Select this to download &amp; display embedded pictures</string>
+    <string name="message_view_invite_view">View in Cal. »</string>
+    <string name="account_setup_incoming_delete_policy_label">Delete email fr server</string>
+    <string name="account_setup_incoming_delete_policy_delete_label">On delete from Inbox</string>
+    <string name="security_notification_ticker_fmt">Account %s requires security update</string>
+    <string name="email_strings_split_dilog_title_landportrait_txt">Portrait &amp; landscape</string>
+    <string name="email_strings_ask_before_delete_txt">Ask before delete</string>
+</resources>

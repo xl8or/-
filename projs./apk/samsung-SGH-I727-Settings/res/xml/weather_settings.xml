@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/weather_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <ListPreference android:persistent="false" android:title="@string/unit" android:key="unit" />
+    <PreferenceScreen android:title="@string/select_citiy" android:key="select_city" android:summary="" />
+    <ListPreference android:persistent="false" android:entries="@array/auto_refresh_entries" android:title="@string/auto_refresh" android:key="auto_refresh" android:entryValues="@array/auto_refresh_values" />
+</PreferenceScreen>

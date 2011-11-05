@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/purchase_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:background="@color/title_background" android:paddingLeft="@dimen/details_left_padding" android:paddingRight="@dimen/details_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="@color/grey" android:ellipsize="end" android:gravity="left|center" android:id="@id/account_name" android:background="@drawable/highlight_overlay" android:paddingTop="8.0dip" android:paddingBottom="0.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/account_separator" android:background="@color/title_background" android:paddingLeft="@dimen/details_left_padding" android:paddingTop="4.0dip" android:paddingRight="@dimen/details_right_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="5.0dip">
+            <View android:background="@color/purchase_separator" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/input_panel" android:background="@color/title_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/purchase_loading_indicator" />
+            <LinearLayout android:orientation="vertical" android:id="@id/item_purchase_panel" android:background="@color/title_background" android:paddingLeft="@dimen/details_left_padding" android:paddingRight="@dimen/details_right_padding" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Spinner android:gravity="center" android:id="@id/fop_dropdown" android:background="@drawable/spinner_background_holo_dark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:color="@color/white" />
+                <include android:id="@id/price_table_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/price_table_summary_row" />
+                <include android:id="@id/price_table" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/price_table" />
+                <LinearLayout android:orientation="vertical" android:id="@id/purchase_tos_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/purchase_acquire_row_dummy" />
+        <LinearLayout android:orientation="vertical" android:id="@id/footers" android:background="@color/purchase_footer_background" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <HorizontalScrollView android:id="@id/tab_button_scroller" android:background="@color/main_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+            <com.google.android.finsky.layout.CustomRadioGroup android:orientation="horizontal" android:id="@id/tab_button_strip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </HorizontalScrollView>
+        <FrameLayout android:id="@id/tab_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

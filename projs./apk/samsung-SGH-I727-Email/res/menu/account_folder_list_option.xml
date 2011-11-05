@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_compose" android:id="@id/compose" android:title="@string/compose_action" android:alphabeticShortcut="c" />
+    <item android:icon="@drawable/ic_menu_add" android:id="@id/add_new_account" android:title="@string/add_account_action" />
+    <item android:icon="@drawable/ic_menu_delete" android:id="@id/delete_account" android:title="@string/delete_account_action" />
+</menu>

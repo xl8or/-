@@ -1,0 +1,6 @@
+version: 1.4.1
+apkFileName: samsung-SGH-I717-KJ5-Email.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1

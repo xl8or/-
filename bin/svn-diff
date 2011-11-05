@@ -1,0 +1,4 @@
+#!/bin/sh
+# opendiff "$6" "$7"
+# diffmerge "$6" "$7"
+p4diff "$6" "$7"

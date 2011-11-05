@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="error_keys">
+        <item>0_text</item>
+        <item>0_title</item>
+        <item>1000_text</item>
+        <item>1000_title</item>
+        <item>1001_text</item>
+        <item>1001_title</item>
+        <item>1002_text</item>
+        <item>1002_title</item>
+        <item>1003_text</item>
+        <item>1003_title</item>
+        <item>1004_text</item>
+        <item>1004_title</item>
+        <item>1005_text</item>
+        <item>1005_title</item>
+        <item>1008_text</item>
+        <item>1008_title</item>
+        <item>100_text</item>
+        <item>100_title</item>
+        <item>1011_text</item>
+        <item>1011_title</item>
+        <item>1014_text</item>
+        <item>1014_title</item>
+        <item>1015_text</item>
+        <item>1015_title</item>
+        <item>1016_text</item>
+        <item>1016_title</item>
+        <item>101_text</item>
+        <item>101_title</item>
+        <item>1020_text</item>
+        <item>1020_title</item>
+        <item>1023_text</item>
+        <item>1023_title</item>
+        <item>1024_text</item>
+        <item>1024_title</item>
+        <item>102_text</item>
+        <item>102_title</item>
+        <item>1036_text</item>
+        <item>1036_title</item>
+        <item>1037_text</item>
+        <item>1037_title</item>
+        <item>1038_text</item>
+        <item>1038_title</item>
+        <item>1039_text</item>
+        <item>1039_title</item>
+        <item>103_text</item>
+        <item>103_title</item>
+        <item>1040_text</item>
+        <item>1040_title</item>
+        <item>104_text</item>
+        <item>104_title</item>
+        <item>1050_text</item>
+        <item>1050_title</item>
+        <item>105_text</item>
+        <item>105_title</item>
+        <item>106_text</item>
+        <item>106_title</item>
+        <item>107_text</item>
+        <item>107_title</item>
+        <item>108_text</item>
+        <item>108_title</item>
+        <item>109_text</item>
+        <item>109_title</item>
+        <item>2000_text</item>
+        <item>2000_title</item>
+        <item>200_text</item>
+        <item>200_title</item>
+        <item>2010_text</item>
+        <item>2010_title</item>
+        <item>2011_text</item>
+        <item>2011_title</item>
+        <item>2012_text</item>
+        <item>2012_title</item>
+        <item>2013_text</item>
+        <item>2013_title</item>
+        <item>2014_text</item>
+        <item>2014_title</item>
+        <item>2015_text</item>
+        <item>2015_title</item>
+        <item>2016_text</item>
+        <item>2016_title</item>
+        <item>2017_text</item>
+        <item>2017_title</item>
+        <item>201_text</item>
+        <item>201_title</item>
+        <item>202_text</item>
+        <item>202_title</item>
+        <item>203_text</item>
+        <item>203_title</item>
+        <item>204_text</item>
+        <item>204_title</item>
+        <item>205_text</item>
+        <item>205_title</item>
+        <item>206_text</item>
+        <item>206_title</item>
+        <item>2099_text</item>
+        <item>2099_title</item>
+        <item>2100_text</item>
+        <item>2100_title</item>
+        <item>2101_text</item>
+        <item>2101_title</item>
+        <item>2102_text</item>
+        <item>2102_title</item>
+        <item>2103_text</item>
+        <item>2103_title</item>
+        <item>2105_text</item>
+        <item>2105_title</item>
+        <item>2106_text</item>
+        <item>2106_title</item>
+        <item>2107_text</item>
+        <item>2107_title</item>
+        <item>2108_text</item>
+        <item>2108_title</item>
+        <item>2109_text</item>
+        <item>2109_title</item>
+        <item>2110_text</item>
+        <item>2110_title</item>
+        <item>2111_text</item>
+        <item>2111_title</item>
+        <item>2112_text</item>
+        <item>2112_title</item>
+        <item>2113_text</item>
+        <item>2113_title</item>
+        <item>2114_text</item>
+        <item>2114_title</item>
+        <item>2115_text</item>
+        <item>2115_title</item>
+        <item>2199_text</item>
+        <item>2199_title</item>
+        <item>2200_text</item>
+        <item>2200_title</item>
+        <item>2221_text</item>
+        <item>2221_title</item>
+        <item>2240_text</item>
+        <item>2240_title</item>
+        <item>2241_text</item>
+        <item>2241_title</item>
+        <item>2242_text</item>
+        <item>2242_title</item>
+        <item>2243_text</item>
+        <item>2243_title</item>
+        <item>2261_text</item>
+        <item>2261_title</item>
+        <item>2320_text</item>
+        <item>2320_title</item>
+        <item>2321_text</item>
+        <item>2321_title</item>
+        <item>2322_text</item>
+        <item>2322_title</item>
+        <item>2323_text</item>
+        <item>2323_title</item>
+        <item>2361_text</item>
+        <item>2361_title</item>
+        <item>2362_text</item>
+        <item>2362_title</item>
+        <item>2363_text</item>
+        <item>2363_title</item>
+        <item>2364_text</item>
+        <item>2364_title</item>
+        <item>2431_text</item>
+        <item>2431_title</item>
+        <item>2432_text</item>
+        <item>2432_title</item>
+        <item>2433_text</item>
+        <item>2433_title</item>
+        <item>2451_text</item>
+        <item>2451_title</item>
+        <item>2601_text</item>
+        <item>2601_title</item>
+        <item>2781_text</item>
+        <item>2781_title</item>
+        <item>2782_text</item>
+        <item>2782_title</item>
+        <item>2801_text</item>
+        <item>2801_title</item>
+        <item>2802_text</item>
+        <item>2802_title</item>
+        <item>2803_text</item>
+        <item>2803_title</item>
+        <item>3000_text</item>
+        <item>3000_title</item>
+        <item>3001_text</item>
+        <item>3001_title</item>
+        <item>3002_text</item>
+        <item>3002_title</item>
+        <item>3003_text</item>
+        <item>3003_title</item>
+        <item>3004_text</item>
+        <item>3004_title</item>
+        <item>3005_text</item>
+        <item>3005_title</item>
+        <item>3006_text</item>
+        <item>3006_title</item>
+        <item>300_text</item>
+        <item>300_title</item>
+        <item>301_text</item>
+        <item>301_title</item>
+        <item>302_text</item>
+        <item>302_title</item>
+        <item>303_text</item>
+        <item>303_title</item>
+        <item>304_text</item>
+        <item>304_title</item>
+        <item>305_text</item>
+        <item>305_title</item>
+        <item>306_text</item>
+        <item>306_title</item>
+        <item>307_text</item>
+        <item>307_title</item>
+        <item>308_text</item>
+        <item>308_title</item>
+        <item>309_text</item>
+        <item>309_title</item>
+        <item>3100_text</item>
+        <item>3100_title</item>
+        <item>310_text</item>
+        <item>310_title</item>
+        <item>311_text</item>
+        <item>311_title</item>
+        <item>312_text</item>
+        <item>312_title</item>
+        <item>313_text</item>
+        <item>313_title</item>
+        <item>314_text</item>
+        <item>314_title</item>
+        <item>315_text</item>
+        <item>315_title</item>
+        <item>316_text</item>
+        <item>316_title</item>
+        <item>317_text</item>
+        <item>317_title</item>
+        <item>318_text</item>
+        <item>318_title</item>
+        <item>319_text</item>
+        <item>319_title</item>
+        <item>320_text</item>
+        <item>320_title</item>
+        <item>321_text</item>
+        <item>321_title</item>
+        <item>322_text</item>
+        <item>322_title</item>
+        <item>323_text</item>
+        <item>323_title</item>
+        <item>324_text</item>
+        <item>324_title</item>
+        <item>325_text</item>
+        <item>325_title</item>
+        <item>326_text</item>
+        <item>326_title</item>
+        <item>327_text</item>
+        <item>327_title</item>
+        <item>328_text</item>
+        <item>328_title</item>
+        <item>329_text</item>
+        <item>329_title</item>
+        <item>4001_text</item>
+        <item>4001_title</item>
+        <item>4002_text</item>
+        <item>4002_title</item>
+        <item>400_text</item>
+        <item>400_title</item>
+        <item>5001_text</item>
+        <item>5001_title</item>
+        <item>5002_text</item>
+        <item>5002_title</item>
+        <item>5003_text</item>
+        <item>5003_title</item>
+        <item>500_text</item>
+        <item>500_title</item>
+        <item>501_text</item>
+        <item>501_title</item>
+        <item>502_text</item>
+        <item>502_title</item>
+        <item>503_text</item>
+        <item>503_title</item>
+        <item>504_text</item>
+        <item>504_title</item>
+        <item>505_text</item>
+        <item>505_title</item>
+        <item>506_text</item>
+        <item>506_title</item>
+        <item>507_text</item>
+        <item>507_title</item>
+        <item>508_text</item>
+        <item>508_title</item>
+        <item>509_text</item>
+        <item>509_title</item>
+        <item>510_text</item>
+        <item>510_title</item>
+        <item>511_text</item>
+        <item>511_title</item>
+        <item>512_text</item>
+        <item>512_title</item>
+        <item>6001_text</item>
+        <item>6001_title</item>
+        <item>6002_text</item>
+        <item>6002_title</item>
+        <item>6003_text</item>
+        <item>6003_title</item>
+        <item>6004_text</item>
+        <item>6004_title</item>
+        <item>6005_text</item>
+        <item>6005_title</item>
+        <item>6006_text</item>
+        <item>6006_title</item>
+        <item>6007_text</item>
+        <item>6007_title</item>
+        <item>6008_text</item>
+        <item>6008_title</item>
+        <item>6009_text</item>
+        <item>6009_title</item>
+        <item>6010_text</item>
+        <item>6010_title</item>
+        <item>6011_text</item>
+        <item>6011_title</item>
+        <item>6012_text</item>
+        <item>6012_title</item>
+        <item>6013_text</item>
+        <item>6013_title</item>
+        <item>6014_text</item>
+        <item>6014_title</item>
+        <item>6015_text</item>
+        <item>6015_title</item>
+        <item>6016_text</item>
+        <item>6016_title</item>
+        <item>6017_text</item>
+        <item>6017_title</item>
+        <item>6018_text</item>
+        <item>6018_title</item>
+        <item>6019_text</item>
+        <item>6019_title</item>
+        <item>6020_text</item>
+        <item>6020_title</item>
+        <item>7001_text</item>
+        <item>7001_title</item>
+        <item>7002_text</item>
+        <item>7002_title</item>
+        <item>7003_text</item>
+        <item>7003_title</item>
+        <item>7004_text</item>
+        <item>7004_title</item>
+        <item>7005_text</item>
+        <item>7005_title</item>
+        <item>8001_text</item>
+        <item>8001_title</item>
+        <item>9001_text</item>
+        <item>9001_title</item>
+    </string-array>
+    <string-array name="error_values">
+        <item>Correcto.</item>
+        <item>Sin errores</item>
+        <item>Se ha excedido el límite de usuario de {0}</item>
+        <item>Límite de usuario excedido</item>
+        <item>Usuario duplicado: {0}</item>
+        <item>Usuario duplicado</item>
+        <item>Dispositivo duplicado: {0}</item>
+        <item>Dispositivo duplicado</item>
+        <item>Usuario no encontrado: {0}</item>
+        <item>Usuario no encontrado</item>
+        <item>Formato de fecha no válido: {0}. Se esperaba {1}</item>
+        <item>Formato de fecha no válido</item>
+        <item>Formato de fecha no válido: {0}. Se esperaba {1}</item>
+        <item>Formato de fecha no válido</item>
+        <item>Falta parámetro obligatorio: {0}</item>
+        <item>Falta parámetro obligatorio</item>
+        <item>Se ha producido un error. Vuelva a intentarlo.</item>
+        <item>Error interno</item>
+        <item>No se ha encontrado el ID de establecimiento especificado ({0}) en ningún revendedor al que el usuario tenga acceso.</item>
+        <item>Marca no encontrada</item>
+        <item>No se ha especificado la fecha de caducidad</item>
+        <item>No se ha especificado la fecha de caducidad</item>
+        <item>Acceso denegado</item>
+        <item>Acceso denegado</item>
+        <item>Acceso API no activado para: {0}</item>
+        <item>Acceso API no activado</item>
+        <item>Se ha producido un error. Vuelva a intentarlo.</item>
+        <item>Error de petición incorrecta</item>
+        <item>Error interno: {0}</item>
+        <item>Error interno</item>
+        <item>Suscripción duplicada</item>
+        <item>Suscripción duplicada</item>
+        <item>Se han encontrado varias suscripciones coincidentes</item>
+        <item>Se han encontrado varias suscripciones coincidentes</item>
+        <item>No se puede conectar al servicio. Inténtelo más tarde.</item>
+        <item>Error de conexión</item>
+        <item>No se ha encontrado la consulta {0}</item>
+        <item>Consulta no encontrada</item>
+        <item>Parámetros incoherentes: {0} y {1}</item>
+        <item>Parámetros inconsistentes</item>
+        <item>Formato de MSISDN no válido: {0}</item>
+        <item>Formato de MSISDN no válido</item>
+        <item>Parámetro de producto no válido: {0}</item>
+        <item>Parámetro de producto no válido</item>
+        <item>No se ha encontrado su conector. Confirme el ID de conector especificado.</item>
+        <item>No se encontró el conector</item>
+        <item>No se encontró ninguna suscripción</item>
+        <item>No se encontró ninguna suscripción</item>
+        <item>Se ha producido un error durante el envío de los datos. Vuelva a intentarlo.</item>
+        <item>Error de datos</item>
+        <item>Error de la llamada de replicación a la plataforma AOM</item>
+        <item>Error de la llamada de replicación a la plataforma AOM</item>
+        <item>La acción ha tardado demasiado en finalizar y se ha agotado el tiempo de espera. Vuelva a intentarlo.</item>
+        <item>Tiempo de espera</item>
+        <item>No se puede conectar a la cuenta de correo electrónico. La conexión se restaurará automáticamente. Si el problema continúa, comprueba la configuración de red o póngase en contacto con el proveedor de servicios para obtener ayuda.</item>
+        <item>Problema de conexión</item>
+        <item>La red no está disponible temporalmente o el teléfono está en modo avión. La conexión se restaurará automáticamente cuando la red esté disponible.</item>
+        <item>Error de conexión</item>
+        <item>El servidor está ocupado. Vuelva a intentarlo más tarde.</item>
+        <item>Servidor ocupado</item>
+        <item>Error de solicitud de IPC general</item>
+        <item>Error de solicitud de IPC</item>
+        <item>Error de autenticación de: {0}</item>
+        <item>Error de autenticación</item>
+        <item>Solicite una licencia válida a su proveedor de servicio.</item>
+        <item>Licencia no aceptada</item>
+        <item>No se encontró el ID de cliente en el contenido de SMS</item>
+        <item>No se ha encontrado el ID de cliente en el contenido de SMS</item>
+        <item>No se ha encontrado ningún cliente con el ID de cliente ({0}).</item>
+        <item>No se encontró ningún cliente con el ID de cliente especificado</item>
+        <item>La información de MSISDN especificada es incorrecta o incompleta: {0}</item>
+        <item>Falta información de MSISDN, o bien no es válida.</item>
+        <item>Formato de MSISDN no válido: {0}. Se esperaba un valor numérico.</item>
+        <item>Formato de MSISDN no válido</item>
+        <item>Formato de ID de cliente no válido: {0}. Se esperaba un valor numérico.</item>
+        <item>Formato de ID de cliente no válido</item>
+        <item>En la petición de validación no se ha encontrado el encabezado de carga previsto</item>
+        <item>Error en la validación de encabezado de carga</item>
+        <item>MSISDN {0} ya existe en el sistema.</item>
+        <item>MSISDN ya existe</item>
+        <item>MSISDN {0} no existe en el sistema.</item>
+        <item>MSISDN no existe en el sistema</item>
+        <item>Introduzca su contraseña provisional para reinstalar este [conector].</item>
+        <item>Se requiere contraseña</item>
+        <item>El ID seleccionado ya está en uso. Elija otro distinto.</item>
+        <item>El ID ya está en uso</item>
+        <item>La contraseña temporal especificada es incorrecta.</item>
+        <item>Error de conexión</item>
+        <item>El conector se ha desactivado.</item>
+        <item>Conector desactivado</item>
+        <item>El servicio no está activado</item>
+        <item>Servicio no activado</item>
+        <item>La edición de producto indicada no coincide con la edición instalada en el servidor de retransmisión</item>
+        <item>No coincide la edición de producto</item>
+        <item>Error en la transacción por motivos no especificados: {0}</item>
+        <item>Error en la transacción por motivos no especificados</item>
+        <item>Error de autenticación de: {0}</item>
+        <item>Error de autenticación</item>
+        <item>Acceso no autorizado para: {0}</item>
+        <item>Acceso no autorizado</item>
+        <item>La cuenta de usuario {0} está bloqueada</item>
+        <item>Cuenta bloqueada</item>
+        <item>Error en parte del lote de transacciones.</item>
+        <item>Error en parte del lote de transacciones.</item>
+        <item>La llamada a lista generó {0} registros, y el límite es {1}.</item>
+        <item>La lista de resultados excede del límite de tamaño</item>
+        <item>La llamada por lotes solicitó {0} transacciones, pero el límite es {1}.</item>
+        <item>La petición de transacción por lotes excede del límite de tamaño</item>
+        <item>En la llamada API faltaba un parámetro obligatorio: {0}</item>
+        <item>Falta un parámetro requerido en la llamada API.</item>
+        <item>El parámetro {0} no era válido para esta llamada API.</item>
+        <item>La llamada API contenía un parámetro no válido.</item>
+        <item>Se ha producido un error de base de datos al procesar esta petición: {0}</item>
+        <item>Error de base de datos generado por la llamada API.</item>
+        <item>NO se pueden utilizar caracteres comodín con estas credenciales de acceso.</item>
+        <item>Uso no válido de caracteres comodín.</item>
+        <item>Carácter comodín no válido en el parámetro de petición: {0}</item>
+        <item>La petición contiene caracteres comodín no válidos.</item>
+        <item>Falta un encabezado, o bien no es válido, en la petición SOAP recibida.</item>
+        <item>Falta un encabezado, o bien no es válido, en la petición SOAP recibida.</item>
+        <item>En la petición SOAP faltaba un parámetro de encabezado obligatorio: {0}</item>
+        <item>Falta un parámetro de encabezado en la petición SOAP recibida.</item>
+        <item>La petición SOAP fue recibida desde la dirección IP: {0}. Esta dirección no está autorizada para utilizar la API.</item>
+        <item>La petición SOAP fue recibida desde una dirección IP bloqueada.</item>
+        <item>Acceso API no activado para: {0}</item>
+        <item>Acceso API no activado</item>
+        <item>Error en la petición SOAP por motivos no especificados: {0}</item>
+        <item>Error en la petición SOAP por motivos no especificados</item>
+        <item>La llamada API createAccountSubscription requiere un parámetro AccountID o MSISDN.</item>
+        <item>Llamada de createAccountSubscription sin AccountID o MSISDN.</item>
+        <item>Para utilizar un parámetro de producto en la llamada API listAccountSubscription es necesario especificar al menos una de las siguientes opciones: MSISDN, AccountID y GroupID.</item>
+        <item>Llamada de listAccountSubscriptions con parámetro de producto pero sin parámetro de ID.</item>
+        <item>Los criterios de identificación de suscripción especificados coinciden con muchos registros. No se procesará ninguna actualización.</item>
+        <item>Los criterios de identificación de suscripción coinciden con muchos registros.</item>
+        <item>Se ha especificado un conjunto no válido de parámetros de identificación.</item>
+        <item>Se ha especificado un conjunto no válido de parámetros de ID.</item>
+        <item>Se ha realizado una llamada API updateAccountSubscription sin que haya campos para actualizar.</item>
+        <item>No se ha indicado qué campos actualizar.</item>
+        <item>Los criterios de identificación de la suscripción especificados no coinciden con ningún registro. No se procesó ninguna actualización.</item>
+        <item>Los criterios de identificación de suscripción no coinciden con ningún registro.</item>
+        <item>Para utilizar un parámetro de producto en la llamada API deleteAccountSubscription es necesario especificar al menos una de las siguientes opciones: MSISDN, AccountID y GroupID.</item>
+        <item>Llamada de deleteAccountSubscriptions con parámetro de producto pero sin parámetro de ID.</item>
+        <item>Los criterios de identificación de suscripción especificados coinciden con muchos registros. No se procesará ninguna actualización.</item>
+        <item>Los criterios de identificación de suscripción coinciden con muchos registros.</item>
+        <item>La llamada API updateConnectorSubscription requiere un parámetro SubscriptionId o ConnectorId.</item>
+        <item>Se ha especificado un conjunto no válido de parámetros de ID.</item>
+        <item>Se ha realizado una llamada API updateConnectorSubscription sin que haya campos para actualizar.</item>
+        <item>No se ha indicado qué campos actualizar.</item>
+        <item>Los criterios de identificación de la suscripción especificados no coinciden con ningún registro. No se procesó ninguna actualización.</item>
+        <item>Los criterios de identificación de suscripción no coinciden con ningún registro.</item>
+        <item>Si la llamada API createPreProvisionedAccount API se realiza con CE como producto, deberá especificarse un ID de establecimiento y un ID de marca de servidor de ISP. Si el producto es cualquier otro, deberá especificarse un ID de conector.</item>
+        <item>Llamada de createPreProvisionedAccount con parámetros no válidos.</item>
+        <item>El nombre de la empresa especificado no se ha encontrado en la base de datos, o bien el ID de establecimiento especificado no coincide con un proveedor de ISP.</item>
+        <item>No se encuentra ninguna empresa utilizando los parámetros.</item>
+        <item>No se encontró el ID de marca del servidor de ISP en la base de datos.</item>
+        <item>No se encontró el ID de marca del servidor de ISP en la base de datos.</item>
+        <item>El servidor ISP detectó que el ID de marca especificado no es compatible con el tipo de producto indicado.</item>
+        <item>El servidor ISP detectó que el ID de marca especificado no es compatible con el tipo de producto indicado.</item>
+        <item>Hay más de una cuenta coincidente para actualización. La contraseña no puede ser actualizada.</item>
+        <item>changeAccountPassword coincide con más de una cuenta.</item>
+        <item>No se encuentran cuentas coincidentes para actualización. No se actualizará ninguna contraseña.</item>
+        <item>changeAccountPassword no coincide con ninguna cuenta.</item>
+        <item>Se ha producido un error al intentar actualizar la contraseña, posiblemente debido a una contraseña no válida.</item>
+        <item>Error de actualización de contraseña de changeAccountPassword.</item>
+        <item>Una petición realizada para mostrar información del usuario excepto unos parámetros especificados no coincide con ningún usuario existente.</item>
+        <item>getUserInformation no puede encontrar un usuario con los parámetros especificados.</item>
+        <item>La llamada de isValidConnectorId incluye un ID ya utilizado.</item>
+        <item>El ID de conector ya está en uso.</item>
+        <item>Llamada de runScript con parámetros no válidos para la secuencia de comandos SQL especificada.</item>
+        <item>Parámetros no válidos de la secuencia de comandos SQL.</item>
+        <item>Llamada de runScript a una secuencia de comandos SQL desconocida.</item>
+        <item>Secuencia de comandos SQL no encontrada.</item>
+        <item>En API no está habilitada la función de envío de vínculo de descarga.</item>
+        <item>Llamada de sendDownloadLink cuando la función no estaba activada.</item>
+        <item>Error de petición de mensaje a la puerta de enlace para SMS</item>
+        <item>Error de petición de mensaje a la puerta de enlace para SMS</item>
+        <item>No se encontró un cliente con los parámetros especificados.</item>
+        <item>No se encontró un cliente con los parámetros especificados.</item>
+        <item>Error de la prueba de conexión de correo porque no se encontró el proveedor de correo especificado. Debe especificarse POP3, IMAP, POP3S, IMAPS, SMTP o SMTPS como proveedor</item>
+        <item>Proveedor de correo no encontrado</item>
+        <item>Error de la prueba de conexión de correo debido a un fallo de conexión al servidor de correo especificado. Compruebe la configuración del buzón.</item>
+        <item>Error de conexión</item>
+        <item>Error de la prueba de conexión de correo debido a un fallo de conexión al servidor de correo especificado. Compruebe la configuración del buzón.</item>
+        <item>Bandeja de entrada no encontrada</item>
+        <item>Error de la prueba de conexión de correo debido a un error de búsqueda de mensajes desde la bandeja de entrada. Compruebe la configuración del buzón</item>
+        <item>Error de búsqueda de bandeja de entrada</item>
+        <item>Error de la prueba de conexión de correo debido a una dirección de correo no válida. Compruebe la dirección de correo especificada</item>
+        <item>La dirección de correo electrónico no es válida</item>
+        <item>Los datos adjuntos exceden del tamaño máximo.</item>
+        <item>El tamaño de los datos adjuntos es demasiado grande.</item>
+        <item>El texto del mensaje es demasiado grande.</item>
+        <item>El tamaño del texto es demasiado grande.</item>
+        <item>Se ha producido un error al iniciar sesión debido a que su {0} o contraseña no son válidos. Compruebe su {0} y su contraseña y vuelva a intentarlo.</item>
+        <item>Inicio de sesión incorrecto</item>
+        <item>Se ha producido un error al iniciar sesión debido a que su {0} o contraseña no son válidos, o a que la configuración es incorrecta. Compruebe su {0}, contraseña y configuración en la Web, y vuelva a intentarlo.</item>
+        <item>Inicio de sesión incorrecto</item>
+        <item>Se ha producido un error al iniciar sesión debido a que su {0} no es válido. Compruebe su {0} y vuelva a intentarlo.</item>
+        <item>Usuario no encontrado</item>
+        <item>Existen varios registros para el nombre de usuario especificado. Verifique las {0} y vuelva a intentarlo.</item>
+        <item>Usuario no encontrado</item>
+        <item>Lo sentimos, no hemos podido acceder a su servidor de correo con los detalles que nos ha dado. Por favor, introduzca los detalles de la cuenta en la pantalla siguiente.</item>
+        <item>No se encontró el servidor</item>
+        <item>Error de inicio de sesión. Especifique su nombre de usuario en su cuenta de correo si no es el mismo que en su dirección de correo electrónico.</item>
+        <item>Error de inicio de sesión</item>
+        <item>La autenticación de esta cuenta ha sido incorrecta demasiadas veces. Espere al desbloqueo o bien consulte al administrador.</item>
+        <item>Cuenta bloqueada</item>
+        <item>Ya se ha agregado una cuenta preestablecida con el mismo número de teléfono. Si el servicio no le funciona, consulte al proveedor del servicio.</item>
+        <item>La cuenta preestablecida ya existe</item>
+        <item>La conexión ha sido redirigida a otro servidor</item>
+        <item>Redirigido</item>
+        <item>Servidor de correo electrónico no disponible. Inténtelo más tarde.</item>
+        <item>Error de inicio de sesión</item>
+        <item>Error de la prueba de conexión de correo debido a un error {0}. Compruebe la configuración del buzón</item>
+        <item>Error desconocido</item>
+        <item>La autenticación de esta cuenta ha sido incorrecta demasiadas veces. Se evitarán nuevos intentos de iniciar sesión desde el conector. Espere al desbloqueo o bien solicite al administrador del conector que autorice nuevos intentos de inicio de sesión.</item>
+        <item>Inicios de sesión desactivados</item>
+        <item>Haga clic en Aceptar para verificar su {0} y sus credenciales o la clave RSA antes de volver a intentarlo.</item>
+        <item>Inicio de sesión de RSA incorrecto</item>
+        <item>El cliente que está utilizando no está certificado por este proveedor de ISP.</item>
+        <item>El cliente no está certificado para este ISP.</item>
+        <item>La dirección del servidor Microsoft Exchange especificada no es una dirección web válida. Confirme la dirección e inténtelo de nuevo.</item>
+        <item>Dirección de Microsoft Exchange Server: no válida</item>
+        <item>La dirección URL restringe el acceso directo.</item>
+        <item>La dirección URL especificada no está permitida.</item>
+        <item>La clave pública del extremo remoto ha cambiado. Esto puede indicar un intento de intrusión. Se descartan los datos del extremo remoto.</item>
+        <item>No coincide la clave pública.</item>
+        <item>No es posible acceder de nuevo al servicio. Esto indica que el usuario no puede enviar sus nuevas credenciales para acceder de nuevo al servicio, sino que otra acción es requerida por parte del usuario.</item>
+        <item>No es posible acceder de nuevo al servicio.</item>
+        <item>La dirección de servidor que ha proporcionado no responde. No se puede utilizar Microsoft Exchange para acceder a correos del trabajo si se utiliza un portal VPN/SSL. Elija Aceptar para acceder al correo de su trabajo con la siguiente opción de conexión.</item>
+        <item>Dirección OWA - no responde</item>
+        <item>La dirección de servidor que ha proporcionado no es un servidor Microsoft Exchange. Confirme la dirección de su servidor Microsoft Exchange y vuélvalo a intentar.</item>
+        <item>Dirección de Microsoft Exchange: tipo incorrecto</item>
+        <item>Su contraseña ha caducado. Cámbiela utilizando su PC y vuelva a intentarlo con la nueva contraseña.</item>
+        <item>Contraseña caducada</item>
+        <item>Ha llegado al límite de teléfonos que puede establecer. Póngase en contacto con el administrador.</item>
+        <item>Demasiados teléfonos</item>
+        <item>No existe un archivo ID de Notes. No se pudo iniciar la sesión. Póngase en contacto con su administrador.</item>
+        <item>No existe ningún archivo ID disponible</item>
+        <item>El servicio solicitado no está disponible temporalmente. Vuelva a intentarlo más tarde. Si el problema persiste, inicie sesión en su cuenta con el explorador web.</item>
+        <item>Servicio de ISP no disponible temporalmente</item>
+        <item>Inicio de sesión web requerido devuelto del ISP. Inicie sesión en la cuenta con el explorador web.</item>
+        <item>Inicio de sesión web obligatorio</item>
+        <item>Se ha producido un error de ISP. Vuelva a intentarlo más tarde. Si el problema persiste, intente iniciar sesión con el explorador web.</item>
+        <item>El ISP ha devuelto un error.</item>
+        <item>El buzón se está usando. Inténtelo más tarde.</item>
+        <item>El buzón está siendo usado.</item>
+        <item>No hay respuesta para esta dirección URL de la fuente. Introduzca de nuevo la dirección URL o inténtelo más tarde.</item>
+        <item>No hay respuesta para esta dirección URL de la fuente.</item>
+        <item>Parental consent is needed.</item>
+        <item>Parental Consent Required.</item>
+        <item>The Feed Id is invalid. Please correct the id and try again later.</item>
+        <item>Invalid Feed Id</item>
+        <item>Subscription with the provided details already exists</item>
+        <item>Duplicate Feed Subscription</item>
+        <item>No se puede conectar al correo electrónico de Exchange Access. La conexión se debe restaurar automáticamente; si el problema continúa, póngase en contacto con el administrador de TI para obtener asistencia.</item>
+        <item>Problema de conexión</item>
+        <item>No se puede conectar al correo electrónico de {0}. La conexión se debe restaurar automáticamente; si el problema continúa, póngase en contacto con {0} para obtener asistencia.</item>
+        <item>Problema de conexión</item>
+        <item>Error al actualizar la cuenta. Vuelva a intentarlo.</item>
+        <item>Error de actualización</item>
+        <item>La petición XML en RPC no era válida.</item>
+        <item>XML mal construida en RPC</item>
+        <item>Se ha producido un error interno en la API XML RPC. Por favor, vuelva a intentarlo.</item>
+        <item>Error interno en la API XML RPC</item>
+        <item>Parámetros no válidos o no presentes en la petición XML RPC. Compruebe los parámetros y sus valores.</item>
+        <item>Parámetros no válidos o no presentes</item>
+        <item>El servicio no pudo guardar los datos. Vuelva a intentarlo.</item>
+        <item>Error de base de datos</item>
+        <item>Ya existe una organización con este nombre. Seleccione un nombre diferente.</item>
+        <item>La organización ya existe</item>
+        <item>El nombre especificado ya está en uso. Especifique otro nombre.</item>
+        <item>El nombre ya está en uso</item>
+        <item>El nombre de usuario seleccionado ya está en uso. Especifique otro nombre de usuario.</item>
+        <item>El nombre de usuario ya está en uso</item>
+        <item>El usuario ya existe</item>
+        <item>El usuario ya existe</item>
+        <item>La cuenta preestablecida que está intentando crear ya existe. Debe eliminar la cuenta existente antes de poder agregar una nueva.</item>
+        <item>La cuenta preestablecida ya existe</item>
+        <item>No tiene los privilegios de accesos necesarios para esta operación.</item>
+        <item>Acceso denegado</item>
+        <item>Su suscripción ha caducado. Póngase en contacto con el proveedor del sistema para ampliar la suscripción.</item>
+        <item>No es posible iniciar sesión</item>
+        <item>Esta suscripción no es compatible con la incorporación de más cuentas. Visite http://eu020.fra.samsungsocialhub.com para actualizar su suscripción.</item>
+        <item>No es posible iniciar sesión</item>
+        <item>Visite http://eu020.fra.samsungsocialhub.com para suscribirse a Social Hub.</item>
+        <item>No es posible iniciar sesión</item>
+        <item>Se detectó un problema con el certificado SSL en este sitio.</item>
+        <item>Problema de certificado</item>
+        <item>La dirección URL especificada no pertenece a ningún servicio OWA válido. Compruebe la dirección URL.</item>
+        <item>Dirección de servicio no válida</item>
+        <item>Esta dirección URL pertenece a otro servicio, y deberá utilizar dicho servicio en lugar de OWA.</item>
+        <item>Acceso denegado</item>
+        <item>El contacto no estaba conectado cuando se intentó enviar un mensaje</item>
+        <item>Contacto sin conexión</item>
+        <item>El contacto estaba bloqueado cuando se intentó enviar un mensaje</item>
+        <item>Contacto bloqueado</item>
+        <item>El tamaño de archivo en la transferencia de archivos no coincide con el valor especificado</item>
+        <item>No coincide el tamaño de archivo</item>
+        <item>Se ha superado el máximo de sesión de p2p</item>
+        <item>Se ha superado el máximo de sesión de p2p</item>
+        <item>Falta la fecha de nacimiento</item>
+        <item>Falta la fecha de nacimiento</item>
+        <item>El destinatario no admite la transferencia de archivos</item>
+        <item>no se admite la sesión p2p</item>
+        <item>El usuario debe registrarse en el servicio de mensajería</item>
+        <item>El registro ha caducado</item>
+        <item>La petición no se puede completar porque el servidor está demasiado ocupado. Vuelva a intentarlo más tarde</item>
+        <item>Servidor ocupado</item>
+        <item>No se admite el clip de voz en esta conversación</item>
+        <item>No se admite el clip de voz</item>
+        <item>Solo se permiten dos participantes en una conversación para una operación de transferencia de archivos</item>
+        <item>Hay demasiados participantes</item>
+        <item>No hay participantes en la conversación especificada</item>
+        <item>No hay participantes presentes</item>
+        <item>El control parental del usuario no permite el inicio de sesión en Messenger</item>
+        <item>Se requiere permiso parental</item>
+        <item>El identificador de conversación no es válido. La aplicación cliente debe abandonar esta conversación</item>
+        <item>ID de llamada no válido</item>
+        <item>Se ha intentado una petición de invitación y el estado de presencia del usuario (en el dispositivo cliente) se ha establecido en Sin conexión</item>
+        <item>Usuario sin conexión</item>
+        <item>Se ha intentado una petición de invitación para agregar a un usuario no válido</item>
+        <item>Usuario desconocido</item>
+        <item>No se ha encontrado ninguna configuración para el dominio de correo especificado</item>
+        <item>ISP desconocido</item>
+        <item>Los errores de autenticación basada en token se tratan de forma diferente, como este error.</item>
+        <item>Error de autenticación basada en token</item>
+        <item>Se necesita una suscripción para utilizar este servicio.</item>
+        <item>Requiere suscripción</item>
+        <item>No hay ningún servicio de Seven disponible.</item>
+        <item>No hay ningún servicio disponible</item>
+        <item>Ha sido desconectado porque ha iniciado sesión en otro ordenador o dispositivo.</item>
+        <item>La cuenta ha sido rebasada.</item>
+        <item>Error al crear la cuenta cuando se registró en Ping</item>
+        <item>Error al crear la cuenta</item>
+        <item>Clave de servicio no válida al registrarse en servidor host</item>
+        <item>Clave de servicio no válida</item>
+        <item>Descriptor de servicio no válido al registrarse en servidor host</item>
+        <item>Descriptor de servicio no válido</item>
+        <item>Datos personalizados no válidos al registrarse en servidor host</item>
+        <item>Datos personalizados no válidos</item>
+        <item>El usuario ya se ha registrado en el servidor host</item>
+        <item>Usuario ya registrado</item>
+        <item>Se ha producido un error durante la búsqueda de servicios. Vuelva a intentarlo.</item>
+        <item>Error de solicitud</item>
+        <item>Billing error has occurred. Please contact carrier for more information.</item>
+        <item>Billing error.</item>
+    </string-array>
+    <string-array name="search_list">
+        <item>Google</item>
+        <item>Traductor de Google</item>
+        <item>Wikipedia</item>
+        <item>Diccionario</item>
+    </string-array>
+    <string-array name="share_list">
+        <item>Compartir como texto</item>
+        <item>Compartir como imagen</item>
+    </string-array>
+</resources>

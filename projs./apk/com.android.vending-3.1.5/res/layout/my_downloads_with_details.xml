@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/margin_fill" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/framed_side_margins" android:layout_marginRight="@dimen/framed_side_margins"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ListView android:id="@id/my_downloads_list" android:background="@color/main_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:divider="@null" android:choiceMode="singleChoice" android:layout_weight="1.0" />
+        <View android:id="@id/my_downloads_details_placeholder" android:background="@color/details_background" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" />
+        <com.google.android.finsky.layout.AssetView android:id="@id/my_downloads_details" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" />
+    </LinearLayout>
+</merge>

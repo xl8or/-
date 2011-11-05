@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:util="http://www.springframework.org/schema/util"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+							http://www.springframework.org/schema/util
+							http://www.springframework.org/schema/util/spring-util-3.0.xsd
+							">
+
+	<util:list id="wordList" list-class="java.util.LinkedList">
+		<value>one</value>
+		<value>two</value>
+		<value>three</value>
+	</util:list>
+		<util:properties id="presidentProperties"
+			location="classpath:/com/jgk/springrecipes/util/presidents.properties"></util:properties>
+		<util:map id="theAgeMap">
+			<entry key="Walker" value="10" />
+			<entry key="Griffin" value="7" />
+		</util:map>
+		<util:constant id="hostname"
+			static-field="com.jgk.springrecipes.util.Hosts.LUGNUTORA" />
+</beans>							

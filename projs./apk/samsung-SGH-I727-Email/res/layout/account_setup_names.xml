@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="17.0sp" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/account_setup_names_instructions" />
+                <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:id="@id/account_description_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="2.0dip" android:text="@string/account_setup_names_account_name_label" />
+                <EditText android:id="@id/account_description" android:nextFocusUp="@id/tw_done" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="320" android:inputType="textCapWords" android:imeOptions="actionNext" />
+                <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:id="@id/account_name_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="1.0dip" android:text="@string/account_setup_names_user_name_label" />
+                <EditText android:id="@id/account_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="320" android:inputType="textPersonName" android:imeOptions="actionDone" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.sec.android.touchwiz.widget.TwSoftkeyView android:id="@id/softkeyview" android:layout_width="fill_parent" android:layout_height="57.0dip"
+      xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+        <com.android.email.EmailTwSoftkeyItem android:id="@id/tw_done" android:nextFocusDown="@id/account_description" android:layout_width="wrap_content" android:layout_height="fill_parent" email:itemText="@string/done_action"
+          xmlns:email="http://schemas.android.com/apk/res/com.android.email" />
+    </com.sec.android.touchwiz.widget.TwSoftkeyView>
+</LinearLayout>

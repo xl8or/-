@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.htc.android.mail.easclient.SyncStateCheckBoxPreference android:persistent="true" android:title="@string/synchronized_mail" android:key="sync_mail" android:summary="" />
+</PreferenceScreen>

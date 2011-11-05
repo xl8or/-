@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/account_field" android:layout_width="fill_parent" android:layout_height="128.0px" android:layout_marginLeft="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/account_color" android:visibility="visible" android:layout_width="10.0px" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/account_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.2999878dip" android:scaleType="fitCenter" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="128.0px" android:layout_marginLeft="32.0px">
+        <TextView android:textSize="44.0px" android:typeface="sans" android:textColor="@drawable/p1_text_color_0_from000000_toffffff" android:ellipsize="marquee" android:id="@id/account_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0px" android:singleLine="true" />
+        <TextView android:textSize="24.0px" android:typeface="sans" android:textColor="@drawable/p1_text_color_from3484c8_toffffff" android:ellipsize="marquee" android:id="@id/account_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

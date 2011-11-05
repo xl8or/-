@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="search_results_estimated_in_bucket">
+        <item quantity="other">Broj rezultata: %1$d</item>
+        <item quantity="one">Broj rezultata: %1$d</item>
+    </plurals>
+    <plurals name="notification_updates_available_message">
+        <item quantity="other">Pronađeno je ovoliko ažuriranja: %1$d.</item>
+        <item quantity="one">Pronađeno je ovoliko ažuriranja: %1$d.</item>
+    </plurals>
+    <plurals name="plus_one_multiple_global">
+        <item quantity="other">To je sa +1 označilo njih %1$s.</item>
+        <item quantity="one">Ovo je sa +1 označila %1$s osoba</item>
+    </plurals>
+    <plurals name="plus_one_multiple_friends">
+        <item quantity="other">To su sa +1 označili %1$1$s i još njih %2$2$s.</item>
+        <item quantity="one">Sa +1 označili su %1$1$s i još %2$2$s.</item>
+    </plurals>
+</resources>

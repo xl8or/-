@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.AccessibleRelativeLayout android:id="@id/corpus_cell" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/corpus_strip" android:layout_width="21.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" />
+    <View android:id="@id/top_strip" android:background="@drawable/market_grid_top" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentTop="true" />
+    <View android:id="@id/bottom_strip" android:background="@drawable/market_grid_bottom" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="@dimen/content_entry_large_size" android:textStyle="bold" android:textColor="@color/uneven_grid_cell_fg_primary" android:id="@id/corpus_name" android:paddingLeft="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/corpus_image" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-8.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/corpus_more_arrow" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_more_arrow_righthome" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="@dimen/content_entry_medium_size" android:textStyle="normal" android:textColor="@color/uneven_grid_cell_fg_secondary" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/corpus_see_more" android:layout_toLeftOf="@id/corpus_more_arrow" android:layout_alignParentBottom="true" />
+    <View android:id="@id/accessibility_overlay" android:background="@drawable/highlight_overlay" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.google.android.finsky.layout.AccessibleRelativeLayout>

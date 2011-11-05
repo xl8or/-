@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="unread_action">Ozn. nepř.</string>
+    <string name="mark_as_unread_action">Označit jako nepřečt.</string>
+    <string name="message_view_show_pictures_instructions">Výběrem Zobrazit obr. zobrazíte vnořené obrázky.</string>
+    <string name="message_view_show_pictures_action">Zobrazit obr.</string>
+    <string name="message_view_invite_view">Zobrazit v kal. »</string>
+    <string name="message_view_invite_title">Pozvánka z kal.</string>
+    <string name="account_setup_basics_manual_setup_action">Ruční nastav.</string>
+    <string name="account_setup_incoming_title">Nast. serveru přích.pošty</string>
+    <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL (Přij. vš. certif.)</string>
+    <string name="account_setup_incoming_security_tls_trust_certificates_label">TLS (Přij. vš. certif.)</string>
+    <string name="account_setup_incoming_delete_policy_label">Mazat e-maily ze serv.</string>
+    <string name="account_setup_incoming_delete_policy_delete_label">Při odstr. z Dor. pošty</string>
+    <string name="security_notification_ticker_fmt">Účet %s požaduje aktualizaci zabezp.</string>
+    <string name="security_notification_content_title">Aktualizace nastavení zabezpečení</string>
+    <string name="account_settings_mail_check_frequency_label">Četnost kontr. dor. pošty</string>
+    <string name="account_settings_vibrate_when_silent">Pouze v tichém rež.</string>
+    <string name="email_strings_ask_before_delete_txt">Dotaz před odstr.</string>
+</resources>

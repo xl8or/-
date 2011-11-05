@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/notification_bar" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/highlight_overlay" android:paddingLeft="@dimen/details_left_padding" android:paddingTop="4.0dip" android:paddingRight="@dimen/details_right_padding" android:paddingBottom="4.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip">
+        <ImageView android:id="@id/restriction_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_notification" android:scaleType="center" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="@color/black" android:layout_gravity="left|center" android:id="@id/restriction_reason" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

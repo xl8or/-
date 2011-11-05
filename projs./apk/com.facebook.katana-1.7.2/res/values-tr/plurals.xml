@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="birthday_count">
+        <item quantity="other">%d Doğum Günü</item>
+        <item quantity="one">1 Doğum Günü</item>
+    </plurals>
+    <plurals name="profile_info_num_likes">
+        <item quantity="other">%d kişi bunu beğendi</item>
+        <item quantity="one">1 kişi bunu beğendi</item>
+    </plurals>
+    <plurals name="profile_info_num_checkins">
+        <item quantity="other">%d yer bildirimi</item>
+        <item quantity="one">1 yer bildirimi</item>
+    </plurals>
+    <plurals name="requests_mutual_friends">
+        <item quantity="other">%d ortak arkadaş</item>
+        <item quantity="zero">Ortak arkadaş yok</item>
+        <item quantity="one">Bir ortak arkadaş</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%d kişi</item>
+        <item quantity="one">1 kişi</item>
+    </plurals>
+</resources>

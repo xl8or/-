@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="70" android:drawable="@drawable/mail_icon_attachment_downloading00" />
+    <item android:duration="70" android:drawable="@drawable/mail_icon_attachment_downloading01" />
+    <item android:duration="70" android:drawable="@drawable/mail_icon_attachment_downloading02" />
+    <item android:duration="70" android:drawable="@drawable/mail_icon_attachment_downloading03" />
+    <item android:duration="70" android:drawable="@drawable/mail_icon_attachment_downloading04" />
+    <item android:duration="70" android:drawable="@drawable/mail_icon_attachment_downloading05" />
+    <item android:duration="70" android:drawable="@drawable/mail_icon_attachment_downloading06" />
+    <item android:duration="70" android:drawable="@drawable/mail_icon_attachment_downloading07" />
+</animation-list>

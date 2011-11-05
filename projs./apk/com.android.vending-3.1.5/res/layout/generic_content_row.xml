@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/details_section_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.finsky.layout.AppPermissionsSection android:orientation="horizontal" android:id="@id/permission_row" android:background="@drawable/highlight_overlay" android:paddingLeft="@dimen/permissions_content_padding" android:paddingTop="12.0dip" android:paddingRight="@dimen/permissions_content_padding" android:paddingBottom="12.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="18.0sp" android:textColor="@color/black" android:id="@id/header" android:lineSpacingExtra="0.0sp" style="@style/PermissionsRow" />
+            <TextView android:id="@id/new_content" android:paddingBottom="6.0dip" android:visibility="gone" android:lineSpacingExtra="1.0sp" style="@style/PermissionsNewBadge" />
+            <TextView android:id="@id/content" android:lineSpacingExtra="1.0sp" style="@style/PermissionsRow" />
+        </LinearLayout>
+        <ImageView android:id="@id/arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/more_arrow_large_gray" />
+    </com.google.android.finsky.layout.AppPermissionsSection>
+</FrameLayout>

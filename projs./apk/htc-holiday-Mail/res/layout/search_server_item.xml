@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/main_block" android:background="@drawable/myitem" android:layout_width="fill_parent" android:layout_height="@dimen/listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingLeft="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@com.htc:layout/htc_list_item_progress_text_bright" />
+    </LinearLayout>
+</RelativeLayout>

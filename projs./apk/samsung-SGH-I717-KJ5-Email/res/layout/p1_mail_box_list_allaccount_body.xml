@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/p1_mail_box_list_layou_bg_body" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0px" android:typeface="sans" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/mailbox_popup_txt_sentbox" android:background="@drawable/p1_mail_box_list_layou_bg_body" android:paddingLeft="10.0px" android:layout_width="fill_parent" android:layout_height="58.0px" android:text="@string/p1_name_unread" />
+    <ImageView android:id="@id/email_inbox_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:src="@drawable/email_inbox_line" />
+    <TextView android:textSize="24.0px" android:typeface="sans" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/mailbox_popup_txt_outbox" android:background="@drawable/p1_mail_box_list_layou_bg_body" android:paddingLeft="10.0px" android:layout_width="fill_parent" android:layout_height="58.0px" android:text="@string/p1_name_favorites" />
+    <ImageView android:id="@id/email_inbox_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:src="@drawable/email_inbox_line" />
+    <TextView android:textSize="24.0px" android:typeface="sans" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/mailbox_popup_txt_draft" android:background="@drawable/p1_mail_box_list_layou_bg_body" android:paddingLeft="10.0px" android:layout_width="fill_parent" android:layout_height="58.0px" android:text="@string/p1_name_draft" />
+    <ImageView android:id="@id/email_inbox_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:src="@drawable/email_inbox_line" />
+</LinearLayout>

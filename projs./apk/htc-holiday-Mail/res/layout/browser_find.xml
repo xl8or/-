@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/findControls" android:background="#ff010101" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/common_statusbar" android:padding="3.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="@34078790" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <EditText android:layout_gravity="center_vertical" android:id="@id/edit" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:hint="@string/find_dot" android:scrollHorizontally="true" android:inputType="text" />
+            <ImageButton android:layout_gravity="right|center" android:id="@id/done" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/clear_search_text" android:layout_alignParentRight="true" />
+        </FrameLayout>
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/previous" android:background="@34078729" android:padding="0.0px" android:layout_width="48.0px" android:layout_height="48.0px" android:layout_marginLeft="4.0px" android:layout_marginRight="4.0px" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/next" android:background="@34078729" android:padding="0.0px" android:layout_width="48.0px" android:layout_height="48.0px" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:id="@id/matches_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@id/matches" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/zero" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.jgk.springrecipes.orm.jpa.data.domain.Bureau"
+		table="username">
+		<id name="id" type="java.lang.Integer">
+			<column name="BUREAU_ID" />
+			<generator class="assigned" />
+		</id>
+		<property name="description" type="java.lang.String" update="true"
+			insert="true" column="DESCRIPTION" />
+
+		<property name="numberOfDrawers" type="java.lang.Integer" update="true"
+			insert="true" column="NUMBER_OF_DRAWERS" />
+
+	</class>
+
+</hibernate-mapping>

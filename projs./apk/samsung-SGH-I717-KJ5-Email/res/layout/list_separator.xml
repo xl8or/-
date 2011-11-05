@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/TwTextAppearanceGroupTitle" android:gravity="center_vertical" android:background="@android:drawable/dark_header" android:paddingLeft="3.3329773dip" android:layout_width="fill_parent" android:layout_height="25.329987dip" android:scaleType="fitXY"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

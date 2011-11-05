@@ -1,0 +1,15 @@
+mLoginData	LoginData  (id=830008101552)	
+	mAuthtoken	null	
+	mCaptchaAnswer	null	
+	mCaptchaData	null	
+	mCaptchaMimeType	null	
+	mCaptchaToken	null	
+	mEncryptedPassword	"AFcb4KSU-emqASlEvoAVv_AXF0pxoo2OUV2PFy-lkxu5WRTIxEdNE8JAKTAih7yLAD3U6er294btBIbwfCodUdwW7PpWUnv6Nr_wSzIp_7iYODhvhdHjd02Z88NnvuVTATW6IBOwVGzH9chJxxe2N7tnTfEKweOnzZqvcs-wACd_-Gb7zg==" (id=830008574448)	
+	mFlags	1	
+	mJsonString	"{"SID":"DQAAAK4AAADusgAceyEjQIG1Bultytu9R-5mXaRdBX12JnSM0LbNm7W9VwopUVRRE2OxOlN7KXB1adFgD9rZ8MYHKHdpvU8cZT0e_H1_Y2SdmkX2i5-qBGPhu8990XilFPLeBy47IaWw8bSOEce-LRsWeorkeGHO8NwkOBAuT0GkC4DyPfrQ-J_Z6i70rUdyzF8-Q7Jum89hc72dlvF31wbDT-GBq_kuTRbA6R_t-Njh95So-AVCaA","lastName":"Unit","services":"hist,mail,talk,writely,wise,,sprose,cl,datasummary,android","flags":1,"useGoogleMail":false,"status":"SUCCESS","timeZone":"America/Los_Angeles","firstName":"EAS"}" (id=830008308312)	
+	mOAuthAccessToken	null	
+	mPassword	"6318ae85f7af3bafbf533f01e825447aecd9bafc;AFcb4KQmz5ZuXhirEtFX33FUZgZfWN-y5-RUghAFYF-rW2Y1Su4n_EkFD1CkFuQLOdLKIX5dux9gFXJr_IDNUGkzY96IAdgxwjZ_uzEPjxubZ9F8Jrb6Vl71bAKoZvsK_gaCi48zFD9_r8mA2Cl7zV-_d98dxDYaPJB7pbwRNDLD0tU06w==" (id=830008629424)	
+	mService	null	
+	mSid	"DQAAAK4AAADusgAceyEjQIG1Bultytu9R-5mXaRdBX12JnSM0LbNm7W9VwopUVRRE2OxOlN7KXB1adFgD9rZ8MYHKHdpvU8cZT0e_H1_Y2SdmkX2i5-qBGPhu8990XilFPLeBy47IaWw8bSOEce-LRsWeorkeGHO8NwkOBAuT0GkC4DyPfrQ-J_Z6i70rUdyzF8-Q7Jum89hc72dlvF31wbDT-GBq_kuTRbA6R_t-Njh95So-AVCaA" (id=830008308816)	
+	mStatus	LoginData$Status  (id=830007868936)	
+	mUsername	"eas.unit.test1@gmail.com" (id=830007893288)	

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:typeface="sans" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/account_delete_popup_title_txt" android:background="@drawable/email_popup_top" android:paddingLeft="15.0px" android:layout_width="fill_parent" android:layout_height="46.0dip" android:text="@string/p1_account_delete_account" />
+    <LinearLayout android:id="@id/account_delete_popup_listv" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ListView android:id="@id/acoountdeletelist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="#ffffffff" />
+    </LinearLayout>
+    <ImageView android:id="@id/Line" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/account_delete_button" android:background="@drawable/p1_mail_box_list_layou_bg_body" android:layout_width="fill_parent" android:layout_height="46.0dip">
+        <TableLayout android:paddingLeft="1.0dip" android:paddingTop="4.0dip" android:paddingRight="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="*">
+            <TableRow>
+                <Button android:textSize="14.0sp" android:typeface="sans" android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/delete_button" android:background="@drawable/p1_email_btn_select" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginRight="0.5dip" android:text="@string/p1_account_delete" />
+                <Button android:textSize="14.0sp" android:typeface="sans" android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/cancel_button" android:background="@drawable/p1_email_btn_select" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="0.5dip" android:text="@string/p1_account_cancel" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

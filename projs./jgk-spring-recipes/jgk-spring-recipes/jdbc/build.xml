@@ -1,0 +1,30 @@
+<?xml version="1.0" ?> 
+<project name="gs" default="help" basedir="."
+	  xmlns:artifact="antlib:org.apache.maven.artifact.ant"
+	>
+	<target name="help">
+		<echo>
+			test_classpath:               ${test_classpath}
+			maven.dependency.classpath:   ${maven.dependency.classpath}
+			passthroughGwtVersion: ${passthroughGwtVersion}
+	 		basedir: ${basedir}
+	 		ant.java.version: ${ant.java.version}
+	 		ant.home: ${ant.home}
+			user.home ${user.home}
+			java.class.path: ${java.class.path}
+			localRepository: ${localRepository}
+			settings.localRepository:  ${settings.localRepository}
+	 		DSTAMP: ${DSTAMP}
+		</echo>
+	</target>
+	<target name="copy-testresources-to-testclasses" description="Copies the resources from the test area to the target test-classes area">
+		<mkdir dir="${basedir}/target/test-classes"/>
+		<copy todir="${basedir}/target/test-classes" verbose="yes">
+			<fileset dir="${basedir}/src/test/resources">
+				<include name="**/*.properties"/>
+				<include name="**/*.sql"/>
+			</fileset>
+		</copy>
+	</target>
+
+</project>

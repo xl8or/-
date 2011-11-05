@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/general_settings">
+        <CheckBoxPreference android:persistent="true" android:title="@string/sync_at_roaming" android:key="sync_at_roaming" android:summaryOn="@string/sync_at_roaming_summary" android:summaryOff="@string/sync_at_roaming_summary" />
+        <ListPreference android:persistent="true" android:entries="@array/c_resolve_entries" android:title="@string/conflict_resolve" android:key="conflict_resolve" android:summary="" android:entryValues="@array/c_resolve_values" />
+        <ListPreference android:persistent="true" android:entries="@array/cal_sync_days_entries" android:title="@string/calendar_sync_days" android:key="cal_sync_days" android:summary="" android:entryValues="@array/cal_sync_days_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

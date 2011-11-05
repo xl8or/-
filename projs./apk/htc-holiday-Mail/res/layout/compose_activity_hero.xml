@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.htc.android.mail.ReadScreenScrollView android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/composeMain" android:background="#ffffffff" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/contents" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/input_header" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/recipientBlock" android:background="?33620002" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@id/sender_btn_Hero" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@33882276" android:layout_marginTop="@33882278" android:layout_marginRight="@33882277" android:layout_marginBottom="@33882278">
+                        <Button android:textSize="15.5px" android:layout_gravity="center" android:id="@id/senderBtnHero" android:background="?33619976" android:layout_width="fill_parent" android:layout_centerInParent="true" style="@style/recipient_button" />
+                    </LinearLayout>
+                    <include layout="@com.htc:layout/title_17" />
+                    <TextView android:id="@id/subjectLabelHero" android:visibility="gone" android:text="@string/compose_subject_label_text" style="@style/compose_hero_label" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/subjectBlock" android:paddingBottom="@33882278" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@33882276" android:layout_marginRight="@33882277">
+                        <EditText android:layout_gravity="center_vertical" android:id="@id/subject_text" android:background="?33619977" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/bottom_sort_subject" android:singleLine="true" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@id/priority_block" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/priority_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@33882276" />
+                        <TextView android:textSize="14.0dip" android:layout_gravity="left|center" android:id="@id/priority_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/edit_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-12.0px" android:layout_below="@id/input_header">
+                <RelativeLayout android:orientation="vertical" android:id="@id/attachSwitchLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/listPreferredItemHeight">
+                    <ImageView android:orientation="vertical" android:id="@id/attachSwitchLayoutTopRound" android:layout_alignParentTop="true" style="@style/trans_top_round_small" />
+                    <ImageView android:orientation="vertical" android:id="@id/attachSwitchLayoutBottomRound" android:layout_alignParentBottom="true" style="@style/trans_bottom_round_small" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/attachSwitch" android:layout_width="fill_parent" android:layout_height="@dimen/listPreferredItemHeight" android:layout_marginLeft="14.0px">
+                        <TextView android:id="@id/attachViewOrHideStr" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/attachSwitchLayoutTextStyle" />
+                        <TextView android:gravity="left" android:id="@id/attachNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/attachSwitchLayoutTextStyle" />
+                        <ImageView android:id="@id/attachSwitchBtn" android:paddingLeft="@dimen/global_margin_left" android:paddingRight="0.0px" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="7.0px" android:src="@drawable/attachment_collapse_selector" android:scaleType="center" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/attachlist" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:id="@id/sec_divider" android:background="@34080361" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:orientation="vertical" android:id="@id/meeting_block_layout" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:orientation="vertical" android:id="@id/meetingLayoutTopRound" android:visibility="gone" android:layout_alignParentTop="true" style="@style/trans_top_round_small" />
+                    <Button android:textSize="16.0px" android:id="@id/btnCheckCalendar" android:background="?33619982" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="@dimen/compose_edit_margin_vertical" android:layout_marginRight="10.0px" android:layout_marginBottom="@dimen/compose_edit_margin_vertical" android:text="@string/check_calendar" android:singleLine="true" />
+                    <View android:id="@id/line_divider_startTime" android:visibility="gone" android:layout_marginTop="4.0px" style="@style/line_divider" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/meetingTime1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginRight="10.0px" android:layout_marginBottom="4.0px">
+                        <TextView android:textSize="15.0px" android:textColor="#ff4c4c4c" android:gravity="center_vertical" android:id="@id/meetingStartTime" android:paddingTop="4.0px" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0px" android:text="@string/compose_meeting_start_time_label_text" android:singleLine="true" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <Button android:textSize="16.0px" android:id="@id/start_time_text" android:background="?33619982" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="7.0" />
+                            <Button android:textSize="16.0px" android:id="@id/start_time2_text" android:background="?33619982" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:singleLine="true" android:layout_weight="3.5" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <View android:id="@id/line_divider_endTime" android:visibility="gone" android:layout_marginTop="6.0px" style="@style/line_divider" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/meetingTime2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginRight="10.0px" android:layout_marginBottom="10.0px">
+                        <TextView android:textSize="15.0px" android:textColor="#ff4c4c4c" android:gravity="center_vertical" android:id="@id/meetingEndTime" android:paddingTop="3.0px" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0px" android:layout_marginBottom="4.0px" android:text="@string/compose_meeting_end_time_label_text" android:singleLine="true" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <Button android:textSize="16.0px" android:gravity="center" android:id="@id/end_time_text" android:background="?33619982" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="7.0" />
+                            <Button android:textSize="16.0px" android:id="@id/end_time2_text" android:background="?33619982" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:singleLine="true" android:layout_weight="3.5" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="right|center" android:id="@id/meetingAllDay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0px">
+                        <TextView android:textColor="#ff000000" android:id="@id/tv_all_day" android:paddingTop="1.0px" android:paddingRight="7.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/meeting_invitation_all_day" />
+                        <ToggleButton android:id="@id/is_all_day" android:background="?33619984" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0px" android:textOn="" android:textOff="" />
+                    </LinearLayout>
+                    <View android:id="@id/line_divider_where" android:visibility="gone" android:layout_marginTop="7.0px" style="@style/line_divider" />
+                    <TextView android:textSize="15.0px" android:textColor="#ff4c4c4c" android:gravity="center_vertical" android:id="@id/textLocation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="3.0px" android:text="@string/compose_meeting_location_label_text" android:singleLine="true" />
+                    <EditText android:id="@id/meeting_location" android:background="?33619993" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="@dimen/compose_edit_margin_vertical" android:layout_marginRight="10.0px" android:layout_marginBottom="@dimen/compose_edit_margin_vertical" android:hint="@string/compose_location_hint_text" android:maxLines="1" android:singleLine="true" />
+                    <ImageView android:orientation="vertical" android:id="@id/meetingLayoutBottomRound" android:visibility="gone" android:layout_alignParentBottom="true" style="@style/trans_bottom_round_small" />
+                </LinearLayout>
+                <TextView android:textColor="@color/black" android:id="@id/messageLabelHero" android:visibility="gone" android:text="@string/compose_message_label_text" style="@style/compose_hero_label" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:textColor="#ff000000" android:gravity="top|left|center" android:id="@id/body_text" android:background="?33619973" android:paddingLeft="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:autoText="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <RelativeLayout android:orientation="horizontal" android:id="@id/quoted_text_bar" android:background="@drawable/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/listPreferredItemHeight">
+                    <LinearLayout android:background="@34080406" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+                    <TextView android:textSize="16.0px" android:textStyle="bold" android:textColor="#ff000000" android:gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@33882276" android:text="@string/compose_quoted_text_label" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <ImageButton android:layout_gravity="center_vertical" android:id="@id/quoted_text_delete" android:background="?33619985" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0px" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    <LinearLayout android:background="@34080191" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/quoted_header_pannel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/quoted_from_block" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <EditText android:textSize="16.0px" android:textColor="#ff000000" android:gravity="left|center" android:id="@id/quoted_from" android:paddingLeft="14.0px" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="@33882276" android:minHeight="@dimen/listPreferredItemHeight" android:layout_weight="1.0" />
+                        <LinearLayout android:gravity="right|center" android:orientation="horizontal" android:id="@id/quoted_from_button_area" android:layout_width="80.0px" android:layout_height="fill_parent">
+                            <ImageView android:id="@id/quoted_from_button" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0px" android:src="@drawable/attachment_expand_selector" android:scaleType="center" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/quoted_from_divider" android:background="@34080191" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-4.0px" />
+                    <EditText android:textSize="16.0px" android:textColor="#ff000000" android:gravity="left|center" android:id="@id/quoted_to" android:paddingLeft="14.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@33882276" android:minHeight="@dimen/listPreferredItemHeight" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <LinearLayout android:id="@id/quoted_to_divider" android:background="@34080191" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-4.0px" />
+                    <EditText android:textSize="16.0px" android:textColor="#ff000000" android:gravity="left|center" android:id="@id/quoted_cc" android:paddingLeft="14.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@33882276" android:minHeight="@dimen/listPreferredItemHeight" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <LinearLayout android:id="@id/quoted_cc_divider" android:background="@34080191" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-4.0px" />
+                    <EditText android:textSize="16.0px" android:textColor="#ff000000" android:gravity="left|center" android:id="@id/quoted_subject" android:paddingLeft="14.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@33882276" android:minHeight="@dimen/listPreferredItemHeight" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <LinearLayout android:id="@id/quoted_subject_divider" android:background="@34080191" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-4.0px" />
+                    <EditText android:textSize="16.0px" android:textColor="#ff000000" android:gravity="left|center" android:id="@id/quoted_date" android:paddingLeft="14.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@33882276" android:minHeight="@dimen/listPreferredItemHeight" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <LinearLayout android:id="@id/quoted_date_divider" android:background="@34080191" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-4.0px" />
+                </LinearLayout>
+                <FrameLayout android:id="@id/webview_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginRight="10.0px" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.htc.android.mail.ReadScreenScrollView>
+    <include layout="@com.htc:layout/cmd_bar_9" />
+</LinearLayout>

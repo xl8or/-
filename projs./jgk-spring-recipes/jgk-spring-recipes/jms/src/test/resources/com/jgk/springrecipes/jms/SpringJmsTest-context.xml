@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+    xmlns:jms="http://www.springframework.org/schema/jms"
+		xsi:schemaLocation="
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+			http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd
+              http://www.springframework.org/schema/jms
+              http://www.springframework.org/schema/jms/spring-jms-3.0.xsd
+				              "							
+              >
+              
+    <import resource="classpath:/com/jgk/springrecipes/jms/jms-config.xml"/>
+    <context:component-scan base-package="com.jgk.springrecipes.jms"/>
+           
+	<jms:listener-container connection-factory="jmsConnectionFactory">
+		<jms:listener ref="clampettFamily" method="familyArrived" destination="clampett.queue.family" response-destination="clampett.queue.familyarrived"/>
+		<jms:listener ref="familyArrivedLogger" method="log" destination="clampett.queue.familyarrived"/>
+	</jms:listener-container>
+           
+	<bean id="clampettQueue" class="org.apache.activemq.command.ActiveMQQueue">
+		<constructor-arg value="clampett.queue.family"/>
+	</bean>
+              
+	<bean id="clampettArrivedQueue" class="org.apache.activemq.command.ActiveMQQueue">
+		<constructor-arg value="clampett.queue.familyarrived"/>
+	</bean>
+              
+	<bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+		<property name="connectionFactory" ref="jmsConnectionFactory"/>
+		<property name="defaultDestination" ref="clampettQueue"/>
+	</bean>
+              
+	<bean id="jmsConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+		<property name="brokerURL" value="vm://embedded?broker.persistent=false"/>
+	</bean>
+              
+</beans>

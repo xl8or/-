@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="16.0sp" android:textStyle="bold" android:background="@drawable/highlight_overlay" android:paddingLeft="@dimen/permissions_content_padding" android:paddingRight="@dimen/permissions_content_padding" android:paddingBottom="8.0dip" android:focusable="true" android:text="@string/updated_permissions" style="@style/DetailsPage_HeaderText"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

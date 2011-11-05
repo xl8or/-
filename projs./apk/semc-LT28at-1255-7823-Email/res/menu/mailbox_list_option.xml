@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/btn_toggle_off_pressed_holo_dark" android:id="@id/refresh" android:title="@string/refresh_action" android:alphabeticShortcut="r" />
+    <item android:icon="@android:drawable/btn_star_on_disabled_focused_holo_light" android:id="@id/accounts" android:title="@string/accounts_action" />
+    <item android:icon="@android:drawable/ic_menu_preferences" android:id="@id/account_settings" android:title="@string/account_settings_action" />
+</menu>

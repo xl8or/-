@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/general_settings" />
+    <PreferenceScreen android:title="@string/account_info_title" android:key="account_settings" android:summary="@string/account_settings_summary">
+        <intent android:targetPackage="com.htc.android.mail" android:action="com.htc.android.mail.activity.setup.ACCOUNT_MANAGER_ENTRY" android:targetClass="com.htc.android.mail.MailPreferenceActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

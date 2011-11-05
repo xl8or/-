@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="1.0dip" android:text="@string/account_setup_incoming_username_label" />
+            <EditText android:id="@id/account_username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="320" android:inputType="textEmailAddress" android:imeOptions="actionNext" />
+            <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="1.0dip" android:text="@string/account_setup_incoming_password_label" />
+            <EditText android:id="@id/account_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="320" android:inputType="textPassword" android:imeOptions="actionNext" />
+            <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:id="@id/account_server_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="1.0dip" android:text="@string/account_setup_incoming_pop_server_label" />
+            <EditText android:id="@id/account_server" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="320" android:inputType="textUri" android:imeOptions="actionNext" />
+            <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="1.0dip" android:text="@string/account_setup_incoming_security_label" />
+            <Spinner android:id="@id/account_security_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/account_setup_incoming_security_label" />
+            <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="1.0dip" android:text="@string/account_setup_incoming_port_label" />
+            <EditText android:id="@id/account_port" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="5" android:inputType="number" android:imeOptions="actionNext" />
+            <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:id="@id/account_delete_policy_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="1.0dip" android:text="@string/account_setup_incoming_delete_policy_label" />
+            <Spinner android:id="@id/account_delete_policy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/account_setup_incoming_delete_policy_label" />
+            <LinearLayout android:orientation="vertical" android:id="@id/imap_path_prefix_section" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="1.0dip" android:text="@string/account_setup_incoming_imap_path_prefix_label" />
+                <EditText android:id="@id/imap_path_prefix" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_setup_incoming_imap_path_prefix_hint" android:singleLine="true" android:imeOptions="actionDone" inputType="textUri" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.sec.android.touchwiz.widget.TwSoftkeyView android:id="@id/softkeyview" android:layout_width="fill_parent" android:layout_height="57.0dip"
+          xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+            <com.android.email.EmailTwSoftkeyItem android:id="@id/tw_next" android:layout_width="wrap_content" android:layout_height="fill_parent" email:itemText="@string/next_action"
+              xmlns:email="http://schemas.android.com/apk/res/com.android.email" />
+        </com.sec.android.touchwiz.widget.TwSoftkeyView>
+    </LinearLayout>
+</ScrollView>

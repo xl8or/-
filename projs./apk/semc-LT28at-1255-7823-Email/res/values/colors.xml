@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="message_list_item_background_unread">#33ffffff</color>
+    <color name="message_list_item_background_read">#00ffffff</color>
+    <color name="account_folder_list_item_separator">#ffffffff</color>
+    <color name="connection_error_banner">#ccffffff</color>
+</resources>

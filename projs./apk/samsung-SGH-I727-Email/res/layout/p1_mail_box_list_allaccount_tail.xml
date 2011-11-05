@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/p1_mail_box_list_layou_bg_tail" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0px" android:typeface="sans" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/move_popup_txt1" android:paddingLeft="10.0px" android:layout_width="wrap_content" android:layout_height="59.0px" android:text="@string/p1_name_outbox" />
+</LinearLayout>

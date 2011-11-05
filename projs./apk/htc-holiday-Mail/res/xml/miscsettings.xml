@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/misc_title" android:key="PreferenceCategory_title">
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/account_detail_email_notifications" android:key="account_detail_email_notifications" android:defaultValue="true" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/account_detail_notify_playsound" android:key="account_detail_notify_sound" android:dependency="account_detail_email_notifications" android:defaultValue="true" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/account_detail_notify_playvibrate" android:key="account_detail_notify_vibrate" android:dependency="account_detail_email_notifications" android:defaultValue="true" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

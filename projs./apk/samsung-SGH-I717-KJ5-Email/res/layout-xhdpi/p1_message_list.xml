@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/msgView_null" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:gravity="center_horizontal" android:background="@drawable/email_img_nodata" android:layout_width="174.0px" android:layout_height="174.0px" android:layout_marginTop="72.0px" />
+        <TextView android:textSize="26.0px" android:textColor="#ff4f4f4f" android:gravity="center_horizontal" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0px" android:text="@string/no_selected_email" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/msgView" android:background="#ffeeeeee" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/msgView_sender_info" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20.0px" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_vertical" android:background="@drawable/activity_title_bar" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="22.799988dip" android:text="@string/messagview_to_cc_info" style="@style/TextAppearanceTitleShadow" />
+                <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:id="@id/to_bubble_main_in_popup" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="24.0px" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/email_tile_to_name_in_popup" android:background="@android:drawable/dark_header" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="22.799988dip" android:layout_marginBottom="12.0dip" android:text="@string/p1_name_to" android:shadowColor="@android:color/black" android:shadowDx="-1.0" android:shadowDy="-1.0" android:shadowRadius="1.0" style="@style/TextAppearanceSeparatorShadow" />
+                            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.599976dip">
+                                <TableLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/to_bubble_in_popup" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@id/cc_bubble_main_in_popup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                            <TextView android:textSize="24.0px" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/email_tile_cc_name_in_popup" android:background="@android:drawable/dark_header" android:paddingLeft="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="22.799988dip" android:layout_marginBottom="12.0dip" android:text="@string/p1_name_cc" android:shadowColor="@android:color/black" android:shadowDx="-1.0" android:shadowDy="-1.0" android:shadowRadius="1.0" style="@style/TextAppearanceSeparatorShadow" />
+                            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.599976dip">
+                                <TableLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/cc_bubble_in_popup" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/message_content_main" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/DateTime_Subline" android:background="@drawable/hub_title_bg" android:layout_width="fill_parent" android:layout_height="128.0px">
+                    <LinearLayout android:id="@id/email_icon_up_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0px">
+                        <ImageButton android:layout_gravity="center" android:id="@id/email_up" android:background="@drawable/email_icon_up_btn" android:focusable="true" android:nextFocusLeft="@id/p1_email_box" android:nextFocusDown="@id/email_button" android:layout_width="143.0px" android:layout_height="82.0px" android:src="@drawable/email_tab_arrow_01" android:contentDescription="@string/descript_email_up" />
+                        <ImageButton android:layout_gravity="center" android:id="@id/email_down" android:background="@drawable/email_icon_down_btn" android:focusable="true" android:nextFocusDown="@id/email_button" android:layout_width="143.0px" android:layout_height="82.0px" android:src="@drawable/email_tab_arrow_02" android:contentDescription="@string/descript_email_down" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0px">
+                            <ImageButton android:layout_gravity="center" android:id="@id/p1_email_folder" android:background="@drawable/email_icon_folder_btn" android:focusable="true" android:nextFocusDown="@id/email_button" android:layout_width="143.0px" android:layout_height="82.0px" android:src="@drawable/email_icon_03" android:contentDescription="@string/descript_email_move_to_folder" />
+                            <ImageButton android:layout_gravity="center" android:id="@id/p1_email_trash" android:background="@drawable/email_icon_trash_btn" android:focusable="true" android:nextFocusDown="@id/email_button" android:layout_width="142.0px" android:layout_height="82.0px" android:src="@drawable/email_icon_04" android:contentDescription="@string/descript_email_trash" />
+                            <ImageButton android:layout_gravity="center" android:id="@id/p1_email_box" android:background="@drawable/email_icon_reply_btn" android:focusable="true" android:nextFocusRight="@id/email_up" android:nextFocusDown="@id/email_button" android:layout_width="143.0px" android:layout_height="82.0px" android:src="@drawable/email_icon_05" android:contentDescription="@string/descript_email_compose" />
+                            <ImageButton android:layout_gravity="center" android:id="@id/p1_email_list" android:background="@drawable/email_icon_list_btn" android:visibility="gone" android:layout_width="84.0px" android:layout_height="54.0px" android:layout_marginLeft="9.0px" android:layout_marginRight="127.0px" android:src="@drawable/email_write_icon" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/message_wrap_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <LinearLayout android:id="@id/smime_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/signed" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_email_signature" android:layout_alignParentRight="true" />
+                        <ImageView android:id="@id/encrypted" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_email_encryption" android:layout_alignParentRight="true" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:typeface="sans" android:textColor="#ffa0a0a0" android:gravity="center_vertical" android:id="@id/last_verb_text" android:background="#ff0b243b" android:paddingLeft="20.0px" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="38.0px" android:singleLine="true" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/message_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/busyIndicatorContainer" android:background="@android:color/white" android:paddingLeft="6.0dip" android:paddingTop="6.0dip" android:paddingRight="6.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ProgressBar android:gravity="center_vertical" android:id="@id/busyIndicator" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:indeterminateOnly="true" android:layout_alignParentRight="true" style="?android:attr/progressBarStyleSmallTitle" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/more_msg_bottom_bar" android:background="@android:drawable/bottom_bar" android:paddingLeft="4.0dip" android:paddingTop="5.0dip" android:paddingRight="4.0dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:id="@id/more_message" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/more_message_action" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/msglist" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/msglist_title_flip" android:layout_width="fill_parent" android:layout_height="128.0px">
+            <LinearLayout android:orientation="horizontal" android:id="@id/msglist_title" android:background="@drawable/hub_title_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/msglist_account" android:layout_width="600.0px" android:layout_height="76.0px" android:layout_marginLeft="19.0px">
+                    <LinearLayout android:id="@id/msglist_account_type" android:background="@drawable/email_icon_up_btn" android:layout_width="300.0px" android:layout_height="fill_parent">
+                        <ImageView android:layout_gravity="center" android:id="@id/msglist_account_img" android:background="@drawable/email_icon_06" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0px" android:layout_marginRight="8.0px" />
+                        <TextView android:textSize="32.0px" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/msglist_account_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0px" android:layout_marginRight="8.0px" android:singleLine="true" style="@style/TextAppearanceTitleShadow" />
+                    </LinearLayout>
+                    <FrameLayout android:id="@id/Inbox_img" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <ImageView android:layout_gravity="center" android:id="@id/msglist_mailbox" android:background="@drawable/email_icon_down_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <FrameLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/msglist_box_name_frame_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="14.0px" android:layout_marginRight="8.0px">
+                                <TextView android:textSize="32.0px" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/mail_box_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mailbox_name_display_inbox" android:singleLine="true" style="@style/TextAppearanceTitleShadow" />
+                            </FrameLayout>
+                            <FrameLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/msglist_box_name_frame_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0px" android:layout_marginRight="8.0px">
+                                <TextView android:textSize="32.0px" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center_vertical" android:layout_gravity="left|center" android:id="@id/mail_box_title_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mailbox_name_display_inbox" android:singleLine="true" style="@style/TextAppearanceTitleShadow" />
+                            </FrameLayout>
+                        </FrameLayout>
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="76.0px" android:layout_marginLeft="26.0px" android:layout_marginRight="19.0px">
+                    <ImageButton android:layout_gravity="center" android:id="@id/p1_email_new" android:background="@drawable/email_icon_new_btn" android:layout_width="128.0px" android:layout_height="fill_parent" android:src="@drawable/email_write_icon" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:id="@id/msglist_search" android:background="@drawable/hub_title_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="128.0px">
+                <TextView android:textSize="36.0px" android:textColor="#ffffffff" android:gravity="center" android:id="@id/msglist_selected_search_type" android:background="@drawable/email_icon_new_btn" android:layout_width="172.0px" android:layout_height="82.0px" android:layout_marginLeft="19.0px" android:layout_marginRight="15.0px" android:singleLine="true" style="@style/TextAppearanceTitleShadow" />
+                <LinearLayout android:gravity="center_vertical" android:layout_width="575.0px" android:layout_height="82.0px">
+                    <EditText android:textSize="36.0px" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/msglist_search_edit" android:background="@drawable/p1_message_list_search_textfield" android:paddingLeft="10.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/gal_search_str" android:singleLine="true" android:maxLength="30" android:imeOptions="actionDone" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:id="@id/msglist_deletemove" android:background="@drawable/activity_title_bar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="50.0px">
+                <TextView android:textSize="28.0px" android:textStyle="bold" android:textColor="#ffebebeb" android:gravity="center_vertical" android:id="@id/msglist_deletemove_text" android:paddingLeft="12.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/messagelist_select_mails" android:singleLine="true" style="@style/TextAppearanceTitleShadow" />
+            </LinearLayout>
+        </FrameLayout>
+        <include layout="@layout/connection_error_banner" />
+        <FrameLayout android:id="@id/msglist_main_layout" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ListView android:id="@id/msglist_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="false" android:divider="@color/list_divide_line" android:dividerHeight="0.0px" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/msglist_no_email" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/email_img_nodata" android:layout_width="252.0px" android:layout_height="252.0px" android:layout_marginTop="380.0px" />
+                <TextView android:textSize="48.0px" android:textColor="#ff4f4f4f" android:gravity="center" android:id="@id/msglist_no_email_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/p1_no_email" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:orientation="horizontal" android:id="@id/msglist_soft" android:background="@drawable/winset_listcount_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0px">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ProgressBar android:layout_gravity="center_vertical" android:id="@id/title_progress_icon" android:visibility="visible" android:layout_width="30.0px" android:layout_height="30.0px" android:layout_marginRight="12.0px" android:minWidth="10.0dip" style="?android:attr/progressBarStyleSmallTitle" />
+                <TextView android:textSize="28.0px" android:textColor="#ffbebebe" android:layout_gravity="center_vertical" android:id="@id/connected_string" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_list_refreshing" />
+            </LinearLayout>
+        </FrameLayout>
+        <com.sec.android.touchwiz.widget.TwSoftkeyView android:id="@id/msgDelete" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+            <com.android.email.EmailTwSoftkeyItem android:id="@id/delete" android:layout_width="wrap_content" android:layout_height="fill_parent" email:itemText="@string/delete_action"
+              xmlns:email="http://schemas.android.com/apk/res/com.android.email" />
+            <com.android.email.EmailTwSoftkeyItem android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="fill_parent" email:itemText="@string/cancel_action"
+              xmlns:email="http://schemas.android.com/apk/res/com.android.email" />
+        </com.sec.android.touchwiz.widget.TwSoftkeyView>
+        <com.sec.android.touchwiz.widget.TwSoftkeyView android:id="@id/msgMove" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+            <com.android.email.EmailTwSoftkeyItem android:id="@id/move" android:layout_width="wrap_content" android:layout_height="fill_parent" email:itemText="@string/move_action"
+              xmlns:email="http://schemas.android.com/apk/res/com.android.email" />
+            <com.android.email.EmailTwSoftkeyItem android:id="@id/move_cancel" android:layout_width="wrap_content" android:layout_height="fill_parent" email:itemText="@string/cancel_action"
+              xmlns:email="http://schemas.android.com/apk/res/com.android.email" />
+        </com.sec.android.touchwiz.widget.TwSoftkeyView>
+        <com.sec.android.touchwiz.widget.TwSoftkeyView android:id="@id/msgDeleteMove" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="150.0px"
+          xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+            <com.android.email.EmailTwSoftkeyItem android:id="@id/delete_msgs" android:layout_width="wrap_content" android:layout_height="fill_parent" email:itemText="@string/delete_action"
+              xmlns:email="http://schemas.android.com/apk/res/com.android.email" />
+            <com.android.email.EmailTwSoftkeyItem android:id="@id/move_msgs" android:layout_width="wrap_content" android:layout_height="fill_parent" email:itemText="@string/move_Conv_action"
+              xmlns:email="http://schemas.android.com/apk/res/com.android.email" />
+            <com.android.email.EmailTwSoftkeyItem android:id="@id/move_delete_cancel" android:layout_width="wrap_content" android:layout_height="fill_parent" email:itemText="@string/cancel_action"
+              xmlns:email="http://schemas.android.com/apk/res/com.android.email" />
+        </com.sec.android.touchwiz.widget.TwSoftkeyView>
+    </LinearLayout>
+</FrameLayout>

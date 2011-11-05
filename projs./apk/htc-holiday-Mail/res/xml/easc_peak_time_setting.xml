@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/peak_time_settings">
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/peak_setting_days" android:key="peak_days" android:summary="" />
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/peak_setting_time_start" android:key="peak_time_start" android:summary="" />
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/peak_setting_time_end" android:key="peak_time_end" android:summary="" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/peak_frequency_settings">
+        <com.htc.preference.HtcListPreference android:persistent="true" android:title="@string/peak_setting_peak_frequency" android:key="frequency_peak_time" android:summary="" />
+        <com.htc.preference.HtcListPreference android:persistent="true" android:title="@string/peak_setting_off_peak_frequency" android:key="frequency_off_peak_time" android:summary="" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

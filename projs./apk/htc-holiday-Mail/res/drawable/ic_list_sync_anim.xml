@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="150" android:drawable="@drawable/ic_list_sync_anim0" />
+    <item android:duration="150" android:drawable="@drawable/ic_list_sync_anim1" />
+    <item android:duration="150" android:drawable="@drawable/ic_list_sync_anim2" />
+    <item android:duration="150" android:drawable="@drawable/ic_list_sync_anim3" />
+</animation-list>

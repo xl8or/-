@@ -1,0 +1,11 @@
+#### Decompile facebook.apk, and [Debug into ...](https://github.com/henry4j/-/blob/master/labs/%5Efacebook.mkd)
+
+    adb shell sqlite3 /data/data/com.android.vending/databases/market_assets.db .dump | grep facebook
+    adb shell 'pm path com.facebook.katana' # tells /data/app/com.facebook.katana-1.apk for facebook 1.7.2
+    adb pull /data/app/com.facebook.katana-1.apk
+    mv com.facebook.katana-1.apk com.facebook.katana-1.7.2.apk
+    apk2eclipse com.facebook.katana-1.7.2.apk
+
+#### Deep-dive ...
+
+    call stacks and variables ...

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/account_open" android:title="@string/attachActionTextOpen" />
+    <item android:id="@id/account_compose" android:title="@string/read_screen_compose_text" />
+    <item android:id="@id/setting" android:title="@string/settings_label" />
+    <item android:id="@id/account_delete" android:title="@string/deleteAccount" />
+</menu>

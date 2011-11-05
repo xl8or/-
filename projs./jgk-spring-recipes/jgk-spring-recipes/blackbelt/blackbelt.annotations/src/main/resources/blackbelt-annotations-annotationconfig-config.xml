@@ -1,0 +1,32 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+							http://www.springframework.org/schema/aop
+							http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+			              http://www.springframework.org/schema/context
+			              http://www.springframework.org/schema/context/spring-context-3.0.xsd							
+				              ">
+
+ 	<context:annotation-config/>
+ 	<import resource="blackbelt-annotations-propertyplaceholder-config.xml"/>
+ 	<bean id="myBeanWithRequiredAndPreDestroy" class="com.jgk.springrecipes.blackbelt.annotations.beans.MyBeanWithRequiredAndPreDestroy">
+ 		<property name="myBeanWithComponent" ref="myBeanWithComponent"></property>
+ 	</bean>
+ 	<bean id="myBeanWithComponent" class="com.jgk.springrecipes.blackbelt.annotations.beans.MyBeanWithComponent"/>
+ 	<bean id="somePropertyAwareBean" class="com.jgk.springrecipes.blackbelt.annotations.beans.SomePropertyAwareBean">
+ 		<property name="spring" value="${spring}"></property>
+ 		<property name="age" value="${spring-age}"></property>
+ 		<property name="url" value="${spring-url}"></property>
+ 		<property name="props" >
+ 			<props>
+ 			 	<prop key="spring">${spring}</prop>
+ 			 	<prop key="spring-age">${spring-age}</prop>
+ 			 	<prop key="spring-url">${spring-url}</prop>
+ 			</props>
+ 		</property>
+ 		
+ 	</bean>
+ 	
+</beans>

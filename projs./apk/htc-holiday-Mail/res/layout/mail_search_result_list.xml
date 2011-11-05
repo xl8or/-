@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@com.htc:layout/title_1" />
+    <com.htc.widget.HtcListView android:scrollbarStyle="outsideInset" android:id="@android:id/list" android:background="#ffffffff" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="#ffffffff" android:divider="@34080191" android:layout_below="@33685946" />
+</LinearLayout>

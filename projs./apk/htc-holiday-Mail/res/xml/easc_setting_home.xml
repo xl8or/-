@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/general_settings">
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/configure_server_label" android:key="server_setting" android:summary="@string/server_config" />
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="true" android:title="@string/sync_at_roaming" android:key="sync_at_roaming" android:summaryOn="@string/sync_at_roaming_summary" android:summaryOff="@string/sync_at_roaming_summary" />
+        <com.htc.preference.HtcListPreference android:persistent="true" android:entries="@array/c_resolve_entries" android:title="@string/conflict_resolve" android:key="conflict_resolve" android:summary="" android:entryValues="@array/c_resolve_values" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/mail_settings">
+        <com.htc.preference.HtcListPreference android:persistent="true" android:entries="@array/mail_dl_days_entries" android:title="@string/mail_download_days" android:key="mail_download_days" android:summary="" android:entryValues="@array/mail_dl_days_values" />
+        <com.htc.preference.HtcListPreference android:persistent="true" android:entries="@array/mail_dl_size_entries" android:title="@string/mail_download_sizes" android:key="mail_download_sizes" android:summary="" android:entryValues="@array/mail_dl_size_values" />
+        <com.htc.preference.HtcListPreference android:persistent="true" android:entries="@array/mail_fmt_entries" android:title="@string/mail_formats" android:key="mail_formats" android:summary="" android:entryValues="@array/mail_fmt_values" />
+        <com.htc.preference.HtcListPreference android:persistent="true" android:entries="@array/mail_dl_attach_entries" android:title="@string/mail_attach_sizes" android:key="mail_download_attach_sizes" android:summary="" android:entryValues="@array/mail_dl_attach_values" />
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/account_detail_folder_to_sync_label_text" android:key="account_folder_to_sync" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/calendar_settings">
+        <com.htc.preference.HtcListPreference android:persistent="true" android:entries="@array/cal_sync_days_entries" android:title="@string/calendar_sync_days" android:key="cal_sync_days" android:summary="" android:entryValues="@array/cal_sync_days_values" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

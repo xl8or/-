@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/swipey_tab_text_size" android:textStyle="normal" android:gravity="bottom|center" android:background="@drawable/tab_highlight_overlay" android:paddingLeft="@dimen/swipey_tab_strip_text_padding" android:paddingTop="6.0dip" android:paddingRight="@dimen/swipey_tab_strip_text_padding" android:paddingBottom="6.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:button="@null" android:singleLine="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

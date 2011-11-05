@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="4.0dip" android:paddingTop="100.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:gravity="center_horizontal" android:id="@id/message" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ProgressBar android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/progressBarStyleHorizontal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.sec.android.touchwiz.widget.TwSoftkeyView android:id="@id/softkeyview" android:layout_width="fill_parent" android:layout_height="57.0dip"
+      xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+        <com.android.email.EmailTwSoftkeyItem android:id="@id/tw_cancel" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" email:itemText="@string/cancel_action"
+          xmlns:email="http://schemas.android.com/apk/res/com.android.email" />
+    </com.sec.android.touchwiz.widget.TwSoftkeyView>
+</LinearLayout>

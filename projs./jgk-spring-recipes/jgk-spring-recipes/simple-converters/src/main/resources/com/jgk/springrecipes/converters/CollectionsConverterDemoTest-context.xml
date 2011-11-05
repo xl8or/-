@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+				              http://www.springframework.org/schema/context
+				              http://www.springframework.org/schema/context/spring-context-3.0.xsd"							
+              >
+
+		
+	 <bean id="someNumber" class="java.lang.Integer">
+	    <constructor-arg value="543"/>
+	 </bean>
+	 <bean id="someString" class="java.lang.String">
+	    <constructor-arg value="Jed Clampett as some string"/>
+	 </bean>
+	 <bean id="collectionsConverter" class="com.jgk.springrecipes.converters.CollectionsConverterDemo">
+		<property name="emailProperties">
+			<props>
+				<prop key="admin">admin@nospam.com</prop>
+			    <prop key="support">support@nospam.com</prop>
+			</props>
+		</property>
+	    <property name="ageSet">
+	       <set>
+	          <ref bean="someNumber"/>
+	          <value>4</value>
+	          <value>5</value>
+	          <value>4</value>
+	          <value>4</value>
+	          <value>4</value>
+	          <value>4</value>
+	       </set>
+	    </property>
+		<property name="nameAgeMap">
+			<map>
+				<entry><key><value>Jed</value></key><value>34</value></entry>
+				<entry key="Elliemae" value="21" />
+			</map>
+		</property>
+		<property name="numberList">
+			<list>
+			   <value>3</value>
+			   <value>536</value>
+			   <value>6</value>
+			   <value>982</value>
+			</list>
+		</property>	   	
+		<property name="stringList">
+			<list>
+			   <ref bean="someString"/>
+			   <value>Jed</value>
+			   <value>Elliemae</value>
+			   <value>Jethro</value>
+			   <value>Granny</value>
+			</list>
+		</property>	   	
+	   	
+	 </bean>
+
+</beans>

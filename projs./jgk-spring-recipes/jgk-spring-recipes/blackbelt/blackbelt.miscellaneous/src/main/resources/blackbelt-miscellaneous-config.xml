@@ -1,0 +1,53 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+							http://www.springframework.org/schema/aop
+							http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+			              http://www.springframework.org/schema/context
+			              http://www.springframework.org/schema/context/spring-context-3.0.xsd							
+				              ">
+
+	<bean id="myMiscellaneousBean"
+		class="com.jgk.springrecipes.blackbelt.miscellaneous.MyMiscellaneousBean">
+		<property name="primInt" value="3" />
+		<property name="primLong" value="85" />
+		<property name="someString" value="JED" />
+		<property name="systemUserName" value="#{ systemProperties['user.name'] }"></property>
+	</bean>
+	<bean id="myMiscellaneousListSetMapPropertiesBean"
+		class="com.jgk.springrecipes.blackbelt.miscellaneous.MyMiscellaneousListSetMapPropertiesBean">
+		<property name="map">
+			<map>
+				<entry key="Fred" value="Flintstone" />
+				<entry key="Barney" value="Rubble" />
+				<entry key="Sam" value="Slate" />
+			</map>
+		</property>
+		<property name="set">
+			<set>
+				<value>one</value>
+				<value>two</value>
+				<value>three</value>
+			</set>
+		</property>
+		<property name="props">
+			<value>
+				first: Mike
+				second: Carol
+				third: Greg
+				forth: Marcia
+			</value>
+		</property>
+		<property name="someEmails">
+			<props>
+				<prop key="administrator">administrator@example.com</prop>
+				<prop key="support">support@example.com</prop>
+			</props>
+		</property>
+		<property name="someObject">
+			<null />
+		</property>
+	</bean>
+</beans>

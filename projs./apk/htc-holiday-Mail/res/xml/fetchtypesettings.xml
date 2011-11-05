@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/fetch_mail_type" android:key="PreferenceCategory_title">
+        <CheckBoxPreference android:title="@string/account_detail_fetch_mail_checkbox_text" android:key="account_detail_fetch_mail_by_amount_checkbox" android:defaultValue="true" />
+        <ListPreference android:entries="@array/account_detail_fetch_mail_labels" android:title="@string/account_detail_fetch_mail_label_text" android:key="account_detail_fetch_mail_by_amount_list" android:dependency="account_detail_fetch_mail_by_amount_checkbox" android:defaultValue="@string/account_detail_fetch_mail_default" android:dialogTitle="@string/account_detail_fetch_mail_label_text" android:entryValues="@array/account_detail_fetch_mail_values" />
+        <CheckBoxPreference android:title="@string/account_detail_fetch_mail_by_day_checkbox_text" android:key="account_detail_fetch_mail_by_day_checkbox" android:defaultValue="false" />
+        <ListPreference android:entries="@array/account_detail_fetch_mail_by_day_labels" android:title="@string/account_detail_fetch_mail_by_day_label_text" android:key="account_detail_fetch_mail_by_day_list" android:dependency="account_detail_fetch_mail_by_day_checkbox" android:defaultValue="@string/account_detail_fetch_mail_by_day_default" android:dialogTitle="@string/account_detail_fetch_mail_by_day_label_text" android:entryValues="@array/account_detail_fetch_mail_by_day_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device-admin android:visible="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-policies>
+        <limit-password />
+        <watch-login />
+        <force-lock />
+        <wipe-data />
+        <recover-password />
+        <expire-password />
+        <history-password />
+        <allow-attachments />
+        <limit-attachments />
+        <min-passwordcomplexchars />
+        <max-emailage />
+        <max-emailbodytruncsize />
+        <allow-htmlemail />
+        <max-htmlemailbodytruncsize />
+        <max-calendarage />
+        <require-manualsyncroaming />
+        <allow-popimapemail />
+        <allow-storagecard />
+        <allow-camera />
+        <allow-wifi />
+        <allow-textmessaging />
+        <allow-browser />
+        <allow-internetsharing />
+        <allow-bluetoothmode />
+        <require-signedsmimemessages />
+        <require-encryptedsmimemessages />
+        <require-signedsmimealgorithm />
+        <require-encryptionsmimealgorithm />
+        <allow-smimeencryptionalgonegotiation />
+        <allow-smimesoftcerts />
+        <allow-desktopsync />
+        <allow-irda />
+        <require-device-encryption />
+        <require-storagecard-encryption />
+    </uses-policies>
+</device-admin>

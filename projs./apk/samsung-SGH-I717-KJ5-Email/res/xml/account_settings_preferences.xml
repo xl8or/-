@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="account_setting_main"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="account_settings">
+        <EditTextPreference android:maxLines="3" android:singleLine="true" android:maxLength="320" android:title="@string/account_settings_description_label" android:key="account_description" android:summary="" android:order="1" android:dialogTitle="@string/account_settings_description_label" android:inputType="textCapWords" />
+        <EditTextPreference android:singleLine="true" android:maxLength="320" android:title="@string/account_settings_name_label" android:key="account_name" android:summary="" android:order="2" android:dialogTitle="@string/account_settings_name_label" android:inputType="textCapWords" />
+        <CheckBoxPreference android:title="@string/add_signature" android:key="add_signature" android:summary="@string/add_signature" android:order="3" android:defaultValue="true" />
+        <EditTextPreference android:maxLength="1000" android:title="@string/account_settings_signature_label" android:key="account_signature" android:summary="" android:order="4" android:dependency="add_signature" android:defaultValue="@string/account_settings_signature_default_value" android:dialogTitle="@string/account_settings_signature_label" android:inputType="textCapWords|textMultiLine" />
+        <ListPreference android:entries="@array/account_settings_check_frequency_entries" android:title="@string/account_settings_mail_check_frequency_label" android:key="account_check_frequency" android:order="5" android:dialogTitle="@string/account_settings_mail_check_frequency_label" android:entryValues="@array/account_settings_check_frequency_values" />
+        <CheckBoxPreference android:title="@string/account_settings_default_label" android:key="account_default" android:summary="@string/account_settings_default_summary" android:order="6" />
+        <ListPreference android:entries="@array/account_settings_cc_bcc_entries" android:title="@string/account_settings_cc_bcc_label" android:key="account_settings_cc_bcc" android:summary="@string/account_settings_cc_bcc_default_summary" android:order="7" android:defaultValue="none" android:dialogTitle="@string/account_settings_cc_bcc_dlg_title" android:entryValues="@array/account_settings_cc_bcc_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="account_exchange_sync_settings">
+        <ListPreference android:entries="@array/account_settings_mail_window_entries" android:title="@string/account_setup_options_mail_window_label" android:key="account_check_amount_sync" android:order="1" android:dialogTitle="@string/account_setup_options_mail_window_label" android:entryValues="@array/account_settings_mail_window_values" />
+        <com.android.email.activity.setup.EmptyTrashDialog android:title="@string/account_settings_mail_empty_trash_label" android:key="account_empty_trash" android:order="2" android:dialogTitle="@string/account_settings_mail_empty_trash_label" android:dialogMessage="@string/account_settings_mail_empty_trash_message" android:positiveButtonText="@string/account_settings_mail_empty_trash_positive" android:negativeButtonText="@string/account_settings_mail_empty_trash_negative" />
+        <PreferenceScreen android:title="@string/account_settings_sync_schedule" android:key="account_sync_schedule" android:summary="@string/account_settings_sync_schedule_summary" android:order="3">
+            <intent android:targetPackage="com.android.email" android:targetClass="com.android.email.activity.setup.SyncScheduleSettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/out_of_office_label" android:key="out_of_office" android:order="4" />
+        <ListPreference android:title="@string/account_settings_mail_email_size_label" android:key="account_email_size" android:order="9" android:dialogTitle="@string/account_settings_mail_email_size_label" />
+        <PreferenceScreen android:title="@string/account_settings_smime_security_options" android:key="security_options" android:summary="@string/account_settings_smime_set_advanced_security_options_for_email" android:order="11">
+            <intent android:targetPackage="com.android.email" android:targetClass="com.android.email.smime.SecurityPreference" />
+        </PreferenceScreen>
+        <ListPreference android:entries="@array/account_settings_ConflictResolution_entries" android:title="@string/account_settings_conflict_resolution_label" android:key="account_conflict" android:order="12" android:entryValues="@array/account_settings_ConflictResolution_values" />
+        <EditTextPreference android:maxLength="3" android:title="@string/account_settings_textpreview_label" android:key="account_textpreview" android:summary="" android:order="13" android:dialogTitle="@string/account_settings_textpreview_label" android:inputType="number" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/account_settings_notifications">
+        <CheckBoxPreference android:title="@string/account_settings_notify_label" android:key="account_notify" android:summary="@string/account_settings_notify_summary" android:defaultValue="true" />
+        <com.android.email.activity.setup.RingToneSelectDialog android:title="@string/account_settings_ringtone" android:key="account_ringtone_select" android:summary="@string/account_settings_ringtone" android:dependency="account_notify" />
+        <ListPreference android:entries="@array/account_settings_vibrate_when_entries" android:layout="?android:preferenceLayoutChild" android:title="@string/account_settings_vibrate_when_label" android:key="account_settings_vibrate_when" android:summary="@string/account_settings_vibrate_when_summary" android:dependency="account_notify" android:defaultValue="never" android:dialogTitle="@string/account_settings_vibrate_when_dlg_title" android:entryValues="@array/account_settings_vibrate_when_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/account_settings_servers" android:key="account_servers">
+        <PreferenceScreen android:title="@string/account_settings_incoming_label" android:key="incoming" />
+        <PreferenceScreen android:title="@string/account_settings_outgoing_label" android:key="outgoing" />
+        <CheckBoxPreference android:layout="?android:preferenceLayoutChild" android:title="@string/account_settings_sync_contacts_enable" android:key="account_sync_contacts" android:summary="@string/account_settings_sync_contacts_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:layout="?android:preferenceLayoutChild" android:title="@string/account_settings_sync_calendar_enable" android:key="account_sync_calendar" android:summary="@string/account_settings_sync_calendar_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:layout="?android:preferenceLayoutChild" android:title="@string/account_setting_conversation_mode_label" android:key="account_conversation_mode" android:summary="@string/account_setting_conversation_mode_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:layout="?android:preferenceLayoutChild" android:title="@string/account_settings_sync_task_enable" android:key="account_sync_tasks" android:summary="@string/account_settings_sync_task_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:layout="?android:preferenceLayoutChild" android:title="@string/account_setting_sms_sync" android:key="account_sms_sync" android:summary="@string/account_setting_sms_sync_summary_off" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/account_settings_common" android:key="common_settings">
+        <CheckBoxPreference android:title="@string/account_settings_forward_with_files_label" android:key="forward_with_files" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/account_settings_view_mode_label" android:key="view_mode" android:defaultValue="true" />
+        <PreferenceScreen android:title="@string/account_settings_white_mode_label" android:key="background_color_mode" />
+        <ListPreference android:entries="@array/account_settings_top_line_info_entries" android:layout="?android:preferenceLayoutChild" android:title="@string/account_settings_top_line_mode_label" android:key="top_line_info_mode" android:summary="@string/account_settings_top_line_mode_summary" android:defaultValue="0" android:dialogTitle="@string/account_settings_top_line_mode_label" android:entryValues="@array/account_settings_top_line_info_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

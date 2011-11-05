@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="sync_schedule"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/sync_selection_entries" android:title="@string/peak_time_schedule" android:key="peak_time_schedule" android:summary="" android:order="1" android:defaultValue="none" android:dialogTitle="@string/peak_time_schedule" android:entryValues="@array/sync_selection_values" />
+    <ListPreference android:entries="@array/sync_selection_entries" android:title="@string/off_peak_time_schedule" android:key="off_peak_time_schedule" android:summary="" android:order="2" android:defaultValue="none" android:dialogTitle="@string/off_peak_time_schedule" android:entryValues="@array/sync_selection_values" />
+</PreferenceScreen>

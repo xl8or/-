@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/l_hour" android:layout_width="130.0px" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <TextView android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/tv_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/htc_hour" />
+        <com.htc.android.mail.widget.NumberTableView android:id="@id/hour_table_view" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:selectable="false" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/l_minute" android:layout_width="130.0px" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <TextView android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/tv_minute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/htc_minute" />
+        <com.htc.android.mail.widget.NumberTableView android:id="@id/minute_table_view" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:selectable="false" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/l_ampm" android:layout_width="130.0px" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <TextView android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/tv_ampm" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.htc.android.mail.widget.NumberTableView android:id="@id/ampm_table_view" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:selectable="false" />
+    </LinearLayout>
+</LinearLayout>

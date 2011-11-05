@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:visibility="gone" layout="@layout/page_loading_indicator" />
+    <include android:visibility="gone" layout="@layout/page_error_indicator" />
+    <FrameLayout android:id="@id/page_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/p1_attachment_view_lin" android:layout_width="fill_parent" android:layout_height="100.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/p1_attachment_inner_view_lin" android:background="@drawable/email_text_bg" android:layout_width="fill_parent" android:layout_height="100.0px" android:layout_marginLeft="12.0px" android:layout_marginTop="1.0px" android:layout_marginRight="12.0px">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/p1_attachment_icon" android:duplicateParentState="true" android:layout_width="70.0px" android:layout_height="70.0px" android:layout_marginLeft="8.0px" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="34.0px" android:typeface="sans" android:textColor="@color/tw_color001" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/p1_attachment_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0px" android:layout_marginTop="3.0px" android:layout_marginRight="7.1999817dip" android:singleLine="true" />
+            <TextView android:textSize="28.0px" android:textColor="#ffbebebe" android:ellipsize="middle" android:id="@id/attachment_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0px" android:layout_marginTop="-5.0px" android:singleLine="true" android:layout_alignWithParentIfMissing="true" />
+        </LinearLayout>
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/p1_download" android:background="@layout/attach_save_button" android:layout_width="79.0px" android:layout_height="78.0px" android:layout_marginLeft="7.1999817dip" android:layout_marginRight="8.0px" />
+    </LinearLayout>
+</LinearLayout>

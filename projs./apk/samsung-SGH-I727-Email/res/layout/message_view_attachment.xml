@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingLeft="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:background="@drawable/text_box" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/attachment_icon" android:layout_width="62.0dip" android:layout_height="62.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/attached_image_placeholder" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorSecondaryInverse" android:ellipsize="middle" android:id="@id/attachment_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/attachment_icon" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorTertiaryInverse" android:ellipsize="middle" android:id="@id/attachment_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/attachment_name" android:layout_alignLeft="@id/attachment_name" android:layout_alignWithParentIfMissing="true" />
+            <Button android:id="@id/download" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/message_view_attachment_download_action" android:singleLine="true" android:layout_below="@id/attachment_name" android:layout_alignParentRight="true" style="?android:attr/buttonStyleSmall" />
+            <Button android:id="@id/view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/message_view_attachment_view_action" android:singleLine="true" android:layout_toLeftOf="@id/download" android:layout_below="@id/attachment_name" android:layout_alignWithParentIfMissing="true" style="?android:attr/buttonStyleSmall" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_email_attachment" android:layout_alignParentLeft="true" />
+    </LinearLayout>
+</FrameLayout>

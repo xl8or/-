@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/p1_account_delete_title" android:background="@drawable/p1_mail_box_list_layou_bg_body" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/color" android:padding="5.0dip" android:layout_width="4.0dip" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="200.0dip" android:layout_height="46.0dip">
+            <TextView android:textSize="16.0sp" android:typeface="sans" android:textColor="#ff000000" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/title" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="26.0dip" android:singleLine="true" />
+            <TextView android:textSize="12.0sp" android:textStyle="italic" android:textColor="#ff0000ff" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/email" android:layout_width="fill_parent" android:layout_height="20.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <TableLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="46.0dip" android:stretchColumns="*">
+            <TableRow>
+                <ImageView android:id="@id/accountDeleteItem_checked" android:paddingRight="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_check_off" android:scaleType="center" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/reviews_container" android:background="@color/white" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/user_review_header" android:visibility="gone" layout="@layout/reviews_header" />
+    <ViewStub android:id="@id/review_form_full" android:layout="@layout/inline_review_full" android:inflatedId="@id/review_form" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/review_form_no_text" android:layout="@layout/inline_review_no_text" android:inflatedId="@id/review_form" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/reviews_header" />
+    <ListView android:id="@id/all_reviews_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/main_background" android:divider="@null" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/no_results_view" />
+</LinearLayout>

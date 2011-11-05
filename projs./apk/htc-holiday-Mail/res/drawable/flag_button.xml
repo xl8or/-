@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:state_selected="true" android:drawable="@34080205" />
+    <item android:state_checked="true" android:state_selected="false" android:drawable="@34078907" />
+    <item android:state_checked="false" android:state_selected="true" android:drawable="@34080204" />
+    <item android:state_checked="false" android:state_selected="false" android:drawable="@34078908" />
+    <item android:state_checked="true" android:drawable="@34080205" />
+    <item android:state_checked="false" android:drawable="@34078908" />
+</selector>

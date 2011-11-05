@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:paddingLeft="2.0dip" android:paddingTop="1.0dip" android:paddingRight="6.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:id="@id/icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@drawable/mail_item_selecter" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/text1" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

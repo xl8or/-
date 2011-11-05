@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.email.winset.TwTabHost android:id="@android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.email.winset.TwTabWidget android:id="@android:id/tabs" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/main_framelayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="horizontal" android:background="@android:drawable/title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/TwTextAppearanceGroupTitle" android:ellipsize="end" android:gravity="fill" android:id="@id/seperatortitle" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="25.329987dip" android:scaleType="fitXY" android:lines="1" android:shadowColor="@color/tw_color002" android:shadowDx="-1.0" android:shadowDy="-1.0" android:shadowRadius="1.0" android:layout_weight="1.0" />
+                    <ProgressBar android:id="@id/title_progress_icon" android:paddingTop="3.0dip" android:paddingRight="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:minWidth="10.0dip" style="?android:attr/progressBarStyleSmallTitle" />
+                </LinearLayout>
+                <include layout="@layout/connection_error_banner" />
+                <FrameLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <ListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </FrameLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/footer_organize" android:background="@android:drawable/bottom_bar" android:paddingLeft="4.0dip" android:paddingTop="5.0dip" android:paddingRight="4.0dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:id="@id/btn_read_unread" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/read_unread_action" android:layout_weight="1.0" />
+                    <Button android:id="@id/btn_multi_favorite" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/favorite_action" android:layout_weight="1.0" />
+                    <Button android:id="@id/btn_multi_delete" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/delete_action" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/footer_sort" android:background="@android:drawable/bottom_bar" android:paddingLeft="4.0dip" android:paddingTop="5.0dip" android:paddingRight="4.0dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:id="@id/btn_sort_date" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/date" android:layout_weight="1.0" />
+                    <Button android:id="@id/btn_sort_sender" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/sender" android:layout_weight="1.0" />
+                    <Button android:id="@id/btn_sort_read" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/read_unread_action" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</com.android.email.winset.TwTabHost>

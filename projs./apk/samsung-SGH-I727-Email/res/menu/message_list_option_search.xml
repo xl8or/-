@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/btn_toggle_off_disabled_focused_holo_dark" android:id="@id/compose" android:title="@string/compose_action" android:alphabeticShortcut="c" />
+    <group android:id="@id/deselect_all_group">
+        <item android:icon="@drawable/ic_menu_email_deselect_mail" android:id="@id/deselect_all" android:title="@string/deselect_all_action" />
+    </group>
+    <item android:icon="@drawable/ic_menu_folder" android:id="@id/folders" android:title="@string/folders_action" />
+    <item android:icon="@android:drawable/btn_star_on_focused_holo_light" android:id="@id/accounts" android:title="@string/accounts_action" />
+    <item android:icon="@android:drawable/ic_menu_preferences" android:id="@id/account_settings" android:title="@string/account_settings_action" />
+    <item android:icon="@android:drawable/ic_menu_close_clear_cancel" android:id="@id/clear_search_results" android:title="@string/clear_search_results" />
+</menu>

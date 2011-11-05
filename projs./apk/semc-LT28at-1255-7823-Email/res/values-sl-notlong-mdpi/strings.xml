@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="save_draft_action">Shr. kot os.</string>
+    <string name="remove_account_action">Odstrani račun</string>
+    <string name="message_view_invite_view">Prik. v koleda. »</string>
+    <string name="message_view_invite_title">Vabilo koledarj.</string>
+    <string name="account_setup_basics_manual_setup_action">Ročna namest.</string>
+    <string name="account_setup_incoming_title">Nast. strež. za doh. pošto</string>
+    <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL (spr. vsa potrdila)</string>
+    <string name="account_setup_incoming_security_tls_trust_certificates_label">TLS (spr. vsa potrdila)</string>
+    <string name="account_setup_incoming_delete_policy_label">Izbr. e-pošto iz strežn.</string>
+    <string name="account_setup_incoming_delete_policy_delete_label">Ob izbr. iz »Prejeto«</string>
+    <string name="security_notification_ticker_fmt">Račun %s zaht. posod. varn. nastav.</string>
+    <string name="security_notification_content_title">Posodobitev varnostnih nastavitev</string>
+    <string name="account_settings_mail_check_frequency_label">Pogost. preverj. e-pošte</string>
+    <string name="account_settings_outgoing_label">Nastav. odhodn. sporočil</string>
+    <string name="email_strings_ask_before_delete_txt">Vprašaj pred izbri.</string>
+</resources>

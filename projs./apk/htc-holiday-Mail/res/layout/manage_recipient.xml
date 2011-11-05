@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="left" android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/linearLayout4" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="26.0px" android:textColor="#ffffffff" android:gravity="center" android:id="@id/textView1" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:id="@id/linearLayout5" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/textView2" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.htc.widget.HtcListView android:id="@android:id/list" android:background="@android:color/white" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="52.0px" android:layout_marginBottom="90.0px" android:drawSelectorOnTop="false" android:stackFromBottom="false" android:cacheColorHint="@android:color/transparent" android:divider="@34080191" />
+    <include layout="@com.htc:layout/cmd_bar_9_1" />
+</RelativeLayout>

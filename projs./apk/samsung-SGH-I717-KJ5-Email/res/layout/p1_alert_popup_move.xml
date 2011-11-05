@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/alert_popup_body" android:layout_width="fill_parent" android:layout_height="58.0px">
+        <ImageView android:gravity="center_vertical" android:id="@id/alert_popup_folder_icon" android:paddingLeft="15.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/email_drop_folder_icon" />
+        <TextView android:textSize="13.199982sp" android:typeface="sans" android:textStyle="bold" android:textColor="#ff000000" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/alert_popup_mailbox_list_title" android:paddingLeft="7.0px" android:layout_width="fill_parent" android:layout_height="58.0px" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+</LinearLayout>

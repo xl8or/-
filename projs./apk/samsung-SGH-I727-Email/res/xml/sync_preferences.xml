@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/account_settings_title_fmt" />
+    <PreferenceScreen android:layout="@layout/preference" android:title="@string/account_settings_action" android:key="key1" android:summary="@string/account_manager_settings_summary">
+        <intent android:action="intent.seven.action.EMAIL_ACCOUNT_PREFERENCE" />
+    </PreferenceScreen>
+</PreferenceScreen>

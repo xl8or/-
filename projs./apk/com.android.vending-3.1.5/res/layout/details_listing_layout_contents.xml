@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.finsky.layout.AccessibleTextView android:id="@id/header" android:background="@drawable/highlight_overlay" android:paddingLeft="@dimen/details_left_padding" android:paddingRight="@dimen/details_right_padding" android:clickable="false" android:layout_width="fill_parent" style="@style/DetailsPage_HeaderText" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/listing_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/listing_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/page_loading_indicator" />
+            <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/error_indicator" />
+        </FrameLayout>
+        <FrameLayout android:paddingLeft="@dimen/details_left_padding" android:paddingRight="@dimen/details_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/details_footer" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

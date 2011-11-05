@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_folder_list_refresh_toast">새로고침하려면 계정을 길게 누르세요.</string>
+    <string name="message_view_invite_view">캘린더로 보기 »</string>
+    <string name="message_view_invite_accept">" Yes"</string>
+    <string name="message_view_invite_decline">" 안함"</string>
+    <string name="account_setup_incoming_delete_policy_delete_label">받은편지함에서삭제시</string>
+    <string name="account_settings_exchange_summary">빈도, 알림 등을 동기화합니다.</string>
+</resources>

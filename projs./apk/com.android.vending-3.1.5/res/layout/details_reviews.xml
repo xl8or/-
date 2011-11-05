@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/details_section_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.finsky.layout.AccessibleTextView android:id="@id/header" android:background="@drawable/highlight_overlay" android:paddingLeft="@dimen/details_left_padding" android:paddingRight="@dimen/details_right_padding" android:clickable="false" android:layout_width="fill_parent" android:text="@string/details_reviews" style="@style/DetailsPage_HeaderText" />
+    <LinearLayout android:orientation="vertical" android:id="@id/section_content_sample_reviews" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:paddingLeft="@dimen/details_left_padding" android:paddingRight="@dimen/details_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/details_footer" />
+    </FrameLayout>
+</LinearLayout>

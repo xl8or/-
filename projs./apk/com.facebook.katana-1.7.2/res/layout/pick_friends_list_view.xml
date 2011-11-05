@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_layout" />
+    <TextView android:textStyle="bold" android:textColor="@drawable/blue_text_color" android:id="@id/recipients_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/no_recipients_selected" />
+    <View android:background="@drawable/fixed_divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <com.facebook.katana.view.FacebookListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="#ffffffff" android:divider="@drawable/fixed_divider_horizontal_bright" android:dividerHeight="1.0px" android:layout_weight="1.0" android:fastScrollEnabled="true" />
+    <include layout="@layout/empty_layout" />
+    <ViewStub android:id="@id/pick_friends_button_bar_stub" android:layout="@layout/pick_friends_button_bar_view" android:inflatedId="@id/pick_friends_button_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

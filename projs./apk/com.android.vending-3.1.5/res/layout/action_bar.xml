@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.FinskyActionBar android:orientation="horizontal" android:id="@id/action_bar" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/action_bar_up_pack" android:background="@drawable/highlight_overlay" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/content_description_main_icon">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/action_bar_chevron_icon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ab_back" />
+        <ImageView android:layout_gravity="center" android:id="@id/action_bar_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/action_bar_font_size" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/breadcrumb" android:paddingLeft="5.0dip" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/share_button" android:background="@drawable/highlight_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_menu_market_share" android:contentDescription="@string/content_description_share" />
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/search_button" android:background="@drawable/highlight_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_menu_market_search" android:contentDescription="@string/content_description_search" />
+</com.google.android.finsky.layout.FinskyActionBar>

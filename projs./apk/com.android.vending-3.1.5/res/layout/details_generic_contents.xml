@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.finsky.layout.AccessibleTextView android:id="@id/header" android:background="@drawable/highlight_overlay" android:paddingLeft="@dimen/details_left_padding" android:paddingRight="@dimen/details_right_padding" android:clickable="false" android:layout_width="fill_parent" style="@style/DetailsPage_HeaderText" />
+    <LinearLayout android:orientation="vertical" android:id="@id/section_contents" android:paddingLeft="@dimen/details_left_padding" android:paddingRight="@dimen/details_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

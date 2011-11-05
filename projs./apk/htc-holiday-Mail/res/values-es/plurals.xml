@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="matches_found">
+        <item quantity="other">%d coincidencias</item>
+        <item quantity="zero">Sin coincidencias</item>
+        <item quantity="one">1 coincidencia</item>
+        <item quantity="few">%d coincidencias</item>
+    </plurals>
+</resources>

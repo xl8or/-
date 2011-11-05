@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mail_providers version="1">
+    <provider _provider="Microsoft Exchange ActiveSync" _domain="" _inprotocol="EAS" _description="exchangeAccountDesc" _resid="0" />
+    <provider _provider="Gmail" _domain="gmail.com" _inprotocol="IMAP" _description="googleAccountDesc" _resid="0" />
+    <provider _provider="Yahoo" _domain="yahoo.com" _inprotocol="IMAP" _description="yahooAccountDesc" _resid="0" />
+    <provider _provider="Hotmail" _domain="hotmail.com" _inprotocol="POP" _description="hotmailAccountDesc" _resid="0" />
+    <provider _provider="Other" _domain="" _inprotocol="" _description="otherAccountDesc" _resid="0" />
+</mail_providers>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/color1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/email_softkeyview_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:textColor="?android:textColorPrimary" android:id="@id/accept_checkbox" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/ta_disclaimer_accept_check_message" />
+        <LinearLayout android:gravity="center" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="53.332977dip">
+            <Button android:gravity="center" android:id="@id/accept_button" android:layout_width="fill_parent" android:layout_height="41.332977dip" android:layout_marginLeft="0.6700001dip" android:layout_marginRight="0.6700001dip" android:text="@string/message_view_invite_accept" android:layout_weight="1.0" />
+            <Button android:gravity="center" android:id="@id/decline_button" android:layout_width="fill_parent" android:layout_height="41.332977dip" android:layout_marginLeft="0.6700001dip" android:layout_marginRight="0.6700001dip" android:text="@string/message_view_invite_decline" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

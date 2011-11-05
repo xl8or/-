@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="@dimen/transparent_bar_top_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/lists_loading_indicator" android:background="@color/loading_background" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/pli_empty_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/white" android:paddingLeft="@dimen/page_loading_indicator_left_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" />
+    </LinearLayout>
+    <ListView android:id="@id/bucket_list_view" android:background="@color/main_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/main_background" android:divider="@null" />
+    <include android:visibility="gone" layout="@layout/page_error_indicator" />
+</FrameLayout>

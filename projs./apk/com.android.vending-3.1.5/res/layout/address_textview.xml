@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="?android:textColorPrimary" android:id="@id/address_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

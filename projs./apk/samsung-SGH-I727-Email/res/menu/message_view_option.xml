@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/btn_toggle_off_normal_holo_dark" android:id="@id/add_to_contacts" android:title="@string/add_to_contacts_action" />
+    <item android:icon="@drawable/ic_menu_forward_mail" android:id="@id/forward" android:title="@string/forward_action" android:alphabeticShortcut="f" />
+    <item android:icon="@android:drawable/btn_toggle_off_pressed_holo_dark" android:id="@id/mark_as_unread" android:title="@string/mark_as_unread_action" android:alphabeticShortcut="u" />
+    <item android:icon="@android:drawable/ic_menu_my_calendar" android:enabled="false" android:id="@id/save_to_calendar" android:title="@string/save_to_calendar_action" android:alphabeticShortcut="c" />
+</menu>

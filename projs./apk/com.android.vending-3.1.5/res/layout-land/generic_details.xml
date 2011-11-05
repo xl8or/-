@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/details_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/availability_restriction_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/details_restricted_availability" />
+        <FrameLayout android:id="@id/item_details_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/leading_strip" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/details_scroller_container" android:background="@drawable/pinstripe_details_tile" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

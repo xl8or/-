@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="@dimen/transparent_bar_top_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:visibility="gone" layout="@layout/page_loading_indicator" />
+    <include android:visibility="gone" layout="@layout/page_error_indicator" />
+    <ScrollView android:id="@id/page_content" android:paddingTop="@dimen/transparent_bar_top_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.finsky.layout.UnevenGrid android:id="@id/corpora_home_featured_grid" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+</FrameLayout>

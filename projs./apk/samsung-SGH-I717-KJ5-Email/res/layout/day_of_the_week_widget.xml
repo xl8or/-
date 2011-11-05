@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="252.0px" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@android:attr/theme" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="126.0px" android:layout_marginLeft="27.0px" android:layout_marginTop="0.0px" android:text="@string/sync_schedule_peak_days" android:singleLine="true" />
+    <com.android.email.activity.setup.DayOfTheWeek android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="126.0px" android:layout_marginLeft="27.0px" android:layout_marginTop="0.0px" android:layout_marginRight="27.0px" android:layout_marginBottom="28.0px" />
+</LinearLayout>

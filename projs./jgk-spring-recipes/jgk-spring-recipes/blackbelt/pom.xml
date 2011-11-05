@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>jgk-spring-recipes</artifactId>
+		<groupId>com.jgk</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>com.jgk</groupId>
+	<artifactId>blackbelt</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>blackbelt</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+	</dependencies>
+	<modules>
+		<module>blackbelt.annotations</module>
+		<module>blackbelt.aop</module>
+		<module>blackbelt.dataaccess</module>
+		<module>blackbelt.general</module>
+		<module>blackbelt.javaconfig</module>
+		<module>blackbelt.jms</module>
+		<module>blackbelt.jmx</module>
+		<module>blackbelt.lifecycle</module>
+		<module>blackbelt.miscellaneous</module>
+		<module>blackbelt.mvc</module>
+		<module>blackbelt.remoting</module>
+		<module>blackbelt.security</module>
+		<module>blackbelt.testing</module>
+	</modules>
+</project>

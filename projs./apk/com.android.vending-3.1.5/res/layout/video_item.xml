@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/highlight_overlay" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/preview_image" android:layout_width="@dimen/video_thumbnail_width" android:layout_height="@dimen/video_thumbnail_height" />
+        <ImageView android:layout_gravity="center" android:id="@id/play_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_play" />
+    </FrameLayout>
+    <TextView android:id="@id/video_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/video_preview" style="@style/DetailsPage_CaptionText" />
+    <TextView android:id="@id/video_duration" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DetailsPage_CaptionText" />
+</LinearLayout>

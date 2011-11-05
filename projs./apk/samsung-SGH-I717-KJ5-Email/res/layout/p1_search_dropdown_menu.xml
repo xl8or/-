@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="472.0px" android:layout_height="320.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="61.0px">
+        <TextView android:textSize="20.0px" android:typeface="sans" android:textColor="#ff000000" android:gravity="left|center" android:id="@id/searchlist_all" android:background="@drawable/p1_search_dropdown_bg_up" android:paddingLeft="22.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/msglist_search_all" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="58.0px">
+        <TextView android:textSize="20.0px" android:typeface="sans" android:textColor="#ff000000" android:gravity="left|center" android:id="@id/searchlist_sender" android:background="@drawable/p1_search_dropdown_bg_center" android:paddingLeft="22.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/msglist_search_sender" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="58.0px">
+        <TextView android:textSize="20.0px" android:typeface="sans" android:textColor="#ff000000" android:gravity="left|center" android:id="@id/searchlist_title" android:background="@drawable/p1_search_dropdown_bg_down" android:paddingLeft="22.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/msglist_search_title" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="61.0px">
+        <TextView android:textSize="20.0px" android:typeface="sans" android:textColor="#ff000000" android:gravity="left|center" android:id="@id/searchlist_date" android:background="@drawable/p1_search_dropdown_bg_down" android:paddingLeft="22.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/date" />
+    </LinearLayout>
+</LinearLayout>

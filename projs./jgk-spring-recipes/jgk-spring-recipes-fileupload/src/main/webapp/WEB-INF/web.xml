@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Archetype Created Web Application</display-name>
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>/WEB-INF/fileupload-webapp-config.xml</param-value>
+  </context-param>
+  <context-param>
+    	<param-name>archive.location</param-name>
+    	<param-value>archive.images</param-value>
+  </context-param>
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+  <servlet>
+    <servlet-name>startup</servlet-name>
+    <servlet-class>com.jgk.springrecipes.fileupload.servlet.StartupServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+    
+  </servlet>
+  <servlet>
+    <servlet-name>fileupload</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <load-on-startup>2</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>fileupload</servlet-name>
+    <url-pattern>/fileupload/*</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>StartupServlet</display-name>
+    <servlet-name>StartupServlet</servlet-name>
+    <servlet-class>com.jgk.springrecipes.fileupload.controllers.StartupServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StartupServlet</servlet-name>
+    <url-pattern>/StartupServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

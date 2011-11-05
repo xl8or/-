@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/account_detail_fetch_mail_type_label_text" android:key="fetch_type">
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="false" android:title="@string/account_detail_fetch_mail_by_day_checkbox_text" android:key="account_detail_fetch_mail_by_day_checkbox" android:widgetLayout="@layout/preference_widget_radiobtn" android:defaultValue="false" />
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="false" android:title="@string/account_detail_fetch_mail_checkbox_text" android:key="account_detail_fetch_mail_by_amount_checkbox" android:widgetLayout="@layout/preference_widget_radiobtn" android:defaultValue="false" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:key="fetch_item">
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="false" android:key="item_0" android:widgetLayout="@layout/preference_widget_radiobtn" android:defaultValue="false" />
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="false" android:key="item_1" android:widgetLayout="@layout/preference_widget_radiobtn" android:defaultValue="false" />
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="false" android:key="item_2" android:widgetLayout="@layout/preference_widget_radiobtn" android:defaultValue="false" />
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="false" android:key="item_3" android:widgetLayout="@layout/preference_widget_radiobtn" android:defaultValue="false" />
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="false" android:key="item_4" android:widgetLayout="@layout/preference_widget_radiobtn" android:defaultValue="false" />
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="false" android:key="item_5" android:widgetLayout="@layout/preference_widget_radiobtn" android:defaultValue="false" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

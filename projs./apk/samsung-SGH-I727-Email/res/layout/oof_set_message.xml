@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/rb_known_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rb_known" />
+        <RadioButton android:id="@id/rb_unknown_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rb_unknown" />
+    </RadioGroup>
+    <ScrollView android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <EditText android:gravity="top|left|center" android:id="@id/text_set_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="3" android:inputType="textCapSentences|textAutoCorrect|textMultiLine" />
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:background="@android:drawable/bottom_bar" android:paddingLeft="4.0dip" android:paddingTop="5.0dip" android:paddingRight="4.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/oof_save_message" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/oof_set" android:layout_weight="1.0" />
+        <Button android:id="@id/oof_cancel_message" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/oof_cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

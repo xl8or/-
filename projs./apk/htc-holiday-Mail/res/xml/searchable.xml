@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable android:label="@string/search_label" android:hint="@string/search_hint" android:searchSuggestAuthority="mail" android:searchSuggestPath="suggestion" android:searchSuggestSelection="_from like ?" android:searchSuggestIntentAction="android.intent.action.VIEW" android:searchSuggestIntentData="content://mail/suggestions" android:includeInGlobalSearch="true" android:searchSettingsDescription="@string/settings_description"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

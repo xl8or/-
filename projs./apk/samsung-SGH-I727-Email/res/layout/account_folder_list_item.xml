@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/accountmanager_info_line" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/subject" android:layout_width="wrap_content" android:layout_height="46.19998dip" android:layout_marginLeft="13.199982dip" android:layout_weight="1.0">
+        <TextView android:textSize="13.199982dip" android:textStyle="bold" android:textColor="#ff000000" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="25.199982dip" android:lines="1" />
+        <TextView android:textSize="10.599976dip" android:textColor="#ff656565" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/status" android:layout_width="wrap_content" android:layout_height="21.0dip" android:lines="1" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/accountmanager_current_account_check" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.199982dip" android:src="@drawable/email_btn_check_on" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/listItem_deletecheck" android:background="@drawable/phonebook_check_box" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.199982dip">
+        <ImageView android:layout_gravity="center" android:id="@id/listItem_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

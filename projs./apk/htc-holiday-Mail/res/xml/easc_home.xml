@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/display_setting_title">
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/display_setting_title" android:key="pref_general_setting" android:summary="@string/account_settings_summary">
+            <intent android:targetPackage="com.htc.android.mail" android:action="android.intent.action.MAIN" android:targetClass="com.htc.android.mail.easclient.EASSetting" />
+        </com.htc.preference.HtcPreferenceScreen>
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/data_synchronization">
+        <com.htc.android.mail.easclient.SyncStateCheckBoxPreference android:persistent="true" android:title="@string/mail_label" android:key="sync_email" android:summary="" />
+        <com.htc.android.mail.easclient.SyncStateCheckBoxPreference android:persistent="true" android:title="@string/sync_type_contact_label" android:key="sync_contacts" android:summary="" />
+        <com.htc.android.mail.easclient.SyncStateCheckBoxPreference android:persistent="true" android:title="@string/sync_type_calendar_label" android:key="sync_calendar" android:summary="" />
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="true" android:title="@string/sync_update_when_opened" android:key="sync_update_when_opened" android:summary="@string/sync_update_when_opened_desc" />
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/sync_scheduling" android:key="sync_scheduling" android:summary="" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

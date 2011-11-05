@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@com.htc:layout/cmd_bar_2" />
+    <ScrollView android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_top_with_title" android:layout_above="@33685506">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ec_account_screen2_min_height">
+            <include android:id="@id/subtitle_selec_data" layout="@com.htc:layout/htc_list_item_separator" />
+            <com.htc.widget.HtcListView android:id="@android:id/list" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#ffffffff" android:scaleType="fitXY" android:divider="@34080191"
+              xmlns:mail="http://schemas.android.com/apk/res/com.htc.android.mail" />
+            <include android:id="@id/subtitle_update_schedule" layout="@com.htc:layout/htc_list_item_separator" />
+            <com.htc.widget.HtcListView android:id="@id/list_schedule" android:background="#fff2f2f2" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/exchg_sync_schedule_height" android:cacheColorHint="#ffffffff" android:scaleType="fitXY" android:divider="@34080191" android:layout_weight="1.0" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@com.htc:layout/title_1" />
+</RelativeLayout>

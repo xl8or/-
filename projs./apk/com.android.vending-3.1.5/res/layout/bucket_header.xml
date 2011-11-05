@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bucket_header" style="@style/BucketHeader"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/header_contents" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:gravity="bottom" android:id="@id/header_icon" android:visibility="gone" android:layout_width="@dimen/bucket_header_icon_width" android:layout_height="@dimen/bucket_header_icon_height" />
+        <Spinner android:id="@id/section_corpus_spinner" android:background="@drawable/spinner_background_holo_dark" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.google.android.finsky.layout.AccessibleTextView android:textColor="@color/bucket_header_info" android:gravity="bottom" android:id="@id/section_header" android:paddingBottom="2.0dip" android:layout_height="fill_parent" style="@style/BucketHeaderText" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/bucket_header_secondary_info" android:gravity="bottom" android:id="@id/section_results" android:paddingLeft="12.0dip" android:paddingBottom="3.0dip" android:layout_height="fill_parent" style="@style/BucketHeaderText" />
+        <ImageView android:gravity="bottom" android:id="@id/big_section_more_arrow" android:paddingLeft="8.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/more_arrow_large_gray" />
+    </LinearLayout>
+    <View android:id="@id/corpus_header_strip" android:layout_width="fill_parent" android:layout_height="@dimen/bucket_separator_height" />
+    <View android:background="@color/separator_line" android:layout_width="fill_parent" android:layout_height="@dimen/list_separator_height" />
+</LinearLayout>

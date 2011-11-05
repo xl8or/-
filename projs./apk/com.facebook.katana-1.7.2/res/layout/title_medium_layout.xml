@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/title_bar_medium" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/fat_title_bar_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/ic_facebook_selected" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@drawable/solid_white" android:id="@id/fat_title_bar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="5.0dip" android:shadowColor="@color/title_bar_shadow" android:shadowRadius="2.75" android:layout_toRightOf="@id/fat_title_bar_image" android:layout_alignParentTop="true" />
+    <TextView android:textSize="14.0dip" android:textColor="@drawable/solid_white" android:id="@id/fat_title_bar_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:shadowColor="@color/title_bar_shadow" android:shadowRadius="2.75" android:layout_toRightOf="@id/fat_title_bar_image" android:layout_below="@id/fat_title_bar_title" />
+</RelativeLayout>

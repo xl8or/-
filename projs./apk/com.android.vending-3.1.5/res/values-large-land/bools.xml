@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="use_framed_review_list">true</bool>
+    <bool name="grid_item_creator_single_line">false</bool>
+</resources>

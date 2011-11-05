@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="save_draft_action">Taslak kydt</string>
+    <string name="read_action">Oknd. işrtl.</string>
+    <string name="unread_action">Oknm. işrtl.</string>
+    <string name="mark_as_unread_action">Okunmadı olarak işaretl</string>
+    <string name="account_folder_list_summary_inbox">Birleştirilmş Gelen Kutusu</string>
+    <string name="message_view_show_pictures_instructions">Eklenen resiml. görmek için \"Resimleri göster\"i seçin.</string>
+    <string name="message_view_show_pictures_action">Resimleri göstr</string>
+    <string name="message_view_invite_view">Takv. Görntle »</string>
+    <string name="account_setup_basics_manual_setup_action">Manuel kurulm</string>
+    <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL (Tüm srtf. kabl et)</string>
+    <string name="account_setup_incoming_security_tls_trust_certificates_label">TLS (Tüm srtf. kabl et)</string>
+    <string name="account_setup_incoming_delete_policy_label">E-postayı sunucudn sil</string>
+    <string name="account_setup_options_mail_window_label">Senkr. edilecek miktar</string>
+    <string name="security_notification_ticker_fmt">%s hesabı güvenlik günc. gerektiriyor.</string>
+    <string name="account_settings_mail_check_frequency_label">Gelen kut. denetim sıklığı</string>
+</resources>

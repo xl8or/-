@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/main_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/details_generic_contents" />
+    <View android:background="@color/details_panel_separator" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

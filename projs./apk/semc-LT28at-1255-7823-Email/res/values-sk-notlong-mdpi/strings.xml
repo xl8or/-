@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="unread_action">Zn. nepreč.</string>
+    <string name="add_account_action">Pridať konto</string>
+    <string name="account_settings_action">Nastavenie konta</string>
+    <string name="accounts_action">Kontá</string>
+    <string name="mark_as_unread_action">Označiť ako neprečít.</string>
+    <string name="add_cc_bcc_action">Pridať – Kópia/Skrytá k.</string>
+    <string name="account_folder_list_separator_accounts">Kontá</string>
+    <string name="account_folder_list_summary_inbox">Kombin. prijaté správy</string>
+    <string name="account_folder_list_summary_outbox">Schr. odchádzajúcich správ</string>
+    <string name="message_view_show_pictures_instructions">Výberom možnosti Zobraziť obr. zobrazíte vložené obr.</string>
+    <string name="message_view_show_pictures_action">Zobr. obrázky</string>
+    <string name="message_view_invite_view">Zobraz. v kal. »</string>
+    <string name="message_view_invite_title">Pozv. v kalend.</string>
+    <string name="account_setup_basics_default_label">Predvolene odosielať e-mail z tohto konta.</string>
+    <string name="account_setup_basics_manual_setup_action">Manuál. nastav.</string>
+    <string name="account_duplicate_dlg_title">Duplicitné konto</string>
+    <string name="account_setup_names_account_name_label">Priradiť tomuto kontu názov (voliteľné)</string>
+    <string name="account_setup_account_type_title">Pridať nové e-mailové konto</string>
+    <string name="account_setup_incoming_title">Nast. serv. prich. správ</string>
+    <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL (Prijať vš. certif.)</string>
+    <string name="account_setup_incoming_security_tls_trust_certificates_label">TLS (Prijať vš. certif.)</string>
+    <string name="account_setup_incoming_delete_policy_label">Odstr. e-mail zo serv.</string>
+    <string name="account_setup_incoming_delete_policy_delete_label">Odstr. z prij. správ</string>
+    <string name="account_setup_options_title">Možnosti konta</string>
+    <string name="account_setup_options_mail_check_frequency_push">Automat. (Stlačenie)</string>
+    <string name="account_setup_options_default_label">Predvolene odosielať e-mail z tohto konta.</string>
+    <string name="account_setup_options_mail_window_label">Synchron. množstvo</string>
+    <string name="security_notification_ticker_fmt">%s : vyžaduje sa aktual. nast. zabezp.</string>
+    <string name="account_settings_default_label">Predvolené konto</string>
+    <string name="account_settings_default_summary">Predvolene odosielať e-mail z tohto konta</string>
+    <string name="account_settings_notify_label">Upozorn. o prij. e-mailu</string>
+    <string name="account_settings_outgoing_label">Nast. pre odch. správy</string>
+    <string name="account_settings_description_label">Názov konta</string>
+    <string name="account_settings_sync_calendar_enable">Synchron. kalendára</string>
+    <string name="upgrade_accounts_title">Inovácia kont</string>
+    <string name="email_strings_ask_before_delete_txt">Spýt. sa pred odst.</string>
+</resources>

@@ -1,0 +1,107 @@
+[Software Development Engineer – Role Descriptions](https://inside.amazon.com/en/Employment/Career/careerpathing/Documents/Amazon_SupportEngineer_Roles.doc)
+
+### Introduction
+
+The purpose of this document is to describe to you, an engineer, what your role is at each level of the technical ladder and what's expected of you to get to the next rung on the ladder. Right now we’ve got SDE I through SDE V and Senior Principal covered.
+
+This document will help you to:
+
+* Understand what we expect of each and every engineer at the company.
+* Understand the difference between what you're doing now and what an engineer at the next level is doing.
+* Have a productive conversation with your manager about what you need to do to advance your career.
+
+### Role Descriptions
+
+The role description "Software Development Engineer" describes the traits that are common to all our software development engineers, regardless of your level. Everything starts here; each level adds new skills and responsibilities to this fundamental set.
+
+The individual role descriptions for SDE I, SDE II and SDE III, SDE IV, Principal Engineer, SDE V and Sr. Principal Engineer outline your specific responsibilities in each role and what is expected of you in order to be considered for promotion.
+
+
+### 1. Software Development Engineer
+#### 1.1. Technical
+
+You have industry-leading technical abilities. You demonstrate a breadth and depth of knowledge in the following disciplines: 
+
+* You recognize and adopt best practices in software engineering: design, testing, version control, documentation, build, deployment, and operations.
+* You write high quality, maintainable, and robust code, often in Java or C++.
+* You solve problems at their root, stepping back to understand the broader context.
+* You develop pragmatic solutions. You build flexible systems without over-engineering and choose simple, straightforward solutions over more complex ones.
+* You understand a broad range of data structures and algorithms and know how, when and when not to use them.
+* You recognize and use design patterns to solve business problems.
+* You understand how operating systems work, perform and scale.
+
+#### 1.2. Business
+
+You build software for business' sake, not for technology's sake. To this end, you have the following characteristics:
+
+* You have an understanding and empathy for our customers and business objectives, particularly those aspects relevant to your team and your division. (where "division" is however far up you need to go in your organization to include about 150 people).
+* You continually align your work with our business objectives and seek to deliver business value.
+
+#### 1.3. Leadership and values
+
+You work in a team, driving things forward and exhibiting the following characteristics:
+
+* You collaborate to ensure that decisions are based on the merit of the proposal, not the proposer. When none of the proposals is the obvious winner, you are still decisive and commit to the team’s decision.
+* You continue to move forward in the face of ambiguity and imperfect knowledge. You do not suffer from "analysis paralysis".
+* You build good working relationships within the team and with others across the company.
+* You proactively support knowledge-sharing within the team and across your division.
+* You communicate clearly both verbally and in writing with your team and with other groups. You listen effectively. 
+* You help recruit the very best people for us through active participation in the overall recruiting process.
+* You embrace our [SDE](http://hr.amazon.com/performance/competencies/sde/) and [leadership principles](http://hr.amazon.com/performance/competencies/leadership/)
+
+#### 1.4. Personal
+
+* PROACTIVE: You display energy and initiative in solving problems. You follow all possible avenues to get the job done.
+* ADAPTABLE: You undertake a variety of tasks willingly. You switch from complex to routine tasks when required. You adapt quickly to new technologies and products. You work effectively with a variety of personalities and work styles.
+* QUALITY: You demonstrate appropriate quality and thoroughness.
+* INTEGRITY: You act with personal integrity at all times.
+* PROFESSIONAL: You work within your team’s process. You confront problems (even when outside your own domain), propose solutions, take ownership through to resolution or ensure a clear hand-off. You have a positive, can-do approach to work.
+
+
+### 2. SDE I
+
+An SDE I exhibits all of the characteristics of our Software Development Engineer. This role description summarizes what is expected of you as an SDE I and outlines the capabilities that you must demonstrate to progress to the SDE II level. 
+
+#### 2.1. What you do…
+
+You use technology to solve business problems. The solutions you build will regularly require input and guidance from team members. You work towards team goals, using software engineering best practices. You proactively and continually improve your level of knowledge about our business and relevant technologies. You use this knowledge to drive your team forward. You communicate professionally with your team and other teams in your division, knowing when to contribute and when to listen. Your work is accurate and thorough and you strive towards excellence.
+
+#### 2.2. Moving to SDE II…
+
+You will be considered for promotion to SDE II if you have consistently demonstrated the following:
+
+* Your technical knowledge has significantly increased in breadth and depth since you started as an SDE I, and you’ve also become more effective at applying it. Your new knowledge has benefited the team.
+* You have built solutions for problems of sizeable scope and complexity that have been successfully deployed to customers / users.
+* You contribute to the evolution of your team’s software engineering practices, recommending changes in development, maintenance and system standards.
+* Your work is consistently of a high quality and incorporates best practices; you require little or no guidance by team members, though you still solicit collaborative input appropriately.  Code reviews tend to be rapid and uneventful. 
+* You have a good knowledge of the work and objectives of teams across your division and of our business objectives.
+* You confidently and competently impart knowledge to users, customers, and other team members.
+* You have established good working relationships with relevant personnel across the company.
+* You adapt much more quickly to new technologies and products than when you started as an SDE I.
+* You recognize discordant views and take part in constructive dialogue to resolve them.
+* You confidently represent your team to other parts of the company.
+
+
+### 3. SDE II
+
+An SDE II exhibits all of the characteristics of our Software Development Engineer. This role description summarizes what is expected of you as an SDE II, and outlines the capabilities that you must demonstrate to progress to the SDE III level. 
+
+#### 3.1. What you dd ...
+
+You are a significant contributor to your team and to your department. You solve complex and broad business problems with simple and straightforward solutions, applying appropriate technologies and software engineering best practices. You build solutions that scale and perform. You do things properly and thoroughly the first time and you improve your systems with each iteration. Your team trusts your work. You are considered knowledgeable in certain key areas by others on your team, and they look to you for assistance in those areas. You participate fully and constructively in the planning of your team’s work. You help to evolve your team’s practices, constantly looking for improvements. You work with relevant personnel across the company on project issues, and you seek to share knowledge across our developer community. When confronted with discordant views, you foster constructive dialogue and seek resolutions in a professional way.
+
+#### 3.2. Moving to SDE III ...
+
+You will be considered for promotion to SDE III if you have consistently demonstrated the following:
+
+* Your technical knowledge is broad and deep, typically ranging from front-end UIs through to back-end systems and all points in between. You have deep hands-on expertise with many disparate technologies.
+* Your knowledge of our business and infrastructure is sought out by others in your division.
+* You have played a leading role in the implementation and deployment of a successful enterprise-level system.
+* You have good knowledge of the work done by other teams within your department and proactively help other teams.
+* You think in terms not just of code but of architecture, and you communicate your ideas effectively to others within your division.
+* You influence and drive software engineering best practices within your division.
+* You influence your team’s technical and business strategy by making insightful contributions to the team’s priorities and approach. You make a significant contribution to team planning.
+* You get a lot done. You work very efficiently and routinely deliver the right things.
+* You harmonize discordant views, find the best way forward and convince your team.
+* You demonstrate resilience and navigate difficult situations with composure and tact.
+* You actively mentor more junior members of the team, improving their skills, their knowledge of our systems, and their ability to get things done.

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/import_ics" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="20.0sp" android:gravity="top|right|center" android:id="@id/import_title" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/import_title_label" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/calendar_row" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/calendar_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="10.0dip" android:src="@34080203" />
+            <Spinner android:id="@id/calendars" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_column="1" android:layout_alignParentBottom="true">
+        <Button android:textSize="16.0sp" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/import_button" android:paddingLeft="4.0dip" android:layout_width="100.0sp" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/import_label" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <Button android:textSize="16.0sp" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/cancel_button" android:layout_width="100.0sp" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="4.0dip" android:text="@string/cancel_string" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

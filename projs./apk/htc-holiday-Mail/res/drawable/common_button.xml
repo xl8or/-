@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false" android:state_enabled="true" android:drawable="@34079127" />
+    <item android:state_window_focused="false" android:state_enabled="false" android:drawable="@34079127" />
+    <item android:state_focused="true" android:state_enabled="true" android:drawable="@34079128" />
+    <item android:state_focused="true" android:drawable="@34079128" />
+    <item android:state_pressed="true" android:drawable="@34079126" />
+    <item android:state_enabled="true" android:drawable="@34079127" />
+    <item android:drawable="@34079127" />
+</selector>

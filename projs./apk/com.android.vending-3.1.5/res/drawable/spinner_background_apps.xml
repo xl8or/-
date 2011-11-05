@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/spinner_apps_pressed_holo_dark" />
+    <item android:state_focused="true" android:state_pressed="false" android:drawable="@drawable/spinner_apps_focused_holo_dark" />
+    <item android:drawable="@drawable/spinner_apps_default_holo_dark" />
+</selector>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/add_cc_bcc_group">
+        <item android:icon="@drawable/ic_menu_cc_bcc" android:id="@id/add_cc_bcc" android:title="@string/add_cc_bcc_action" />
+    </group>
+    <group android:id="@id/remove_cc_bcc_group">
+        <item android:icon="@drawable/ic_menu_cc_bcc" android:id="@id/remove_cc_bcc" android:title="@string/remove_cc_bcc_action" />
+    </group>
+    <item android:icon="@drawable/ic_menu_save_as_draft" android:id="@id/save" android:title="@string/save_draft_action" android:alphabeticShortcut="d" />
+    <item android:icon="@drawable/ic_menu_delete" android:id="@id/discard" android:title="@string/discard_action" android:alphabeticShortcut="q" />
+    <group android:id="@id/priority_group">
+        <item android:icon="@drawable/ic_menu_priority" android:id="@id/priority" android:title="@string/priority" android:alphabeticShortcut="p" />
+    </group>
+    <group android:id="@id/smime_group">
+        <item android:icon="@drawable/ic_menu_security_options" android:id="@id/smime" android:title="@string/account_settings_smime_security_options" android:alphabeticShortcut="s" />
+    </group>
+    <group android:id="@id/receipts_group">
+        <item android:icon="@drawable/ic_menu_trackingoption" android:id="@id/receipt" android:title="@string/account_settings_smime_Tracking_options" android:alphabeticShortcut="r" />
+    </group>
+    <group android:id="@id/irm_group">
+        <item android:id="@id/irm" android:title="@string/permission" />
+    </group>
+</menu>

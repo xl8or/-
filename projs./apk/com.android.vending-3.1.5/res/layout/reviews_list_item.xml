@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/review_item_container" android:background="@drawable/highlight_overlay" android:paddingLeft="@dimen/details_left_padding" android:paddingTop="12.0dip" android:paddingRight="@dimen/details_right_padding" android:paddingBottom="8.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.finsky.layout.ReviewItemHeaderLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true">
+        <RatingBar android:id="@id/review_rating" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:numStars="5" android:stepSize="1.0" android:isIndicator="true" style="?android:attr/ratingBarStyleSmall" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/grey" android:ellipsize="end" android:id="@id/review_author" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:singleLine="true" android:lineSpacingExtra="0.0sp" style="@style/DetailsPage_ContentText" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="@color/details_review_source_text" android:id="@id/review_source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:singleLine="true" android:lineSpacingExtra="0.0sp" style="@style/DetailsPage_ContentText" />
+        </LinearLayout>
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/grey" android:id="@id/review_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="0.0sp" style="@style/DetailsPage_ContentText" />
+    </com.google.android.finsky.layout.ReviewItemHeaderLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/review_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/DetailsPage_ContentText" />
+        <ImageView android:id="@id/review_rating_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_review_normal" />
+    </LinearLayout>
+</LinearLayout>

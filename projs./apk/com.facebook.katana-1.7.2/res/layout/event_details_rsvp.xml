@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/event_rsvp_box" android:background="@drawable/grey_frame" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/box_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="14.0sp" android:textColor="@color/events_subtext_color" android:gravity="right" android:layout_gravity="top" android:id="@id/event_info_label" android:layout_width="75.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="RSVP" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/events_title_color" android:gravity="left" android:id="@id/event_rsvp_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="some text" />
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/event_rsvp_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:indeterminate="true" style="?android:attr/progressBarStyleSmall" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="5.0dip" android:src="@android:drawable/ic_menu_more" android:scaleType="fitXY" />
+    </LinearLayout>
+</LinearLayout>

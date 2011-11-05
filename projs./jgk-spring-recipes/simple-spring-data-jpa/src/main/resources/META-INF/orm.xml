@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings 
+    xmlns="http://java.sun.com/xml/ns/persistence/orm"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm/orm_2_0.xsd"
+    version="2.0">
+
+    <entity class="com.jgk.spring.data.jpa.domain.Camera">
+        <table name="CAMERA" />
+        <named-native-query name="Camera.findAllOrdered" result-class="com.jgk.spring.data.jpa.domain.Camera">
+            <query>SELECT * FROM Camera ORDER BY make</query>
+        </named-native-query>
+        <attributes>
+            <id name="id">
+                <column name="CAMERA_ID" />
+                <generated-value strategy="TABLE" />
+            </id>
+            <basic name="make" />
+            <basic name="model" />
+        </attributes>
+    </entity>
+</entity-mappings>

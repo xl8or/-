@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/deselect_refresh_group">
+        <item android:icon="@drawable/ic_menu_refresh" android:id="@id/refresh" android:title="@string/refresh_action" />
+    </group>
+    <group android:id="@id/deselect_delete_group">
+        <item android:icon="@drawable/ic_menu_delete" android:id="@id/delete" android:title="@string/delete_action" />
+        <item android:icon="@drawable/ic_menu_delete" android:id="@id/delete_all_in_mailbox" android:visible="false" android:title="@string/delete_all_action" />
+    </group>
+    <group android:id="@id/deselect_move_group">
+        <item android:icon="@drawable/ic_menu_move_to_my_folders" android:id="@id/move_to_mailbox" android:title="@string/move_to_mailbox_action" />
+    </group>
+    <group android:id="@id/deselect_search_group">
+        <item android:icon="@drawable/ic_menu_search" android:id="@id/search_mailbox" android:title="@string/search_action" />
+    </group>
+    <group android:id="@id/deselect_list_group">
+        <item android:icon="@drawable/ic_menu_list_by" android:id="@id/list_by" android:title="@string/list_by_action" />
+    </group>
+    <group android:id="@id/deselect_view_mode_group">
+        <item android:icon="@drawable/ic_menu_viewmode" android:id="@id/view_mode" android:title="@string/view_mode_action" />
+    </group>
+    <group android:id="@id/deselect_print">
+        <item android:icon="@drawable/ic_menu_print" android:id="@id/print" android:title="@string/print" />
+    </group>
+    <group android:id="@id/deselect_font_size">
+        <item android:icon="@drawable/ic_menu_font_size" android:id="@id/font_size" android:title="@string/font_size" />
+    </group>
+    <group android:id="@id/deselect_account_manager_group">
+        <item android:icon="@drawable/ic_menu_account_manager" android:id="@id/accounts_manager" android:title="@string/account_settings_action" />
+    </group>
+    <group android:id="@id/deselect_bg_color">
+        <item android:icon="@drawable/ic_menu_backgroundcolor" android:id="@id/bg_color" android:title="@string/bg_color" />
+    </group>
+    <group android:id="@id/select_folder">
+        <item android:icon="@drawable/ic_menu_folder" android:id="@id/folders" android:title="@string/folders_action" />
+    </group>
+    <group android:id="@id/deselect_preview_line">
+        <item android:icon="@drawable/ic_menu_synchronise_view" android:id="@id/preview_line" android:title="@string/preview_line_action" />
+    </group>
+    <group android:id="@id/deselect_mark_as_unread_in_view">
+        <item android:icon="@drawable/ic_menu_mark_as_unread" android:id="@id/mark_as_unread_in_view" android:title="@string/mark_as_unread_action" />
+    </group>
+</menu>

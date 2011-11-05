@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="matches_found">
+        <item quantity="other">%d samsvar</item>
+        <item quantity="zero">Ingen samsvar</item>
+        <item quantity="one">1 samsvar</item>
+        <item quantity="few">%d samsvar</item>
+    </plurals>
+</resources>

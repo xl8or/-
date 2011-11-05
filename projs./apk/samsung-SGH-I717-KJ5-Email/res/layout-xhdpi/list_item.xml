@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:id="@id/row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="128.0px" class="com.android.email.activity.MessageList$ItemView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_ic" android:paddingTop="15.0px" android:paddingRight="14.0px" android:paddingBottom="15.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0px" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="44.0px" android:textColor="@drawable/selector_text_color_from000000_tob3b3b3" android:id="@id/item_title" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/item_ic" android:layout_centerVertical="true" />
+    <RadioButton android:id="@id/radio_btn" android:paddingRight="12.0dip" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</view>

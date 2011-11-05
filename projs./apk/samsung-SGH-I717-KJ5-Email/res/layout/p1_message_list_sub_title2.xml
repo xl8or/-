@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.email.activity.MessageListSubTitleItem android:orientation="vertical" android:id="@id/listItem_seperator" android:layout_width="fill_parent" android:layout_height="38.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/seperator_layout" android:background="@drawable/email_messagelist_sub_title" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="21.0px" android:textColor="?android:textColorPrimary" android:gravity="center_vertical" android:id="@id/listItem_subtitle" android:paddingLeft="20.0px" android:paddingRight="10.0px" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="18.0px" android:textColor="?android:textColorPrimary" android:gravity="left|center" android:id="@id/listItem_subtitle2" android:layout_width="140.0px" android:layout_height="fill_parent" android:layout_marginRight="10.0px" android:singleLine="true" />
+            <ImageView android:gravity="right|center" android:id="@id/listItem_subtitle_icon" android:layout_width="20.0px" android:layout_height="fill_parent" android:layout_marginRight="16.0px" android:src="@drawable/email_tab_arrow_03" />
+        </LinearLayout>
+    </LinearLayout>
+</com.android.email.activity.MessageListSubTitleItem>

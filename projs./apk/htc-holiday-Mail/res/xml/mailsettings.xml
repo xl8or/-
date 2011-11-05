@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.htc.android.mail.MailPreferenceCategory android:title="@string/settings_label" android:key="PreferenceCategory_title">
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/account_info_title" android:key="account_info" android:summary="@string/account_setting_summary" />
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/general_settings" android:key="display_setting" android:summary="@string/display_setting_summary" />
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/receive_send_title" android:key="receive_send" android:summary="@string/receive_send_summary" />
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/misc_title" android:key="misc" android:summary="" />
+        <com.htc.preference.HtcPreference android:title="@string/deleteAccount" android:key="account_detail_delete_account" />
+    </com.htc.android.mail.MailPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

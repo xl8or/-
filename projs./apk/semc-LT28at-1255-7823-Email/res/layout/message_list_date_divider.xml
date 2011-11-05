@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/screen" android:layout_width="fill_parent" android:layout_height="?android:windowTitleSize" style="?android:attr/windowTitleBackgroundStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:gravity="left|center" android:id="@id/title_left_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" style="?android:attr/windowTitleStyle" />
+</LinearLayout>

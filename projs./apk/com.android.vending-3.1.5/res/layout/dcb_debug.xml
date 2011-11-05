@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RatingBar android:id="@id/dcb_param_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="1" android:layout_alignParentLeft="true" />
+        <TextView android:gravity="center" android:id="@id/dcb_param_status_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dcb_param_status" android:layout_toRightOf="@id/dcb_param_status" android:layout_alignTop="@id/dcb_param_status" android:layout_alignBottom="@id/dcb_param_status" />
+        <RatingBar android:id="@id/get_prov_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="1" android:layout_below="@id/dcb_param_status" android:layout_alignParentLeft="true" />
+        <TextView android:gravity="center" android:id="@id/get_prov_status_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/get_prov_status" android:layout_toRightOf="@id/get_prov_status" android:layout_below="@id/dcb_param_status_text" android:layout_alignTop="@id/get_prov_status" android:layout_alignBottom="@id/get_prov_status" />
+        <RatingBar android:id="@id/get_cred_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="1" android:layout_below="@id/get_prov_status" android:layout_alignParentLeft="true" />
+        <TextView android:gravity="center" android:id="@id/get_cred_status_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/get_cred_status" android:layout_toRightOf="@id/get_cred_status" android:layout_below="@id/get_prov_status_text" android:layout_alignTop="@id/get_cred_status" android:layout_alignBottom="@id/get_cred_status" />
+        <Button android:id="@id/view_dcb_gservices" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/view_dcb_gservices" android:layout_below="@id/get_cred_status" />
+        <TextView android:id="@id/dcb_debug_instructions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dcb_debug_instructions" android:layout_below="@id/view_dcb_gservices" />
+        <FrameLayout android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@id/view_dcb_gservices" />
+    </RelativeLayout>
+</ScrollView>

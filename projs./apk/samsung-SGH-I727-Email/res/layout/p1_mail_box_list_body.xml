@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="21.0px" android:typeface="sans" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="left|center" android:layout_gravity="center" android:id="@id/move_email_popup_account_title_txt" android:background="@drawable/light_header" android:paddingLeft="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="38.0px" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/p1_mail_box_list_body_L" android:layout_width="fill_parent" android:layout_height="96.0px">
+        <View android:id="@id/email_account_color_chip" android:visibility="invisible" android:layout_width="5.0px" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+        <ImageView android:gravity="center_vertical" android:id="@id/email_drop_folder_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:src="@drawable/email_drop_folder_icon" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/mailbox_list_title_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="33.0px" android:typeface="sans" android:textColor="@drawable/selector_text_color_from000000_tob3b3b3" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/mailbox_list_title" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0px" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+            </LinearLayout>
+            <TextView android:textSize="21.0px" android:typeface="sans" android:textColor="@drawable/selector_text_color_from3484c8_tob3b3b3" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/mailbox_list_account" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0px" android:layout_marginLeft="10.0px" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

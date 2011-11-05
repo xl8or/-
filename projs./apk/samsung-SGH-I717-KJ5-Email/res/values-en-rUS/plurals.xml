@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_view_attachments">
+        <item quantity="other">%d Attachments</item>
+        <item quantity="one">1 Attachment</item>
+    </plurals>
+</resources>

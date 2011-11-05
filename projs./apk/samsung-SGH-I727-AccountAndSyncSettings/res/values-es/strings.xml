@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Ajustes de cuentas y sincronización</string>
+    <string name="sync_settings">Cuentas y sincronización</string>
+    <string name="sync_too_many_deletes">Límite de eliminación superado</string>
+    <string name="background_data">Datos de fondo</string>
+    <string name="background_data_summary">Las aplicaciones pueden sincronizar, enviar y recibir datos en cualquier momento</string>
+    <string name="background_data_dialog_title">Atención</string>
+    <string name="background_data_dialog_message">La desactivación de los datos de fondo ahorrará batería y reducirá la utilización de datos. Puede que algunas aplicaciones aún utilicen la conexión de datos de fondo.</string>
+    <string name="sync_automatically">Sincronización automática</string>
+    <string name="sync_automatically_summary">Sincronización automática de datos de aplicaciones</string>
+    <string name="settings_backup">Ajustes copia seguridad</string>
+    <string name="settings_backup_summary">Copia de seg. ajustes</string>
+    <string name="sync_menu_sync_now">Sincronizar ahora</string>
+    <string name="sync_menu_sync_cancel">Cancel sincroni</string>
+    <string name="sync_one_time_sync">Pulse para sincronizar ahora %s</string>
+    <string name="sync_gmail">Gmail</string>
+    <string name="sync_calendar">Calendar</string>
+    <string name="sync_contacts">Contactos</string>
+    <string name="sync_too_many_deletes_desc" formatted="false">Hay %1$d elementos eliminados en %2$s, cuenta %3$s. ¿Qué desea hacer?</string>
+    <string name="sync_really_delete">Eliminar los elementos</string>
+    <string name="sync_undo_deletes">Deshacer las eliminaciones.</string>
+    <string name="sync_do_nothing">No hacer nada por ahora</string>
+    <string name="sync_is_failing">Existen problemas con la sincronización. La sincronización volverá a funcionar en breve.</string>
+    <string name="sync_plug"><font fgcolor="#ffffffff">Bienvenido a la sincronización de Google</font>"
+Propuestas de Google para la sincronización de datos con el fin de permitir el acceso a contactos, citas y mucho más desde donde esté"</string>
+    <string name="header_application_sync_settings">Ajustes de la sincronización de aplicaciones</string>
+    <string name="header_manage_accounts">Gestionar cuentas</string>
+    <string name="header_general_sync_settings">Ajustes generales de sincronización</string>
+    <string name="sync_enabled">Sincronización activada</string>
+    <string name="sync_disabled">Sincronización desactivada</string>
+    <string name="sync_error">Error de sincronización</string>
+    <string name="add_account_label">Añadir cuenta</string>
+    <string name="sync_all_label">Sincronizar todas</string>
+    <string name="sync_now_label">Sincronizar ahora</string>
+    <string name="cancel_sync_label">Cancel sincroni</string>
+    <string name="header_data_and_synchronization">Sincronización y datos</string>
+    <string name="preference_change_password_title">Cambiar contraseña</string>
+    <string name="header_account_settings">Ajustes cuenta</string>
+    <string name="remove_account_label">Elim. cuenta</string>
+    <string name="header_add_an_account">Añadir cuenta</string>
+    <string name="finish_button_label">Finalizar</string>
+    <string name="really_remove_account_title">Elim. cuenta</string>
+    <string name="really_remove_account_message">Si elimina esta cuenta, se eliminarán todos los mensajes, contactos y otros datos del teléfono. ¿Eliminar?</string>
+    <string name="remove_account_failed">Cuenta obligatoria para algunas aplicaciones. Sólo puede eliminarla restableciendolos ajustes de fábrica (que eliminan todos sus datos personales). Puede hacerlo en ajustes de privacidad</string>
+    <string name="provider_label">Suscripciones de difusión</string>
+    <string name="sync_item_title">Sincronizar %s</string>
+    <string name="cant_sync_dialog_title">No se puede sincronizar de forma manual</string>
+    <string name="cant_sync_dialog_message">La sincronización de este elemento está desactivada. Para cambiar sus preferencias, active de forma temporal los datos en segundo plano y la sincronización automática</string>
+    <string name="social_hub_accounts">Cuentas de Social Hub</string>
+    <string name="sync_account">Sincronizar cuenta</string>
+    <string name="more_accounts">Más cuentas</string>
+    <string name="account_label_for_social_hub">%s para Social Hub</string>
+</resources>

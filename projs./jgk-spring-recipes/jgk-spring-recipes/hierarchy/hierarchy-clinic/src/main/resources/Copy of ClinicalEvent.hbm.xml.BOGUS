@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping
+>
+    <class
+        name="com.gs.core.domain.events.ClinicalEvent"
+    >
+        <cache usage="read-write" />
+
+        <id
+            name="id"
+            column="id"
+            type="java.lang.Long"
+        >
+            <generator class="native">
+                <param name="sequence">clinical_event_sequence</param>
+              <!--  
+                  To add non XDoclet generator parameters, create a file named 
+                  hibernate-generator-params-ClinicalEvent.xml 
+                  containing the additional parameters and place it in your merge dir. 
+              --> 
+            </generator>
+        </id>
+
+        <discriminator
+            column="eventType"
+        />
+
+        <version
+            name="version"
+            column="version"
+            type="integer"
+        />
+
+        <many-to-one
+            name="medReason"
+            class="com.gs.core.domain.events.status.MedicationEventStatusReason"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="MED_STATUS_REASON"
+        />
+
+        <property
+            name="annotation"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="annotation"
+        />
+
+        <set
+            name="componentEvents"
+            lazy="true"
+            inverse="true"
+            cascade="all-delete-orphan"
+            sort="unsorted"
+        >
+            <cache 
+                usage="read-write" 
+            />
+
+            <key
+                column="parent_event_id"
+            >
+            </key>
+
+            <one-to-many
+                  class="com.gs.core.domain.events.ClinicalEvent"
+            />
+
+        </set>
+
+        <many-to-one
+            name="parentEvent"
+            class="com.gs.core.domain.events.ClinicalEvent"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="parent_event_id"
+        />
+
+        <many-to-one
+            name="patient"
+            class="com.gs.core.domain.parties.Patient"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+        >
+            <column
+                name="patient" 
+                index="clinical_event_patient_idx"
+            />
+        </many-to-one>
+
+        <property
+            name="siblingOrder"
+            type="java.lang.Integer"
+            update="true"
+            insert="true"
+            column="siblingOrder"
+        />
+
+        <component
+            name="eventInterval"
+            class="com.gs.core.utils.GsDateRange"
+        >
+
+        <property
+            name="end"
+            type="java.util.Date"
+            update="true"
+            insert="true"
+            column="end_timestamp"
+        />
+
+        <property
+            name="start"
+            type="java.util.Date"
+            update="true"
+            insert="true"
+            column="start_timestamp"
+        />
+
+        </component>
+
+        <property
+            name="superceded"
+            type="com.gs.core.domain.observations.results.YNBoolean"
+            update="true"
+            insert="true"
+            column="SUPERCEDED_YN"
+            length="1"
+        />
+
+        <!--
+            To add non XDoclet property mappings, create a file named
+                hibernate-properties-ClinicalEvent.xml
+            containing the additional properties and place it in your merge dir.
+        -->
+        <subclass
+            name="com.gs.core.domain.events.AllergyEvent"
+            discriminator-value="ALLERGY"
+        >
+        <property
+            name="context"
+            type="com.gs.core.domain.enumerations.ObservationContext"
+            update="true"
+            insert="true"
+            column="context"
+            length="10"
+        />
+
+        <property
+            name="displayValue"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="allergy_display_value"
+        />
+
+        <list
+            name="resultValues"
+            table="result_value"
+            lazy="false"
+            cascade="all-delete-orphan"
+        >
+            <cache 
+                usage="read-write" 
+            />
+
+            <key
+                column="observation_id"
+            >
+            </key>
+
+            <index
+                column="display_order"
+            />
+
+            <one-to-many
+                  class="com.gs.core.domain.observations.results.Value"
+            />
+
+        </list>
+
+	    <!--
+            	To add non XDoclet property mappings, create a file named
+                hibernate-properties-AllergyEvent.xml
+		containing the additional properties and place it in your merge dir.
+	    -->
+        <subclass
+            name="com.gs.core.domain.events.MedAllergyEvent"
+            discriminator-value="MED_ALLERGY"
+        >
+
+        <set
+            name="medAllergyInfo"
+            lazy="true"
+            inverse="true"
+            cascade="all-delete-orphan"
+            sort="unsorted"
+        >
+            <cache 
+                usage="read-write" 
+            />
+
+            <key
+                column="clinical_event_id"
+            >
+            </key>
+
+            <one-to-many
+                  class="com.gs.core.domain.events.MedAllergyInfo"
+            />
+
+        </set>
+        
+        <component
+            name="medicationInfo"
+            class="com.gs.core.domain.events.MedicationInfo"
+        >
+
+        <property
+            name="gcnSeqNo"
+            type="java.lang.Long"
+            update="true"
+            insert="true"
+            column="gcn_seqno"
+        />
+
+        <property
+            name="medNameId"
+            type="java.lang.Long"
+            update="true"
+            insert="true"
+            column="med_name_id"
+        />
+
+        <property
+            name="routedMedId"
+            type="java.lang.Long"
+            update="true"
+            insert="true"
+            column="routed_medid"
+        />
+
+        <property
+            name="routedDosageFormMedId"
+            type="java.lang.Long"
+            update="true"
+            insert="true"
+            column="ROUTED_DOSAGE_FORM_MEDID"
+        />
+
+        <property
+            name="medId"
+            type="java.lang.Long"
+            update="true"
+            insert="true"
+            column="medid"
+        />
+
+        </component>        
+        
+        <property
+            name="medContext"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="med_context"
+        />
+
+        <property
+            name="medSubContext"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="MED_SUB_CONTEXT"
+        />
+	    <!--
+            	To add non XDoclet property mappings, create a file named
+                hibernate-properties-MedAllergyEvent.xml
+		containing the additional properties and place it in your merge dir.
+	    -->
+
+        </subclass>
+        <subclass
+            name="com.gs.core.domain.events.NonMedAllergyEvent"
+            discriminator-value="NON_MED_ALLERGY"
+        >
+
+	    <!--
+            	To add non XDoclet property mappings, create a file named
+                hibernate-properties-NonMedAllergyEvent.xml
+		containing the additional properties and place it in your merge dir.
+	    -->
+
+        </subclass>
+
+        </subclass>
+        <subclass
+            name="com.gs.core.domain.events.ClinicalAction"
+            discriminator-value="CACT"
+        >
+
+        <many-to-one
+            name="practitioner"
+            class="com.gs.core.domain.parties.Practitioner"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="practitioner"
+        />
+
+        <many-to-one
+            name="providedByOrganization"
+            class="com.gs.core.domain.parties.OrganizationRole"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="providedByOrganization"
+        />
+
+	    <!--
+            	To add non XDoclet property mappings, create a file named
+                hibernate-properties-ClinicalAction.xml
+		containing the additional properties and place it in your merge dir.
+	    -->
+        <subclass
+            name="com.gs.core.domain.visit.ClinicalObservationGroup"
+            discriminator-value="COG"
+        >
+
+        <property
+            name="description"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="description"
+        />
+
+        <list
+            name="modifiers"
+            lazy="false"
+            cascade="all-delete-orphan"
+        >
+
+            <key
+                column="modified_group_id"
+            >
+            </key>
+
+            <index
+                column="displayOrder"
+            />
+
+            <one-to-many
+                  class="com.gs.core.domain.observations.ClinicalObservation"
+            />
+
+        </list>
+
+	    <!--
+            	To add non XDoclet property mappings, create a file named
+                hibernate-properties-ClinicalObservationGroup.xml
+		containing the additional properties and place it in your merge dir.
+	    -->
+        <subclass
+            name="com.gs.core.domain.visit.ClinicalComplaintGroup"
+            discriminator-value="CCG"
+        >
+
+	    <!--
+            	To add non XDoclet property mappings, create a file named
+                hibernate-properties-ClinicalComplaintGroup.xml
+		containing the additional properties and place it in your merge dir.
+	    -->
+
+        </subclass>
+
+        </subclass>
+        <subclass
+            name="com.gs.core.domain.observations.ClinicalObservation"
+            discriminator-value="COBS"
+        >
+
+        <property
+            name="printConcept"
+            type="com.gs.core.domain.observations.results.YNBoolean"
+            update="true"
+            insert="true"
+            column="print_concept_yn"
+            length="1"
+        />
+
+        <property
+            name="coordsAsDelimitedString"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="coordsAsDelimitedString"
+        />
+
+        <many-to-one
+            name="documentedBy"
+            class="com.gs.core.domain.parties.Party"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="documentedBy"
+        />
+
+        <property
+            name="documentedTime"
+            type="java.util.Date"
+            update="true"
+            insert="true"
+            column="recorded_time"
+        />
+
+        <list
+            name="modifiers"
+            lazy="false"
+            cascade="all-delete-orphan"
+        >
+            <cache 
+                usage="read-write" 
+            />
+
+            <key
+                column="modified_observation_id"
+            >
+            </key>
+
+            <index
+                column="displayOrder"
+            />
+
+            <one-to-many
+                  class="com.gs.core.domain.observations.ClinicalObservation"
+            />
+
+        </list>
+
+        <property
+            name="normality"
+            type="com.gs.core.domain.enumerations.NormalityCode"
+            update="true"
+            insert="true"
+            column="normality"
+        />
+
+        <many-to-one
+            name="observedConcept"
+            class="com.gs.core.domain.observations.PractitionerClinicalConcept"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="observedConcept"
+            not-null="false"
+        />
+
+        <list
+            name="resultValues"
+            table="result_value"
+            lazy="false"
+            cascade="all-delete-orphan"
+        >
+            <cache 
+                usage="read-write" 
+            />
+
+            <key
+                column="observation_id"
+            >
+            </key>
+
+            <index
+                column="display_order"
+            />
+
+            <one-to-many
+                  class="com.gs.core.domain.observations.results.Value"
+            />
+
+        </list>
+
+        <property
+            name="answeredYN"
+            type="com.gs.core.domain.observations.results.YNBoolean"
+            update="true"
+            insert="true"
+            column="patient_answer_yn "
+            length="1"
+        />
+
+        <property
+            name="hidden"
+            type="com.gs.core.domain.observations.results.YNBoolean"
+            update="true"
+            insert="true"
+            column="HIDDEN_YN"
+            length="1"
+        />
+
+        <property
+            name="placeholderOnly"
+            type="com.gs.core.domain.observations.results.YNBoolean"
+            update="true"
+            insert="true"
+            column="placeholder_only_yn"
+            length="1"
+        />
+
+        <property
+            name="printObservation"
+            type="com.gs.core.domain.observations.results.YNBoolean"
+            update="true"
+            insert="true"
+            column="print_observation_yn "
+            length="1"
+        />
+
+	    <!--
+            	To add non XDoclet property mappings, create a file named
+                hibernate-properties-ClinicalObservation.xml
+		containing the additional properties and place it in your merge dir.
+	    -->
+        <subclass
+            name="com.gs.core.domain.observations.diagnoses.ClinicalDiagnosis"
+            discriminator-value="CDIAG"
+        >
+
+        <property
+            name="diagnosisType"
+            type="com.gs.core.domain.enumerations.DiagnosisType"
+            update="true"
+            insert="true"
+            column="diagnosisType"
+        />
+
+        <many-to-one
+            name="observedDisease"
+            class="com.gs.core.domain.observations.Disease"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="observedDisease"
+            not-null="false"
+        />
+
+	    <!--
+            	To add non XDoclet property mappings, create a file named
+                hibernate-properties-ClinicalDiagnosis.xml
+		containing the additional properties and place it in your merge dir.
+	    -->
+
+        </subclass>
+
+        </subclass>
+        <subclass
+            name="com.gs.core.domain.visit.Visit"
+            discriminator-value="VIST"
+        >
+
+        <set
+            name="billableItems"
+            lazy="true"
+            inverse="true"
+            cascade="all-delete-orphan"
+            sort="unsorted"
+        >
+
+            <key
+                column="VISIT_ID"
+            >
+            </key>
+
+            <one-to-many
+                  class="com.gs.core.domain.observations.results.BillableItem"
+            />
+
+        </set>
+
+        <property
+            name="bulletsScored"
+            type="java.lang.Long"
+            update="true"
+            insert="true"
+            column="bulletsScored"
+        />
+
+        <property
+            name="category"
+            type="com.gs.core.domain.enumerations.ServiceCategory"
+            update="true"
+            insert="true"
+            column="category"
+        />
+
+        <property
+            name="counselTime"
+            type="java.lang.Integer"
+            update="true"
+            insert="true"
+            column="counselTime"
+        />
+
+        <many-to-one
+            name="cpt"
+            class="com.gs.domain.Cpt"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="CPT"
+        />
+
+        <property
+            name="dataReview"
+            type="com.gs.core.domain.enumerations.DataReview"
+            update="true"
+            insert="true"
+            column="dataReview"
+        />
+
+        <property
+            name="decisionMaking"
+            type="com.gs.core.domain.enumerations.DecisionMakingLevel"
+            update="true"
+            insert="true"
+            column="decisionMaking"
+        />
+
+        <property
+            name="decisionType"
+            type="com.gs.core.domain.enumerations.DecisionMakingLevel"
+            update="true"
+            insert="true"
+            column="decisionType"
+        />
+
+        <property
+            name="examLevel"
+            type="com.gs.core.domain.enumerations.ExaminationLevel"
+            update="true"
+            insert="true"
+            column="examLevel"
+        />
+
+        <many-to-one
+            name="examType"
+            class="com.gs.core.domain.visit.ExamType"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="exam_type_id"
+        />
+
+        <property
+            name="firstVisit"
+            type="java.lang.Boolean"
+            update="true"
+            insert="true"
+            column="firstVisit"
+        />
+
+        <set
+            name="followUpVisits"
+            lazy="true"
+            inverse="true"
+            cascade="all"
+            sort="unsorted"
+        >
+
+            <key
+                column="previous_visit_id"
+            >
+            </key>
+
+            <one-to-many
+                  class="com.gs.core.domain.visit.Visit"
+            />
+
+        </set>
+
+        <property
+            name="historyLevel"
+            type="com.gs.core.domain.enumerations.HistoryLevel"
+            update="true"
+            insert="true"
+            column="historyLevel"
+        />
+
+        <property
+            name="hpiLevel"
+            type="com.gs.core.domain.enumerations.HPILevel"
+            update="true"
+            insert="true"
+            column="hpiLevel"
+        />
+
+        <property
+            name="managementOptions"
+            type="com.gs.core.domain.enumerations.ManagementOptions"
+            update="true"
+            insert="true"
+            column="managementOptions"
+        />
+
+        <property
+            name="organSystemsScored"
+            type="java.lang.Long"
+            update="true"
+            insert="true"
+            column="organSystemsScored"
+        />
+
+        <property
+            name="patientVisitType"
+            type="com.gs.core.domain.enumerations.PatientVisitType"
+            update="true"
+            insert="true"
+            column="patientVisitType"
+        />
+
+        <property
+            name="pfshLevel"
+            type="com.gs.core.domain.enumerations.PFSHLevel"
+            update="true"
+            insert="true"
+            column="pfshLevel"
+        />
+
+        <many-to-one
+            name="previousVisit"
+            class="com.gs.core.domain.visit.Visit"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="previous_visit_id"
+        />
+
+        <property
+            name="referalMade"
+            type="java.lang.Boolean"
+            update="true"
+            insert="true"
+            column="referalMade"
+        />
+
+        <property
+            name="risk"
+            type="com.gs.core.domain.enumerations.Risk"
+            update="true"
+            insert="true"
+            column="risk"
+        />
+
+        <property
+            name="rosLevel"
+            type="com.gs.core.domain.enumerations.ROSLevel"
+            update="true"
+            insert="true"
+            column="rosLevel"
+        />
+
+        <property
+            name="scheduledStartTime"
+            type="java.util.Date"
+            update="true"
+            insert="true"
+            column="scheduled_start_timestamp"
+        />
+
+        <property
+            name="status"
+            type="com.gs.core.domain.enumerations.VisitStatus"
+            update="true"
+            insert="true"
+            column="status"
+        />
+
+        <set
+            name="treatmentPlans"
+            lazy="true"
+            inverse="true"
+            cascade="all-delete-orphan"
+            sort="unsorted"
+        >
+
+            <key
+                column="visit_Id"
+            >
+            </key>
+
+            <one-to-many
+                  class="com.gs.core.domain.treatments.TreatmentPlan"
+            />
+
+        </set>
+
+        <set
+            name="triggerConceptCollectionList"
+            lazy="true"
+            inverse="true"
+            cascade="all-delete-orphan"
+            sort="unsorted"
+        >
+
+            <key
+                column="VISIT_ID"
+            >
+            </key>
+
+            <one-to-many
+                  class="com.gs.core.domain.observations.results.TriggerConceptCollection"
+            />
+
+        </set>
+
+        <property
+            name="visitLengthMinutes"
+            type="java.lang.Integer"
+            update="true"
+            insert="true"
+            column="visitLengthMinutes"
+        />
+
+        <many-to-one
+            name="overRideCpt"
+            class="com.gs.domain.Cpt"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="OVERRIDE_CPT_ID"
+        />
+
+        <many-to-one
+            name="clinicPatient"
+            class="com.gs.core.domain.parties.ClinicPatient"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="CLINIC_PATIENT_ID"
+        />
+
+	    <!--
+            	To add non XDoclet property mappings, create a file named
+                hibernate-properties-Visit.xml
+		containing the additional properties and place it in your merge dir.
+	    -->
+
+        </subclass>
+        <subclass
+            name="com.gs.core.domain.events.ClinicalOrder"
+            discriminator-value="ORDX"
+        >
+
+	    <!--
+            	To add non XDoclet property mappings, create a file named
+                hibernate-properties-ClinicalOrder.xml
+		containing the additional properties and place it in your merge dir.
+	    -->
+
+        </subclass>
+
+        </subclass>
+        <subclass
+            name="com.gs.core.domain.events.MedicationEvent"
+            discriminator-value="MED"
+        >
+
+        <list
+            name="resultValues"
+            table="result_value"
+            lazy="false"
+            cascade="all-delete-orphan"
+        >
+            <cache 
+                usage="read-write" 
+            />
+
+            <key
+                column="observation_id"
+            >
+            </key>
+
+            <index
+                column="display_order"
+            />
+
+            <one-to-many
+                  class="com.gs.core.domain.observations.results.Value"
+            />
+
+        </list>
+
+        <many-to-one
+            name="medicationOrderAction"
+            class="com.gs.core.domain.treatments.MedicationOrderAction"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="RX_ORDER_ID"
+            not-null="false"
+        />
+
+        <many-to-one
+            name="status"
+            class="com.gs.core.domain.events.status.MedicationEventStatus"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="MED_STATUS"
+        />
+
+        <many-to-one
+            name="therapeuticEffect"
+            class="com.gs.core.domain.events.status.MedicationEventTherapeuticEffect"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="MED_THERAPEUTIC_EFFECT"
+        />
+
+        <property
+            name="medContext"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="med_context"
+        />
+
+        <property
+            name="medSubContext"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="MED_SUB_CONTEXT"
+        />
+
+        <property
+            name="documentedTime"
+            type="java.util.Date"
+            update="true"
+            insert="true"
+            column="recorded_time"
+        />
+
+        <component
+            name="medicationInfo"
+            class="com.gs.core.domain.events.MedicationInfo"
+        >
+
+        <property
+            name="gcnSeqNo"
+            type="java.lang.Long"
+            update="true"
+            insert="true"
+            column="gcn_seqno"
+        />
+
+        <property
+            name="medNameId"
+            type="java.lang.Long"
+            update="true"
+            insert="true"
+            column="med_name_id"
+        />
+
+        <property
+            name="routedMedId"
+            type="java.lang.Long"
+            update="true"
+            insert="true"
+            column="routed_medid"
+        />
+
+        <property
+            name="routedDosageFormMedId"
+            type="java.lang.Long"
+            update="true"
+            insert="true"
+            column="ROUTED_DOSAGE_FORM_MEDID"
+        />
+
+        <property
+            name="medId"
+            type="java.lang.Long"
+            update="true"
+            insert="true"
+            column="medid"
+        />
+
+        </component>
+
+        <set
+            name="fdbDiseases"
+            table="MED_EVENT_FDB_DISEASE"
+            lazy="true"
+            inverse="true"
+            cascade="all-delete-orphan"
+            sort="unsorted"
+            order-by="DISPLAY_VALUE"
+        >
+
+            <key
+                column="MEDICATION_EVENT_ID"
+            >
+            </key>
+
+            <one-to-many
+                  class="com.gs.core.domain.events.MedEventFdbDisease"
+            />
+
+        </set>
+
+	    <!--
+            	To add non XDoclet property mappings, create a file named
+                hibernate-properties-MedicationEvent.xml
+		containing the additional properties and place it in your merge dir.
+	    -->
+
+        </subclass>
+
+    </class>
+
+</hibernate-mapping>

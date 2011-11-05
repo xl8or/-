@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center" android:id="@id/content" android:paddingLeft="24.0dip" android:paddingTop="32.0dip" android:paddingRight="24.0dip" android:paddingBottom="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textAppearance="?android:textAppearanceMedium" android:id="@id/accept_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/accept" android:layout_weight="1.0" />
+            <Button android:textAppearance="?android:textAppearanceMedium" android:id="@id/decline_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/decline" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

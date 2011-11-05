@@ -1,0 +1,19 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+				              "							
+              >
+ 
+ <bean id="CustomerBean" class="com.jgk.springrecipes.autowiring.Customer" autowire="byName">
+	<property name="action" value="buy" />
+	<property name="type" value="22" />
+  </bean>
+ 
+  <bean id="PersonBean" class="com.jgk.springrecipes.autowiring.Person">
+	<property name="name" value="jedi knigtht" />
+	<property name="address" value="some planet" />
+	<property name="age" value="1432" />
+  </bean>
+ 
+</beans>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_general_section_header">
+        <CheckBoxPreference android:title="@string/notifications" android:key="update-notifications" android:summary="@string/notification_description" />
+        <Preference android:title="@string/clear_history_title" android:key="clear-history" android:summary="@string/clear_history_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_user_controls_section_header">
+        <Preference android:title="@string/unlock_settings_label" android:key="unlock-settings" />
+        <Preference android:title="@string/content_filtering_label" android:key="content-level" android:summary="@string/content_filtering_description" />
+        <CheckBoxPreference android:title="@string/purchase_lock_label" android:key="purchase-lock" android:summary="@string/purchase_lock_description" />
+        <Preference android:title="@string/change_passcode_label" android:key="change-passcode" android:summary="@string/change_passcode_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_other_section_header">
+        <CheckBoxPreference android:title="@string/settings_ad_prefs_title" android:key="admob-ad" android:summary="@string/settings_ad_prefs_user_selection" />
+        <com.google.android.finsky.utils.LinkPreference android:key="admob-ad-desc" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_build_version">
+        <Preference android:title="@string/settings_build_version" android:key="build-version" />
+    </PreferenceCategory>
+</PreferenceScreen>

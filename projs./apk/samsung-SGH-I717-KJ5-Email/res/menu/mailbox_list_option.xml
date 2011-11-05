@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/btn_toggle_on_disabled_focused_holo_light" android:id="@id/refresh" android:title="@string/refresh_action" android:alphabeticShortcut="r" />
+    <item android:icon="@android:drawable/ic_menu_add" android:id="@id/folder_create" android:visible="false" android:title="@string/create_action" android:alphabeticShortcut="c" />
+</menu>

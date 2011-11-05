@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_notification_ticker_fmt">Account %s requires security update</string>
+</resources>

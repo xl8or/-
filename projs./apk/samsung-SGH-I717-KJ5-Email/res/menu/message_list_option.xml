@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/btn_toggle_on_disabled_focused_holo_light" android:id="@id/refresh" android:title="@string/refresh_action" android:alphabeticShortcut="r" />
+    <item android:icon="@android:drawable/btn_toggle_off_disabled_focused_holo_light" android:id="@id/compose" android:title="@string/compose_action" android:alphabeticShortcut="c" />
+    <group android:id="@id/deselect_all_group">
+        <item android:icon="@drawable/ic_menu_email_deselect_mail" android:id="@id/deselect_all" android:title="@string/deselect_all_action" />
+    </group>
+    <group android:id="@id/delete_all_group">
+        <item android:icon="@drawable/ic_list_trash" android:id="@id/delete_all" android:title="@string/delete_all_action" />
+    </group>
+    <item android:icon="@android:drawable/btn_star_on_normal_holo_dark" android:id="@id/accounts" android:title="@string/accounts_action" />
+    <item android:icon="@android:drawable/ic_menu_preferences" android:id="@id/account_settings" android:title="@string/account_settings_action" />
+    <item android:icon="@android:drawable/ic_menu_sort_alphabetically" android:id="@id/sort" android:title="@string/sort" />
+    <item android:icon="@android:drawable/ic_menu_search" android:id="@id/search" android:title="@string/search_action" />
+    <group android:id="@id/email_search_group">
+        <item android:icon="@android:drawable/ic_search_category_default" android:id="@id/email_search" android:title="@string/search_action" />
+    </group>
+    <item android:icon="@drawable/ic_menu_folder" android:id="@id/folders" android:title="@string/folders_action" />
+</menu>

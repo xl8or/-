@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/fat_title_bar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@color/header_background_color" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/fat_title_bar_image" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="5.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@drawable/blue_text_color" android:ellipsize="end" android:id="@id/fat_title_bar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="14.0sp" android:textColor="@drawable/post_date_color" android:id="@id/fat_title_bar_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageButton android:layout_gravity="right" android:id="@id/fat_title_bar_button" android:background="@drawable/blue_button_background" android:padding="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="41.0dip" android:layout_marginLeft="4.0dip" />
+    </LinearLayout>
+</LinearLayout>

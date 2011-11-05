@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="3" android:versionName="3.0.0" package="com.android.email"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <original-package android:name="com.android.email" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.sonyericsson.r2r.client.permission.DOWNLOAD_SETTINGS" />
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+    <permission android:label="@string/read_attachment_label" android:name="com.android.email.permission.READ_ATTACHMENT" android:protectionLevel="dangerous" android:permissionGroup="android.permission-group.MESSAGES" android:description="@string/read_attachment_desc" />
+    <uses-permission android:name="com.android.email.permission.READ_ATTACHMENT" />
+    <permission android:label="@string/permission_access_provider_label" android:name="com.android.email.permission.ACCESS_PROVIDER" android:protectionLevel="signatureOrSystem" android:description="@string/permission_access_provider_desc" />
+    <uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER" />
+    <supports-screens android:anyDensity="true" android:smallScreens="false" android:normalScreens="true" android:largeScreens="true" />
+    <application android:theme="@style/EmailBiDiTheme" android:label="@string/app_name" android:icon="@drawable/icon" android:name="Email">
+        <uses-library android:name="com.sonyericsson.smartslider" />
+        <activity android:theme="@style/EmailBiDiTheme.Translucent.NoTitleBar" android:name=".activity.Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="com.sonyericsson.category.SETUP_WIZARD_SETTING" />
+            </intent-filter>
+            <meta-data android:name="com.sonyericsson.preference.title" android:resource="@string/email_strings_setupwizard_title" />
+            <meta-data android:name="com.sonyericsson.preference.summary" android:resource="@string/email_strings_setupwizard_summary" />
+            <meta-data android:name="com.sonyericsson.preference.icon" android:resource="@drawable/email_application_setupwizard_icn" />
+        </activity>
+        <activity android:theme="@style/EmailBiDiTheme.NoTitleBar" android:label="@string/upgrade_accounts_title" android:name=".activity.UpgradeAccounts" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/EmailTheme.NoTitleBar" android:name=".activity.SplitScreenActivity" android:exported="true" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation" />
+        <activity android:label="@string/account_setup_basics_title" android:name=".activity.setup.AccountSetupBasics" android:exported="true" android:taskAffinity="" />
+        <activity android:label="@string/account_setup_account_type_title" android:name=".activity.setup.AccountSetupAccountType" />
+        <activity android:label="@string/account_setup_incoming_title" android:name=".activity.setup.AccountSetupIncoming" android:configChanges="orientation" />
+        <activity android:label="@string/account_setup_outgoing_title" android:name=".activity.setup.AccountSetupOutgoing" android:configChanges="orientation" />
+        <activity android:label="@string/account_setup_exchange_title" android:name=".activity.setup.AccountSetupExchange" android:configChanges="keyboardHidden|orientation" />
+        <activity android:label="@string/account_setup_options_title" android:name=".activity.setup.AccountSetupOptions" />
+        <activity android:label="@string/account_setup_names_title" android:name=".activity.setup.AccountSetupNames" />
+        <activity android:label="@string/account_setup_check_settings_title" android:name=".activity.setup.AccountSetupCheckSettings" android:configChanges="keyboardHidden|orientation" />
+        <activity android:label="@string/account_settings_action" android:name=".activity.setup.AccountSettings" android:taskAffinity="" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.android.email.activity.setup.ACCOUNT_MANAGER_ENTRY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.setup.AccountSecurity" android.label="@string/account_security_title" />
+        <activity android:label="@string/debug_title" android:name=".activity.Debug" />
+        <activity android:theme="@style/EmailBiDiTheme.NoTitleBar" android:name=".activity.AccountFolderList" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation" />
+        <activity android:label="@string/app_name" android:name=".activity.AccountShortcutPicker" android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/EmailBiDiTheme.NoTitleBar" android:name=".activity.MailboxList" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/EmailBiDiTheme.NoTitleBar" android:name=".activity.MessageList" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.FolderMessageList" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/EmailBiDiTheme.NoTitleBar" android:name=".activity.MessageView" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/EmailBiDiTheme.NoTitleBar" android:label="@string/app_name" android:name=".activity.MessageCompose" android:enabled="false" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.SENDTO" />
+                <data android:scheme="mailto" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.SEND" />
+                <data android:mimeType="*/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+                <data android:mimeType="*/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/EmailBiDiTheme.Translucent.NoTitleBar" android:name="com.sonyericsson.email.ui.AddAttachment" />
+        <activity android:name="com.sonyericsson.email.ui.BrandedAccountsList" />
+        <receiver android:name="com.android.exchange.EmailSyncAlarmReceiver" />
+        <receiver android:name="com.android.exchange.MailboxAlarmReceiver" />
+        <receiver android:name=".service.EmailBroadcastReceiver" android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".service.EmailBroadcastProcessorService" />
+        <receiver android:name="com.sonyericsson.email.receiver.MasterResetReceiver" android:permission="android.permission.MASTER_CLEAR">
+            <intent-filter>
+                <action android:name="com.sonyericsson.settings.MASTERRESET" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/device_admin_label" android:name=".SecurityPolicy$PolicyAdmin" android:permission="android.permission.BIND_DEVICE_ADMIN" android:description="@string/device_admin_description">
+            <meta-data android:name="android.app.device_admin" android:resource="@xml/device_admin" />
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".service.MailService" android:enabled="false" />
+        <service android:name="com.android.exchange.ContactsSyncAdapterService" android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter_contacts" />
+        </service>
+        <service android:name="com.android.exchange.CalendarSyncAdapterService" android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter_calendar" />
+        </service>
+        <service android:name="com.android.exchange.SyncManager" android:enabled="true" />
+        <service android:name=".service.EasAuthenticatorService" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator" />
+        </service>
+        <service android:name=".service.EasAuthenticatorServiceAlternate" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator_alternate" />
+        </service>
+        <provider android:name=".provider.AttachmentProvider" android:readPermission="com.android.email.permission.READ_ATTACHMENT" android:multiprocess="true" android:authorities="com.android.email.attachmentprovider" android:grantUriPermissions="true" />
+        <provider android:name=".provider.EmailProvider" android:permission="com.android.email.permission.ACCESS_PROVIDER" android:exported="true" android:multiprocess="true" android:authorities="com.android.email.provider" />
+        <provider android:name="com.android.exchange.provider.ExchangeProvider" android:permission="com.android.email.permission.ACCESS_PROVIDER" android:multiprocess="true" android:authorities="com.android.exchange.provider" />
+        <receiver android:name=".service.MailPushReceiver" android:enabled="false">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED" />
+                <data android:mimeType="application/vnd.wap.emn+wbxml" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.exchange.SecretCodeReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE" />
+                <data android:scheme="android_secret_code" android:host="2010" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE" />
+                <data android:scheme="android_secret_code" android:host="0102" />
+            </intent-filter>
+        </receiver>
+    </application>
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="9" />
+</manifest>

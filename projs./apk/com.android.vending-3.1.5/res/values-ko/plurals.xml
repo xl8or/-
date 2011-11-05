@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="search_results_estimated_in_bucket">
+        <item quantity="other">검색결과 %1$d개</item>
+        <item quantity="one">검색결과 %1$d개</item>
+    </plurals>
+    <plurals name="notification_updates_available_message">
+        <item quantity="other">%1$d개의 업데이트가 있습니다.</item>
+        <item quantity="one">%1$d개의 업데이트가 있습니다.</item>
+    </plurals>
+    <plurals name="plus_one_multiple_global">
+        <item quantity="other">%1$s명이 +1했습니다.</item>
+        <item quantity="one">%1$s명이 +1했습니다.</item>
+    </plurals>
+    <plurals name="plus_one_multiple_friends">
+        <item quantity="other">%1$1$s님 외 %2$2$s명이 +1했습니다.</item>
+        <item quantity="one">%1$1$s님 외 %2$2$s명이 +1했습니다.</item>
+    </plurals>
+</resources>

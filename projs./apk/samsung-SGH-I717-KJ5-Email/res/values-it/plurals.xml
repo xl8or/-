@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_new_one_account_fmt">
+        <item quantity="other">%1$d nuove e-mail ( %2$s )</item>
+        <item quantity="one">1 nuova e-mail ( %s )</item>
+        <item quantity="few">%1$d nuove e-mail ( %2$s )</item>
+    </plurals>
+    <plurals name="notification_new_multi_account_fmt">
+        <item quantity="other">in %d account</item>
+        <item quantity="few">in %d account</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s risultato per \"%2$s\"</item>
+        <item quantity="one">%1$s risultato per \"%2$s\"</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d risultato da %2$s</item>
+        <item quantity="one">%1$d risultato da %2$s</item>
+    </plurals>
+    <plurals name="attachment_summary_bar_items">
+        <item quantity="other">%d elementi</item>
+        <item quantity="one">Elemento</item>
+    </plurals>
+    <plurals name="message_view_attachments">
+        <item quantity="other">%d allegati</item>
+        <item quantity="one">1 Allegato</item>
+    </plurals>
+</resources>

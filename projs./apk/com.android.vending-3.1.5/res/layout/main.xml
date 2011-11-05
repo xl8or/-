@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/action_bar" />
+    <FrameLayout android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include android:id="@id/placeholder_loading" layout="@layout/page_loading_indicator" />
+        <include android:id="@id/placeholder_error" android:visibility="gone" layout="@layout/page_error_indicator" />
+    </FrameLayout>
+</LinearLayout>

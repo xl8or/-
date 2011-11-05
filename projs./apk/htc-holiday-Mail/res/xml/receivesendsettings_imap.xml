@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/receive_send_title" android:key="PreferenceCategory_title">
+        <ListPreference android:entries="@array/account_detail_mailsize_labels" android:title="@string/account_detail_mailsize" android:key="account_detail_mailsize_value" android:defaultValue="account_detail_mailsize_default" android:dialogTitle="@string/account_detail_mailsize" android:entryValues="@array/account_detail_mailsize_values" />
+        <ListPreference android:entries="@array/account_detail_poll_frequency_labels" android:title="@string/sync_scheduling" android:key="account_detail_poll_frequency_value" android:defaultValue="@string/account_detail_poll_frequency_default" android:dialogTitle="@string/sync_scheduling" android:entryValues="@array/account_detail_poll_frequency_values" />
+        <ListPreference android:entries="@array/account_detail_fetch_mail_labels" android:title="@string/account_detail_fetch_mail_label_text" android:key="account_detail_fetch_mail_value" android:defaultValue="@string/account_detail_fetch_mail_default" android:dialogTitle="@string/account_detail_fetch_mail_label_text" android:entryValues="@array/account_detail_fetch_mail_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

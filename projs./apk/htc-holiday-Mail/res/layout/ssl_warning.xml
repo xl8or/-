@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shrinkColumns="1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/ssl_text_label" android:gravity="left" android:id="@id/warning" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" />
+</TableLayout>

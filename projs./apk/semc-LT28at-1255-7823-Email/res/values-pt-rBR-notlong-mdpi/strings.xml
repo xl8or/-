@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="save_draft_action">Salv. rasc.</string>
+    <string name="account_folder_list_summary_inbox">Cx. de entrada mesclada</string>
+    <string name="message_view_show_pictures_instructions">Selecion. \"Mostrar imagens\" p/ exibir imagens anex.</string>
+    <string name="message_view_show_pictures_action">Most. imagens</string>
+    <string name="message_view_invite_view">Ver Agenda »</string>
+    <string name="message_view_invite_title">Convite calend.</string>
+    <string name="account_setup_incoming_title">Conf. de entrada do serv.</string>
+    <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL (Ac. todos certif.)</string>
+    <string name="account_setup_incoming_security_tls_trust_certificates_label">TLS (Ac. todos certif.)</string>
+    <string name="account_setup_incoming_delete_policy_label">Excl. e-mail do servid.</string>
+    <string name="account_setup_incoming_delete_policy_delete_label">Qdo apag. da Cx entr.</string>
+    <string name="security_notification_ticker_fmt">A conta %s requer atual. config. seg.</string>
+    <string name="security_notification_content_title">Atualizar configuraç. de segurança</string>
+    <string name="account_settings_mail_check_frequency_label">Freq. verif. de cx. de ent.</string>
+    <string name="email_strings_ask_before_delete_txt">Perg antes de apag</string>
+</resources>

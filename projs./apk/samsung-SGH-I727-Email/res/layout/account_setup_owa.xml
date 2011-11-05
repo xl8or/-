@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="20.0sp" android:textColor="?android:textColorPrimary" android:id="@id/text_email_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/accounts_welcome" />
+                <EditText android:id="@id/account_server" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/server_url" android:maxLength="320" android:inputType="text" android:imeOptions="actionNext" />
+                <EditText android:id="@id/account_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_setup_incoming_username_label" android:maxLength="320" android:inputType="text" android:imeOptions="actionNext" />
+                <EditText android:id="@id/account_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_setup_basics_password_hint" android:maxLength="320" android:inputType="textPassword" android:imeOptions="actionNext" />
+                <CheckBox android:id="@id/account_default" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_basics_default_label" />
+                <TextView android:textSize="20.0sp" android:textColor="?android:textColorPrimary" android:id="@id/title_optional_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_names_account_name_label" android:maxLength="320" />
+                <EditText android:id="@id/optional_name" android:nextFocusDown="@id/next" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="320" android:inputType="textEmailAddress" android:imeOptions="actionDone" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/email_softkeyview_bg" android:paddingLeft="3.3299866dip" android:paddingTop="6.659973dip" android:paddingRight="3.3299866dip" android:paddingBottom="2.6599731dip" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <Button android:id="@id/tw_next" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/next_action" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

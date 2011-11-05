@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator android:label="@string/yahoo_title" android:icon="@drawable/account_and_sync_yahoo" android:accountType="com.seven.Z7.yahoo" android:smallIcon="@drawable/account_and_sync_yahoo" android:accountPreferences="@xml/sync_preferences"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

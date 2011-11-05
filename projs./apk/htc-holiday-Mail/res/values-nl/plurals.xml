@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="matches_found">
+        <item quantity="other">%d overeenkomsten</item>
+        <item quantity="zero">Geen overeenkomsten</item>
+        <item quantity="one">1 overeenkomst</item>
+        <item quantity="few">%d overeenkomsten</item>
+    </plurals>
+</resources>

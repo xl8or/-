@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0px" android:typeface="sans" android:textColor="#ff000000" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/peak_days" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <TextView android:gravity="center" android:id="@id/txtviewSunday" android:background="@drawable/phonebook_check_box" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_margin="3.0dip" android:text="@string/sun" />
+        <TextView android:gravity="center" android:id="@id/txtviewMonday" android:background="@drawable/phonebook_check_box" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_margin="3.0dip" android:text="@string/mon" />
+        <TextView android:gravity="center" android:id="@id/txtviewTuesday" android:background="@drawable/phonebook_check_box" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_margin="3.0dip" android:text="@string/tue" />
+        <TextView android:gravity="center" android:id="@id/txtviewWednesday" android:background="@drawable/phonebook_check_box" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_margin="3.0dip" android:text="@string/wed" />
+        <TextView android:gravity="center" android:id="@id/txtviewThursday" android:background="@drawable/phonebook_check_box" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_margin="3.0dip" android:text="@string/thu" />
+        <TextView android:gravity="center" android:id="@id/txtviewFriday" android:background="@drawable/phonebook_check_box" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_margin="3.0dip" android:text="@string/fri" />
+        <TextView android:gravity="center" android:id="@id/txtviewSaturday" android:background="@drawable/phonebook_check_box" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_margin="3.0dip" android:text="@string/sat" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@com.htc:layout/cmd_bar_2" />
+    <com.htc.android.mail.MailScrollView android:id="@id/scrollView" android:background="#ffffffff" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@33882395" android:layout_above="@33685506">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/linearlayout_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/mainScreen" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0px">
+                    <TextView android:id="@id/tv_account_name" android:text="@string/ec_account_name" style="@style/ec_account_label" />
+                    <EditText android:id="@id/edt_account_name" android:background="?33619993" android:hint="@string/ec_account_name_hint" android:capitalize="none" android:autoText="false" style="@style/ec_account_field" />
+                </LinearLayout>
+            </LinearLayout> > <ImageView style="@style/trans_bottom_round_small" />
+        </LinearLayout>
+    </com.htc.android.mail.MailScrollView>
+    <include layout="@com.htc:layout/title_1" />
+</RelativeLayout>

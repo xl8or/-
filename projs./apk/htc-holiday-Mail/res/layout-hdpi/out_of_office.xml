@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@com.htc:layout/cmd_bar_2" />
+    <com.htc.android.mail.MailScrollView android:id="@id/scrollView" android:background="#fff2f2f2" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@33882395" android:layout_above="@33685506">
+        <LinearLayout android:orientation="vertical" android:id="@id/linearlayout_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center" android:id="@id/tv_where" android:paddingLeft="2.0px" android:layout_height="40.0px" android:text="@string/oof_i_am_currently" style="@style/ec_account_label" />
+            <LinearLayout android:orientation="vertical" android:id="@id/mainScreen" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/out_of_office_screen_portrait_min_height">
+                <com.htc.widget.HtcSpinner android:textSize="18.0dip" android:id="@id/spinner_doing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/global_margin_left" android:layout_marginRight="@dimen/global_margin_right" android:drawSelectorOnTop="true" android:singleLine="true" android:prompt="@string/oof_i_am_currently" />
+                <LinearLayout android:orientation="vertical" android:id="@id/oofTime1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/global_margin_left" android:layout_marginTop="10.0px" android:layout_marginRight="@dimen/global_margin_right">
+                    <TextView android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/meetingStartTime" android:paddingLeft="2.0px" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/compose_meeting_start_time_label_text" android:singleLine="true" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <Button android:textSize="26.0px" android:ellipsize="marquee" android:id="@id/start_date_text" android:background="?33619982" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0px" android:singleLine="true" android:layout_weight="3.0" android:marqueeRepeatLimit="marquee_forever" />
+                        <Button android:textSize="26.0px" android:id="@id/start_time_text" android:background="?33619982" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="2.0" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:id="@id/line" android:visibility="visible" android:layout_marginTop="15.0px" style="@style/line_divider" />
+                <LinearLayout android:orientation="vertical" android:id="@id/oofTime2" android:paddingBottom="5.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/global_margin_left" android:layout_marginTop="10.0px" android:layout_marginRight="@dimen/global_margin_right">
+                    <TextView android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/meetingEndTime" android:paddingLeft="2.0px" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/compose_meeting_end_time_label_text" android:singleLine="true" />
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <Button android:textSize="26.0px" android:ellipsize="marquee" android:id="@id/end_date_text" android:background="?33619982" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0px" android:singleLine="true" android:layout_weight="3.0" android:marqueeRepeatLimit="marquee_forever" />
+                        <Button android:textSize="26.0px" android:id="@id/end_time_text" android:background="?33619982" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="2.0" />
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:id="@id/tv_oof_message" android:paddingLeft="3.0px" android:paddingBottom="2.0px" android:text="@string/oof_reply_msg_description" android:singleLine="false" style="@style/ec_account_label" />
+                <EditText android:textSize="24.0px" android:textColor="#ff000000" android:gravity="top|left|center" android:id="@id/etOofMessage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginRight="10.0px" android:minHeight="80.0px" android:hint="@string/oof_reply_msg_hint" android:minLines="3" android:capitalize="sentences" android:autoText="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView style="@style/trans_bottom_round_small" />
+        </LinearLayout>
+    </com.htc.android.mail.MailScrollView>
+    <include layout="@com.htc:layout/title_1" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="63.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/attachment_divide_line" android:background="@color/composer_attachment_divide_line" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="0.0px" android:layout_marginRight="0.0px" android:layout_marginBottom="7.0px" />
+    <ImageView android:id="@id/attachment_thumbnail" android:layout_width="48.0px" android:layout_height="48.0px" android:layout_marginLeft="10.0px" android:src="@drawable/message_composer_attachment_clip_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageButton android:id="@id/attachment_delete" android:background="@drawable/btn_minus_src" android:layout_width="48.0px" android:layout_height="48.0px" android:layout_marginLeft="0.0px" android:layout_marginRight="18.0px" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/description_remove" />
+    <TextView android:textSize="24.0px" android:typeface="sans" android:textColor="@android:color/black" android:ellipsize="middle" android:gravity="left|center" android:id="@id/attachment_name" android:layout_width="fill_parent" android:layout_height="48.0px" android:layout_marginLeft="10.0px" android:layout_marginRight="10.0px" android:singleLine="true" android:layout_toLeftOf="@id/attachment_delete" android:layout_toRightOf="@id/attachment_thumbnail" android:layout_centerVertical="true" />
+</RelativeLayout>

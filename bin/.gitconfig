@@ -1,0 +1,23 @@
+[user]
+    name = Henry Lee
+    email = honesthenry@gmail.com
+[merge]
+    tool = p4merge
+    keepBackup = false;
+[mergetool "p4merge"]
+    cmd = p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+    keepTemporaries = false
+    trustExitCode = false
+    keepBackup = false
+[diff]
+    tool = p4diff
+[difftool "p4diff"]
+    cmd = p4diff "$LOCAL" "$BASE"
+    keepTemporaries = false
+    prompt = false
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+[core]
+    excludesfile = ~/.gitignore

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/try_button" android:text="@string/sample" style="@style/DetailsPage_Button" />
+    <Button android:id="@id/launch_button" android:text="@string/open" style="@style/DetailsPage_Button" />
+    <Button android:id="@id/buy_button" android:text="@string/buy" style="@style/DetailsPage_BuyButton" />
+</merge>

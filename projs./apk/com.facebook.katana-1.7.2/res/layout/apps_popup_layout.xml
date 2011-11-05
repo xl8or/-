@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/minchrome_bluebar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginLeft="7.0dip" android:layout_marginTop="4.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/facebook_icon" />
+        <TextView android:textStyle="bold" android:textColor="@color/white" android:id="@id/apps_popup_webview_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" />
+    </LinearLayout>
+    <com.facebook.katana.webview.MobileCanvasWebView android:id="@id/apps_popup_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" />
+</LinearLayout>

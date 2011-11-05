@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/p1_select_account_after_delete_body" android:background="@drawable/p1_mail_box_list_layou_bg_body" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/color" android:padding="5.0dip" android:layout_width="4.0dip" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="200.0dip" android:layout_height="46.0dip">
+            <TextView android:textSize="16.0sp" android:typeface="sans" android:textColor="#ff000000" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/title" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="26.0dip" android:singleLine="true" />
+            <TextView android:textSize="12.0sp" android:textStyle="italic" android:textColor="#ff0000ff" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/email" android:layout_width="fill_parent" android:layout_height="20.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <TableLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="*">
+            <TableRow>
+                <RadioButton android:layout_gravity="right|center" android:id="@id/body_radio" android:paddingRight="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/p1_select_account_after_delete_headtail" android:background="@drawable/p1_mail_box_list_layou_bg_body" android:layout_width="fill_parent" android:layout_height="46.0dip">
+        <TextView android:textSize="16.0sp" android:typeface="sans" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/headtail_title" android:paddingLeft="23.0dip" android:layout_width="204.0dip" android:layout_height="wrap_content" />
+        <TableLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="*">
+            <TableRow>
+                <RadioButton android:id="@id/head_radio" android:paddingRight="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

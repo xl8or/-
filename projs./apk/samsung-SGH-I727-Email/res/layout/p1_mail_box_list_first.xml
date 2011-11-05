@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/p1_mail_box_list_layou_bg_first" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/move_popup_title_txt" android:layout_width="fill_parent" android:layout_height="2.0px" />
+    <TextView android:textSize="24.0px" android:typeface="sans" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/move_popup_title_txt" android:paddingLeft="10.0px" android:layout_width="fill_parent" android:layout_height="59.0px" android:text="@string/mailbox_name_server_inbox" />
+    <ImageView android:id="@id/email_inbox_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:src="@drawable/email_inbox_line" />
+</LinearLayout>

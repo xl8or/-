@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/loading_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/bucket_list_view" android:background="@color/main_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/main_background" android:divider="@null" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/no_results_view" />
+</FrameLayout>

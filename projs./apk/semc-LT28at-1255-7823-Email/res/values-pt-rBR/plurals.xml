@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_new_one_account_fmt">
+        <item quantity="other">%1$1$d não lidas (%2$2$s)</item>
+        <item quantity="one">Não lida: 1 (%2$s)</item>
+        <item quantity="few">%1$1$d não lidas (%2$2$s)</item>
+    </plurals>
+    <plurals name="notification_new_multi_account_fmt">
+        <item quantity="other">em %d contas</item>
+        <item quantity="few">em %d contas</item>
+    </plurals>
+    <plurals name="message_deleted_toast">
+        <item quantity="other">Mensagens excluídas.</item>
+        <item quantity="one">Mensagem excluída.</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$1$d resultados de %2$2$s</item>
+        <item quantity="one">1 resultado de %2$s</item>
+    </plurals>
+</resources>

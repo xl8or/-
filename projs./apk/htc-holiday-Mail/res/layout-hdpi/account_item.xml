@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.android.mail.AccountListItem android:orientation="vertical" android:background="@drawable/myitem" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/sapphireUI1" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="18.0sp" android:textColor="#ff808080" android:gravity="center" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textSize="18.0sp" android:textColor="#ff808080" android:gravity="center" android:layout_gravity="left" android:id="@id/defaultAccount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/default_account_mark" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/sapphireUI" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="left" android:layout_gravity="left" android:id="@id/mailDes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:singleLine="true" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff000000" android:gravity="left" android:layout_gravity="left" android:id="@id/mailAddress" android:paddingLeft="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:id="@id/newMail" android:background="@34078826" android:paddingRight="1.0dip" android:paddingBottom="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:scaleType="fitXY" />
+        <CheckBox android:layout_gravity="right|center" android:id="@id/deleteMe" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" />
+    </LinearLayout>
+</com.htc.android.mail.AccountListItem>

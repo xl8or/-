@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="48.0px" android:paddingTop="9.0px" android:paddingRight="50.0px" android:paddingBottom="8.0px" android:layout_width="fill_parent" android:layout_height="79.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="24.0px" android:typeface="sans" android:textColor="#ff000000" android:gravity="center" android:id="@id/use_premium" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="62.0px" android:text="@string/active_push_service" />
+</LinearLayout>

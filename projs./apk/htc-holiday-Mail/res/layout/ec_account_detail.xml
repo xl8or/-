@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@com.htc:layout/title_1" />
+    <include layout="@com.htc:layout/cmd_bar_2" />
+    <com.htc.android.mail.MailScrollView android:id="@id/scrollView" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@33685506" android:layout_below="@33685946">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView style="@style/top_round_1" />
+            <ImageView android:id="@id/ec_account_trans_top_round" style="@style/trans_top_round_small" />
+            <LinearLayout android:orientation="vertical" android:id="@id/linearlayout_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/screen4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/desc_label" android:text="@string/ec_account_name" style="@style/ec_account_label" />
+                    <EditText android:id="@id/desc" android:background="?33619993" android:hint="@string/ec_account_name_hint" android:capitalize="none" android:autoText="false" style="@style/ec_account_field" />
+                    <TextView android:id="@id/name_label" android:text="@string/ec_your_name" style="@style/ec_account_label" />
+                    <EditText android:id="@id/name" android:background="?33619993" android:hint="@string/ec_your_name_hint" android:capitalize="none" android:autoText="false" style="@style/ec_account_field" />
+                    <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:id="@id/default_account_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0px" style="@style/margin_common_field">
+                        <ToggleButton android:id="@id/default_account" android:background="?33619984" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:textOn="" android:textOff="" />
+                        <TextView android:id="@id/default_account_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ec_default_account" style="@style/common_checkbox_text" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/screen1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <AutoCompleteTextView android:id="@id/emailaddress" android:background="?33619993" android:nextFocusDown="@id/password" android:hint="@string/email_addr_label" android:capitalize="none" android:autoText="false" style="@style/ec_account_field" />
+                    <EditText android:id="@id/password" android:background="?33619993" android:nextFocusUp="@id/emailaddress" android:layout_marginTop="10.0px" android:hint="@string/password_label" android:password="true" android:capitalize="none" android:autoText="false" style="@style/ec_account_field" />
+                    <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:id="@id/show_pwd_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0px" style="@style/margin_common_field">
+                        <ToggleButton android:id="@id/show_pwd" android:background="?33619984" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:textOn="" android:textOff="" />
+                        <TextView android:id="@id/checkBox_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/new_toolbar_margin" android:text="@string/show_password" style="@style/common_checkbox_text" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/screen2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/protocol_label" android:text="@string/account_detail_protocol_label_text" style="@style/ec_account_label" />
+                    <com.htc.widget.HtcSpinner android:id="@id/protocol" android:prompt="@string/account_detail_protocol_label_text" style="@style/ec_account_field_spinner" />
+                    <TextView android:id="@id/in_emailaddr_label" android:text="@string/email_addr_label" style="@style/ec_account_label" />
+                    <AutoCompleteTextView android:id="@id/in_emailaddr" android:capitalize="none" android:autoText="false" style="@style/ec_account_field" />
+                    <TextView android:id="@id/in_username_label" android:text="@string/user_name_label" style="@style/ec_account_label" />
+                    <EditText android:id="@id/in_username" android:background="?33619993" android:capitalize="none" android:autoText="false" style="@style/ec_account_field" />
+                    <TextView android:id="@id/in_password_label" android:text="@string/password_label" style="@style/ec_account_label" />
+                    <EditText android:id="@id/in_password" android:background="?33619993" android:password="true" android:capitalize="none" android:autoText="false" style="@style/ec_account_field" />
+                    <TextView android:id="@id/server_label" android:text="@string/ec_income_imap_server" style="@style/ec_account_label" />
+                    <EditText android:id="@id/server" android:background="?33619993" android:hint="@string/ec_income_server_hint" android:capitalize="none" android:autoText="false" style="@style/ec_account_field" />
+                    <TextView android:id="@id/security_in_label" android:text="@string/account_detail_security_label_text" style="@style/ec_account_label" />
+                    <com.htc.widget.HtcSpinner android:id="@id/security_in" android:prompt="@string/account_detail_security_label_text" style="@style/ec_account_field_spinner" />
+                    <TextView android:id="@id/port_label" android:text="@string/ec_outgoing_server_port_label" style="@style/ec_account_label" />
+                    <EditText android:id="@id/port" android:background="?33619993" android:text="@string/ec_income_server_port" android:numeric="integer" android:capitalize="none" android:autoText="false" style="@style/ec_account_field" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/screen3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:id="@id/require_login_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0px" style="@style/margin_common_field">
+                        <ToggleButton android:id="@id/require_login" android:background="?33619984" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:textOn="" android:textOff="" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_detail_require_login_text" style="@style/common_checkbox_text" />
+                    </LinearLayout>
+                    <TextView android:id="@id/out_username_label" android:text="@string/user_name_label" style="@style/ec_account_label" />
+                    <EditText android:id="@id/out_username" android:background="?33619993" android:capitalize="none" android:autoText="false" style="@style/ec_account_field" />
+                    <TextView android:id="@id/out_password_label" android:text="@string/password_label" style="@style/ec_account_label" />
+                    <EditText android:id="@id/out_password" android:background="?33619993" android:password="true" android:capitalize="none" android:autoText="false" style="@style/ec_account_field" />
+                    <TextView android:id="@id/outbound_server_label" android:text="@string/ec_outgoing_server_name" style="@style/ec_account_label" />
+                    <EditText android:id="@id/outbound_server" android:background="?33619993" android:hint="@string/ec_outgoing_server_hint" android:capitalize="none" android:autoText="false" style="@style/ec_account_field" />
+                    <TextView android:id="@id/security_out_label" android:text="@string/account_detail_security_label_text" style="@style/ec_account_label" />
+                    <com.htc.widget.HtcSpinner android:id="@id/security_out" android:prompt="@string/account_detail_security_label_text" style="@style/ec_account_field_spinner" />
+                    <TextView android:id="@id/outbound_port_label" android:text="@string/ec_outgoing_server_port_label" style="@style/ec_account_label" />
+                    <EditText android:id="@id/outbound_port" android:background="?33619993" android:text="@string/ec_outgoing_server_port" android:numeric="integer" android:capitalize="none" android:autoText="false" style="@style/ec_account_field" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:id="@id/ec_account_trans_bottom_round" style="@style/trans_bottom_round_small" />
+            <LinearLayout android:background="#ff292c31" android:layout_width="fill_parent" android:layout_height="14.0px">
+                <ImageView android:background="@34078932" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.htc.android.mail.MailScrollView>
+</RelativeLayout>

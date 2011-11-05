@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@com.htc:layout/title_1" />
+    <include layout="@com.htc:layout/cmd_bar_2" />
+    <com.htc.android.mail.MailScrollView android:id="@id/scrollView" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@33685506" android:layout_below="@33685946">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:background="@color/top_round_background" style="@style/top_round_1" />
+            <ImageView style="@style/trans_top_round_small" />
+            <LinearLayout android:orientation="vertical" android:id="@id/linearlayout_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/mainScreen" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/tv_email_addr" android:text="@string/email_addr_label" style="@style/ec_account_label" />
+                    <AutoCompleteTextView android:id="@id/edt_email_addr" android:background="?33619993" android:hint="@string/email_addr_hint" android:capitalize="none" android:autoText="false" style="@style/ec_account_field" />
+                    <View android:id="@id/email_gap" android:visibility="gone" style="@style/ec_account_field_divider" />
+                    <TextView android:id="@id/tv_exchange_svr" android:text="@string/server_name_label" style="@style/ec_account_label" />
+                    <EditText android:id="@id/edt_exchange_svr" android:background="?33619993" android:hint="@string/server_name_hint" android:capitalize="none" android:autoText="false" style="@style/ec_account_field" />
+                    <TextView android:id="@id/tv_domain_name" android:text="@string/domain_name_label" style="@style/ec_account_label" />
+                    <EditText android:id="@id/edt_domain_name" android:background="?33619993" android:hint="@string/domain_name_hint" android:capitalize="none" android:autoText="false" style="@style/ec_account_field" />
+                    <TextView android:id="@id/tv_user_id" android:text="@string/user_name_label" style="@style/ec_account_label" />
+                    <EditText android:id="@id/edt_user_id" android:background="?33619993" android:hint="@string/user_name_hint" android:capitalize="none" android:autoText="false" style="@style/ec_account_field" />
+                    <TextView android:id="@id/tv_user_pwd" android:text="@string/password_label" style="@style/ec_account_label" />
+                    <EditText android:id="@id/edt_user_pwd" android:background="?33619993" android:hint="@string/password_hint" android:password="true" android:capitalize="none" android:autoText="false" style="@style/ec_account_field" />
+                    <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:id="@id/show_pwd_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/margin_common_field">
+                        <ToggleButton android:id="@id/show_pwd" android:background="?33619984" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:textOn="" android:textOff="" />
+                        <TextView android:id="@id/checkBox_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/new_toolbar_margin" android:text="@string/show_password" style="@style/common_checkbox_text" />
+                    </LinearLayout>
+                    <CheckBox android:id="@id/chk_use_ssl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:checked="false" android:text="@string/use_ssl" style="@style/common_checkbox_text" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView style="@style/trans_bottom_round_small" />
+            <LinearLayout android:background="#ff292c31" android:layout_width="fill_parent" android:layout_height="14.0px">
+                <ImageView android:background="@34078932" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.htc.android.mail.MailScrollView>
+</RelativeLayout>

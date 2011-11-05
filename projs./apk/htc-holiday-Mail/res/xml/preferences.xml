@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/general_settings" android:key="PreferenceCategory_title">
+        <CheckBoxPreference android:title="@string/account_detail_reply_with_text" android:key="account_detail_reply_with_text" />
+        <CheckBoxPreference android:title="@string/account_detail_useSignature" android:key="account_detail_useSignature_value" android:defaultValue="false" />
+        <EditTextPreference android:scrollbars="vertical" android:maxHeight="60.0dip" android:title="@string/account_detail_signature" android:key="account_detail_signature_value" />
+        <ListPreference android:entries="@array/account_detail_mailsize_labels" android:title="@string/account_detail_mailsize" android:key="account_detail_mailsize_value" android:defaultValue="account_detail_mailsize_default" android:dialogTitle="@string/account_detail_mailsize" android:entryValues="@array/account_detail_mailsize_values" />
+        <ListPreference android:entries="@array/account_detail_poll_frequency_labels" android:title="@string/sync_scheduling" android:key="account_detail_poll_frequency_value" android:defaultValue="@string/account_detail_poll_frequency_default" android:dialogTitle="@string/sync_scheduling" android:entryValues="@array/account_detail_poll_frequency_values" />
+        <ListPreference android:entries="@array/account_detail_fetch_mail_labels" android:title="@string/account_detail_fetch_mail_label_text" android:key="account_detail_fetch_mail_value" android:defaultValue="@string/account_detail_fetch_mail_default" android:dialogTitle="@string/account_detail_fetch_mail_label_text" android:entryValues="@array/account_detail_fetch_mail_values" />
+        <ListPreference android:entries="@array/account_detail_font_size_labels" android:title="@string/account_detail_font_size" android:key="account_detail_font_size_value" android:defaultValue="@string/account_detail_font_size_default" android:dialogTitle="@string/account_detail_font_size" android:entryValues="@array/account_detail_font_size_values" />
+        <ListPreference android:entries="@array/account_detail_attachment_location_labels" android:title="@string/account_detail_store_attachments_to" android:key="account_detail_enableSDsave_value" android:defaultValue="@string/account_detail_internal_storage" android:dialogTitle="@string/account_detail_store_attachments_to" android:entryValues="@array/account_detail_attachment_location_values" />
+        <CheckBoxPreference android:title="@string/account_detail_delete_mail" android:key="account_detail_delete_from_server_value" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/account_detail_ask_before_delete_text" android:key="account_detail_ask_before_delete_value" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/account_detail_always_bcc_myself" android:key="account_detail_always_bcc_myself_value" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/account_detail_default_account" android:key="account_detail_default_account" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

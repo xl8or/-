@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<provider_settings version="1">
+    <setting _provider="Gmail" _providerGroup="Gmail" _domain="gmail.com" _inserver="imap.gmail.com" _inport="993" _outserver="smtp.gmail.com" _outport="465" _inprotocol="IMAP" _useSSLin="1" _useSSLout="1" />
+    <setting _provider="Google Mail" _providerGroup="Gmail" _domain="googlemail.com" _inserver="imap.gmail.com" _inport="993" _outserver="smtp.gmail.com" _outport="465" _inprotocol="IMAP" _useSSLin="1" _useSSLout="1" />
+    <setting _provider="PChome" _domain="pchome.com.tw" _inserver="pop3.pchome.com.tw" _inport="110" _outserver="smtp.pchome.com.tw" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Hotmail" _domain="hotmail.com" _inserver="pop3.live.com" _inport="995" _outserver="smtp.live.com" _outport="587" _inprotocol="POP" _useSSLin="1" _useSSLout="2" />
+    <setting _provider="Hotmail" _domain="msn.com" _inserver="pop3.live.com" _inport="995" _outserver="smtp.live.com" _outport="587" _inprotocol="POP" _useSSLin="1" _useSSLout="2" />
+    <setting _provider="Hotmail" _domain="live.com" _inserver="pop3.live.com" _inport="995" _outserver="smtp.live.com" _outport="587" _inprotocol="POP" _useSSLin="1" _useSSLout="2" />
+    <setting _provider="Hotmail" _domain="livemail.tw" _inserver="pop3.live.com" _inport="995" _outserver="smtp.live.com" _outport="587" _inprotocol="POP" _useSSLin="1" _useSSLout="2" />
+    <setting _provider="AOL" _domain="aol.tw" _inserver="imap.aol.com" _inport="993" _outserver="smtp.aol.com" _outport="465" _inprotocol="IMAP" _useSSLin="1" _useSSLout="1" />
+    <setting _provider="AOL UK" _domain="aol.co.uk" _inserver="imap.aim.com" _inport="993" _outserver="smtp.aim.com" _outport="465" _inprotocol="IMAP" _useSSLin="1" _useSSLout="1" />
+    <setting _provider="Lycos" _domain="lycos.com" _inserver="pop.mail.lycos.com" _inport="110" _outserver="smtp.mail.lycos.com" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Netscape" _domain="netscape.com" _inserver="pop.3.isp.netscape.com" _inport="110" _outserver="smtp.isp.netscape.com" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="1" />
+    <setting _provider="HtcTaoMail" _domain="htc.com.tao" _inserver="taomail.htc.com" _inport="110" _outserver="taomail.htc.com" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="HtcTpeMail" _domain="htc.com.tpe" _inserver="tpemail.htc.com" _inport="110" _outserver="tpemail.htc.com" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="YahooTW" _providerGroup="Yahoo" _domain="yahoo.com.tw" _inserver="htc.imap.mail.yahoo.com" _inport="993" _outserver="htc.smtp.mail.yahoo.com" _outport="465" _inprotocol="IMAP" _useSSLin="1" _useSSLout="1" />
+    <setting _provider="Yahoo" _providerGroup="Yahoo" _domain="yahoo.com" _inserver="htc.imap.mail.yahoo.com" _inport="993" _outserver="htc.smtp.mail.yahoo.com" _outport="465" _inprotocol="IMAP" _useSSLin="1" _useSSLout="1" />
+    <setting _provider="YahooHK" _providerGroup="Yahoo" _domain="yahoo.com.hk" _inserver="htc.imap.mail.yahoo.com" _inport="993" _outserver="htc.smtp.mail.yahoo.com" _outport="465" _inprotocol="IMAP" _useSSLin="1" _useSSLout="1" />
+    <setting _provider="YahooUK" _providerGroup="Yahoo" _domain="yahoo.co.uk" _inserver="htc.imap.mail.yahoo.com" _inport="993" _outserver="htc.smtp.mail.yahoo.com" _outport="465" _inprotocol="IMAP" _useSSLin="1" _useSSLout="1" />
+    <setting _provider="YahooFR" _providerGroup="Yahoo" _domain="yahoo.fr" _inserver="htc.imap.mail.yahoo.com" _inport="993" _outserver="htc.smtp.mail.yahoo.com" _outport="465" _inprotocol="IMAP" _useSSLin="1" _useSSLout="1" />
+    <setting _provider="Yahoo" _providerGroup="Yahoo" _domain="yahoo.de" _inserver="htc.imap.mail.yahoo.com" _inport="993" _outserver="htc.smtp.mail.yahoo.com" _outport="465" _inprotocol="IMAP" _useSSLin="1" _useSSLout="1" />
+    <setting _provider="Ymail" _providerGroup="Yahoo" _domain="ymail.com" _inserver="htc.imap.mail.yahoo.com" _inport="993" _outserver="htc.smtp.mail.yahoo.com" _outport="465" _inprotocol="IMAP" _useSSLin="1" _useSSLout="1" />
+    <setting _provider="RocketMail" _providerGroup="Yahoo" _domain="rocketmail.com" _inserver="htc.imap.mail.yahoo.com" _inport="993" _outserver="htc.smtp.mail.yahoo.com" _outport="465" _inprotocol="IMAP" _useSSLin="1" _useSSLout="1" />
+    <setting _provider="Mac" _domain="me.com" _inserver="mail.me.com" _inport="993" _outserver="smtp.me.com" _outport="587" _inprotocol="IMAP" _useSSLin="1" _useSSLout="0" />
+    <setting _provider="Mac" _domain="me.com" _inserver="mail.mac.com" _inport="993" _outserver="smtp.mac.com" _outport="587" _inprotocol="IMAP" _useSSLin="1" _useSSLout="0" />
+    <setting _provider="Mac" _domain="mac.com" _inserver="mail.mac.com" _inport="993" _outserver="smtp.mac.com" _outport="587" _inprotocol="IMAP" _useSSLin="1" _useSSLout="0" />
+    <setting _provider="AOL" _domain="aol.com" _inserver="imap.aim.com" _inport="993" _outserver="smtp.aim.com" _outport="465" _inprotocol="IMAP" _useSSLin="1" _useSSLout="1" />
+    <setting _provider="AOL" _domain="aol.tw" _inserver="imap.aol.com" _inport="143" _outserver="smtp.aol.com" _outport="587" _inprotocol="IMAP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="AOL" _domain="aim.com" _inserver="imap.aim.com" _inport="143" _outserver="smtp.aim.com" _outport="587" _inprotocol="IMAP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Hinet" _domain="msa.hinet.net" _inserver="msa.hinet.net" _inport="110" _outserver="msa.hinet.net" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" _smtpauth="0" />
+    <setting _provider="MSN" _domain="msn.co.uk" _inserver="pop3.live.com" _inport="995" _outserver="smtp.live.com" _outport="587" _inprotocol="POP" _useSSLin="1" _useSSLout="2" />
+    <setting _provider="Hotmail" _domain="hotmail.co.uk" _inserver="pop3.live.com" _inport="995" _outserver="smtp.live.com" _outport="587" _inprotocol="POP" _useSSLin="1" _useSSLout="2" />
+    <setting _provider="Live" _domain="live.co.uk" _inserver="pop3.live.com" _inport="995" _outserver="smtp.live.com" _outport="587" _inprotocol="POP" _useSSLin="1" _useSSLout="2" />
+    <setting _provider="Orangehome.co.uk" _domain="orangehome.co.uk" _inserver="pop.orangehome.co.uk" _inport="110" _outserver="smtp.orangehome.co.uk" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Wanadoo.co.uk" _domain="wanadoo.co.uk" _inserver="pop.wanadoo.co.uk" _inport="110" _outserver="smtp.wanadoo.co.uk" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Btinternet.com" _domain="btinternet.com" _inserver="pop3.btinternet.com" _inport="110" _outserver="mail.btinternet.com" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Ntlworld.com" _domain="ntlworld.com" _inserver="pop3.ntlworld.com" _inport="110" _outserver="smtp.ntlworld.com" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Blueyonder.co.uk" _domain="blueyonder.co.uk" _inserver="pop3.blueyonder.co.uk" _inport="110" _outserver="smtp.blueyonder.co.uk" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Virgin.net" _domain="virgin.net" _inserver="pop.virgin.net" _inport="110" _outserver="smtp.virgin.net" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Tiscali.co.uk" _domain="tiscali.co.uk" _inserver="pop.tiscali.co.uk" _inport="110" _outserver="smtp.tiscali.co.uk" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Lineone.net" _domain="lineone.net" _inserver="pop3.lineone.net" _inport="110" _outserver="smtp.lineone.net" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Free.fr" _domain="free.fr" _inserver="pop3.free.fr" _inport="110" _outserver="smtp.free.fr" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Neuf.fr" _domain="neuf.fr" _inserver="pop.neuf.fr" _inport="110" _outserver="smtp.neuf.fr" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Mobistarmail.be" _domain="mobistarmail.be" _inserver="pop.mobistarmail.be" _inport="110" _outserver="smtp.mobistarmail.be" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Skynet.be" _domain="skynet.be" _inserver="pop.skynet.be" _inport="110" _outserver="smtp.skynet.be" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Beigacom.net" _domain="beigacom.net" _inserver="pop.beigacom.net" _inport="110" _outserver="relay.beigacom.net" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Swing.be" _domain="swing.be" _inserver="pop.swing.be" _inport="110" _outserver="smtp.swing.be" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Telenet.be" _domain="telenet.be" _inserver="pop.telenet.be" _inport="110" _outserver="smtp.telenet.be" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Pandora.be" _domain="pandora.be" _inserver="pop.telenet.be" _inport="110" _outserver="smtp.ppandora.be" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Chello.be" _domain="chello.be" _inserver="mail.chello.be" _inport="110" _outserver="relay.chello.be" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Voo.be" _domain="voo.be" _inserver="pop.voo.be" _inport="110" _outserver="smtp.voo.be" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Brutele.be" _domain="brutele.be" _inserver="pop.voo.be" _inport="110" _outserver="smtp.brutele.be" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Teledisnet.be" _domain="teledisnet.be" _inserver="pop.teledisnet.be" _inport="110" _outserver="smtp.teledisnet.be" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Correo Orange" _domain="orange.es" _inserver="pop.orange.es" _inport="110" _outserver="smtp.orange.es" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Tin.it" _domain="tin.it" _inserver="box.tin.it" _inport="110" _outserver="mail.tin.it" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Planet Internet" _domain="planet.nl" _inserver="pop.planet.nl" _inport="110" _outserver="mail.planet.nl" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Tiscali" _domain="tiscali.nl" _inserver="pop3.tiscali.nl" _inport="110" _outserver="smtp.tiscali.nl" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="Versatel" _domain="versatel.nl" _inserver="pop3.versatel.nl" _inport="110" _outserver="smtp.versatel.nl" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="SingNet" _domain="singnet.com.sg" _inserver="pop.singnet.com.sg" _inport="110" _outserver="mail.singnet.com.sg" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="GMX UK" _domain="gmx.co.uk" _inserver="imap.gmx.com" _inport="143" _outserver="mail.gmx.com" _outport="25" _inprotocol="IMAP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="GMX" _domain="gmx.com" _inserver="imap.gmx.com" _inport="143" _outserver="mail.gmx.com" _outport="25" _inprotocol="IMAP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="inbox.com" _domain="inbox.com" _inserver="my.inbox.com" _inport="110" _outserver="my.inbox.com" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+    <setting _provider="O2 UK" _domain="o2.co.uk" _inserver="mail.o2.co.uk" _inport="110" _outserver="smtp.o2.co.uk" _outport="25" _inprotocol="POP" _useSSLin="0" _useSSLout="0" />
+</provider_settings>

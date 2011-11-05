@@ -1,0 +1,1546 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: sm16MiSSijkICcwjtLgTgUElUdU=
+
+Name: res/drawable/ic_tab_download.xml
+SHA1-Digest: /I0aWHkUvhwKyjVlvgbdP0AAqe4=
+
+Name: assets/html/cs/tethering_help.html
+SHA1-Digest: Sy1BUTunocOIj4QREUXBBtrpn64=
+
+Name: res/layout/proxy.xml
+SHA1-Digest: prwqc2UOvC2vHxxpg4E6+Pa6K3E=
+
+Name: res/drawable-hdpi/lock_anim_0.png
+SHA1-Digest: 8kyRZ2cMCPSZ2l4AdNgQQ6n3EK4=
+
+Name: res/drawable-hdpi/ic_wifi_direct_telephone.png
+SHA1-Digest: 4imlrNlQR3lRLxgOKMlwS/+ivic=
+
+Name: res/drawable-hdpi/lock_anim_1.png
+SHA1-Digest: gKaRS4WK49+x/g9Hz86dSnG0ZNQ=
+
+Name: res/layout/intent_sender.xml
+SHA1-Digest: 6qT4sXC8CMB0DgD5k3pVXRmcmlg=
+
+Name: res/drawable-hdpi/ic_tab_selected_running.png
+SHA1-Digest: pDq6k+P/7ktQPL0NuQg03VcekqY=
+
+Name: res/color/wifi_apdialog.xml
+SHA1-Digest: sXxiz2iV/NKDjHBssFZAF7GA4FE=
+
+Name: assets/html/lv/tethering_usb_help.html
+SHA1-Digest: 8+o0BG3oIegurT/7Y8o3um2yqTA=
+
+Name: res/layout/bluetooth_device_info.xml
+SHA1-Digest: U5Ghf+7bpqNw0VOoCOdvwYhqJaw=
+
+Name: res/drawable-hdpi/ic_settings_bluetooth.png
+SHA1-Digest: rQGl/pAPQK93cMzdM//2pxa66g8=
+
+Name: res/drawable-hdpi/ic_wifi_signal_1.png
+SHA1-Digest: ifJyvBPH2/nLtn513GDk4YFkni4=
+
+Name: assets/html/ga/tethering_help.html
+SHA1-Digest: 7SWhVsNldwKRHrlNnIBDS2gz3so=
+
+Name: res/drawable-hdpi/ic_wifi_signal_2.png
+SHA1-Digest: r6KBkO14wMENXO6+jX373cTr0t0=
+
+Name: res/xml/discover_services.xml
+SHA1-Digest: R+0SorNLu9+mexmjWBjQrKCMEuI=
+
+Name: res/layout/credentials_password_dialog.xml
+SHA1-Digest: zxSoJlZpr7HAnvSs3bVa7QSvwSM=
+
+Name: assets/html/en/tether_attention.html
+SHA1-Digest: /oLOFYalZG/U+Op20jFFZIiO6B8=
+
+Name: res/layout/manage_applications_item.xml
+SHA1-Digest: PCze52clrGedcZ49jD4hCsjaD3A=
+
+Name: assets/html/zh_cn/tethering_usb_help.html
+SHA1-Digest: ymeJ/VJdFKzG6fYk4+HeTK2r8RY=
+
+Name: assets/html/sr/tethering_help.html
+SHA1-Digest: H0yqhln/HwIfSiTScadfE+05Oa8=
+
+Name: res/xml/security_settings_password.xml
+SHA1-Digest: a1Oo+IXUanO9qgdk10tCKq90ktc=
+
+Name: assets/html/TN_CHN_OPEN/ko/tether_attention.html
+SHA1-Digest: mI1rRiYdgjjwlyiQcfZz04gKCCo=
+
+Name: assets/html/ms/tethering_usb_help.html
+SHA1-Digest: tKRhHx8s0qoBTI1D0sptuJQ2tOw=
+
+Name: res/drawable-hdpi/icon_gps_on.png
+SHA1-Digest: 4oEhinJ5vrps5+9ZMCeI8KIYNXs=
+
+Name: res/drawable-hdpi/appwidget_settings_ind_on_c.9.png
+SHA1-Digest: DQzvQ8Wc7f70frSjo38mQIbMEsc=
+
+Name: res/drawable-hdpi/ic_menu_select_encorder.png
+SHA1-Digest: 3LCCKRTGX7fEfSqr0JomFLE7k7M=
+
+Name: res/layout/theme_picker_3d.xml
+SHA1-Digest: pRmvThrgiztWt5xDtKIcZX+cFAY=
+
+Name: res/drawable-hdpi/ic_bt_keyboard_pointing.png
+SHA1-Digest: sKAJIDQ01ZAriQoufbxnuKPrn4U=
+
+Name: res/layout/remember_dock_setting.xml
+SHA1-Digest: Tvg4V3ECRFQTaybOWMAgO12MIC0=
+
+Name: res/layout/locale_picker.xml
+SHA1-Digest: KVH6tplCj6fi2xuQbLlCWhh6SfU=
+
+Name: assets/html/de/tethering_wifi_help.html
+SHA1-Digest: lboP6e41zXZqnUau9t6dTgomB0c=
+
+Name: res/layout-land/confirm_lock_password.xml
+SHA1-Digest: dsfl2RWdvxN/MFdsi9VNz5v3u1A=
+
+Name: res/xml/power_usage_summary.xml
+SHA1-Digest: amIDvyDhFyoEG2+F9eWbtFNEhUg=
+
+Name: res/drawable-hdpi/ic_settings_language.png
+SHA1-Digest: E3pZHRsEbL77MRomlVIkSqzmVBs=
+
+Name: assets/html/no/tethering_help.html
+SHA1-Digest: w3B5mctsUuMztr/qON9dA9d9JBM=
+
+Name: res/layout-land/choose_lock_pattern.xml
+SHA1-Digest: wiwzNkWKyRCXo0Za3TdVRd7uFsg=
+
+Name: res/drawable-hdpi/ic_wifi_direct_storage.png
+SHA1-Digest: iJVZNBnCjAB5QK9mz+aCNpvPFmM=
+
+Name: res/layout/preference_widget_wifi_signal.xml
+SHA1-Digest: AVd9TG86YypLJR32ikVH2zsmsbk=
+
+Name: res/layout-land/confirm_lock_pattern.xml
+SHA1-Digest: P87p4wXkAN3Hu4xBbjPBkiGlzJk=
+
+Name: res/layout/wifi_dialog_row.xml
+SHA1-Digest: 20rn8bEKkFkQ8IXqovBMJPiUOX4=
+
+Name: res/layout/bt_pref_dun_status_category.xml
+SHA1-Digest: EG+zbyVVI5bdXgerLYNhoOkGgFE=
+
+Name: res/drawable-hdpi/icon_bluetooth_on.png
+SHA1-Digest: QPMyzeXZImJVZk+zplkC0+C8Zqc=
+
+Name: res/layout/preference_powergauge.xml
+SHA1-Digest: VwZwOMSqiYjS6X/ZhMF6bhy+etc=
+
+Name: res/xml/input_methods_prefs.xml
+SHA1-Digest: MGmgKpS3wokoEpWfZGXmPJ7CFCU=
+
+Name: res/layout/mode_preview.xml
+SHA1-Digest: 7sr8+lAjoUeYS/A0IxJy3WFdM2M=
+
+Name: res/drawable-hdpi/lock_anim_9.png
+SHA1-Digest: ONpHMZO1k5ZHGMu5hX8ZDz2t4w0=
+
+Name: res/layout/preference_icon.xml
+SHA1-Digest: QQOVsuCtuKRAZqqVNWK1Ar+pkdg=
+
+Name: assets/html/tr/tethering_usb_help.html
+SHA1-Digest: 4LK64xvdM3fSpIaIMDN30ZtrnYM=
+
+Name: res/layout/battery_info.xml
+SHA1-Digest: 9td4eL6cYU/n9RrBJjcDhJrtAGQ=
+
+Name: res/drawable-hdpi/ic_menu_3d_globe.png
+SHA1-Digest: opbmDQoeFeMLd4T3xTVGwwb0vMc=
+
+Name: res/drawable-hdpi/ic_settings_privacy.png
+SHA1-Digest: so9+2dwS5lcKNdetXOCGE60V5TY=
+
+Name: res/drawable-hdpi/mainmenu_icon_battery_use.png
+SHA1-Digest: cT/SX9xj2SLaofjLE4T18fwK9Mg=
+
+Name: res/drawable-hdpi/ic_bt_cellphone.png
+SHA1-Digest: PGjWHABZ45dorRagXlHOMZ7qF84=
+
+Name: res/drawable-hdpi/lock_anim_14.png
+SHA1-Digest: a42kHjG+oePROkKaGDHe2sMXLxs=
+
+Name: res/xml-fr/timezones.xml
+SHA1-Digest: mYHBZj99zsaRxqxbAWVXQZ+3bHw=
+
+Name: res/layout/radio_info.xml
+SHA1-Digest: BBIp6XD0MR3YEWiUgvsOjKnNJbY=
+
+Name: assets/html/pt/tethering_usb_help.html
+SHA1-Digest: PM804LkhIzhvlGMOyn97H5UL3ro=
+
+Name: res/drawable-hdpi/ic_tab_selected_all.png
+SHA1-Digest: Zy5+noNP/aEkRwZ7/PKDbU0HKIc=
+
+Name: assets/html/TN_CHN_OPEN/ko/tethering_help.html
+SHA1-Digest: Kt5tEiiMlmFhp26FyE1ZYrxxeDc=
+
+Name: res/xml/testing_settings.xml
+SHA1-Digest: iLyw4sK7Nysnqwaws5Ovc1YHN98=
+
+Name: assets/html/en_us/tethering_wifi_help.html
+SHA1-Digest: vznI0M0tivO++gfPrkA6fIKIv1c=
+
+Name: res/layout/device_admin_settings.xml
+SHA1-Digest: UTPCgB4rZVMQQo6YJzMsCpdLF9M=
+
+Name: res/drawable-hdpi/ic_settings_security.png
+SHA1-Digest: qMxaCNReyQ50c47Fx2oKSTi3Iy4=
+
+Name: res/drawable/setting_icon_01_3.png
+SHA1-Digest: 5MaG4aOvrnuK/EYXk0LHuoeR6ZY=
+
+Name: assets/html/uk/tethering_help.html
+SHA1-Digest: apNEqCkbW5Pi8H3KYVbslKuSG7g=
+
+Name: assets/html/es/tethering_wifi_help.html
+SHA1-Digest: uuHLCB5Nxaoa/DzlUKf1ZMm0yOY=
+
+Name: res/drawable-hdpi/app_gauge.9.png
+SHA1-Digest: gRqQX6lSJe+s2rRaUOy3Z6SVDJ8=
+
+Name: res/drawable-hdpi/mainmenu_icon_location_security.png
+SHA1-Digest: Y+vB1l3k1GnMjD2scJ0xHfAL4/Q=
+
+Name: res/drawable-hdpi/mainmenu_icon_sound_display.png
+SHA1-Digest: sXfFR8ctA2izjcaH6GDQErfg4go=
+
+Name: res/drawable-hdpi/icon_bluetooth_off.png
+SHA1-Digest: IZkLus2wMNNoA+BAweRksW0ofX8=
+
+Name: res/drawable/setting_icon.png
+SHA1-Digest: masp/FQ9H2Eix4xLfr7uVMCMi5Q=
+
+Name: res/drawable-hdpi/lock_anim_11.png
+SHA1-Digest: sDuTL4d7r1wZsjD9bFcqKT5kSRg=
+
+Name: res/drawable-hdpi/ic_settings_display.png
+SHA1-Digest: ovBXLWMGErZRWHigOs05+FS9b84=
+
+Name: assets/html/sv/tethering_wifi_help.html
+SHA1-Digest: sbwzICeILRFoOgHKigm0jk6rgvU=
+
+Name: assets/html/da/tethering_wifi_help.html
+SHA1-Digest: JEYmWtd/zP2uICij+zkjJbxJS78=
+
+Name: assets/html/fi/tethering_help.html
+SHA1-Digest: Xfa5iEeCFHh73epTe13hm5Y5D7c=
+
+Name: res/drawable-hdpi/ic_appwidget_settings_wifi_on.png
+SHA1-Digest: iru3yxrDOrt1imSEzrOCojb1dL8=
+
+Name: assets/html/it/tethering_usb_help.html
+SHA1-Digest: Av7uNV5JAv6Rlt7VggV1BIaqnn0=
+
+Name: res/layout/bluetooth_authorize_service.xml
+SHA1-Digest: m4nIiMrls2C93I1NgbeZv9kOzKU=
+
+Name: res/drawable-hdpi/ic_appwidget_settings_wifi_off.png
+SHA1-Digest: Bgz8AQV4vHfrsQDjlZ0cWH7+WYU=
+
+Name: res/drawable-hdpi/ic_settings_speech.png
+SHA1-Digest: 2HmKZOXtSVZ8lj5taO89XptrNPA=
+
+Name: res/drawable-hdpi/powersaving_activate.png
+SHA1-Digest: 7V4974tLrqrfeQOvJ7oTS1Wb3pw=
+
+Name: res/xml/language_settings.xml
+SHA1-Digest: DpbMwPqCQA4rCcfi8usPxNwdTrw=
+
+Name: assets/html/fr/tethering_help.html
+SHA1-Digest: bZZ63F6EiJQSc0P6OjgJ5roJKqM=
+
+Name: res/xml/quick_launch_settings.xml
+SHA1-Digest: 1dpmKUPs87qGBFUOegDhGiHBrkU=
+
+Name: res/xml/powersavingmode_settings.xml
+SHA1-Digest: ekX8NAuXrFULZpb2II1VckYYaBY=
+
+Name: res/layout/separator_label.xml
+SHA1-Digest: VBXxknFmd9vHhMn28BbKW/vXaag=
+
+Name: assets/html/en_us/tether_attention.html
+SHA1-Digest: Nf+gxvQ21/yWdZqKH8f737x7UUI=
+
+Name: res/drawable-hdpi/icon_gps_off.png
+SHA1-Digest: sUJezq5iaX+ZyWV7tcg1rqeIsk4=
+
+Name: res/drawable-hdpi/ic_appwidget_settings_brightness_off.png
+SHA1-Digest: EK9Tl17/L2hUHUv1j1xwU8XzeNI=
+
+Name: assets/html/zh_cn/tethering_wifi_help.html
+SHA1-Digest: 3GWIQrDbra7rATWQ0JaMotwC24c=
+
+Name: res/drawable-hdpi/mainmenu_icon_display.png
+SHA1-Digest: uriGD0AQPyFaQ86pEwLBs0oLG6I=
+
+Name: assets/html/vi/tethering_usb_help.html
+SHA1-Digest: sDJ5FmmqduhdWXsPjbkMKO5QW3Y=
+
+Name: assets/html/pt_br/tethering_usb_help.html
+SHA1-Digest: bTHYOTJP/slDUYfWigR3jz965pU=
+
+Name: res/drawable-hdpi/icon_brightness_on.png
+SHA1-Digest: mjuG0IS6ZhOcrGW1L66F6nzwnCY=
+
+Name: assets/html/hu/tethering_usb_help.html
+SHA1-Digest: Nv3L251iUwH1KHjk8m8d9OU3SZc=
+
+Name: res/drawable/setting_icon_01.png
+SHA1-Digest: gJ9uf4VoaNYXS6PiqX52hDiZDEc=
+
+Name: res/drawable-hdpi/ic_wifi_direct_mm_devices.png
+SHA1-Digest: 5uaDr908fDtQ/nRN/8Uryl2l530=
+
+Name: res/drawable-hdpi/ic_appwidget_settings_sync_off.png
+SHA1-Digest: L9tUbhIYteSPRCKbCzD3VbaOmWo=
+
+Name: assets/html/pt_pt/tethering_usb_help.html
+SHA1-Digest: QC+C4K4OLVJojxeU7POPiKCcMzM=
+
+Name: res/layout/bookmark_picker_item.xml
+SHA1-Digest: hVgMUWEkIK51r6ISG2CB4iCMauk=
+
+Name: res/drawable/appwidget_button_left.xml
+SHA1-Digest: 3DXMn3fYS5p/h8JTDJTP6H5OVPo=
+
+Name: res/drawable-hdpi/lock_anim_2.png
+SHA1-Digest: NY+ciFngUjcVANcgWcVdi4u6d48=
+
+Name: res/xml/tether_prefs.xml
+SHA1-Digest: 4c9JQdyhAKksDFJIa2H5qhdpUp8=
+
+Name: assets/html/el/tethering_wifi_help.html
+SHA1-Digest: Oso2dlyq87eUfpsXB71xxuUHNHo=
+
+Name: assets/html/ja/tethering_usb_help.html
+SHA1-Digest: 66r1o2/oFhkbsQqNA5BaaH9kFls=
+
+Name: res/drawable-hdpi/noitems_image.png
+SHA1-Digest: de28aA0+LqFDnuiAZS3YclEBNM0=
+
+Name: res/layout/confirm_lock_password.xml
+SHA1-Digest: QGvkqKnjC/Gy0gc2wcVZw66Wrdw=
+
+Name: res/drawable-hdpi/icon_screen_timeout_2m_on.png
+SHA1-Digest: oGD90Pg2SwPcUG0I4y/0/OOnoX4=
+
+Name: res/drawable-hdpi/ic_bt_laptop.png
+SHA1-Digest: M4XqvXL84CBjtS57C+3l4ajaAXw=
+
+Name: res/layout/choose_lock_face_done.xml
+SHA1-Digest: r22yUfzuGs2wV6TkA9XREpIGcz4=
+
+Name: res/drawable-hdpi/mainmenu_icon_wifi_settings.png
+SHA1-Digest: Ag59+9lx5dF18xlG/jCmMFeOtr4=
+
+Name: assets/html/en/tethering_wifi_help.html
+SHA1-Digest: rYHZIZ2UwKMzw6XdtR4toefGyqU=
+
+Name: res/drawable-hdpi/lock_anim_10.png
+SHA1-Digest: QdfWLDjXy/jg3nHxUIFKyLrqZwI=
+
+Name: assets/html/en_gb/tethering_usb_help.html
+SHA1-Digest: n5YbRr3AcpN1abEGoL1PKQYTexM=
+
+Name: res/layout/preference_widget_wifi_direct.xml
+SHA1-Digest: VOQy3SyghQNW8XVFIMO85xCrbIk=
+
+Name: assets/html/en_us/tethering_help.html
+SHA1-Digest: 0t+VdZQjW70TWBG07KbDwwZgA6c=
+
+Name: res/layout/list_content_with_empty_view.xml
+SHA1-Digest: xEAG96ALAIbxcOlfIVBnQDOTs+I=
+
+Name: res/layout-land/power_usage_detail_item_text.xml
+SHA1-Digest: V8KvtpqC0X9wTs5NwfbT1ivjY78=
+
+Name: assets/html/en_gb/tethering_help.html
+SHA1-Digest: un5yJM49We4J0sykmDt7/jK2khI=
+
+Name: res/layout/preference_bluetooth.xml
+SHA1-Digest: pNXs3h2EsnwEZzIWQzi1+n1lzI8=
+
+Name: res/drawable-hdpi/ic_tab_unselected_all.png
+SHA1-Digest: mAsQbm9dmqyBBjmh2TNSEHlX5fI=
+
+Name: assets/html/pt/tethering_help.html
+SHA1-Digest: V+FqJfRjSI5ZcvzGaWt1mMMr8ws=
+
+Name: res/drawable-hdpi/lock_anim_5.png
+SHA1-Digest: Y5UxZJ85wZtsKjBP6otf+wjMASg=
+
+Name: res/drawable-hdpi/lock_anim_4.png
+SHA1-Digest: QF62uBaWFRMUWjhuIu0WwqYW2fo=
+
+Name: assets/html/hr/tethering_help.html
+SHA1-Digest: UPv0snNsZcVADWKv8yEo66jnJHM=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: zZHAXpQEOUyZik8km6PQk6KOCwY=
+
+Name: res/layout/media_format_final.xml
+SHA1-Digest: iQH/+MpuAbUXQfl1QG0PAid5An8=
+
+Name: assets/html/cs/tethering_wifi_help.html
+SHA1-Digest: MF1+2zWoQwfmfixMeKxLZPnCJS8=
+
+Name: res/layout/pick_item.xml
+SHA1-Digest: G63zoXBdvqUVqQHcFRh0XocYrlM=
+
+Name: res/drawable-hdpi/ic_network_signal_4.png
+SHA1-Digest: +LnoxNe5pR7qD5waPFQGFWtSA/Q=
+
+Name: res/xml/wifi_settings.xml
+SHA1-Digest: oVvhrUktnRhaE0qCZoEPNAkOAOI=
+
+Name: res/drawable-hdpi/ic_network_signal_2.png
+SHA1-Digest: ZJU2NZd2KvGnyy8ObuBYp2gpxqk=
+
+Name: res/xml/powersavingmodewidget_info.xml
+SHA1-Digest: ATY/jxxVoftkgacu8l7OpRgBYqo=
+
+Name: assets/html/fi/tethering_usb_help.html
+SHA1-Digest: CZiiHNMQ1AL0PbH5PGXEhxGDJEA=
+
+Name: assets/html/bg/tethering_usb_help.html
+SHA1-Digest: yZBfktwYW12ADWjLjjsEFL1pj84=
+
+Name: res/xml/voice_input_output_settings.xml
+SHA1-Digest: 1c4dQLt+/lqQubBYPE3Abg0YIn8=
+
+Name: res/drawable-hdpi/ic_menu_scan_network.png
+SHA1-Digest: vqjIcepINKXvwBqxvOU5sDGKio0=
+
+Name: res/xml/bluetooth_settings.xml
+SHA1-Digest: myDYLVUgJmzAG6J0oaTRahsMle0=
+
+Name: res/xml/wifi_access_points.xml
+SHA1-Digest: HX1kqzD0Idw8Ot6MSK9MMVEsYuY=
+
+Name: assets/html/fr/tethering_wifi_help.html
+SHA1-Digest: 5owx+690TUtQnNHj1Q/P3CQsvws=
+
+Name: res/layout/installed_app_details.xml
+SHA1-Digest: rzrvPSCIPp0BKfx8keJMU0gct0c=
+
+Name: assets/html/ru/tethering_usb_help.html
+SHA1-Digest: OR8ujVmDe031+HCsOKC3ikCmgLg=
+
+Name: res/layout/choose_lock_pattern_example.xml
+SHA1-Digest: CEOIMnPaE3H/YHzqsuPAVSfvZ/w=
+
+Name: res/drawable-hdpi/ic_bt_printer.png
+SHA1-Digest: qZQFacyvuK0e7iNuo4yh8bCU44U=
+
+Name: res/layout/media_format_final_sd.xml
+SHA1-Digest: Xkbd2q5VniHDf2U8HRoLBn7GUOs=
+
+Name: assets/html/pt_pt/tethering_help.html
+SHA1-Digest: yFFtJ4yUvac0srv2lvkmhx2d+50=
+
+Name: res/drawable-hdpi/lock_anim_6.png
+SHA1-Digest: V76qSHlo90dcOHrczShlZhzLS2Q=
+
+Name: res/layout/choose_lock_face_tutorial.xml
+SHA1-Digest: OaD2LGsYBHeJmg2DUrFMUOA7C9k=
+
+Name: res/layout/device_admin_add.xml
+SHA1-Digest: tpjL8TT7AUYWBgffJm3BkdFzmjc=
+
+Name: res/drawable-hdpi/ic_settings_call.png
+SHA1-Digest: 2n03QOc1bSEjtQ/PpeYZ2I5/d2I=
+
+Name: assets/html/sr/tethering_usb_help.html
+SHA1-Digest: NWpXrurpQ1ZVupubyUwc+aq6Qi8=
+
+Name: res/layout/preference_dialog_ringervolume.xml
+SHA1-Digest: Iwr01UvybNP6aipEWoBYbUSpG78=
+
+Name: res/drawable-hdpi/ic_wifi_direct_camera.png
+SHA1-Digest: pxIcf0Rjn9dN/+PygjY7mN+5Qik=
+
+Name: res/xml-es/timezones.xml
+SHA1-Digest: 57UvUjEMrRsULlc74c9hqQVNP4k=
+
+Name: res/drawable-hdpi/ic_wifi_lock_signal_1.png
+SHA1-Digest: Fmqihs58MNnkCns916Vh/ZAfXe0=
+
+Name: res/drawable-hdpi/ic_wifi_signal_4.png
+SHA1-Digest: i2jaiOEizrZCAVx+1vnQCwfqC1c=
+
+Name: assets/html/vi/tethering_help.html
+SHA1-Digest: A1H+I9SLzzZDff4dX5ceh2De5PY=
+
+Name: res/xml/wifi_ap_settings.xml
+SHA1-Digest: /hTICX8CB5P9bR9gq+hbdr4uauI=
+
+Name: assets/html/ro/tethering_help.html
+SHA1-Digest: zoAroxXIYROvnTzHSlqK15GrNXM=
+
+Name: res/layout/preference_progress_category.xml
+SHA1-Digest: mUsESIue1zX6eLtzG3RjGqbF1vc=
+
+Name: res/drawable-hdpi/panel_bg_more_left.png
+SHA1-Digest: jhT204vJkWkOjLAmmd2jTfsYWBU=
+
+Name: res/xml/vpn_edit.xml
+SHA1-Digest: iDH2sApQYhdhcy75URFRQCcyxAg=
+
+Name: res/drawable-hdpi/mainmenu_icon_deviceadministrator_settings.png
+SHA1-Digest: RJnYsfBf/QQCKKUz0oOrA92mtBU=
+
+Name: res/drawable-hdpi/appwidget_inner_press_r.9.png
+SHA1-Digest: xN+Yb54wbFsoCmoqjRgGS75X/dU=
+
+Name: res/layout-land/wifi_list_dialog.xml
+SHA1-Digest: Oh36Cjra9Qo2kPynI5ZlPqGe2WI=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 9X91IzA340PlQtIjDNh7/LLHW1g=
+
+Name: res/drawable/signal.xml
+SHA1-Digest: mLGQob7aha9jU9plrsAYBcyUuCU=
+
+Name: assets/html/ko/tether_attention.html
+SHA1-Digest: wOsfDlngcnw4O63md94KxiLLi7I=
+
+Name: res/xml/apn_editor.xml
+SHA1-Digest: 9oDXr43GnOEXa/zskU/3uWHc5Pw=
+
+Name: res/xml/weather_settings.xml
+SHA1-Digest: WONXKhnSgE58b9IP9b97XiQbp2A=
+
+Name: res/drawable-hdpi/ic_settings_motion.png
+SHA1-Digest: KMOP8TZpVhDuqH72aRfOSZ0vlRs=
+
+Name: res/drawable-hdpi/theme_preview_not_available.png
+SHA1-Digest: NfYUNJViViC4xGkaLgcCSq8IsSY=
+
+Name: res/drawable-hdpi/ic_paired_connect.png
+SHA1-Digest: 3JECivOfeKEbmRE9YX01GjQpijk=
+
+Name: res/layout/bluetooth_pin_entry.xml
+SHA1-Digest: 7uB0EhyEuOllzA+dQ4Co49Ed8HU=
+
+Name: res/drawable-hdpi/panel_bg_center.png
+SHA1-Digest: f3l24N/VYXC1F+40bLbqNEY3FEs=
+
+Name: res/layout/applist_item.xml
+SHA1-Digest: oTZJc5KioFT2WE64CS/bucoqqPU=
+
+Name: classes.dex
+SHA1-Digest: V9CY1dB8p/WE87Cu90Y3OJMyycY=
+
+Name: res/xml/wifi_direct_settings.xml
+SHA1-Digest: SBUQvOkav2reg6iz9d5LrtkffUo=
+
+Name: res/layout/wifi_list_dialog.xml
+SHA1-Digest: LtUv5I/4S+31XcuWVOWV9C8eme8=
+
+Name: assets/html/et/tethering_usb_help.html
+SHA1-Digest: iFXmm3g6Cryo0uJgN/LzF9jL60c=
+
+Name: res/xml/driving_mode_settings.xml
+SHA1-Digest: sC5YStOMbhffy3fXbmgv/0Bow3g=
+
+Name: res/layout/date_time_settings_setupwizard.xml
+SHA1-Digest: JGQM5yH1QTPZVnqYFRRzjjrXcFc=
+
+Name: assets/html/TN_CHN_OPEN/zh_cn/tethering_wifi_help.html
+SHA1-Digest: EY7P81514ICMYcqMuItckrV8Bc0=
+
+Name: assets/html/ja/tethering_help.html
+SHA1-Digest: OIfScFLVbP79IbKoQ0AhNy7f85k=
+
+Name: res/drawable-hdpi/ic_network_signal_0.png
+SHA1-Digest: VT5BCS6HMnuaw4kCiAx5YhZXnLY=
+
+Name: assets/html/ga/tethering_usb_help.html
+SHA1-Digest: Ox1J8ptiOFlmHHrsIA/GBC2kfzU=
+
+Name: assets/html/es_us/tethering_wifi_help.html
+SHA1-Digest: B6c6pCai3EVPWAtHLJNslL4UsyU=
+
+Name: assets/html/ru/tethering_help.html
+SHA1-Digest: hhs7ZDeKFiCi/QW9hpy9aL7LM6g=
+
+Name: res/layout/wifi_api_test.xml
+SHA1-Digest: LaOvAGACPBWSVUHSl79iNmTn6Ko=
+
+Name: res/xml/date_time_prefs.xml
+SHA1-Digest: pOjABjY02dexC84nl/90xU/jUls=
+
+Name: res/drawable-hdpi/icon_brightness_on1.png
+SHA1-Digest: 2cETYaw7+7mRKMKmwem/lNkJnuI=
+
+Name: res/xml-de/timezones.xml
+SHA1-Digest: 0AdAraSCjI+UsqOTEBGKovdC2us=
+
+Name: res/drawable-hdpi/appwidget_settings_ind_mid_r.9.png
+SHA1-Digest: rI15xoE7wg6nUDCP6ptPtj6KETI=
+
+Name: res/layout/confirm_lock_pattern.xml
+SHA1-Digest: 8+pTAb1HomAHOmdRtqRHzkxkAcQ=
+
+Name: res/drawable-hdpi/icon_setting_on.png
+SHA1-Digest: 2ezK0g5oRFEWOPYzG7umMD1HTcc=
+
+Name: res/layout/preference_dialog_brightness.xml
+SHA1-Digest: pJn0ZDh91deg/is5UiZUypopDHs=
+
+Name: assets/html/pt_br/tethering_help.html
+SHA1-Digest: cEdx3xLAWS3nOpze/Ac2cfAeAew=
+
+Name: assets/html/el/tethering_help.html
+SHA1-Digest: OTvyqjhYO3f/6R2v6jBENMdkeB4=
+
+Name: res/drawable-hdpi/mainmenu_icon_docksetting_settings.png
+SHA1-Digest: 9HEQrkIa4oszRRvOIBVFJ40vv3w=
+
+Name: res/xml/split_view_settings.xml
+SHA1-Digest: qppyx1Hxj6Ak62yHlUP92SQqhM0=
+
+Name: assets/html/pt_pt/tethering_wifi_help.html
+SHA1-Digest: zezKRf19ktIECtpWT9/1RpXYAnI=
+
+Name: res/xml/settings.xml
+SHA1-Digest: QbkQGDUOwM4XNrrPy/k6LZpFMCo=
+
+Name: res/drawable-hdpi/ic_settings_softupdate.png
+SHA1-Digest: 9ohpAX50TkpSOo96avt1rFkSzdk=
+
+Name: res/layout/power_saving_mode_tips.xml
+SHA1-Digest: GUru/IVMHg8u2kdjDtEmapOTRLo=
+
+Name: assets/html/TN_CHN_OPEN/en_us/tethering_help.html
+SHA1-Digest: iWL0iPd5HzZC/pdJ6fVBkgW/YNo=
+
+Name: res/drawable-hdpi/ic_settings_date_time.png
+SHA1-Digest: c8jXPeowizU2fsgldgyZ33psnr0=
+
+Name: res/xml/device_info_memory.xml
+SHA1-Digest: MWvp66um2FcgMgW/6f+Zey19tFo=
+
+Name: assets/html/kk/tethering_help.html
+SHA1-Digest: APTW6r/wkiD9W73vu3YUdTlBOPU=
+
+Name: res/xml/security_settings_pin.xml
+SHA1-Digest: D0C2uxBE3ZD9ubaG1md8jzpSQms=
+
+Name: res/layout/power_usage_action_item.xml
+SHA1-Digest: W8wXbZK2w55XSj3a3rqG1u58Qyc=
+
+Name: res/drawable-hdpi/appwidget_settings_ind_off_c.9.png
+SHA1-Digest: 94g2i1p2Eupu2ndPCi8AjeDZ1nM=
+
+Name: res/drawable-hdpi/ic_tab_selected_download.png
+SHA1-Digest: G9s3LOvpuu6JF4+B3YVL8bYbEis=
+
+Name: res/xml/vpn_settings.xml
+SHA1-Digest: ZkpWHYTB264iEyn8f5VA0htzqTk=
+
+Name: res/layout/wifi_ap_help.xml
+SHA1-Digest: 8G4UR1xK0bZau67nw9IP96w/hLQ=
+
+Name: assets/html/TN_CHN_OPEN/en_us/tethering_wifi_help.html
+SHA1-Digest: vja1bqMwpCPRmSj8ORfD8yUO9nE=
+
+Name: res/layout-land/powersavingmode_widget.xml
+SHA1-Digest: SOvpXM71rXMpLsy6er8D70gFCgA=
+
+Name: res/drawable-hdpi/flipfont_icon.png
+SHA1-Digest: UxbFgEoeN8N9Y1isyaxKgqEKCwc=
+
+Name: res/xml/wifi_settings_include_wps.xml
+SHA1-Digest: nIolqyRnrC3M4PwmkksIs2s8fyg=
+
+Name: res/xml/tts_settings.xml
+SHA1-Digest: PuMcysTNlPC7IFg5waDIqVgJpaM=
+
+Name: res/drawable-hdpi/ic_wifi_direct_displays.png
+SHA1-Digest: E0aLlDjc4QTuyjoRnv/R4cZU/EE=
+
+Name: res/drawable-hdpi/icon_brightness_2_on.png
+SHA1-Digest: mC8rdNbH+DtaxbcMHL9zdGqHGnA=
+
+Name: assets/html/nl/tethering_wifi_help.html
+SHA1-Digest: 641XJX0UyCG6YrpmvZzrLizExn8=
+
+Name: res/drawable/ic_power_system.png
+SHA1-Digest: ixAFKcc2N8nLe4y9mmvFEO5mdIE=
+
+Name: res/drawable-hdpi/ic_wifi_signal_3.png
+SHA1-Digest: xUmDZGiUBSyRb0KokBAl3X0pmQI=
+
+Name: assets/html/TN_CHN_OPEN/en/tethering_wifi_help.html
+SHA1-Digest: PsqKrH6CaYsbSbijqNarVH3u+Fs=
+
+Name: res/drawable-hdpi/panel_on_right.png
+SHA1-Digest: r1vRUtMMq+YXiXTdoVwAZnbaRzs=
+
+Name: res/layout/list_touchwiz.xml
+SHA1-Digest: ZRRI9abYQTPz1qPf2eP9O8vWYC0=
+
+Name: assets/html/zh_tw/tethering_wifi_help.html
+SHA1-Digest: 4RARsyPk/T07S3hPht6jufcChRM=
+
+Name: res/layout/bluetooth_req_service.xml
+SHA1-Digest: Xt+5eQvRF4PntGieg+yKnk7j6pQ=
+
+Name: res/xml/application_settings.xml
+SHA1-Digest: gtYadXGAwxQloY5YQkawsVEp30E=
+
+Name: assets/html/et/tethering_help.html
+SHA1-Digest: nzlMO9IhxaCy+w8KIc4SWrWCfGI=
+
+Name: assets/html/ko/tethering_wifi_help.html
+SHA1-Digest: VMeh3Z/ZSqqcFzdtifwBRlEFdBU=
+
+Name: res/drawable-hdpi/panel_bg_right.png
+SHA1-Digest: qp8TQR8OWjZq7VhsoK7WIdZmoc0=
+
+Name: res/drawable/setting_bg.png
+SHA1-Digest: i3b3jjG8j3RTRwKXkH+fEiOl8t4=
+
+Name: res/xml/timezones.xml
+SHA1-Digest: h35ymiErgu9h2vytDkvsyTaX/Jc=
+
+Name: res/layout/wifi_direct_discover_notify.xml
+SHA1-Digest: Nqey6tUQPnMKSJktA9JSx/mynzY=
+
+Name: res/drawable-hdpi/icon_tips_on.png
+SHA1-Digest: g2BEeWbgfPvVALGC37sklahXuBM=
+
+Name: res/drawable-hdpi/ic_appwidget_settings_bluetooth_off.png
+SHA1-Digest: QBglTnOQ3De4cuC+ftzltBCHUDE=
+
+Name: res/drawable-hdpi/appwidget_settings_divider.9.png
+SHA1-Digest: 7H4bG4r/pHYByOY5clOQjG52n38=
+
+Name: res/xml/vpn_type.xml
+SHA1-Digest: T5aALF32hNWqhYvNOxMfF/vFYjE=
+
+Name: res/drawable-hdpi/ic_new_disconnect.png
+SHA1-Digest: ZNB+v2PPFLNqFaIDMiKh4ULKrO4=
+
+Name: res/drawable-hdpi/panel_bg_left.png
+SHA1-Digest: lUar3f0ef92xbBBW2lodiVgGGp4=
+
+Name: res/drawable-hdpi/ic_appwidget_settings_gps_off.png
+SHA1-Digest: cM70md1GhDz+kZEOTHsjSr1R6lU=
+
+Name: res/layout/bluetooth_mouse_pin_entry.xml
+SHA1-Digest: dSpEQuIgkdUL2p4kG3OuvX256i4=
+
+Name: assets/html/en_gb/tethering_wifi_help.html
+SHA1-Digest: XYCBtInfRB5Onfq+P4/IKpFjx7k=
+
+Name: assets/html/it/tethering_wifi_help.html
+SHA1-Digest: new14Eu2yr9ka+9muGUGGzH9KLI=
+
+Name: assets/html/sl/tethering_help.html
+SHA1-Digest: v6wCxsr0KKSg769bmkbjpknJK7U=
+
+Name: res/drawable-hdpi/lock_anim_3.png
+SHA1-Digest: rdDtKD/fCId4TjXa8twKfvLcTbk=
+
+Name: res/xml/security_settings_picker.xml
+SHA1-Digest: 5WHMe0eeTYGecopDS+nvBMBXNkU=
+
+Name: res/drawable-hdpi/ic_appwidget_settings_sync_on.png
+SHA1-Digest: 0Hr+Syou6cRZH7jHYYJprewdqO4=
+
+Name: assets/html/uk/tethering_usb_help.html
+SHA1-Digest: IHjvhl2y8vXgDNXEvAtFwJ85mvg=
+
+Name: res/layout/did_dialog.xml
+SHA1-Digest: xLCqKnZF4B2WnwERA1TwAo6WzUg=
+
+Name: assets/html/es/tethering_help.html
+SHA1-Digest: DNaULkYkv6EXfZb2n8qFlDT+0w0=
+
+Name: assets/html/ru/tethering_wifi_help.html
+SHA1-Digest: qK79ZIK37IutVmfN/NGmZQIibZM=
+
+Name: res/drawable-hdpi/ic_appwidget_settings_bluetooth_on.png
+SHA1-Digest: T5NkN+78wr79F/ipfb/CjL+HETQ=
+
+Name: res/drawable-hdpi/ic_settings_wifi.png
+SHA1-Digest: S1wZB4al52MTS0D09BjC7q8RJ/I=
+
+Name: assets/html/ms/tethering_wifi_help.html
+SHA1-Digest: FKgpbzsmjPrKRSx8vfcMSc6siz0=
+
+Name: res/layout/applist.xml
+SHA1-Digest: uZijmREH6QwWbTBkAbprGHbUW8s=
+
+Name: assets/html/en_ca/tethering_usb_help.html
+SHA1-Digest: 7b8UO2NoqZ7Nnjnf3/UMXV5UArc=
+
+Name: res/layout/iwlan_dialog_row.xml
+SHA1-Digest: RHz3N9vtezy2hrRAQl27BPsMnnk=
+
+Name: res/drawable/setting_icon_01_1.png
+SHA1-Digest: AzSBoH2TlwQNw/r5ZSvIHKsHX3c=
+
+Name: res/layout/bt_enabling_progress.xml
+SHA1-Digest: TUeJKEEMD8eTTu6kIhpcVwLkQK8=
+
+Name: res/xml/security_settings_pattern.xml
+SHA1-Digest: KvCK2pYZgRloH6WOeOyEVYS+ozw=
+
+Name: res/layout/twelve_key_entry.xml
+SHA1-Digest: q0u9J7Ya7lrOAJNWN4YWHe3o5+s=
+
+Name: res/drawable-hdpi/ic_tab_unselected_running.png
+SHA1-Digest: pz7h61HSX/7+ng/9D/CVOtFsGC4=
+
+Name: res/drawable-hdpi/ic_appwidget_settings_gps_on.png
+SHA1-Digest: P1PbscE3ytMp3DHakXPrIC4d6Ng=
+
+Name: assets/html/no/tethering_wifi_help.html
+SHA1-Digest: mYbikXFSNnuuxB5fIreNvZVTcTc=
+
+Name: res/drawable-hdpi/appwidget_settings_ind_off_r.9.png
+SHA1-Digest: 81ZtRE/em18OiMZyLvs4idOP84g=
+
+Name: assets/html/ms/tethering_help.html
+SHA1-Digest: M+SgrjC9W0PchN1g0llsY36mEkQ=
+
+Name: assets/html/nl/tethering_usb_help.html
+SHA1-Digest: xmFMY84UvVwr0BV9ZebBha4DbQc=
+
+Name: res/drawable-hdpi/panel_bg_more_right.png
+SHA1-Digest: 6e+95df042C4AN6EtagXo9ipD8M=
+
+Name: res/layout/running_service_details_service.xml
+SHA1-Digest: MT8pHwL0Q8eSMkZ6n2e5qo2X15w=
+
+Name: assets/html/lt/tethering_usb_help.html
+SHA1-Digest: WKhCjD591OtXahGcfKAGJDwg6YE=
+
+Name: res/xml/privacy_settings.xml
+SHA1-Digest: lZg6QB6FJ9EIqrjwaaD7iJKf1ao=
+
+Name: res/drawable-hdpi/ic_network_signal_3.png
+SHA1-Digest: kiIt5u8wgc7zT2hQGVqQnXjvbQ4=
+
+Name: res/layout/manage_applications.xml
+SHA1-Digest: AZyifgGbomWIahLlyV4yFRNeBd4=
+
+Name: assets/html/nl/tethering_help.html
+SHA1-Digest: L+cORJJW+vMC1ssC/ggcknDexUI=
+
+Name: res/layout/bluetooth_discoverable.xml
+SHA1-Digest: 0YEiJXtIXA64ePUOxQjOxAeoNQI=
+
+Name: assets/html/TN_CHN_OPEN/zh_cn/tethering_help.html
+SHA1-Digest: auD9hizkADRlb5c2AmMrDVDcG2k=
+
+Name: res/xml/display_settings.xml
+SHA1-Digest: ZxDYyLQIOkRVSvKCX0x3/z2DTkk=
+
+Name: res/drawable-hdpi/ic_settings_sound.png
+SHA1-Digest: ZAm8HGQK1g+vOzhw/Qhewpe8z1g=
+
+Name: res/drawable-hdpi/mobile_ap_introduction_h.png
+SHA1-Digest: 6dV3J9YYSeuks9V/jc0N+OF09EU=
+
+Name: res/drawable-hdpi/ic_network_signal_1.png
+SHA1-Digest: CfS/0Qr+7r7JL/Q5NiBpkcat8LY=
+
+Name: res/drawable-hdpi/ic_menu_add.png
+SHA1-Digest: I/zt+kt9+0pF5QicPqmwczdYVPk=
+
+Name: res/layout-land/choose_lock_password.xml
+SHA1-Digest: 6+EnXsqt4WLLGGMo89kSSP8zmPg=
+
+Name: res/xml/apn_settings.xml
+SHA1-Digest: O5KWGVMbvWx3rPJwRqE4zYtMyA4=
+
+Name: res/drawable-hdpi/ic_launcher_settings.png
+SHA1-Digest: ktVotmKQJdEnH71SDtIDEpXkzxY=
+
+Name: res/drawable-hdpi/ic_info_powersaving.png
+SHA1-Digest: ix0QxGb47nydl7g5P55vyHMbOFY=
+
+Name: res/xml/testing_wifi_settings.xml
+SHA1-Digest: ngF0LIK+GKMvR7sh0gjEkh6UAVw=
+
+Name: res/drawable-hdpi/ic_wifi_direct_nm_infra.png
+SHA1-Digest: fowWFFXtLkZwgSe49QUDsTkRx0c=
+
+Name: res/layout/preference_batteryhistory.xml
+SHA1-Digest: QxbuZj/XeI2CY0f32qOOnphV+No=
+
+Name: res/layout/askusbmode.xml
+SHA1-Digest: ZwRs3tuBKgOMk7yASDzrN63h0zM=
+
+Name: res/drawable-hdpi/ic_appwidget_settings_brightness_auto.png
+SHA1-Digest: w27KxUxoPg0hB9THvMTP4EhCIXY=
+
+Name: res/drawable-hdpi/mainmenu_icon_running_services.png
+SHA1-Digest: xu72PFzLUKRwnSKxxmYJIG9gICg=
+
+Name: res/layout/master_clear_final.xml
+SHA1-Digest: +KZSPYZjaoay91OP0AqqD6dNahs=
+
+Name: assets/html/es/tethering_usb_help.html
+SHA1-Digest: 8U7rpLMGWfxoVBOT0kl+gCvRwOs=
+
+Name: res/drawable-hdpi/icon_sync_off.png
+SHA1-Digest: Bm+F0ijzaQfONWVi5m/2WEzSz3U=
+
+Name: res/xml-ko/timezones.xml
+SHA1-Digest: 5ByHCz6COVNvsJ0FKhr4cs4LDxY=
+
+Name: assets/html/tr/tethering_help.html
+SHA1-Digest: O/Y1dllT7+EAhzCVFXY7q2HNvUM=
+
+Name: res/layout/sensor_aiding_popup.xml
+SHA1-Digest: 6Iryoh4dq3Dg5Ni1zcnRC15ddbA=
+
+Name: res/drawable-hdpi/group_thumb_power.png
+SHA1-Digest: dlUCjg78R+RNTLSqbpcKVMwjvqg=
+
+Name: res/drawable-hdpi/lock_anim_8.png
+SHA1-Digest: bvOLKlBhnwLqvQ8dMqOq3ubTmrQ=
+
+Name: res/xml/accessibility_settings.xml
+SHA1-Digest: XYmyNmfIjsrvYGZOTqPxa7CaSXY=
+
+Name: res/drawable-hdpi/appwidget_bg.9.png
+SHA1-Digest: R/RPLQu244kZU5nKkWH+OMaQTq8=
+
+Name: res/drawable-hdpi/ic_wifi_wps.png
+SHA1-Digest: kCXrreukpTLHbrhd8XToO5s9u00=
+
+Name: res/drawable-hdpi/ic_settings_voice_calls.png
+SHA1-Digest: 4O6tmRs0gUaOsDyHai4Yy5Ne4k0=
+
+Name: assets/html/pl/tethering_wifi_help.html
+SHA1-Digest: TlqwwRDrrtsyE92uNGY92ZQjNOk=
+
+Name: res/drawable-hdpi/panel_on_center.png
+SHA1-Digest: rOADiKQF7YObDhnTBTTfiOXkYOQ=
+
+Name: res/xml/wifi_connected.xml
+SHA1-Digest: PGSMte2aCCZsVuKy+feo0CXzmYw=
+
+Name: res/drawable-hdpi/ic_settings_wireless.png
+SHA1-Digest: 5bOtank6PPx0lSxCjKRE3SqYuKI=
+
+Name: assets/html/TN_CHN_OPEN/en/tethering_usb_help.html
+SHA1-Digest: e3LMCHC2KwDO8bnMUM/kLkBT+FY=
+
+Name: res/drawable/lock_anim.xml
+SHA1-Digest: gsmFQr+88i7DHZHj7JN5Y3BXAeE=
+
+Name: res/drawable-hdpi/ic_btn_next.png
+SHA1-Digest: ajqGTQq9f3ZUombmYCSGpfaS1D0=
+
+Name: res/layout/locale_picker_in_setupwizard.xml
+SHA1-Digest: swMRzwQ/fGqowXe1EeA6cvOsJZc=
+
+Name: res/layout/wifi_config_info.xml
+SHA1-Digest: 5LOuBuDPjY4Ho8Mxxgxx4vXqCTg=
+
+Name: res/xml-it/timezones.xml
+SHA1-Digest: LkmumUYzWgLyyhnB50MJRpLTt/I=
+
+Name: res/layout/preference_widget_shortcut.xml
+SHA1-Digest: T0IeAOxvjaXQowO5yf15bfgbUvA=
+
+Name: assets/html/pl/tethering_usb_help.html
+SHA1-Digest: UL15pNUSTTIk5fgcJxEMdLf/8mM=
+
+Name: res/xml/sim_lock_settings.xml
+SHA1-Digest: GMRF7AfeAv88cpcODDZ0VpgvIs4=
+
+Name: res/layout/dialpad.xml
+SHA1-Digest: eoVca7lMWB1OypmTao/rK2zQcnA=
+
+Name: res/layout/choose_lock_pattern.xml
+SHA1-Digest: zEMAuE30+FghOlGXYF7tNMc+J7o=
+
+Name: assets/html/de/tethering_help.html
+SHA1-Digest: pejIU9XaVZN/DuzPoHBCwcE9foU=
+
+Name: assets/html/zh_tw/tethering_usb_help.html
+SHA1-Digest: hfk5/nWVUOzQYm63ZQehy4SsbGs=
+
+Name: assets/html/no/tethering_usb_help.html
+SHA1-Digest: QDWdyxZ/85mwPdINUCDz3sq0nGE=
+
+Name: res/layout/band_mode.xml
+SHA1-Digest: +Y1+HqXd+LgTJp82Bc4auXMEa04=
+
+Name: res/xml/apn_editor_includedun.xml
+SHA1-Digest: 5Z57YSKFwL1C0iV03hgXRbVquLs=
+
+Name: res/drawable-hdpi/ic_wifi_lock_signal_3.png
+SHA1-Digest: g61l1s7BmuvzTwO8pofxJjTak5Q=
+
+Name: res/layout/preference_transmission_help.xml
+SHA1-Digest: bQxVgqB8GP92ABzWv2ohYq25W2E=
+
+Name: res/layout/media_format_primary.xml
+SHA1-Digest: EyxvVaGcQ1cbLDz9ZJgAwpG16j0=
+
+Name: assets/html/cs/tethering_usb_help.html
+SHA1-Digest: dmQRs4WxJROIGfbKAu/26aJscD4=
+
+Name: res/drawable-hdpi/appwidget_settings_ind_on_l.9.png
+SHA1-Digest: kHIeGkOGCP2wTvWjdBTijX2owTQ=
+
+Name: res/drawable-hdpi/app_settings.png
+SHA1-Digest: aPZ15m0LljkX3Ha/18e/CVwlJ10=
+
+Name: res/layout/wifi_direct_dialog.xml
+SHA1-Digest: KJOk8jZoqcELjx3MYJbT7i8xqGU=
+
+Name: res/drawable-hdpi/icon_screen_timeout_30s_on.png
+SHA1-Digest: rATPntPnF6QGkIh+XmMLePp+BJ8=
+
+Name: res/drawable-hdpi/icon_wifi_off.png
+SHA1-Digest: YdZLvkOaOLmFj11RhoANYPHtkV0=
+
+Name: res/drawable-hdpi/mainmenu_icon_theme_settings.png
+SHA1-Digest: 5b2GsZ8W7kYtCheZNrdQxlNtMDU=
+
+Name: res/drawable-hdpi/noitems_unnamed.png
+SHA1-Digest: 36YiPEDlCnG6sgdQ+MxQhGH18Ic=
+
+Name: res/layout/running_processes_item.xml
+SHA1-Digest: lKESRzd7J2xMnQW8/ETbagXXkpo=
+
+Name: res/layout/usb_utility.xml
+SHA1-Digest: f7Sp9i5YDaGnqQBvNKYVMAvfMEs=
+
+Name: assets/html/lv/tethering_help.html
+SHA1-Digest: yZ870bcllxBg4pPY9Sw4KrxacVo=
+
+Name: res/drawable/appwidget_button_right.xml
+SHA1-Digest: IVa3c8VTNuBCqan+47wS+X+iWA0=
+
+Name: res/drawable-hdpi/appwidget_inner_press_c.9.png
+SHA1-Digest: rNUuapBz4UuWHkzy/WKVyZBoYy0=
+
+Name: assets/html/fr/tethering_usb_help.html
+SHA1-Digest: V9b448C6Yyuf3AAj6P0rEUl8cOU=
+
+Name: res/drawable-hdpi/appwidget_inner_focus_l.9.png
+SHA1-Digest: WKZVcGUQ6f2dejZ/tMB2IaIADXM=
+
+Name: res/drawable-hdpi/icon_screen_timeout_1m_on.png
+SHA1-Digest: QDVpEzvoxubC990+yUfiJ7Zk//0=
+
+Name: res/drawable-hdpi/previewmode_img.png
+SHA1-Digest: VjDGa3sgX5LeDUNj6hCAorLXZP4=
+
+Name: res/drawable-hdpi/ic_appwidget_settings_brightness_on.png
+SHA1-Digest: vfwghnrAABNPcfVWMhLSqLU+klY=
+
+Name: assets/html/ko/tethering_usb_help.html
+SHA1-Digest: ZDS6N08OkojEKe9UJ1TqwJpQ7qI=
+
+Name: res/drawable-hdpi/appwidget_inner_focus_c.9.png
+SHA1-Digest: HsZRI1unJiTaaa+SwyofIGGTiBU=
+
+Name: res/drawable-hdpi/appwidget_settings_ind_mid_c.9.png
+SHA1-Digest: CvKuu4fmuW26G28JVl1lPCMp0M4=
+
+Name: res/drawable/wifi_signal_lock.xml
+SHA1-Digest: ltWrV805wBOuH5KZ5RfHq5MFcLc=
+
+Name: res/layout-land/wifi_ap_help.xml
+SHA1-Digest: yqwSVLkXEkaLeP2fnzpeN0072Hw=
+
+Name: res/layout/usage_stats_item.xml
+SHA1-Digest: gtt9MZ1RPoKKVF1cnCS+p257abc=
+
+Name: assets/html/hu/tethering_help.html
+SHA1-Digest: ntM8yNhqJOQ/6NEqEpvqmZNzHis=
+
+Name: assets/html/TN_CHN_OPEN/en_us/tethering_usb_help.html
+SHA1-Digest: rm0cckFYRVtAD+mCNdwiHVnVWp8=
+
+Name: res/xml/security_settings_chooser.xml
+SHA1-Digest: Yr/un4wZ/+TmW3lXW7lZ5iOHVwY=
+
+Name: assets/html/es_us/tethering_help.html
+SHA1-Digest: 6ZM2F79vlrKecZl2qKLShrT8u/k=
+
+Name: res/layout/bluetooth_sap_disconnect.xml
+SHA1-Digest: 4W+J3TB1f5ARcqD4wqv5rDFNC3Y=
+
+Name: res/drawable-hdpi/appwidget_inner_focus_r.9.png
+SHA1-Digest: rks41AKn0B7BRsKWEWoTsh5ybTs=
+
+Name: assets/html/sv/tethering_help.html
+SHA1-Digest: Dn/0Fou9GO6OJaFzMNpkSG/M7sY=
+
+Name: assets/html/TN_CHN_OPEN/en_us/tether_attention.html
+SHA1-Digest: bYDnEYFqgDhGT9jnUCUog/5Y5a8=
+
+Name: res/xml/bluetooth_device_advanced.xml
+SHA1-Digest: vzbCv8mSXKb++wnS1eZLMhb4FPo=
+
+Name: assets/fonts/DroidSans.ttf
+SHA1-Digest: EcWj1lK3Z+ZlzoZIBMHIlBizdrQ=
+
+Name: assets/html/TN_CHN_OPEN/ko/tethering_wifi_help.html
+SHA1-Digest: /hD9jov06j5S82D5d2j/UblIjlA=
+
+Name: res/drawable-hdpi/mainmenu_icon_manage_applications.png
+SHA1-Digest: 5/fbUQvh7vILngIgTa2ZQqAqMEE=
+
+Name: res/drawable-hdpi/panel_off_center.png
+SHA1-Digest: sJZHTd8j/A1t2qUqsRiycyoTz+8=
+
+Name: assets/html/en/tethering_help.html
+SHA1-Digest: ZtI4oEYPCmbTlVMNvP6RVMhik00=
+
+Name: assets/html/it/tethering_help.html
+SHA1-Digest: Cp5VW+TBEfXsNBPakOlY8JYpCmo=
+
+Name: res/layout/vpn_connect_dialog_view.xml
+SHA1-Digest: kAfnjwW28AZe5HL5yxZxatjpVuQ=
+
+Name: res/drawable-hdpi/theme_preview_background.png
+SHA1-Digest: QmHX4eZjspUea9SNeBuqOWvDIEQ=
+
+Name: res/layout/choose_lock_password.xml
+SHA1-Digest: ftG+z5TXLBQO5a9k34PqFu2CzMs=
+
+Name: assets/html/sk/tethering_usb_help.html
+SHA1-Digest: yjMuDn9gbYddsApUTHoA04feEjg=
+
+Name: res/drawable-hdpi/ic_settings_storage.png
+SHA1-Digest: SU+S8z9WxljhNMVpLwRElQ7w0F4=
+
+Name: res/layout/running_service_details.xml
+SHA1-Digest: 98evDC098OSk7o9bZacNS0KrcPc=
+
+Name: res/drawable-hdpi/ic_settings_applications.png
+SHA1-Digest: 3zyCZ3LKnLNT5CNedFtyG/Q+6O0=
+
+Name: res/drawable-hdpi/lock_anim_12.png
+SHA1-Digest: pD9sBXUBTqhFNu5RxWqFZLQIdqg=
+
+Name: res/layout/device_admin_item.xml
+SHA1-Digest: kmVrsPw3jETVFnNzo5ehxkf20sw=
+
+Name: res/drawable-hdpi/mainmenu_icon_userdictionary_settings.png
+SHA1-Digest: U9F12EiJD+DEanQC2agRBYr0mmU=
+
+Name: res/xml/bluetooth_svccfg.xml
+SHA1-Digest: WqQ57Uxy4GalJMNFTMMLklxq/Hw=
+
+Name: res/layout/wifi_ap_dialog.xml
+SHA1-Digest: +gTESzBRaj9XzFRj0mfKUPwgoTM=
+
+Name: assets/html/tr/tethering_wifi_help.html
+SHA1-Digest: 6EXH58MccKLshT6ZWgOLrDIMbbQ=
+
+Name: res/drawable/filled_box.xml
+SHA1-Digest: qrSKnn5Cce3Jt/tM+RrexyDJCpg=
+
+Name: res/drawable-hdpi/lock_anim_13.png
+SHA1-Digest: QzlSWn/BAk1dqMBTeR+ShRugdLA=
+
+Name: res/drawable-hdpi/ic_wifi_direct_computer.png
+SHA1-Digest: qF362+gHxuHxcJikFlnTrKuwxdg=
+
+Name: res/layout/power_usage_detail_item_text.xml
+SHA1-Digest: NcgkMzUZnizvXnrfZ2Ee2/h6PXA=
+
+Name: res/drawable-hdpi/ic_wifi_direct_game_deivces.png
+SHA1-Digest: 4s4CdwoeNpGC/kbzttWJIwlc1fo=
+
+Name: res/xml/development_prefs.xml
+SHA1-Digest: 9mUtlvPpAesWgItN4pyIaLYX6Cw=
+
+Name: res/layout/running_service_details_process.xml
+SHA1-Digest: ZUfZhbWfxcenHbEOrR/AA1J/+PU=
+
+Name: assets/html/is/tethering_usb_help.html
+SHA1-Digest: ABMB0Zs3Fmk7p+o/poQH6/lNx4w=
+
+Name: res/drawable/wifi_signal.xml
+SHA1-Digest: 9qZiE8r86GIxQODRoWPcb8VJ/Ms=
+
+Name: res/layout/wifi_status_test.xml
+SHA1-Digest: oIC+qV38jH0VmTy+fKo9T+rxUsQ=
+
+Name: res/layout/display.xml
+SHA1-Digest: 7/rVPn5eIt01prP2MQwPRcVBaOk=
+
+Name: res/drawable-hdpi/dotted_line_480px.png
+SHA1-Digest: /w8041d6wGl44EXIA4cRRYJvCq8=
+
+Name: assets/html/en_us/tethering_usb_help.html
+SHA1-Digest: 22vnW0NycTsRXjrmHqQPqBVmyT0=
+
+Name: res/drawable-hdpi/icon_screen_timeout_10m_on.png
+SHA1-Digest: KMbTNM+Kx6SQY9TBPar9z6xike0=
+
+Name: assets/html/es_us/tethering_usb_help.html
+SHA1-Digest: 7av6iS1P8xKWwXWCXubSuDiolyc=
+
+Name: res/layout/asensor.xml
+SHA1-Digest: HGrRbWbeCjJ04nSyP2m1Lxpks9s=
+
+Name: assets/html/el/tethering_usb_help.html
+SHA1-Digest: prtpecpMkV3k2IaJYEeaUDyN3CY=
+
+Name: res/layout/bluetooth.xml
+SHA1-Digest: UTdTfE8xOizOwD/CoSVKfJLcNKU=
+
+Name: assets/html/vi/tethering_wifi_help.html
+SHA1-Digest: a53RpwzgnyBw+lvPSTNE1j9AJ6U=
+
+Name: res/drawable-hdpi/panel_off_left.png
+SHA1-Digest: gsNsp3SRPcxjQ0TtuRkqNTV+JEw=
+
+Name: res/drawable-hdpi/mainmenu_icon_bluetooth_settings.png
+SHA1-Digest: MLmj/WCDa8xnWuEfJ63t3QtEKhQ=
+
+Name: assets/html/sl/tethering_usb_help.html
+SHA1-Digest: HgxUC+flKQFgNsDaNPuCQbgLWNI=
+
+Name: res/drawable-hdpi/appwidget_settings_ind_on_r.9.png
+SHA1-Digest: PjSafCOAXMbcJcK9gHva87jYpj8=
+
+Name: res/drawable-hdpi/ic_settings_cell_standby.png
+SHA1-Digest: yxOv4sBhhx7YdKmK72CdUW90qKU=
+
+Name: res/xml/wifi_advanced_settings.xml
+SHA1-Digest: Y+B4x+gg4LLKfvbl6Pft8WDeQ5k=
+
+Name: res/drawable-hdpi/ic_settings_powersaving.png
+SHA1-Digest: K6cbsyTBMOlRUTR4CVCe7gn+/Wk=
+
+Name: assets/html/hr/tethering_usb_help.html
+SHA1-Digest: NnLBbeS6g3odQ7JoioK9xENE/yU=
+
+Name: res/drawable-hdpi/ic_bt_headset_hfp.png
+SHA1-Digest: 2ZzkDBx7GWXoiIdOuTuJMUhaLkI=
+
+Name: res/drawable-hdpi/ic_settings_about.png
+SHA1-Digest: SmcBK3pwyQkQL5lkfcOgK87V0FA=
+
+Name: res/drawable-hdpi/ic_settings_dock.png
+SHA1-Digest: H9g+Xtl1gx2hAj/118+VXgQnP/w=
+
+Name: res/xml/appwidget_info.xml
+SHA1-Digest: kFUSB8s4PEC1H9AVEa3T5QzVI90=
+
+Name: res/drawable-hdpi/icon_screen_timeout_15s_on.png
+SHA1-Digest: VLMGbWGZDzQZA6VnnMalPiyMHzI=
+
+Name: res/drawable-hdpi/ic_wifi_lock_signal_2.png
+SHA1-Digest: q3i9tgBaipNLX69p2huBVwMmqrc=
+
+Name: res/xml/dock_settings.xml
+SHA1-Digest: 0Gn04aKY3rWNFRQDI7e2SbFd14I=
+
+Name: res/layout/running_processes_view.xml
+SHA1-Digest: j2LRykiS6tG011UtLu8jwLZ5rpE=
+
+Name: res/drawable-hdpi/ic_wifi_direct_input_device.png
+SHA1-Digest: M8x4wetbeMiYywR8HNNGdEBlacI=
+
+Name: resources.arsc
+SHA1-Digest: FQCVJw3FTo7I5aPFkHFLnjuOWAI=
+
+Name: res/drawable-hdpi/ic_tab_unselected_sdcard.png
+SHA1-Digest: /6VRdZ+7mIDksi6P7tcIYzw1muM=
+
+Name: assets/html/TN_CHN_OPEN/en/tether_attention.html
+SHA1-Digest: CaZYbdOXUFDV72CcPe4B8ULOHYU=
+
+Name: res/drawable-hdpi/appwidget_settings_ind_off_l.9.png
+SHA1-Digest: jiTyeS19D80jQBP13tlfLjLRrXQ=
+
+Name: res/layout/widget.xml
+SHA1-Digest: Vcg3s9+CX6pS/XcTGZSiB8TlMiE=
+
+Name: res/drawable-hdpi/ic_tab_unselected_download.png
+SHA1-Digest: d6uzSo2Z0T3ZupuuD31pH7V4A9w=
+
+Name: assets/html/lt/tethering_help.html
+SHA1-Digest: zuhtcYLvfKAPvqdY0wGLBAAOt1M=
+
+Name: res/layout/confirm_dialog.xml
+SHA1-Digest: eGRzdVCPTQhgTOPfb4DUspMyN6k=
+
+Name: res/drawable-hdpi/icon_wifi_on.png
+SHA1-Digest: AuMe8EFLIkgLHQVCf4PMMIt0qps=
+
+Name: res/layout/wifi_dialog.xml
+SHA1-Digest: SoE7KJjnSkTHmYaXFtMw3etJiSs=
+
+Name: res/drawable-hdpi/mainmenu_icon_language_keyboard.png
+SHA1-Digest: mwuDCXPM4MSSbrHIGpcTSFX7IaA=
+
+Name: res/drawable/ic_tab_sdcard.xml
+SHA1-Digest: OYUsAUWdEwQg8IqoKfytM0fRBcs=
+
+Name: res/drawable-hdpi/ic_wifi_lock_signal_4.png
+SHA1-Digest: FYVJmEoekmTeiRN07btsgbDtAZI=
+
+Name: assets/html/sv/tethering_usb_help.html
+SHA1-Digest: NvsZijbGQwS10EI08q/yiYPCyAU=
+
+Name: assets/html/zh_tw/tethering_help.html
+SHA1-Digest: hb7+sMcLgws4RUDKZkPa8L/oE8w=
+
+Name: res/layout/locale_picker_item.xml
+SHA1-Digest: excqelvMV++b+I/sthvwg1vMDTs=
+
+Name: res/layout/iwlan_dialog.xml
+SHA1-Digest: rvmP0r1lCdfinAIyDly0aM9BNpw=
+
+Name: assets/html/da/tethering_help.html
+SHA1-Digest: eOwuheLpt9isUwHQPX63DXljZ28=
+
+Name: res/layout/lost_phone_contact_edit.xml
+SHA1-Digest: B1u0iYRmDlxpSrUPI4RlBa+etRc=
+
+Name: assets/html/bg/tethering_help.html
+SHA1-Digest: dmqeRug63NOC5DIdxa9QYEm/veU=
+
+Name: assets/html/ko/tethering_help.html
+SHA1-Digest: yHKYvQN4hcaPsN590tCZHfixF6w=
+
+Name: res/xml/tvout_prefs.xml
+SHA1-Digest: QR97YHxtpCfXe1YIJ1YRzNDG6uE=
+
+Name: res/layout/powersavingmode_widget.xml
+SHA1-Digest: nqSMAps/pFUBvkUDp2/hEmU7Kcs=
+
+Name: res/drawable-hdpi/ic_wifi_direct_printer.png
+SHA1-Digest: k4hyK8Rr0/+eGJLafDJGjmNFCrA=
+
+Name: res/layout/media_format_primary_sd.xml
+SHA1-Digest: JWnFMrE4hfif7PQaHLPVYygUBHo=
+
+Name: res/drawable-hdpi/lock_anim_7.png
+SHA1-Digest: tnd/tDYdzciXlbkf/67bw27Z2sk=
+
+Name: assets/html/pl/tethering_help.html
+SHA1-Digest: M1yGwgv2J2hIHTeR1DlP8bq+Z94=
+
+Name: res/drawable-hdpi/ic_tab_selected_sdcard.png
+SHA1-Digest: x1dB324PY+5WQYdt24CIjgen2rQ=
+
+Name: assets/html/de/tethering_usb_help.html
+SHA1-Digest: kCAq8hh+UZwRpGMh2GGacfeq8Tc=
+
+Name: res/drawable/setting_icon_01_2.png
+SHA1-Digest: 2GDb+f5fw2ldmZ+he885XGptuAo=
+
+Name: assets/html/TN_CHN_OPEN/en/tethering_help.html
+SHA1-Digest: JeSRUaoRTj/ilGvB8b4pX+pToVA=
+
+Name: res/layout/two_buttons_panel.xml
+SHA1-Digest: lGBohwaThw1mmZwKTzE5L/S79kA=
+
+Name: res/xml/device_info_status.xml
+SHA1-Digest: StrT8quWv6TgKkbB2LYQ3y1UEBg=
+
+Name: res/xml/sound_settings.xml
+SHA1-Digest: gTZDzRdZ3uexVQgIVR0xEodLYfM=
+
+Name: res/drawable-hdpi/mainmenu_icon_memoryuse.png
+SHA1-Digest: mZMLwQa6kOVv4jvKx5/0hy3Fr/E=
+
+Name: assets/html/is/tethering_help.html
+SHA1-Digest: y4DPnHa3sT/zzBwZjKRhseQG8mA=
+
+Name: res/drawable-hdpi/ic_paired_disconnect.png
+SHA1-Digest: MvP+dZtVFJY6pDpC7aL6Kfwyc7c=
+
+Name: assets/html/en/tethering_usb_help.html
+SHA1-Digest: bS+6jnyHFDEcT2i4KgJSgkBA58U=
+
+Name: assets/html/ja/tethering_wifi_help.html
+SHA1-Digest: itCmKOOF5iumpitQ/bD81NYIRE4=
+
+Name: res/drawable-hdpi/mobile_ap_introduction.png
+SHA1-Digest: mk6hNps9gKeDr6hyASLP6NnEev4=
+
+Name: res/layout/wifi_direct_wps.xml
+SHA1-Digest: /sdD/uY9fr3+mallzgxkluRMgpE=
+
+Name: res/drawable-hdpi/ic_bt_keyboard.png
+SHA1-Digest: 9l8TlJo+ED8wN9rx6gjwE9/Ebvg=
+
+Name: res/drawable-hdpi/ic_settings_sync.png
+SHA1-Digest: mLoi/gI1BbYobAyDRvWysQYR/tM=
+
+Name: res/layout/lockscreen_shortscut_setting.xml
+SHA1-Digest: PILMeVLIlToeSD0IpbL3L2pXPqc=
+
+Name: res/xml/bluetooth_svccfg_dun.xml
+SHA1-Digest: 5hKyVeCIAJ9K0BQpZ7OLPHMMKCU=
+
+Name: res/drawable-hdpi/icon_brightness_off.png
+SHA1-Digest: VWbPSJkV/EmBi6gGos7KliF8eZM=
+
+Name: res/xml/keyboard_settings.xml
+SHA1-Digest: Oz0U58aWrOaaw91r6DvWsBYDH4k=
+
+Name: res/xml/wireless_settings.xml
+SHA1-Digest: vjGeJjCYVLFvjNuUK2l0TcAikVk=
+
+Name: assets/html/TN_CHN_OPEN/ko/tethering_usb_help.html
+SHA1-Digest: NL4MC3288cUHh8pLVGifbk6NCls=
+
+Name: res/layout/power_usage_details.xml
+SHA1-Digest: l8Rvrr6lbtRliLdhL7SVVquV0Bs=
+
+Name: res/drawable-hdpi/theme_preview_loading.png
+SHA1-Digest: 0aoJ62HVfzYP+uGSRYBSM5jlbJo=
+
+Name: res/drawable-hdpi/ic_bt_headphones_a2dp.png
+SHA1-Digest: 8Tb2b3b4BV8s+qOc85fkwZ8oOs0=
+
+Name: assets/html/TN_CHN_OPEN/zh_cn/tethering_usb_help.html
+SHA1-Digest: r6QMORRf+TEDF+VJBWqz+OuhRVs=
+
+Name: res/drawable-hdpi/icon_sync_on.png
+SHA1-Digest: 1mifogW1fQUVxnt0GCIvWdrPMRs=
+
+Name: res/layout/preference_dialog_vibrationfeedback.xml
+SHA1-Digest: Wo5IEmQ+939GfoeEgKL9NTFoC2I=
+
+Name: assets/html/mk/tethering_help.html
+SHA1-Digest: LLrG6+EJJFK/u2uimEXKOqs6Fjw=
+
+Name: res/xml/device_info_settings.xml
+SHA1-Digest: VEKGcYRiD9k2oz4LnmAAXROEJeQ=
+
+Name: res/layout/una_setting_listheader.xml
+SHA1-Digest: 2uW8AYT0ZciApBGyMpm+bM1cKCs=
+
+Name: res/xml/security_settings.xml
+SHA1-Digest: G6RsBO/USScFLDP+KZAzBDdbd1c=
+
+Name: res/drawable-hdpi/ic_settings_accessibility.png
+SHA1-Digest: EIg92X4/tgV7e8DW3f6ycDQcW+c=
+
+Name: res/layout/apn_preference_layout.xml
+SHA1-Digest: /mGAGkcEya7La625PnYmmR5KuSk=
+
+Name: res/drawable/wifi_signal_open.xml
+SHA1-Digest: OxMfa59ZvgFYUaKm0+0cOcymwIY=
+
+Name: assets/html/kk/tethering_usb_help.html
+SHA1-Digest: wEZjB0IfLOGSMOzfXi5S7ZLjNj4=
+
+Name: res/layout/phone_lock_password_dialog.xml
+SHA1-Digest: fRxAP29TeV2Kcldl5Lm8yBvN2iE=
+
+Name: res/drawable-hdpi/password_field_default.9.png
+SHA1-Digest: LBWBeUClL9cgSFVeAEcXbjBztvE=
+
+Name: res/drawable/ic_tab_all.xml
+SHA1-Digest: w9+KI4vz98v3Tut7XhcK1yy4ZNQ=
+
+Name: res/xml/device_picker.xml
+SHA1-Digest: 8aSZApgAi7UV/1IkZdJpyM3mhc8=
+
+Name: res/drawable-hdpi/panel_on_left.png
+SHA1-Digest: ZF2k+o92ZH0Lb2BZH3XZHAXxzVM=
+
+Name: assets/html/zh_cn/tethering_help.html
+SHA1-Digest: 5LGvY/nxfgXQ8qc4rg+z/NC1a1E=
+
+Name: res/drawable-hdpi/ic_docomo_service.png
+SHA1-Digest: PR0BbAXg+wItpxzQg+zSFrd7yeA=
+
+Name: res/layout/preference_charset_help.xml
+SHA1-Digest: 5ukQZ99lUmS2SIpdaprp1QqqO9M=
+
+Name: res/layout/gsensor.xml
+SHA1-Digest: V50p6yZx9nHLhxKDAFRbo5PuQ3M=
+
+Name: assets/html/mk/tethering_usb_help.html
+SHA1-Digest: MBcPOsjDSK74Bmtc0MAhV7xpQEc=
+
+Name: res/layout/choose_lock_pattern_tutorial.xml
+SHA1-Digest: Vm86OMWRKV4Z0W1raAy92nEINj0=
+
+Name: assets/html/ja/tether_attention.html
+SHA1-Digest: z1J4NMasotTT0tb22gWeEsZBvrQ=
+
+Name: res/layout/credentials_unlock_dialog.xml
+SHA1-Digest: rIKXl31wWYgOFcyoZW0S5bTjRIA=
+
+Name: res/drawable-hdpi/ic_bt_pointing.png
+SHA1-Digest: YPaum0hjv//HHG87r34LHwnUMuE=
+
+Name: res/drawable-hdpi/ic_bt_device.png
+SHA1-Digest: n9bRMO2qUH2A5vIqy0iwAC3g8Pw=
+
+Name: res/drawable/appwidget_button_center.xml
+SHA1-Digest: 0yrv5W6twmOXkGSLXPQtD/ajxmg=
+
+Name: res/drawable-hdpi/appwidget_settings_ind_mid_l.9.png
+SHA1-Digest: mpUHsxy8yUUK/V/JwYk2OXbXjAs=
+
+Name: res/drawable-hdpi/ic_settings_phone_idle.png
+SHA1-Digest: eA8ukoXB4nN4tm7I/HWkc3t1NEs=
+
+Name: res/xml/apn_editor_dual.xml
+SHA1-Digest: 4PzTYAi/Mu6ichiMt4GIxcaFaNg=
+
+Name: res/drawable-hdpi/appwidget_inner_press_l.9.png
+SHA1-Digest: uumOHAW5IEwaehUzA98LrPY9XIw=
+
+Name: res/layout/master_clear_primary.xml
+SHA1-Digest: EMkk1IvF+3WPsq1Vu3JhQgoU8eM=
+
+Name: res/xml/screen_display.xml
+SHA1-Digest: jkN+GVymsWb0i8mTPEuiTaJ8idU=
+
+Name: assets/html/pt_br/tethering_wifi_help.html
+SHA1-Digest: fwaw2hLOc17pZ7Hv7ez9eeZWtkk=
+
+Name: res/layout/power_usage_package_item.xml
+SHA1-Digest: ZB9pqtODP11+zK9OePsufJRga9E=
+
+Name: res/layout/noitems_layout.xml
+SHA1-Digest: /rilM88pOx4D0AdnIPBxCJdCiaM=
+
+Name: assets/html/ro/tethering_usb_help.html
+SHA1-Digest: jHqiIyOe8T7ZOaL6yWSxsMr18vQ=
+
+Name: res/layout/dialog_edittext.xml
+SHA1-Digest: FHLcLBd81XnZXIp7KBKAtpMdn08=
+
+Name: res/layout/usage_stats.xml
+SHA1-Digest: YTguXBAG7xNx8C7KpzAZ8nfPVs8=
+
+Name: assets/html/da/tethering_usb_help.html
+SHA1-Digest: z+uIhSC0npJ4sSkRSeOjcqdulYQ=
+
+Name: res/drawable-hdpi/ic_wifi_direct_audio.png
+SHA1-Digest: fOnJmB0IVAvxzwsqUXhcAOMLC5g=
+
+Name: res/drawable/ic_tab_running.xml
+SHA1-Digest: Gx8TZtCU5PVJ2Q84m8mtxp53x8A=
+
+Name: assets/html/sk/tethering_help.html
+SHA1-Digest: tcxw0VDXRlkUkrjlkQxI3T9VJAY=
+

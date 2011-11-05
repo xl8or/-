@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/text_receive_settings">
+        <com.htc.preference.HtcListPreference android:persistent="true" android:entries="@array/mail_dl_size_entries" android:title="@string/mail_download_sizes" android:key="mail_download_sizes" android:summary="" android:entryValues="@array/mail_dl_size_values" />
+        <com.htc.preference.HtcListPreference android:persistent="true" android:entries="@array/mail_fmt_entries" android:title="@string/mail_formats" android:key="mail_formats" android:summary="" android:entryValues="@array/mail_fmt_values" />
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/sync_scheduling" android:key="mail_schedule" android:summary="" />
+        <com.htc.preference.HtcListPreference android:persistent="true" android:entries="@array/mail_dl_days_entries" android:title="@string/mail_download_days" android:key="mail_download_days" android:summary="" android:entryValues="@array/mail_dl_days_values" />
+        <com.htc.preference.HtcListPreference android:persistent="true" android:entries="@array/mail_dl_attach_entries" android:title="@string/mail_attach_sizes" android:key="mail_download_attach_sizes" android:summary="" android:entryValues="@array/mail_dl_attach_values" />
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="true" android:title="@string/sync_at_roaming" android:key="sync_at_roaming" android:summaryOn="@string/sync_at_roaming_summary" android:summaryOff="@string/sync_at_roaming_summary" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/account_auto_download_message" android:key="account_detail_auto_download_message" android:summaryOn="@string/account_auto_download_message_summary" android:summaryOff="@string/account_auto_download_message_summary" />
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/account_detail_folder_to_sync_label_text" android:key="account_folder_to_sync" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/text_send_settings">
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/account_detail_reply_with_text" android:key="account_reply_with_text_value" android:defaultValue="false" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/account_detail_always_bcc_myself" android:key="account_detail_always_bcc_myself_value" android:defaultValue="false" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

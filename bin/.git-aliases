@@ -1,0 +1,11 @@
+alias glo='git log --oneline'
+alias gad='git add' # into cache
+alias gci='git commit' # commit
+alias gco='git checkout' # revert changes
+alias gdf='git difftool -y'
+alias git-diff='git difftool -x "colordiff -U100" -y'
+alias git-diff-cached='git difftool --cached -y'
+alias gpl='git pull' # pull
+alias gps='git push' # push
+alias grs='git reset' # out of cache
+alias gst='git status' # status of changes

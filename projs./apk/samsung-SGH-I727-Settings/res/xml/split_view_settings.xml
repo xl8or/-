@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/split_view_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/splitview_phone" android:key="splitview_phone_key" />
+    <CheckBoxPreference android:title="@string/splitview_message" android:key="splitview_message_key" />
+    <CheckBoxPreference android:title="@string/splitview_calendar" android:key="splitview_calendar_key" />
+    <CheckBoxPreference android:title="@string/splitview_memo" android:key="splitview_memo_key" />
+    <CheckBoxPreference android:title="@string/splitview_music" android:key="splitview_music_key" />
+    <CheckBoxPreference android:title="@string/splitview_myfiles" android:key="splitview_myfiles_key" />
+    <CheckBoxPreference android:title="@string/splitview_socialhub" android:key="splitview_socialhub_key" />
+    <CheckBoxPreference android:title="@string/splitview_im" android:key="splitview_im_key" />
+</PreferenceScreen>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="14.0dip" android:text="@string/card_number" />
+    <EditText android:id="@id/cc_box" android:nextFocusDown="@id/expiration_date_entry_1st" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="number" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+        <TextView android:textColor="?android:textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/expiration_date" />
+        <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <TextView android:textColor="?android:textColorPrimary" android:id="@id/cvc_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="@string/cvc_code" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/expiration_date_entry_1st" android:nextFocusUp="@id/cc_box" android:nextFocusDown="@id/expiration_date_entry_2nd" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="2" android:layout_weight="1.0" android:inputType="number" />
+        <TextView android:id="@id/expiration_date_separator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <EditText android:id="@id/expiration_date_entry_2nd" android:nextFocusUp="@id/expiration_date_entry_1st" android:nextFocusDown="@id/cvc_entry" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="2" android:layout_weight="1.0" android:inputType="number" />
+        <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <EditText android:id="@id/cvc_entry" android:nextFocusUp="@id/expiration_date_entry_2nd" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="4" android:layout_weight="1.0" android:inputType="number" />
+    </LinearLayout>
+    <TextView android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="4.0dip" android:text="@string/name_on_card" />
+    <EditText android:id="@id/name_entry" android:nextFocusUp="@id/cvc_entry" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPersonName|textCapWords" />
+    <TextView android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="4.0dip" android:text="@string/country" />
+    <Spinner android:id="@id/country" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" />
+    <include android:id="@id/address_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" layout="@layout/address_layout" />
+    <TextView android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="4.0dip" android:text="@string/phone_number" />
+    <EditText android:id="@id/phone_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="phone" />
+    <TextView android:id="@id/phone_number_disclaimer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/phone_number_disclaimer" />
+</LinearLayout>

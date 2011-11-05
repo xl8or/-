@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cast_credits_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.finsky.layout.AccessibleTextView android:id="@id/role_title" android:background="@drawable/highlight_overlay" android:focusable="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/DetailsPage_ContentText" />
+    <TextView android:id="@id/role_content" android:background="@drawable/highlight_overlay" android:focusable="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DetailsPage_ContentText" />
+</LinearLayout>

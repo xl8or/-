@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="bottom|left|center" android:id="@id/thumbnail" android:layout_width="0.0dip" android:layout_height="@dimen/details_summary_thumbnail_height" android:src="@drawable/ic_vm_thumbnail_big" android:scaleType="fitCenter" />
+</merge>

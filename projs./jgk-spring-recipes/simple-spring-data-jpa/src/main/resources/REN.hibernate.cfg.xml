@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+
+        <!-- properties -->
+        <property name="dialect">org.hibernate.dialect.HSQLDialect</property>
+        <property name="show_sql">false</property>
+
+        <!-- mapping files -->
+        <mapping file="src/main/resources/Camera.hbm.REPLACEDWITHORM.xml"/>
+<!--         <mapping resource="org/hibernate/auction/Item.hbm.xml"/>
+        <mapping resource="org/hibernate/auction/Bid.hbm.xml"/>
+ -->
+        <!-- cache settings -->
+<!--         <class-cache class="org.hibernate.auction.Item" usage="read-write"/>
+        <class-cache class="org.hibernate.auction.Bid" usage="read-only"/>
+        <collection-cache collection="org.hibernate.auction.Item.bids" usage="read-write"/>
+ -->
+    </session-factory>
+
+</hibernate-configuration>

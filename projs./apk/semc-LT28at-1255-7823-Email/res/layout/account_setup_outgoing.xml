@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_outgoing_smtp_server_label" />
+            <EditText android:gravity="left" android:id="@id/account_server" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textUri" android:imeOptions="actionDone" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_outgoing_port_label" />
+            <EditText android:gravity="left" android:id="@id/account_port" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" android:imeOptions="actionDone" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_outgoing_security_label" />
+            <Spinner android:id="@id/account_security_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/account_setup_outgoing_security_label" />
+            <CheckBox android:id="@id/account_require_login" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_outgoing_require_login_label" />
+            <LinearLayout android:orientation="vertical" android:id="@id/account_require_login_settings" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_outgoing_username_label" />
+                <EditText android:gravity="left" android:id="@id/account_username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" android:imeOptions="actionDone" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_outgoing_password_label" />
+                <EditText android:gravity="left" android:id="@id/account_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textPassword" android:imeOptions="actionDone" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/bottom_bar" android:paddingLeft="6.0dip" android:paddingTop="5.0dip" android:paddingRight="6.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/button_minWidth" android:text="@string/next_action" android:drawableRight="@drawable/button_indicator_next" android:layout_weight="1.0" android:layout_centerVertical="true" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

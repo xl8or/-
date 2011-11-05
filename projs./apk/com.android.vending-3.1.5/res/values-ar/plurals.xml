@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="search_results_estimated_in_bucket">
+        <item quantity="other">عدد النتائج: %1$d</item>
+        <item quantity="one">عدد النتائج: %1$d</item>
+    </plurals>
+    <plurals name="notification_updates_available_message">
+        <item quantity="other">تم العثور على %1$d من التحديثات.</item>
+        <item quantity="one">تم العثور على %1$d من التحديثات.</item>
+    </plurals>
+    <plurals name="plus_one_multiple_global">
+        <item quantity="other">أجرى %1$s من الأشخاص 1+ لهذا.</item>
+        <item quantity="one">أجرى %1$s من الأشخاص 1+ لهذا</item>
+    </plurals>
+    <plurals name="plus_one_multiple_friends">
+        <item quantity="other">أجرى %1$1$s و%2$2$s آخرون 1+ لهذا.</item>
+        <item quantity="one">أجرى %1$1$s و%2$2$s آخر 1+ لهذا.</item>
+    </plurals>
+</resources>

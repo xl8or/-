@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="matches_found">
+        <item quantity="other">%d shod</item>
+        <item quantity="zero">Žádné shody</item>
+        <item quantity="one">1 shoda</item>
+        <item quantity="few">%d shod</item>
+    </plurals>
+</resources>

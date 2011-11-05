@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textColor="#ffcccccc" android:gravity="center_vertical" android:id="@id/prov_sync_title" android:background="@android:drawable/dark_header" android:paddingLeft="10.0px" android:layout_width="fill_parent" android:layout_height="38.0px" android:text="@string/prov_sync_contacts_and_calendar" style="@style/ProvHeaderText" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:id="@id/contact_frame" android:background="@android:drawable/list_selector_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/contacs_sync_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0px" android:layout_weight="1.0">
+                            <TextView android:textSize="33.0px" android:textColor="#ffffffff" android:id="@id/contacts_check_sync" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0px" android:text="@string/contacts_config_page_lb_keep_in_sync" />
+                            <TextView android:textSize="21.0px" android:textColor="#ff81bee1" android:id="@id/contacts_instruction1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contacts_config_page_lb_text_isp" />
+                            <TextView android:textSize="21.0px" android:textColor="#ff81bee1" android:id="@id/contacts_instruction2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contacts_config_page_lb_text_isp2" />
+                        </LinearLayout>
+                        <CheckBox android:layout_gravity="right|center" android:id="@id/checkbox_sync_contacts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13.0px" />
+                    </LinearLayout>
+                    <View android:id="@id/Lineview" android:background="@drawable/divider_horizontal_dark_opaque" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="13.0px" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/calendar_frame" android:background="@android:drawable/list_selector_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/calendar_sync_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0px" android:layout_weight="1.0">
+                            <TextView android:textSize="33.0px" android:textColor="#ffffffff" android:id="@id/calendar_check_sync" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0px" android:text="@string/calendar_config_page_lb_enable_calendar" />
+                            <TextView android:textSize="21.0px" android:textColor="#ff81bee1" android:id="@id/calendar_instruction1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calendar_config_page_lb_text_calendar_can_be_synced" />
+                        </LinearLayout>
+                        <CheckBox android:layout_gravity="right|center" android:id="@id/checkbox_sync_calendar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13.0px" />
+                    </LinearLayout>
+                    <View android:id="@id/Lineview" android:background="@drawable/divider_horizontal_dark_opaque" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="13.0px" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/sso_frame" android:background="@android:drawable/list_selector_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/sso_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0px" android:layout_weight="1.0">
+                            <TextView android:textSize="33.0px" android:textColor="#ffffffff" android:id="@id/im_prov_login_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0px" android:text="@string/im_sign_in" />
+                            <TextView android:textSize="21.0px" android:textColor="#ff81bee1" android:id="@id/im_prov_login_body_instruction1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sso_email_to_im" />
+                        </LinearLayout>
+                        <CheckBox android:layout_gravity="right|center" android:id="@id/im_prov_login_body_checked_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13.0px" />
+                    </LinearLayout>
+                    <View android:id="@id/Lineview" android:background="@drawable/divider_horizontal_dark_opaque" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="13.0px" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.sec.android.touchwiz.widget.TwSoftkeyView android:id="@id/softkeyview" android:layout_width="fill_parent" android:layout_height="57.0dip"
+              xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+                <com.android.email.EmailTwSoftkeyItem android:id="@id/done_button" android:layout_width="wrap_content" android:layout_height="fill_parent" email:itemText="@string/done_action"
+                  xmlns:email="http://schemas.android.com/apk/res/com.android.email" />
+            </com.sec.android.touchwiz.widget.TwSoftkeyView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

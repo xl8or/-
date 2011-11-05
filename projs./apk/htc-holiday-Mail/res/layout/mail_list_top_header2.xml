@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/top_round_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:background="@34080363" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/TitleDateTime" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:id="@id/rightTittle" android:layout_width="90.0px" android:layout_height="25.0px">
+            <TextView android:layout_gravity="center" android:id="@id/Title2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/bottom_Bar_Label" />
+            <ImageView android:layout_gravity="left|center" android:id="@id/refresh_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0px" android:src="@drawable/refresh_anim" />
+            <TextView android:gravity="left|center" android:id="@id/updateLable" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" style="@style/bottom_Bar_Label" />
+            <TextView android:gravity="center" android:id="@id/UpdateTime" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" style="@style/bottom_Bar_update" />
+            <TextView android:gravity="left|center" android:id="@id/progressSubject" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" style="@style/bottom_Bar_update" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="0.0px" android:layout_height="25.0px" android:layout_weight="1.0">
+            <TextView android:textSize="16.0px" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/folderName" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" style="@style/bottom_Bar_Label" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right|center" android:orientation="horizontal" android:id="@id/leftTittle" android:layout_width="90.0px" android:layout_height="25.0px" android:layout_marginRight="4.0px">
+            <TextView android:gravity="center" android:id="@id/sortLable" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/bottom_Bar_Label" />
+            <TextView android:gravity="center" android:id="@id/sortMethod" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" style="@style/bottom_Bar_update" />
+            <ImageView android:layout_gravity="center" android:id="@id/ascDescImg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@34079346" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

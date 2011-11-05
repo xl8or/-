@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_layout" />
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <ImageButton android:id="@id/message_pick_user" android:background="@drawable/btn_action" android:layout_width="41.0dip" android:layout_height="41.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/contact_picker" android:layout_alignParentRight="true" />
+                <com.facebook.katana.ui.MailAutoCompleteTextView android:textColor="@drawable/solid_black" android:id="@id/message_compose_to" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/message_compose_to_hint" android:completionThreshold="1" android:layout_weight="1.0" android:layout_toLeftOf="@id/message_pick_user" android:inputType="text" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/message_receivers" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <EditText android:id="@id/message_compose_subject" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:hint="@string/message_compose_subject_hint" android:inputType="textCapSentences|textAutoCorrect" />
+            <EditText android:gravity="top" android:id="@id/message_compose_body" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:hint="@string/message_compose_hint" android:minLines="4" android:inputType="textCapSentences|textAutoCorrect|textMultiLine" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_keyboard_btn" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textStyle="bold" android:textColor="@color/dark_blue_text_color" android:id="@id/message_send" android:background="@drawable/btn_action" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="10.0dip" android:text="@string/message_compose_send" android:layout_weight="0.5" />
+        <Button android:textStyle="bold" android:textColor="@color/dark_blue_text_color" android:id="@id/message_discard" android:background="@drawable/btn_action" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/message_compose_discard" android:layout_weight="0.5" />
+    </LinearLayout>
+</LinearLayout>

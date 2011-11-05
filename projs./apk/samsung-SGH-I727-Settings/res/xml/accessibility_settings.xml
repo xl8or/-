@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <CheckBoxPreference android:persistent="false" android:title="@string/toggle_accessibility_title" android:key="toggle_accessibility_service_checkbox" />
+    <PreferenceCategory android:title="@string/accessibility_services_category" android:key="accessibility_services_category" />
+    <PreferenceCategory android:title="@string/accessibility_power_button_category" android:key="power_button_category">
+        <CheckBoxPreference android:persistent="false" android:title="@string/accessibility_power_button_ends_call" android:key="power_button_ends_call" android:summary="@string/accessibility_power_button_ends_call_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/accessibility_vision_category" android:key="vision_category" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/high_contrast_title" android:key="high_contrast" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/screen_zoom_title" android:key="screen_zoom" />
+    <com.android.settings.FontSizeListPreference android:title="@string/font_size_title" android:key="font_size" android:summary="@string/font_size_title" />
+    <com.android.settings.flipfont.FontListPreference android:title="@string/monotype_preference_title" android:key="MONOTYPE" android:summary="@string/monotype_preference_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/torch_light" android:key="torch_light" android:summary="@string/torch_light_summary" />
+    <PreferenceCategory android:title="@string/audio_preference_title" android:key="audio_preference_key" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/mono_audio_title" android:key="mono_audio_key" android:summary="@string/mono_audio_summary" />
+    <PreferenceCategory android:title="@string/easy_access_category" android:key="easy_access" />
+    <PreferenceScreen android:title="@string/answering_end_call_title" android:key="call_answering_ending" android:summary="@string/answering_end_call_summary">
+        <intent android:targetPackage="com.sec.android.app.callsetting" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.callsetting.allcalls.AnsweringCall" />
+    </PreferenceScreen>
+    <CheckBoxPreference android:persistent="false" android:title="@string/power_key_hold_title" android:key="power_key_hold" android:summary="@string/power_key_hold_summary" />
+</PreferenceScreen>

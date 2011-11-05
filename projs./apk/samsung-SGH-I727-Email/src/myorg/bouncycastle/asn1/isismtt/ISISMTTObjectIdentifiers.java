@@ -1,0 +1,104 @@
+package myorg.bouncycastle.asn1.isismtt;
+
+import myorg.bouncycastle.asn1.DERObjectIdentifier;
+
+public interface ISISMTTObjectIdentifiers {
+
+   DERObjectIdentifier id_isismtt = new DERObjectIdentifier("1.3.36.8");
+   DERObjectIdentifier id_isismtt_at;
+   DERObjectIdentifier id_isismtt_at_PKReference;
+   DERObjectIdentifier id_isismtt_at_additionalInformation;
+   DERObjectIdentifier id_isismtt_at_admission;
+   DERObjectIdentifier id_isismtt_at_certHash;
+   DERObjectIdentifier id_isismtt_at_certInDirSince;
+   DERObjectIdentifier id_isismtt_at_dateOfCertGen;
+   DERObjectIdentifier id_isismtt_at_declarationOfMajority;
+   DERObjectIdentifier id_isismtt_at_iCCSN;
+   DERObjectIdentifier id_isismtt_at_liabilityLimitationFlag;
+   DERObjectIdentifier id_isismtt_at_monetaryLimit;
+   DERObjectIdentifier id_isismtt_at_nameAtBirth;
+   DERObjectIdentifier id_isismtt_at_namingAuthorities;
+   DERObjectIdentifier id_isismtt_at_procuration;
+   DERObjectIdentifier id_isismtt_at_requestedCertificate;
+   DERObjectIdentifier id_isismtt_at_restriction;
+   DERObjectIdentifier id_isismtt_at_retrieveIfAllowed;
+   DERObjectIdentifier id_isismtt_cp;
+   DERObjectIdentifier id_isismtt_cp_accredited;
+
+
+   static {
+      StringBuilder var0 = new StringBuilder();
+      DERObjectIdentifier var1 = id_isismtt;
+      String var2 = var0.append(var1).append(".1").toString();
+      id_isismtt_cp = new DERObjectIdentifier(var2);
+      StringBuilder var3 = new StringBuilder();
+      DERObjectIdentifier var4 = id_isismtt_cp;
+      String var5 = var3.append(var4).append(".1").toString();
+      id_isismtt_cp_accredited = new DERObjectIdentifier(var5);
+      StringBuilder var6 = new StringBuilder();
+      DERObjectIdentifier var7 = id_isismtt;
+      String var8 = var6.append(var7).append(".3").toString();
+      id_isismtt_at = new DERObjectIdentifier(var8);
+      StringBuilder var9 = new StringBuilder();
+      DERObjectIdentifier var10 = id_isismtt_at;
+      String var11 = var9.append(var10).append(".1").toString();
+      id_isismtt_at_dateOfCertGen = new DERObjectIdentifier(var11);
+      StringBuilder var12 = new StringBuilder();
+      DERObjectIdentifier var13 = id_isismtt_at;
+      String var14 = var12.append(var13).append(".2").toString();
+      id_isismtt_at_procuration = new DERObjectIdentifier(var14);
+      StringBuilder var15 = new StringBuilder();
+      DERObjectIdentifier var16 = id_isismtt_at;
+      String var17 = var15.append(var16).append(".3").toString();
+      id_isismtt_at_admission = new DERObjectIdentifier(var17);
+      StringBuilder var18 = new StringBuilder();
+      DERObjectIdentifier var19 = id_isismtt_at;
+      String var20 = var18.append(var19).append(".4").toString();
+      id_isismtt_at_monetaryLimit = new DERObjectIdentifier(var20);
+      StringBuilder var21 = new StringBuilder();
+      DERObjectIdentifier var22 = id_isismtt_at;
+      String var23 = var21.append(var22).append(".5").toString();
+      id_isismtt_at_declarationOfMajority = new DERObjectIdentifier(var23);
+      StringBuilder var24 = new StringBuilder();
+      DERObjectIdentifier var25 = id_isismtt_at;
+      String var26 = var24.append(var25).append(".6").toString();
+      id_isismtt_at_iCCSN = new DERObjectIdentifier(var26);
+      StringBuilder var27 = new StringBuilder();
+      DERObjectIdentifier var28 = id_isismtt_at;
+      String var29 = var27.append(var28).append(".7").toString();
+      id_isismtt_at_PKReference = new DERObjectIdentifier(var29);
+      StringBuilder var30 = new StringBuilder();
+      DERObjectIdentifier var31 = id_isismtt_at;
+      String var32 = var30.append(var31).append(".8").toString();
+      id_isismtt_at_restriction = new DERObjectIdentifier(var32);
+      StringBuilder var33 = new StringBuilder();
+      DERObjectIdentifier var34 = id_isismtt_at;
+      String var35 = var33.append(var34).append(".9").toString();
+      id_isismtt_at_retrieveIfAllowed = new DERObjectIdentifier(var35);
+      StringBuilder var36 = new StringBuilder();
+      DERObjectIdentifier var37 = id_isismtt_at;
+      String var38 = var36.append(var37).append(".10").toString();
+      id_isismtt_at_requestedCertificate = new DERObjectIdentifier(var38);
+      StringBuilder var39 = new StringBuilder();
+      DERObjectIdentifier var40 = id_isismtt_at;
+      String var41 = var39.append(var40).append(".11").toString();
+      id_isismtt_at_namingAuthorities = new DERObjectIdentifier(var41);
+      StringBuilder var42 = new StringBuilder();
+      DERObjectIdentifier var43 = id_isismtt_at;
+      String var44 = var42.append(var43).append(".12").toString();
+      id_isismtt_at_certInDirSince = new DERObjectIdentifier(var44);
+      StringBuilder var45 = new StringBuilder();
+      DERObjectIdentifier var46 = id_isismtt_at;
+      String var47 = var45.append(var46).append(".13").toString();
+      id_isismtt_at_certHash = new DERObjectIdentifier(var47);
+      StringBuilder var48 = new StringBuilder();
+      DERObjectIdentifier var49 = id_isismtt_at;
+      String var50 = var48.append(var49).append(".14").toString();
+      id_isismtt_at_nameAtBirth = new DERObjectIdentifier(var50);
+      StringBuilder var51 = new StringBuilder();
+      DERObjectIdentifier var52 = id_isismtt_at;
+      String var53 = var51.append(var52).append(".15").toString();
+      id_isismtt_at_additionalInformation = new DERObjectIdentifier(var53);
+      id_isismtt_at_liabilityLimitationFlag = new DERObjectIdentifier("0.2.262.1.10.12.0");
+   }
+}

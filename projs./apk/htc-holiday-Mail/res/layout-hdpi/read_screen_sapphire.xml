@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/readScroll" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/ReadScreen_cmd_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@com.htc:layout/cmd_bar_6" />
+        <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@com.htc:layout/cmd_bar_6_3itm" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/bottomround" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/ReadScreen_cmd_bar" />
+    <FrameLayout android:id="@id/framelayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottomround" android:layout_alignParentTop="true">
+        <com.htc.android.mail.ReadScreenScrollView android:orientation="vertical" android:id="@id/readScrollview" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bottomround" android:layout_alignParentTop="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/magicLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="480.0px">
+>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@com.htc:layout/title_11" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/subjectBlockLayout" android:paddingTop="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-13.0px" android:layout_below="@33685554" style="@style/readscreen_subject_background">
+                        <LinearLayout android:orientation="horizontal" android:paddingBottom="5.0px" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/global_margin_left" android:layout_marginRight="@dimen/global_margin_right">
+                                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0px" android:layout_weight="1.0">
+                                    <TextView android:textSize="@33882128" android:textColor="@color/readscreen_subject_color" android:id="@id/subjectSapphire" style="@style/readscreen_label_gray" />
+                                    <TextView android:textSize="@33882138" android:textColor="@color/readscreen_date_color" android:id="@id/dateFieldSapphire" android:visibility="invisible" android:singleLine="true" style="@style/readscreen_label_gray" />
+                                    <TextView android:textSize="20.0px" android:id="@id/conflictLabel" android:visibility="gone" android:singleLine="true" style="@style/readscreen_label_red" />
+                                    <TextView android:textSize="20.0px" android:id="@id/priorityLabel" android:visibility="gone" android:layout_marginBottom="10.0px" android:singleLine="true" style="@style/readscreen_label_red" />
+                                </LinearLayout>
+                                <LinearLayout android:orientation="vertical" android:id="@id/flagLayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                                    <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/global_margin_left" android:layout_marginRight="7.0px">
+                                        <ToggleButton android:layout_gravity="right|center" android:id="@id/star" android:background="@drawable/flag_button" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" />
+                                    </FrameLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/magicLayout3" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="400.0px">
+                    <RelativeLayout android:orientation="vertical" android:id="@id/meeting_detail_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:orientation="vertical" android:id="@id/meetingLayoutTopRound" android:visibility="gone" android:layout_alignParentTop="true" style="@style/top_round_small" />
+                        <ImageView android:orientation="vertical" android:id="@id/meetingLayoutBottomRound" android:layout_alignParentBottom="true" style="@style/bottom_round_small" />
+                        <LinearLayout android:id="@id/meetingLayout_date" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:id="@id/meeting_label_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/global_margin_left" android:text="@string/mail_date" android:singleLine="false" style="@style/attachSwitchLayoutTextStyle" />
+                            <TextView android:id="@id/meeting_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mail_date" android:singleLine="false" style="@style/attachSwitchLayoutTextStyle" />
+                        </LinearLayout>
+                        <LinearLayout android:id="@id/meetingLayout_when" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/meetingLayout_date">
+                            <TextView android:id="@id/meeting_label_when" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/searchMail_period_label_text" android:singleLine="false" style="@style/attachSwitchLayoutTextStyle" />
+                            <TextView android:id="@id/meeting_when" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/searchMail_period_label_text" android:singleLine="false" style="@style/attachSwitchLayoutTextStyle" />
+                        </LinearLayout>
+                        <LinearLayout android:id="@id/meetingLayout_start_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_text_padding_compose_body_top" android:layout_below="@id/meetingLayout_when">
+                            <TextView android:id="@id/meeting_label_start_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/global_margin_left" android:text="@string/meeting_start_time" android:singleLine="false" style="@style/attachSwitchLayoutTextStyle" />
+                            <TextView android:id="@id/meeting_start_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/download_html_img" android:singleLine="false" style="@style/attachSwitchLayoutTextStyle" />
+                        </LinearLayout>
+                        <LinearLayout android:id="@id/meetingLayout_end_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/meetingLayout_start_time">
+                            <TextView android:id="@id/meeting_label_end_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/global_margin_left" android:text="@string/meeting_end_time" android:singleLine="false" style="@style/attachSwitchLayoutTextStyle" />
+                            <TextView android:id="@id/meeting_end_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/meeting_location" android:singleLine="false" style="@style/attachSwitchLayoutTextStyle" />
+                        </LinearLayout>
+                        <LinearLayout android:id="@id/meetingLayout_location" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/meetingLayout_end_time">
+                            <TextView android:id="@id/meeting_label_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/global_margin_left" android:text="@string/meeting_location" android:singleLine="false" style="@style/attachSwitchLayoutTextStyle" />
+                            <TextView android:id="@id/meeting_location" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/edit_text_padding_compose_body_top" android:text="@string/meeting_location" android:singleLine="false" style="@style/attachSwitchLayoutTextStyle" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <LinearLayout android:id="@id/meeting_divider" android:background="@34080361" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <ImageView android:orientation="vertical" android:id="@id/TopRoundInSubjectBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/top_round_small" />
+                    <RelativeLayout android:orientation="vertical" android:id="@id/attachSwitchLayout" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@33882189">
+                        <ImageView android:orientation="vertical" android:id="@id/attachSwitchLayoutTopRound" android:visibility="gone" android:layout_alignParentTop="true" style="@style/top_round_small" />
+                        <ImageView android:orientation="vertical" android:id="@id/attachSwitchLayoutBottomRound" android:layout_alignParentBottom="true" style="@style/pure_divider" />
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/attachSwitch" android:layout_width="fill_parent" android:layout_height="@dimen/listPreferredItemHeight" android:layout_centerInParent="true">
+                            <TextView android:id="@id/attachViewOrHideStr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/global_margin_left" style="@style/attachSwitchLayoutTextStyle" />
+                            <TextView android:id="@id/attachNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/attachSwitchLayoutTextStyle" />
+                            <LinearLayout android:background="#ffff0000" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                            <LinearLayout android:gravity="center_vertical" android:id="@id/attachSwitchTouchView" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                                <ImageView android:id="@id/attachSwitchBtn" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/global_margin_right" android:src="@drawable/attachment_collapse_selector" android:scaleType="center" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/attachlist" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <LinearLayout android:id="@id/sec_divider" android:background="@34080361" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <LinearLayout android:id="@id/attachViewBottomRoundTopLY" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/attachViewBottomRoundTop" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@34080406" android:scaleType="fitXY" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/attachBottomDivider" android:visibility="gone" style="@style/pure_divider" />
+                    <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/relatedAttachLayout" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0px">
+                        <Button android:textSize="26.0px" android:textColor="@color/on_change_focus_text_color_show_html" android:gravity="center" android:id="@id/relatedAttachBtn" android:background="?33619982" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="50.0px" android:layout_marginLeft="14.0px" android:layout_marginRight="14.0px" android:text="@string/download_html_img" android:singleLine="true" android:layout_weight="1.0" android:layout_centerInParent="true" />
+                        <ImageView android:id="@id/relatedAttachAnimation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <LinearLayout android:id="@id/webview_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    <LinearLayout android:id="@id/empty" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.htc.android.mail.ReadScreenScrollView>
+    </FrameLayout>
+</RelativeLayout>

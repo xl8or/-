@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.AccessibleFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/market_grid_outline_2x2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/grid_cell_content" android:background="@drawable/market_grid_bg_2x2" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.finsky.layout.UnevenGridSquare android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/li_promo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" />
+            <View android:id="@id/reflection_gradient" android:background="@drawable/market_grid_mirror_2x2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <RatingBar android:id="@id/li_rating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginBottom="2.0dip" android:numStars="5" android:stepSize="0.5" android:isIndicator="true" style="@style/FinskyRatingBarGrid" />
+            <TextView android:textSize="@dimen/content_entry_small_size" android:textStyle="normal" android:textColor="@color/uneven_grid_cell_fg_secondary" android:id="@id/li_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_marginBottom="2.0dip" android:singleLine="true" />
+        </com.google.android.finsky.layout.UnevenGridSquare>
+        <View android:background="@drawable/market_grid_top" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <View android:id="@id/corpus_strip" android:layout_width="3.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" />
+        <View android:id="@id/accessibility_overlay" android:background="@drawable/highlight_overlay" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</com.google.android.finsky.layout.AccessibleFrameLayout>

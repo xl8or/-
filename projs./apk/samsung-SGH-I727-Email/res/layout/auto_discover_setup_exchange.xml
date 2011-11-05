@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="1.0dip" android:text="@string/auto_discover_setup_exchange_email_address_label" />
+            <EditText android:id="@id/account_email_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" android:imeOptions="actionNext" />
+            <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="1.0dip" android:text="@string/auto_discover_setup_exchange_domain_label" />
+            <EditText android:id="@id/account_domain" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="320" android:inputType="textEmailAddress" android:imeOptions="actionNext" />
+            <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="1.0dip" android:text="@string/auto_discover_setup_exchange_user_name_label" />
+            <EditText android:id="@id/account_user_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="320" android:inputType="textEmailAddress" android:imeOptions="actionNext" />
+            <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="1.0dip" android:text="@string/auto_discover_setup_exchange_password_label" />
+            <EditText android:id="@id/account_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="320" android:inputType="textPassword" android:imeOptions="actionDone" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/account_trust_certificates_checkbox_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                <CheckBox android:layout_gravity="center_vertical" android:id="@id/account_trust_certificates" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+                <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/auto_discover_setup_exchange_trust_certificates_label" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.sec.android.touchwiz.widget.TwSoftkeyView android:id="@id/softkeyview" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+            <com.android.email.EmailTwSoftkeyItem android:id="@id/manual_setup" android:focusable="true" android:nextFocusUp="@id/account_password" android:layout_width="wrap_content" android:layout_height="fill_parent" email:itemText="@string/account_setup_basics_manual_setup_action"
+              xmlns:email="http://schemas.android.com/apk/res/com.android.email" />
+            <com.android.email.EmailTwSoftkeyItem android:id="@id/next" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" email:itemImageAlign="right" email:itemText="@string/next_action" email:itemImage="@drawable/icon_next_dim"
+              xmlns:email="http://schemas.android.com/apk/res/com.android.email" />
+        </com.sec.android.touchwiz.widget.TwSoftkeyView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/header_card" android:paddingLeft="3.0dip" android:paddingTop="3.0dip" android:paddingRight="6.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/from_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/presence" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/presence_inactive" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:textColor="?android:textColorPrimaryInverse" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/from" android:paddingRight="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:layout_alignParentLeft="true" />
+            <ImageView android:id="@id/expand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:src="@drawable/btn_expand" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="?android:textColorSecondaryInverse" android:ellipsize="none" android:id="@id/subject" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="false" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/attachment" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginRight="11.0dip" android:src="@drawable/ic_email_attachment_small" android:baselineAlignBottom="true" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/time_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimaryInverse" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimaryInverse" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="true" android:layout_weight="1.0" />
+            <ImageView android:id="@id/favorite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11.0dip" android:src="@drawable/btn_star_big_buttonless_off" android:layout_alignParentRight="true" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/to_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="?android:textColorSecondaryInverse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_view_to_label" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondaryInverse" android:ellipsize="none" android:id="@id/to" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="false" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/cc_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="?android:textColorSecondaryInverse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_view_cc_label" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondaryInverse" android:ellipsize="none" android:id="@id/cc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="false" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/bottom_bar" android:paddingLeft="4.0dip" android:paddingTop="5.0dip" android:paddingRight="4.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageButton android:ellipsize="end" android:id="@id/reply" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_btn_reply" android:singleLine="true" android:layout_weight="1.0" />
+            <ImageButton android:ellipsize="end" android:id="@id/reply_all" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_btn_reply_all" android:singleLine="true" android:layout_weight="1.0" />
+            <ImageButton android:ellipsize="end" android:id="@id/forward" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_btn_forward" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/show_pictures_section" android:background="@drawable/email_viewer_linked_pictures_background" android:paddingLeft="6.0dip" android:paddingTop="4.0dip" android:paddingRight="3.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:baselineAligned="false">
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" style="?android:attr/progressBarStyleSmallTitle" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:layout_gravity="center" android:id="@id/show_picture_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/message_view_show_pictures_instructions" android:layout_weight="1.0" />
+            <Button android:id="@id/show_pictures" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_view_show_pictures_action" />
+        </LinearLayout>
+        <include layout="@layout/message_view_invitation" />
+        <WebView android:id="@id/message_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/attachments" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

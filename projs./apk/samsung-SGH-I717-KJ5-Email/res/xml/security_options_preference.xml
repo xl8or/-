@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="account_setting_main"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/encrypt" android:key="account_smime_encrypt_all" android:summary="@string/account_settings_smime_encrypt_all_email" android:order="1" />
+    <ListPreference android:entries="@array/account_settings_smime_encryption_algorithm_entries" android:title="@string/account_settings_smime_encryption_algorithm_label" android:key="account_smime_encryption_algorithm" android:order="2" android:dialogTitle="@string/account_settings_smime_encryption_algorithm_label" android:entryValues="@array/account_settings_smime_encryption_algorithm_values" />
+    <CheckBoxPreference android:title="@string/sign" android:key="account_smime_sign_all" android:summary="@string/account_settings_smime_sign_all_email" android:order="3" />
+    <ListPreference android:entries="@array/account_settings_smime_sign_algorithm_entries" android:title="@string/account_settings_smime_sign_algorithm_label" android:key="account_smime_sign_algorithm" android:order="4" android:dialogTitle="@string/account_settings_smime_sign_algorithm_label" android:entryValues="@array/account_settings_smime_sign_algorithm_values" />
+    <PreferenceScreen android:title="@string/account_settings_smime_installed_certificates_list" android:key="account_own_certificate" android:summary="@string/account_settings_smime_own_certificate_summary" android:order="5">
+        <intent android:targetPackage="com.android.email" android:targetClass="com.android.email.smime.InstalledCertificatesList" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/account_settings_smime_security_policy_list" android:key="security_policy_list" android:order="6" />
+</PreferenceScreen>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:id="@id/reviews_header" android:background="@color/title_background" android:layout_width="fill_parent" android:layout_height="@dimen/swipey_tab_strip_height" android:text="@string/details_reviews" style="@style/ReviewsHeader"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

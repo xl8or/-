@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.DecoratedRelativeLayout android:id="@id/entry_container" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/bucket_entry_search_height" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/base_grid_item" />
+</com.google.android.finsky.layout.DecoratedRelativeLayout>

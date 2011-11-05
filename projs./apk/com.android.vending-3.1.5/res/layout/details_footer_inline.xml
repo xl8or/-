@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/details_footer" android:paddingRight="@dimen/details_right_padding" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/details_button_height" />
+    <Button android:layout_gravity="right" android:id="@id/more_button" android:visibility="gone" style="@style/DetailsPage_MoreInlineButton" />
+    <Button android:layout_gravity="right" android:id="@id/less_button" android:visibility="gone" style="@style/DetailsPage_LessInlineButton" />
+</FrameLayout>

@@ -1,0 +1,82 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: X93NF+8RerT5naRwTJYNf71zsns=
+
+Name: res/drawable-hdpi/ic_sync_green.png
+SHA1-Digest: mS60CaQEyyz0g8qWCN6fbddSUeA=
+
+Name: res/drawable-hdpi/app_icon.png
+SHA1-Digest: 5uM8J8IZ7BXhyLLcECJ5j8d3Z28=
+
+Name: res/drawable-hdpi/ic_list_sync_anim3.png
+SHA1-Digest: Wb8NDzlhJ9edNifSbGfoEnJSgko=
+
+Name: res/drawable-hdpi/ic_sync_grey.png
+SHA1-Digest: VMNXMRXKlXvMUIFWOr/jGhv/xkw=
+
+Name: res/drawable/ic_list_sync_anim.xml
+SHA1-Digest: AgnkRScxrzsPPrJtL93t/hF5IYE=
+
+Name: res/layout/title.xml
+SHA1-Digest: aeS8m09tgUFTbqtfLRWl+5TnQKw=
+
+Name: res/drawable-hdpi/ic_list_sync_error.png
+SHA1-Digest: xnLNuIv48s6peHSDSzsm0hHjoNQ=
+
+Name: resources.arsc
+SHA1-Digest: jLcvHxO2LvS/YEg/XoKdHrTDucc=
+
+Name: res/layout/account_preference.xml
+SHA1-Digest: Kp4t2hbkYhOL8sf1PvQHnkw6qa4=
+
+Name: res/layout/provider_preference.xml
+SHA1-Digest: oUoucOyUycJkxIJ2ye2Y9/+6SVM=
+
+Name: AndroidManifest.xml
+SHA1-Digest: Zwcv6XBqs4a+GjX0k30Xhmgbp5c=
+
+Name: res/drawable-hdpi/ic_list_sync_anim0.png
+SHA1-Digest: nGJk3CAzr6lTrqwPPT9uaifVfBE=
+
+Name: res/layout/add_account_screen.xml
+SHA1-Digest: b5XisVux6DV2jUWgJN8VCiRAFEI=
+
+Name: res/drawable-hdpi/ic_list_sync_anim2.png
+SHA1-Digest: dF1ATdogtXXF32fbsXoTCqpWsRs=
+
+Name: res/layout/account_sync_screen.xml
+SHA1-Digest: JPH/zPBQvHAWA8CdNPwz3kNOsb8=
+
+Name: res/drawable-hdpi/ic_sync_red.png
+SHA1-Digest: OBCZkIWtP+TToYkt7LCSlZNDj1k=
+
+Name: classes.dex
+SHA1-Digest: dqzQJvTLBgdv+jg81cD6rGRnHWU=
+
+Name: res/xml/account_sync_settings.xml
+SHA1-Digest: bF1hij7EUUtk8WAcs2ajMttbfHU=
+
+Name: res/drawable-hdpi/ic_list_sync_anim1.png
+SHA1-Digest: BA/aEYrkUxVIaUrTjrGnaPAOl7k=
+
+Name: res/layout/manage_accounts_screen.xml
+SHA1-Digest: 8C+7vzs6skVWq+oWmNtzDs3ek+U=
+
+Name: res/drawable/ic_list_syncerror.png
+SHA1-Digest: rNKQh1hP1oaY5GSFz+yUHevWzk8=
+
+Name: res/xml/add_account_settings.xml
+SHA1-Digest: ppeOSTCseJ1eDMuJiopaHKGP5Vg=
+
+Name: res/layout/preference_widget_sync_toggle.xml
+SHA1-Digest: HlWq4QOAL1ShvCIxa+0Y79mHdi8=
+
+Name: res/xml/manage_accounts_settings.xml
+SHA1-Digest: 8eX+l8HfHKmtOmBo5ZchWnNlaF8=
+
+Name: res/drawable-hdpi/ic_btn_next.png
+SHA1-Digest: ajqGTQq9f3ZUombmYCSGpfaS1D0=
+
+Name: res/drawable-hdpi/title_bar.9.png
+SHA1-Digest: kpo8yagsiVWnXB5iHJO9/i52Mbo=
+

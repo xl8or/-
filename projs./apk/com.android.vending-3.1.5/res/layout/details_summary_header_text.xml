@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:gravity="bottom|left|center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:layout_weight="1.0" />
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/grey" android:ellipsize="end" android:id="@id/creator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+</merge>

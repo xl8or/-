@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.AccessibleLinearLayout android:orientation="vertical" android:background="@drawable/highlight_overlay" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingLeft="@dimen/details_left_padding" android:paddingTop="6.0dip" android:paddingRight="@dimen/details_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RatingBar android:id="@id/rating_stars" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:stepSize="0.5" android:isIndicator="true" style="?android:attr/ratingBarStyleSmall" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/grey" android:id="@id/rating_count" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DetailsPage_SummaryText" />
+        </LinearLayout>
+        <TextView android:gravity="right" android:id="@id/first_line_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/DetailsPage_SummaryText" />
+    </LinearLayout>
+    <LinearLayout android:paddingLeft="@dimen/details_left_padding" android:paddingRight="@dimen/details_right_padding" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/second_line_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/DetailsPage_SummaryText" />
+        <TextView android:gravity="right" android:id="@id/third_line_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/DetailsPage_SummaryText" />
+    </LinearLayout>
+</com.google.android.finsky.layout.AccessibleLinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.jgk.springrecipes.jpa.hades.domain.Ship"
+		table="ship">
+		<id name="id" type="java.lang.Integer">
+			<column name="SHIP_ID" />
+			<generator class="assigned" />
+		</id>
+		<property name="description" type="java.lang.String" update="true"
+			insert="true" column="DESCRIPTION" />
+
+		<property name="numberOfEngines" type="java.lang.Integer" update="true"
+			insert="true" column="NUMBER_OF_ENGINES" />
+
+	</class>
+
+</hibernate-mapping>

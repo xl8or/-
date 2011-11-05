@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/general_settings" />
+    <PreferenceScreen android:title="@string/newExchangeAccount" android:key="account_settings" android:summary="@string/newExchangeAccount">
+        <intent android:targetPackage="com.htc.android.mail" android:action="com.htc.android.mail.activity.setup.ACCOUNT_MANAGER_ENTRY" android:targetClass="com.htc.android.mail.easclient.EASClient" />
+    </PreferenceScreen>
+</PreferenceScreen>

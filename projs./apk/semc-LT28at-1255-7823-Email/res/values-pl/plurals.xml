@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_new_one_account_fmt">
+        <item quantity="other">Nieprzeczytane: %1$1$d (%2$2$s)</item>
+        <item quantity="one">Nieprz.: 1 (%2$s)</item>
+        <item quantity="few">Nieprzeczytane: %1$1$d (%2$2$s)</item>
+    </plurals>
+    <plurals name="notification_new_multi_account_fmt">
+        <item quantity="other">na %d kontach</item>
+        <item quantity="few">na %d kontach</item>
+    </plurals>
+    <plurals name="message_deleted_toast">
+        <item quantity="other">Usunięto wiadomości.</item>
+        <item quantity="one">Usunięto wiadomość.</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">Wyniki z %1$2$s: %2$1$d</item>
+        <item quantity="one">1 wynik z %2$s</item>
+    </plurals>
+</resources>

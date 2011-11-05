@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_account_type_instructions" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/pop" android:layout_width="150.0sp" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:minWidth="@dimen/button_minWidth" android:text="@string/account_setup_account_type_pop_action" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/imap" android:layout_width="150.0sp" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:minWidth="@dimen/button_minWidth" android:text="@string/account_setup_account_type_imap_action" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/exchange" android:visibility="gone" android:layout_width="150.0sp" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:minWidth="@dimen/button_minWidth" android:text="@string/account_setup_account_type_exchange_action" />
+</LinearLayout>

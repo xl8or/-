@@ -1,0 +1,365 @@
+## Setup development environment
+
+* Learn Unix command-line tools
+* Setup Java & Android dev. tools
+* Learn Git repository
+* Jump-start Desktop Java project
+* Jump-start Android Java project
+* Reverse com.facebook.katana.apk
+
+#### Install Mac OS X applications
+
+[iterm2](http://www.iterm2.com/), fraise, better touch tool, adium, iStat[,](http://dl.dropbox.com/u/47820156/i%24t%40t_3.18.dmg) textmate, [StartUpSound.PrefPane](http://www5e.biglobe.ne.jp/~arcana/software.en.html), 
+little snitch, [sequel.pro](http://www.sequelpro.com/download/), [oracle.sql.developer](http://dl.dropbox.com/u/47820156/sqldeveloper-3.0.04.34-macosx.tar.gz), etc.
+
+#### Learn Unix command-line tools
+
+* [Unix file system & commands](http://computing.fnal.gov/unixatfermilab/html/filesys.html)
+* [Unix command crash course](http://www.csoft.net/docs/course.html.en)
+* [50 Most Frequently Used UNIX / Linux commands](http://www.thegeekstuff.com/2010/11/50-linux-commands/)
+* [10 Awesome Examples for Viewing Huge Log Files in Unix](http://www.thegeekstuff.com/2009/08/10-awesome-examples-for-viewing-huge-log-files-in-unix/)
+* [15 Practical Grep Commands](http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
+
+#### Install baselines
+
+* [Git for OS X](http://code.google.com/p/git-osx-installer/)
+* [Xcode 4.1 for Lion](https://developer.apple.com/downloads/download.action?path=Developer_Tools/xcode_4.1_for_lion/xcode_4.1_for_lion.dmg)
+* [MacPorts](http://www.macports.org/install.php)
+
+#### Set up [github.com](http://github.com/) and [assembla.com](http://assembla.com/) accounts
+
+* `ssh-keygen -t rsa` # generates a key pair for password-less SSH logins.
+* `cat ~/.ssh/id_rsa.pub` # should password-less-login to Git repositories.
+* http://www.github.com → Account Settings → SSH Public Keys → Add another public key
+* http://www.assembla.com → Edit Profile → Manage SSH Keys → Add key
+
+#### Install workspaces and dot files
+
+* `sudo mkdir /workspace/; sudo chown $USER /workspace/`
+* `mkdir /workspace/gits/` # home for git repositories
+* `pushd /workspace/gits/; git clone git@github.com:henry4j/-.git henry4j-; popd`
+* `cp /workspace/gits/henry4j-/bin/.profile ~` # `source ~/.profile`, or in a new shell
+* `cp /workspace/gits/henry4j-/bin/.vimrc ~`
+* `cp -R /workspace/gits/henry4j-/bin/.vim ~`
+* `cp /workspace/gits/henry4j-/bin/.git-aliases ~`
+* `sudo mdutil -a -i off` # (optional) disables spotlight.
+
+#### Install CLI utilities
+
+    sudo port install wget
+    sudo port install unzip
+    sudo port install maven3
+    sudo port install colordiff
+
+#### Install MACVIM
+
+    wget -P /tmp/ https://github.com/downloads/b4winckler/macvim/macvim-snapshot-62.tbz
+    pushd /tmp/; tar xvf /tmp/macvim-snapshot-62.tbz; popd
+    mv /tmp/MacVim-snapshot-62/MacVim.app /Applications/
+    alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+
+#### [Install Ruby through RVM on Mac](http://net.tutsplus.com/tutorials/ruby/how-to-install-ruby-on-a-mac/)
+
+* Uninstall Xcode 4.2 by `sudo /Developer/Library/uninstall-devtools –mode=all`
+* Install [Xcode 4.1](http://adcdownload.apple.com/Developer_Tools/xcode_4.1_for_lion/xcode_4.1_for_lion.dmg) according to `rvm requirements`
+
+#
+    bash < <(curl -s https://rvm.beginrescueend.com/install/rvm)
+    [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # loads rvm into shell, or .profile.
+    rvm # in a new shell
+    rvm install 1.9.2-head
+    rvm use 1.9.2-head
+    ruby -v
+    rvm --default use 1.9.2-head
+    echo '1+1' | irb
+    gem install rails
+    gem install bundler
+
+#### Install [VIM markdown preview](https://github.com/robgleeson/hammer.vim)
+
+    rvm system
+    gem install redcarpet
+    gem install github-markup
+    git clone git://github.com/robgleeson/hammer.vim.git /tmp/hammer.vim
+    cp -R /tmp/hammer.vim/plugin/* ~/.vim/plugin/
+
+#### [Install JDK for Mac OS X](https://developer.apple.com/downloads://developer.apple.com/downloads/)
+
+^-^;;;;; -- install JDK 6, JDK 7, or both.
+
+#### [Install Android SDK](http://developer.android.com/sdk/index.html)
+
+    wget -P /tmp/ http://dl.google.com/android/android-sdk_r15-macosx.zip
+    unzip -o /tmp/android-sdk_r15-macosx.zip -d /workspace/
+    cd /workspace/
+    mv android-sdk-macosx android-sdk-r15
+    ln -s android-sdk-r15 android-sdk
+    android update sdk --no-ui --no-https
+
+#### Set up environment variables on Mac OS X
+
+    # see if .profile already has these by `grep 'HOME\|PATH' ~/.profile`
+    cat <<EOF >> ~/.profile
+    export ANDROID_HOME=/workspace/android-sdk
+    export M3_HOME=/usr/share/maven
+    export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+    EOF
+
+#### Set up Android virtual devices
+
+* `echo | android create avd -f -n 5 -t 5` # android 2.3.3 (5)
+* `emulator -avd 5`
+
+#### Maven build and deploy 
+
+* `git clone git://git.springsource.org/spring-mobile/samples.git /workspace/gits/spring-mobile-samples`
+* `cd /workspace/gits/spring-mobile-samples/spring-android-showcase/client`
+* `mvn clean install`
+* `mvn android:emulator-start`
+* `mvn android:deploy`
+
+#### [Install Eclipse Indigo](http://www.eclipse.org/downloads/)
+
+    wget -P /tmp/ http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/indigo/SR1/eclipse-jee-indigo-SR1-macosx-cocoa-x86_64.tar.gz
+    pushd /Applications/; tar xvf /tmp/eclipse-jee-indigo-SR1-macosx-cocoa-x86_64.tar.gz; popd
+    open /Applications/eclipse/Eclipse.app # and then keep this in dock
+
+#### Install Eclipse plugins
+
+1. Eclipse | Help | Install New Software... | Add...
+2. Enter `ADT Plugin` and `https://dl-ssl.google.com/android/eclipse/` into Add Repository | OK
+3. Select All | Next | Next | Accept EULA | Finish | Restart Now  
+4. Repeat 1 - 3 for `m2e` and `http://download.eclipse.org/technology/m2e/releases/`,
+5. (Optional) Repeat for Maven Integration for Android Development Tools.
+
+#
+* **See Also** Getting started with Maven Integration for Android Development Tools http://code.google.com/a/eclipselabs.org/p/m2eclipse-android-integration/wiki/GettingStarted
+* **See Also** Blog posts about Maven Integration for Android Development Tools http://code.google.com/p/maven-android-plugin/wiki/LinksBlogsAndMore
+* **[More Eclipse plugins](http://marketplace.eclipse.org/metrics/installs/last30days)**: MouseFeed at `http://update.mousefeed.com/`, JAutoDoc at `http://jautodoc.sourceforge.net/update/`
+
+#### [Git Config](http://gitref.org/creating/)
+
+    git config --global user.name "Henry Lee"
+    git config --global user.email henrylee4j@gmail.com
+    git config --global color.diff auto
+    git config --global color.status auto
+    git config --global color.branch auto
+
+, or
+
+    cp /workspace/gits/henry4j-/bin/.gitconfig ~ # DO NOT forget to edit the user name and email
+
+#### Install P4MERGE in use by git diff
+
+    wget -P /tmp/ https://github.com/henry4j/-/raw/master/bin/p4merge
+    wget -P /tmp/ https://github.com/henry4j/-/raw/master/bin/p4diff
+    wget -P /tmp/ http://dl.dropbox.com/u/47820156/p4merge-mac-osx-july-2011.zip
+    unzip -o /tmp/p4merge-mac-osx-2011-july-18.zip -d /Applications/
+    sudo mv /tmp/p4merge /opt/local/bin/
+    sudo mv /tmp/p4diff /opt/local/bin/
+    sudo chmod +x /opt/local/bin/p4merge
+    sudo chmod +x /opt/local/bin/p4diff
+
+#### [Git Ignore](http://help.github.com/ignore-files/)
+
+    cat <<EOF > ~/.gitignore
+    *.class
+    .DS_Store
+    .p4config
+    .settings/
+    bin/
+    gen/
+    target/
+    EOF
+
+#### Git [Reference](http://gitref.org/creating/), [Screencast](http://www.ralfebert.de/blog/tools/git_screencast/), and [Guide](http://marklodato.github.com/visual-git-guide/index-en.html)
+
+^-^;;;;;
+
+#### EGit
+
+* Install Eclipse EGit under Collaboration at http://download.eclipse.org/releases/indigo/
+* Usage 
+  * Team → Share Project... → Git → Next → Use or create Repository in parent folder → Finish
+  * Team → Pull
+  * Team → Remote → Push...
+  * Team → Show in History to inspect history
+     * See also http://wiki.eclipse.org/EGit/User_Guide#Inspect_History
+
+#### [Download Android OSP sources](http://source.android.com/source/downloading.html)
+
+    curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > /tmp/repo
+    sudo mv /tmp/repo /opt/local/bin/repo
+    sudo chmod a+x /opt/local/bin/repo
+    mkdir /workspace/gits/android-2.x
+    pushd /workspace/gits/android-2.x
+    repo init -u https://android.googlesource.com/platform/manifest -b android-2.3.7_r1
+    repo sync
+
+#### Work with Desktop Java project
+
+1. `pushd /workspace/gits/henry4j-/projs./places;`  
+   `mvn eclipse:eclipse -DdownloadSources=true` # [spawns](http://www.spawn.com/comics/series.aspx?series_id=1) an eclipse project w/ sources
+2. File → Import... → General → Existing Projects into Workspace
+3. Enter `/workspace/gits/henry4j-/projs./places` for root directory
+4. Refresh → Finish
+5. **Eclipse** → Preferences → Java → Build Path → Classpath Variables → New... → M2_REPO and `/Users/henry/.m2/repository`
+
+#### Work with Android Java project
+
+1. Eclipse → Preference → Android → SDK location: `/workspace/android-sdk`
+2. File → Import... → General → Existing Projects into Workspace
+3. Enter '/workspace/gits/henry4j-/projs./yamba' for root directory
+4. Refresh → Finish
+
+#### [apktool](http://code.google.com/p/android-apktool/) to reverse APK resources
+
+    wget -P /tmp/ http://android-apktool.googlecode.com/files/apktool1.4.1.tar.bz2
+    wget -P /tmp/ http://android-apktool.googlecode.com/files/apktool-install-macosx-r04-brut1.tar.bz2
+    pushd /opt/local/bin/
+    sudo tar xvf /tmp/apktool1.4.1.tar.bz2
+    sudo tar xvf /tmp/apktool-install-macosx-r04-brut1.tar.bz2
+    popd
+
+#### [dex2jar](http://dex2jar.googlecode.com/files/dex2jar-0.0.7.11-SNAPSHOT.zip) to reverse Dalvik bytecode
+
+    wget -P /tmp/ http://dex2jar.googlecode.com/files/dex2jar-0.0.7.10-SNAPSHOT.zip
+    sudo unzip -o /tmp/dex2jar-0.0.7.10-SNAPSHOT.zip -d /opt/local/share/
+    sudo ln -s /opt/local/share/dex2jar-0.0.7.10-SNAPSHOT /opt/local/share/dex2jar
+    sudo chmod +x /opt/local/share/dex2jar/dex2jar.sh
+    sudo ln -s /opt/local/share/dex2jar/dex2jar.sh /opt/local/bin/dex2jar
+
+#### [fernflower](http://www.reversed-java.com/fernflower/) to reverse Java bytecode
+
+    wget -P /tmp/ https://github.com/henry4j/-/raw/master/bin/fernflower.jar
+    cat <<EOF > /tmp/fernflower
+    #!/bin/bash
+    java -jar \`dirname \$0\`/fernflower.jar -dgs=1 -hdc=0 -das=0 \$1 \`dirname \$1\`/src/
+    EOF
+
+    sudo mv /tmp/fernflower.jar /opt/local/bin/
+    sudo mv /tmp/fernflower /opt/local/bin/
+    sudo chmod +x /opt/local/bin/fernflower
+
+#### apk2eclipse to reverse APK using apktool, dex2jar, and fernflower
+
+    wget -P /tmp/ https://raw.github.com/henry4j/-/master/bin/apk2eclipse
+    sudo mv /tmp/apk2eclipse /opt/local/bin/
+    sudo chmod +x /opt/local/bin/apk2eclipse
+
+#### Decompile facebook.apk and [deep-dive into ...](https://github.com/henry4j/-/blob/master/labs/%5Efacebook.mkd)
+
+    adb shell sqlite3 /data/data/com.android.vending/databases/market_assets.db .dump | grep facebook
+    adb shell 'pm path com.facebook.katana' # tells /data/app/com.facebook.katana-1.apk for facebook 1.7.2
+    adb pull /data/app/com.facebook.katana-1.apk
+    mv com.facebook.katana-1.apk com.facebook.katana-1.7.2.apk
+    apk2eclipse com.facebook.katana-1.7.2.apk
+
+#### JD tools
+##### [JD-GUI](http://java.decompiler.free.fr/?q=jdgui)
+
+* File | Open ... | `*.dex2jar.jar`
+* File | Save All Sources to save a zip anywhere you like.
+
+##### [JD-Eclipse](http://java.decompiler.free.fr/?q=jdeclipse)
+
+* Help | Install New Software ... | Add ... to open the Add Repository dialog
+* Type `http://java.decompiler.free.fr/jd-eclipse/update` to location | OK
+* Check `Java Decompiler Eclipse Plug-in` | `Next` twice
+* Choose to accept the license and then `Finish`
+
+##### [JD-Eclipse w/ realignment](http://java.decompiler.free.fr/?q=node/464) at [sourceforge.net](http://sourceforge.net/projects/realignmentjd/files/)
+
+* `wget -P /Applications/eclipse/plugins http://iweb.dl.sourceforge.net/project/realignmentjd/realignment.jd.ide.eclipse_1.0.2.jar`
+
+#
+* to use Realignment, it is necessary to open Preferences → General → Editors → File Associations and select "*.class" file type and to choose "Realignment for JD Class File Editor" for Associated editors. Another possibility is the batch realignment after processing JD-GUI. To work properly you must to switch on the property "Display line numbers" in Help/Preferences of JD-GUI. To use this feature it is necessary to open the menu Preferences/Java/Decompiler/Batch Realignment and click button "Open dialog".
+* existing limitation: the realignment is performed only for the methods. to work properly it is necessary that the property "Display line numbers" in menu "Preferences/Java/Decompiler" was active.
+
+#### Install Busybox to Android
+
+    wget -P /tmp/ http://busybox.net/downloads/binaries/latest/busybox-armv4tl
+    adb shell mount -o rw,remount /dev/block/stl9 /system
+    adb push /tmp/busybox-armv4tl /system/bin/busybox
+    adb shell chmod 755 /system/bin/busybox
+
+***
+
+#### Wicked Cool Scripts
+
+    diff -rq samsung-SGH-I727-Email samsung-SGH-I717-KJ5-Email # to see the diffs between Celox and Quincy
+
+##### Nuke System and Email accounts
+
+    cat <<EOF >> ~/bin/delete-edb 
+    adb shell rm /data/system/accounts.db
+    adb shell rm -r /data/data/com.htc.android.mail/databases/*
+    adb shell rm -r /data/data/com.htc.android.mail/shared_prefs/*
+    adb shell rm -r /data/data/com.android.email/databases/*
+    adb shell rm -r /data/data/com.android.email/shared_prefs/*
+    adb shell busybox killall com.htc.android.mail
+    adb shell busybox killall com.android.email
+    adb shell busybox killall com.google.android.gm
+    adb shell busybox killall com.google.process.gapps
+    # adb shell reboot
+    EOF
+
+##### List and Add to market-assets
+
+    cat <<EOF > ~/bin/list-mdb
+    adb shell sqlite3 /data/data/com.android.vending/databases/market_assets.db .dump
+    EOF
+    chmod +x ~/bin/list-mdb
+
+    cat <<EOF > ~/bin/add-to-mdb
+    adb shell sqlite3 /data/data/com.android.vending/databases/market_assets.db "INSERT OR REPLACE INTO asset_versions VALUES('v2:com.joulespersecond.seattlebusbot:1:21','content://downloads/my_downloads/6','DOWNLOAD_PENDING',1320161445169,1320161447243,1320161453103,0,447135,'com.joulespersecond.seattlebusbot','false','KP1Z29pn70_zfKRDHQCHWCpEFJU',0,21,'details?doc=com.joulespersecond.seattlebusbot',NULL,-1,'','',-1,4,-1,'','',-1,4)"
+    adb shell sqlite3 /data/data/com.android.vending/databases/market_assets.db "INSERT OR REPLACE INTO assets VALUES('com.joulespersecond.seattlebusbot','DEFAULT','honesthenry@gmail.com')"
+    adb shell busybox killall com.android.vending
+    EOF
+    chmod +x ~/bin/add-to-mdb
+
+***
+
+#### Install & Instantiate [Redis](http://redis.io/) → [tutorial](http://try.redis-db.com/)
+
+    mkdir ~/opt/; pushd ~/opt/;
+    wget http://redis.googlecode.com/files/redis-2.4.2.tar.gz;
+    tar xvf redis-2.4.2.tar.gz;
+    ln -s redis-2.4.2 redis; pushd redis;
+
+    sed -e 's/port 6379/port 6389/g' redis.conf > redis-6389;
+    src/redis-server redis-6389.conf; # in one terminal
+    src/redis-server; # in another terminal
+
+#### Install & Instantiate [Node](http://nodejs.org/) → [downloads](http://nodejs.org/#download)
+
+    mkdir ~/opt/; pushd ~/opt/;
+    wget http://nodejs.org/dist/node-v0.4.12.tar.gz
+    tar xvf node-v0.4.12.tar.gz
+    ln -s node-v0.4.12 node; pushd node
+
+    # to build according to README.md
+    ./configure
+    make
+    sudo make install
+
+    # to test an example node
+    cat <<EOF >> /tmp/example.js
+    var http = require('http');
+    http.createServer(function (req, res) {
+      res.writeHead(200, {'Content-Type': 'text/plain'});
+      res.end('Hello World\n');
+    }).listen(1337, "127.0.0.1");
+    console.log('Server running at http://127.0.0.1:1337/');
+    EOF
+
+    node /tmp/example.js & # plays a server.
+    curl http://127.0.0.1:1337/ # plays a client.
+
+***
+
+#### Resources
+
+* [Intro. to Maven](http://maven.apache.org/guides/introduction/introduction-to-the-pom.html)
+* [Spring for Android](http://www.springsource.org/spring-android "Android extension for Spring Framework")
+* [How to install](http://www.omappedia.org/wiki/Android_Installing_Busybox_Command_Line_Tools) [busybox](http://busybox.net/downloads/binaries/) 

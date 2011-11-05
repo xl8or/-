@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/titlehome" style="@style/header_style_v1">
+        <TextView android:id="@id/title_text_shadow" android:text="@string/china_139_mail" style="@style/titleBarShadowStyle" />
+        <TextView android:id="@id/TITLE" android:text="@string/china_139_mail" style="@style/titleBarStyle" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/toolbarhome" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/toolbar" style="@style/toolbar_margin">
+            <Button android:textColor="@drawable/button_text_color" android:id="@id/confirmButton" android:layout_width="0.0dip" android:text="@string/ok_button" android:layout_weight="1.0" style="@style/toolbar_button1" />
+            <Button android:id="@id/cancelButton" android:layout_width="0.0dip" android:text="@string/cancel_string" android:layout_weight="1.0" style="@style/toolbar_button1" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="25.0dip" android:textColor="#ff000000" android:id="@id/dashboard" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/welcome_139_mail" android:layout_above="@id/toolbarhome" android:layout_below="@id/titlehome" />
+</RelativeLayout>

@@ -1,0 +1,1773 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: qFxTjBc2J37CnjGNqKy8UPap9Gw=
+
+Name: res/drawable-hdpi/ic_menu_bag_books.png
+SHA1-Digest: TLOWHyYqeNQIFqvJiSyWYH2ZyI4=
+
+Name: res/drawable-hdpi/bkgd_tile.png
+SHA1-Digest: QPwVQYYFrMlJsGOVYoecXOo7BeY=
+
+Name: res/layout/widget_layout.xml
+SHA1-Digest: HHVjhO18/KNhx0E/yLULzB5+La4=
+
+Name: res/drawable-hdpi/btn_price_focused_market.9.png
+SHA1-Digest: ugWDiLDd+nKY9skI670eJW2Adic=
+
+Name: res/drawable/spinner_background_movies.xml
+SHA1-Digest: S4seiU9GIn42PgipwAF/MFVSQbM=
+
+Name: res/drawable-hdpi/market_tab_bg_overlay_right.9.png
+SHA1-Digest: lOGgrWg14yeteZQBpqL9msg7pak=
+
+Name: res/layout/sliding_panel_tab.xml
+SHA1-Digest: qR1izEih8Ls/lUOeqIFLn6nabeo=
+
+Name: res/layout-large-land/my_downloads.xml
+SHA1-Digest: XlHHp5zVtX65HnK9B5RKeJ5B8MQ=
+
+Name: res/mipmap-mdpi/ic_menu_bag_market.png
+SHA1-Digest: 22MY871b5cqvTlA0dJrXAxd6GoM=
+
+Name: res/drawable-mdpi/market_grid_partners.png
+SHA1-Digest: nAYCWPhS+d5Kr+zB6E69Jdd6d7E=
+
+Name: res/drawable-hdpi/pause.png
+SHA1-Digest: s1A+lWAnptoGcbzNYHzBepqgL0c=
+
+Name: res/layout-large/details_summary_books.xml
+SHA1-Digest: pn9Vlz2W4Uk3L9iizBi/LaB8K0U=
+
+Name: res/mipmap-hdpi/ic_menu_bag_apps.png
+SHA1-Digest: 3kj3aknXDl6AvE1UvM0H8aSnz7o=
+
+Name: res/layout-xlarge/inline_review_full.xml
+SHA1-Digest: F878r2UAoeKSyhK2AuPvrUUfh/4=
+
+Name: res/drawable-mdpi/ic_rate_star_market_off.png
+SHA1-Digest: zZmwgBgxlkxp/pJaxPNObHkYO1w=
+
+Name: res/drawable/pinstripe_details_layer.xml
+SHA1-Digest: e4+6tYA1EZs96lvJAhJ9A2js5ow=
+
+Name: res/drawable-mdpi/ic_rate_star_market_grid_half.png
+SHA1-Digest: xdGRMvVEzxUMS7na+HT+0t3dzao=
+
+Name: res/drawable-large-hdpi/ic_vm_thumbnail_big_movies.png
+SHA1-Digest: z0GFgezuCr9ZN1xUTp17pFjyyx8=
+
+Name: res/layout/corpora_home_frame.xml
+SHA1-Digest: BoryLf+24qVVHSO9yKj85jcXX7A=
+
+Name: res/layout/review_dialog.xml
+SHA1-Digest: Fu/im+99GaxLcSBJu9sFuqRdN0s=
+
+Name: res/drawable-hdpi/btn_disabled_market.9.png
+SHA1-Digest: tHflN5BQX+bRHf84fc1cVVi7I60=
+
+Name: res/layout/corpus_container.xml
+SHA1-Digest: lVOGKf6nm05yg4Oocmd39AnraN0=
+
+Name: res/drawable-hdpi/spinner_apps_pressed_holo_dark.9.png
+SHA1-Digest: Dmxo3PE+R6EPEDCvzkBesdoQTvk=
+
+Name: res/drawable-mdpi/btn_price_normal_market.9.png
+SHA1-Digest: ExA/u7tkzgP7Qf/pa9/lf1lbysU=
+
+Name: res/drawable-hdpi/ic_owned_not_local_apps.png
+SHA1-Digest: ilZpvz7loTbnceFjSO1AKIsLXSI=
+
+Name: res/layout/action_bar.xml
+SHA1-Digest: NtLOYjU8gYc/tdxNhb7f7iqrYpM=
+
+Name: res/drawable-hdpi/ic_market_home_nav_music.png
+SHA1-Digest: +4J3R3NYr+bJaFn6vNh3j7KABLQ=
+
+Name: res/drawable-large-mdpi/ic_market_home_nav_music.png
+SHA1-Digest: I/0qbzOB2nrQdSO8gWPCm7WD22Y=
+
+Name: res/drawable-hdpi/ic_plusone_tall_on_blank.png
+SHA1-Digest: wHHda2MjslkhEcULQzLTocuTRnc=
+
+Name: res/drawable-mdpi/market_grid_bg_2x2.9.png
+SHA1-Digest: gJeMJ6B/TJ+HUk/K1LzF3Gsri34=
+
+Name: res/layout/details_pack_row.xml
+SHA1-Digest: 1hq+m3kGh+4z8w49VbPXnh7VeDo=
+
+Name: res/layout-large/downloading_asset_list_snippet.xml
+SHA1-Digest: SeseNNrM0dk3cJWPzQhOxYNfOk8=
+
+Name: res/drawable-hdpi/btn_rating_star_on_normal_market.png
+SHA1-Digest: Zy5Wm6dxuSK7myCvN5dqunlQTdk=
+
+Name: res/layout/details_summary_header_text.xml
+SHA1-Digest: eGhWGB85HtOY2AxvCusvWguXOGA=
+
+Name: res/drawable-mdpi/ic_vm_thumbnail_big_movies.png
+SHA1-Digest: WaKAM7M7Hh0U3qODdzEa6jog7wM=
+
+Name: res/drawable-hdpi/market_grid_games.png
+SHA1-Digest: NcuIXDcdKqQxzy1xfTA1WrkUVSo=
+
+Name: res/layout-large-land/details_section_order_owned.xml
+SHA1-Digest: BmGlHrKvJQnMiHlGl2c+YXlUoZI=
+
+Name: res/layout/address_layout.xml
+SHA1-Digest: 4kcE6gVfH0Nx5wdscUSnkaPS46o=
+
+Name: res/layout/link_preference.xml
+SHA1-Digest: 4zfvBR6R0hVMUwFXHJ6PT90+ewE=
+
+Name: res/layout/purchase_title.xml
+SHA1-Digest: Rr/y0zcjBp7Uucs9kMg5GK1Tilc=
+
+Name: res/drawable/pinstripe_details_tile.xml
+SHA1-Digest: XVc+Xxb9JWupRIoJBNyp8AzHqg4=
+
+Name: res/drawable-mdpi-v9/stat_sys_install_complete.png
+SHA1-Digest: OGOIQgEBkVndC3NTi2CxVSMPtjE=
+
+Name: res/drawable-mdpi/ic_menu_warning.png
+SHA1-Digest: Qx88teBAEIcoMFNA9I300YOjOsA=
+
+Name: res/layout/custom_tab_button.xml
+SHA1-Digest: Zq1RYDWvkw7DF8OMVLQP75xuAgo=
+
+Name: res/drawable-large-hdpi/ic_more_arrow_down.png
+SHA1-Digest: WsIKDaGUv9Rq+7wsejnQwJ1eiM0=
+
+Name: res/drawable-hdpi-v11/ic_menu_market_mymusic.png
+SHA1-Digest: xb82J2+RNS3FaReSEtn/44TmVTk=
+
+Name: res/layout/details_summary_movies.xml
+SHA1-Digest: TTi3CzkTDK7uDFNv2b1Vk9aVtuA=
+
+Name: res/drawable-hdpi-v11/ic_menu_market_mymovies.png
+SHA1-Digest: C2vdfAmOtGBDpdDhfFRd87fIx5Y=
+
+Name: res/layout/bucket_header.xml
+SHA1-Digest: Eul8W/84a0gW8SVXP7GvTMwN+bk=
+
+Name: res/layout/asset_view.xml
+SHA1-Digest: empUwpncpx8qUycVyyCHuUcrw/s=
+
+Name: res/drawable-hdpi/ic_menu_market_myapps.png
+SHA1-Digest: 3iKGQrYyZzaX4Z3J+Q7gB89TrQ4=
+
+Name: res/drawable-large-hdpi/ic_vm_thumbnail_big_apps.png
+SHA1-Digest: QIG31uCxQ/IF1Mr+3Oe8cbKfFCM=
+
+Name: res/drawable-mdpi/ic_market_home_nav_apps.png
+SHA1-Digest: gEKlMj+c/0WJbXKDxiduHE1XVOg=
+
+Name: res/drawable-mdpi/ic_menu_bag_market.png
+SHA1-Digest: k+/ELP5fZ329AVtK9YuQEBKVqmo=
+
+Name: res/drawable-mdpi/btn_market.9.png
+SHA1-Digest: WfLEjtK8V9OuAIcg9nDETY2d8Bw=
+
+Name: res/drawable-hdpi/ic_menu_market_share.png
+SHA1-Digest: wecwixXKf8b2nizHdJWRJY8OOls=
+
+Name: res/drawable-large-xhdpi/ic_rate_star_market_on.png
+SHA1-Digest: kTZeorXFBlQy7dJzrjBxXjRtzY0=
+
+Name: res/mipmap-hdpi/ic_launcher_marketplace_apps.png
+SHA1-Digest: iY/wUQvfO5rwZX6HQS7C/VvDgr0=
+
+Name: res/menu-large-v11/consumption.xml
+SHA1-Digest: qy9N4UlgKV338/ZUgj+fmigOopM=
+
+Name: res/drawable-large-xhdpi/ic_rate_star_market_half.png
+SHA1-Digest: Pu7n0phuqzTipSzxfA61wK/QCBM=
+
+Name: res/layout-land/purchase.xml
+SHA1-Digest: BHx2eNNxZewTHEq4Y2sYz/C13pQ=
+
+Name: res/drawable-hdpi/spinner_movies_pressed_holo_dark.9.png
+SHA1-Digest: BkPnQWLIhGIARqVOe0ISyfTHycc=
+
+Name: res/drawable-hdpi/ic_btn_billing_edit.png
+SHA1-Digest: WSiI05G8Lq1ed530ulYksXWpBkw=
+
+Name: res/drawable-mdpi/spinner_movies_focused_holo_dark.9.png
+SHA1-Digest: N//Bk7PHp/blIsplcT89n+MPyYo=
+
+Name: res/drawable-mdpi/more_arrow_large_gray.png
+SHA1-Digest: RN6BmEy/Qy6JF7+emHe+q2zsMYw=
+
+Name: res/anim/promo_fade_in.xml
+SHA1-Digest: 7f5mwk+izaVpaz4Hd0N3htJBVFU=
+
+Name: res/drawable-mdpi/ic_menu_bag_movies.png
+SHA1-Digest: 9r6HcSlG/n8pMR/2km9j2iC8wmI=
+
+Name: res/layout/my_downloads_with_details.xml
+SHA1-Digest: J+Uyuj/7RxrJNo3NuhZXkz+JI+U=
+
+Name: res/drawable-large-hdpi/ic_rate_star_market_grid_off.png
+SHA1-Digest: jKWLf82MXACJk2TQTcS26EPaETU=
+
+Name: res/drawable-hdpi/ic_notification.png
+SHA1-Digest: 6ACbDsiMvC4X7SV/geFrQZY4JIg=
+
+Name: res/drawable-mdpi/ic_rate_star_market_grid_on.png
+SHA1-Digest: zBhrKvvPMW7BVz5fH8M7hlSQLng=
+
+Name: res/menu-v11/actions.xml
+SHA1-Digest: ej2wM+KiXSCogFvcNV54IQBl7iU=
+
+Name: res/drawable-mdpi/plus_one_bubble.9.png
+SHA1-Digest: pQ58pIU7F+CmZ5DpUEL6nC3Ny24=
+
+Name: res/drawable/highlight_overlay.xml
+SHA1-Digest: lEgWqVvRS7Gh6NR01KMk87gqARE=
+
+Name: res/layout/bucket_header_wrapper.xml
+SHA1-Digest: NuYhxQEmE4SKtexr867vNZrSU5k=
+
+Name: res/layout/details_listing_layout.xml
+SHA1-Digest: O/EWM9C9AAyM23CXxyq2yEBNBSk=
+
+Name: res/drawable-mdpi/transparent.png
+SHA1-Digest: 7V2WrGZgWRUwj7Msmaidv1DhwCU=
+
+Name: res/drawable-mdpi/fop_cc_add.png
+SHA1-Digest: rly5eZdoMw1C4/cAcUEOfbbOxco=
+
+Name: res/layout-large/details_summary_wide.xml
+SHA1-Digest: q5CzDG3kcLgPqvui04VJwlSaGZo=
+
+Name: res/drawable-hdpi/ic_more_arrow_up.png
+SHA1-Digest: oh69P/SZ9trdcN6VwoFDP8c1oNA=
+
+Name: res/layout/carrier_password.xml
+SHA1-Digest: 0bAAhZuYxikgab0UjkUf5dRZgJM=
+
+Name: res/drawable-mdpi/btn_rating_star_off_disabled_focused_market.pn
+ g
+SHA1-Digest: z8xzqy5y/r4fe07fQ8x+ANUv6l4=
+
+Name: res/drawable-mdpi/more_arrow_large_apps.png
+SHA1-Digest: RbdwkV6UwdqL9oGCEmhM7t9STpM=
+
+Name: res/drawable-hdpi/market_grid_outline_2x2.9.png
+SHA1-Digest: MLi512RJcQSU9AfpAeSb+laOa9M=
+
+Name: res/layout/no_permissions_required.xml
+SHA1-Digest: /AxT3W0I7IlN6o8fU7dZxdXp220=
+
+Name: res/drawable-hdpi/ic_rate_star_market_grid_half.png
+SHA1-Digest: sd+bannO7NiPDJfBG2vgAwAxk9o=
+
+Name: res/drawable-mdpi-v9/stat_notify_marketplace_update.png
+SHA1-Digest: rgT2REnBz1chAyDLIwX4bKZic/A=
+
+Name: res/layout/details_generic.xml
+SHA1-Digest: 7FBiMdm8tkaR9xSXl95fklt9ORc=
+
+Name: res/drawable-mdpi/ic_play.png
+SHA1-Digest: /91M4LEcAZ27Bkj9YkrhLo58Fe0=
+
+Name: res/layout/my_downloads_frame.xml
+SHA1-Digest: 2EaRu5HLdbbGlaJXacvya8OYUqo=
+
+Name: res/drawable-mdpi/stat_notify_marketplace_update.png
+SHA1-Digest: ZA9KLWsFc491Y63ArSeXoM5tIGk=
+
+Name: res/drawable/custom_ratingbar_grid.xml
+SHA1-Digest: RbPrVsc9oPtEpp8cA8stF34Pkdo=
+
+Name: res/drawable-large-xhdpi/ic_rate_star_market_grid_on.png
+SHA1-Digest: r9dyA2ju0UynK5RwC0liQpNI10c=
+
+Name: res/drawable-mdpi/ic_market_home_nav_music.png
+SHA1-Digest: VEjl6ZWB7oagw3QRhlYzqharP40=
+
+Name: res/layout/list_panel_developer_item.xml
+SHA1-Digest: aesmIY/zURZhRUhNA3LyWsVg+Mw=
+
+Name: res/layout/purchase_content.xml
+SHA1-Digest: DeyWRKSHH//kw1U6TgkClQBGE8Q=
+
+Name: res/drawable/spinner_background_holo_dark.xml
+SHA1-Digest: C77RHco5/RvSmKIqgAEIHbfY27Q=
+
+Name: res/layout-large/details_summary_apps.xml
+SHA1-Digest: vnh/cK+LhYFSPouUAB3BFoiT4PU=
+
+Name: res/layout/uneven_grid_small.xml
+SHA1-Digest: JUxpiKto4aDKB4GHSb5XiSeEPl4=
+
+Name: res/raw/tracks.txt
+SHA1-Digest: LleJk22YLL0vdjHGHM2dO8w4WLk=
+
+Name: res/layout-large/details_summary_movies.xml
+SHA1-Digest: fEYHyraVNVluAt2OpgQi9BvkB9A=
+
+Name: res/drawable-mdpi/btn_rating_star_on_pressed_market.png
+SHA1-Digest: eS7+uBfs+lqgWQmk7r2HjCSb/LA=
+
+Name: res/drawable-large-xhdpi/ic_rate_star_market_off.png
+SHA1-Digest: t+Se7QYg/TM7Bi9VVSYVrjoohaU=
+
+Name: res/drawable-hdpi/btn_market.9.png
+SHA1-Digest: aWIc/I/5vMwxHpn1gz2OOjVV1MY=
+
+Name: res/drawable-hdpi/ic_rate_star_market_off.png
+SHA1-Digest: NABxW+1WaMLap0y7dQFNNfaXbCM=
+
+Name: res/drawable-large-xhdpi/ic_market_home_nav_books.png
+SHA1-Digest: 08pL5hH0lhS57SQ2uWlIftd47C8=
+
+Name: res/raw/item
+SHA1-Digest: xVczQZGVRmp8mWKeyr1V8h7JlO0=
+
+Name: res/drawable-hdpi/btn_rating_star_off_normal_market.png
+SHA1-Digest: OJs/5899+3ICkpcGtSRwsc/P1Uc=
+
+Name: res/layout/downloading_asset_list_snippet.xml
+SHA1-Digest: jHCV4vqZKtpSqE96MkqSKXsUuC4=
+
+Name: res/drawable-mdpi/ic_owned_not_local_books.png
+SHA1-Digest: bMOlrGCHyvfxsCQmLWFxTN3bQms=
+
+Name: res/drawable-mdpi/btn_rating_star_on_disabled_focused_market.png
+SHA1-Digest: PusgF4dBgDd91eGKf7P86JQkmoA=
+
+Name: res/drawable-mdpi/spinner_movies_pressed_holo_dark.9.png
+SHA1-Digest: /vjJG5aTvHMr3yiVsvj7hUBix88=
+
+Name: res/drawable-hdpi/ic_rate_star_market_grid_on.png
+SHA1-Digest: WUFS+HddZot1GJJ7RIr2W7SldHM=
+
+Name: res/drawable-hdpi/ic_vm_thumbnail_big_movies.png
+SHA1-Digest: uGIqQOUNlR+rwQmjuS/FoS9Z1+E=
+
+Name: res/drawable-hdpi/phonesky_widget_bottom.9.png
+SHA1-Digest: puuICjl9UaK1rwJ61Si4eHr7bUA=
+
+Name: res/drawable-hdpi/ic_menu_bag_movies.png
+SHA1-Digest: WA+1xxVPbnr8mVIiMvwT92UmGLg=
+
+Name: res/layout-large/purchase_acquire_row_dummy.xml
+SHA1-Digest: 0QCm5X44/ug5xpOi+0kYAp/TXRA=
+
+Name: res/drawable-mdpi/ic_text_dot.png
+SHA1-Digest: 2uj4WW2RybMWQeQ7ZGSYvewB+WE=
+
+Name: res/drawable-mdpi/details_screenshots.9.png
+SHA1-Digest: oIhJLhmgnZsrs1Ic1HQocJTq9wE=
+
+Name: res/drawable/details_page_button.xml
+SHA1-Digest: GDUwjycwUZltU2O5XPo2LTWf+QY=
+
+Name: res/drawable-mdpi/market_grid_outline_2x2.9.png
+SHA1-Digest: PA8ljsiyzSmcerHAVtl16A5UbLk=
+
+Name: res/drawable-mdpi/ic_menu_market_mybooks.png
+SHA1-Digest: F+qPAle/pmYDKD6IR4FDNJUdN1U=
+
+Name: res/drawable-hdpi/ic_menu_market_mymovies.png
+SHA1-Digest: Qs9G1vsawOms9T+0u6sSrxBGJBM=
+
+Name: res/color/buy_button.xml
+SHA1-Digest: ahJkdVHHfiMhzslU1L3eeL/iKFE=
+
+Name: res/drawable-hdpi/overlay_focused.9.png
+SHA1-Digest: 5MAqCgvo0W2kN4xoFlXV9EViBmI=
+
+Name: res/drawable-mdpi/ic_vm_thumbnail_big_music.png
+SHA1-Digest: sXBwU7x5VojoZ7ftcdI/jQRvHnc=
+
+Name: res/drawable-mdpi/region_pressed_state.png
+SHA1-Digest: 181fvY8LnSsxeoBesDGEBlM2Xlo=
+
+Name: res/drawable-hdpi/ic_menu_market_mymusic.png
+SHA1-Digest: xkCUGRtT5dQgV8vzZOAWwiM1otg=
+
+Name: res/drawable-mdpi/ic_menu_bag_apps.png
+SHA1-Digest: nk4h5UBdx+VqKkmp5WrMwFg6+rc=
+
+Name: res/layout/reviews_list_item.xml
+SHA1-Digest: bWU+QaUs80ys7PcVhqtMy2Nf9Uo=
+
+Name: res/mipmap-mdpi/ic_menu_bag_movies.png
+SHA1-Digest: nwZCvrz+Z2ZMquwWwLS0shxwnkU=
+
+Name: res/drawable-hdpi/ic_plusone_tall_error.png
+SHA1-Digest: v6ABrATr3XIB13mqyljcI79db30=
+
+Name: res/drawable-hdpi/btn_rating_star_off_pressed_market.png
+SHA1-Digest: 1uQ94WzDhjYg1zKPLI7HDcZQZ48=
+
+Name: res/drawable-mdpi/spinner_books_pressed_holo_dark.9.png
+SHA1-Digest: EukS83hG6RN+oy6/V0de/ILc06A=
+
+Name: res/layout/overview_bucket_entry.xml
+SHA1-Digest: KNT76CPsiQR/HGQkM1D58HwM5mg=
+
+Name: res/mipmap-hdpi/ic_menu_bag_market.png
+SHA1-Digest: YVLClFyjv7P+iyouOexW6ZMp+tY=
+
+Name: res/drawable-mdpi/ic_header_music.png
+SHA1-Digest: D4LL0PgH9dtcxLPx6zhX8qVjrCM=
+
+Name: res/layout/price_table_row.xml
+SHA1-Digest: QnwH/Q4AfhSWbRCUKn1I+hAsgRc=
+
+Name: res/drawable-hdpi/ic_more_arrow.png
+SHA1-Digest: k+Xp8sPhV1wCgcH2Y9dDJx1LrGU=
+
+Name: res/menu/base.xml
+SHA1-Digest: 13zguk9aRDHmtxU2eURMuD2z3u4=
+
+Name: res/drawable-mdpi/ic_unlocked_holo_light.png
+SHA1-Digest: 8Bp9l+Y24LHzXSIoHZDy728Lgik=
+
+Name: res/drawable-mdpi/ic_plusone_tall_off.png
+SHA1-Digest: Q65VlWGij0cQUcrICXnX1amKlB4=
+
+Name: res/drawable-hdpi/transparent.png
+SHA1-Digest: TzA03QPnyCMZdYdK/Ne6Bt9Db7s=
+
+Name: res/drawable-mdpi/ic_vm_thumbnail_big_books.png
+SHA1-Digest: QwMWC8CfdwwpSOR4EXsQPvVcbxA=
+
+Name: res/drawable-mdpi/bottombar_portrait_565.png
+SHA1-Digest: 6/FfHo7HKqgKu77b9jOvyVt7agc=
+
+Name: res/drawable-hdpi/ic_rate_star_market_grid_off.png
+SHA1-Digest: 044LHVkqUUQWuaxiJpd4ynM239k=
+
+Name: res/drawable-mdpi/ic_header_movies.png
+SHA1-Digest: MagjydnED89Iqn5EdCrBE+vM/JA=
+
+Name: res/drawable-hdpi/btn_price_pressed_market.9.png
+SHA1-Digest: RXFJsZvfdaKhvEBQBpsKIgdhtNU=
+
+Name: res/drawable-mdpi/phonesky_widget_top.9.png
+SHA1-Digest: VTpGziaGUMhngqHwWq6oPRxRE0w=
+
+Name: res/drawable-hdpi/ic_more_arrow_left.png
+SHA1-Digest: yfvt/E2ICvSs3m261xFbAJOFROc=
+
+Name: res/drawable-mdpi/market_grid_nav_2x4.9.png
+SHA1-Digest: hWsoabuDdZn6eKAXCFhRzSdiXVo=
+
+Name: res/layout/details_restricted_availability.xml
+SHA1-Digest: zlj6pwsWSHXR3H81b5APHXaoPoA=
+
+Name: res/drawable-hdpi/bottombar_portrait_565.png
+SHA1-Digest: ki+lgof1fIs1VgXfhj7jb4l7RqY=
+
+Name: res/drawable-hdpi/btn_square_pressed.png
+SHA1-Digest: bI/owwyuezWa6uiR1KnqRqP+4pc=
+
+Name: res/layout/full_row_entry.xml
+SHA1-Digest: z+bmTVs066Ks3VhDFB2uJ1mCfk4=
+
+Name: res/drawable-mdpi/ic_market_home_nav_games.png
+SHA1-Digest: rQx/p7jkFovKoueZ8ssJ/zIHeBU=
+
+Name: res/drawable-mdpi/title_bar_shadow.9.png
+SHA1-Digest: 5O2JJZLOD2mdU3K9WVZuEN198C8=
+
+Name: res/layout-large/base_grid_item.xml
+SHA1-Digest: iztrPEGmczkwfrCXbYHzoEwm8P8=
+
+Name: res/drawable-hdpi/ic_vm_thumbnail_big_music.png
+SHA1-Digest: 8o6bl1QQMdLwCHZBFnwuhN+L1Wg=
+
+Name: res/raw/home
+SHA1-Digest: N6J8T3/QiZH993kOPFMdSyonw64=
+
+Name: res/drawable/custom_ratingbar_big.xml
+SHA1-Digest: GnTmXrjKWyJo3GmNvECEY5Pwbtc=
+
+Name: res/mipmap-mdpi/ic_menu_bag_apps.png
+SHA1-Digest: HiCfg2AsPLPxq77nOhdp/piMHLM=
+
+Name: res/layout-large/billing_external_addcreditcard_buttonbar.xml
+SHA1-Digest: bfoXjNOR940Zibh8gfpIg02kZN8=
+
+Name: res/layout/details_screenshots.xml
+SHA1-Digest: Yzp9cTq0UIrg9BpgoKaWJeJU3oc=
+
+Name: res/drawable-mdpi/spinner_apps_default_holo_dark.9.png
+SHA1-Digest: qsN0SwP1apQXs073A59S8ScMVX8=
+
+Name: res/drawable-hdpi/market_grid_top.9.png
+SHA1-Digest: oRGhWh2jsA4N0e+rKl7js1usXbM=
+
+Name: res/drawable-mdpi/spinner_movies_default_holo_dark.9.png
+SHA1-Digest: obRl5b41tY36fO4hUStHHi6C7p0=
+
+Name: res/drawable-hdpi/details_screenshots.9.png
+SHA1-Digest: wf2tmxqkEXK/PpMIdzTttcn0BXk=
+
+Name: res/drawable-hdpi/ic_movies_header.png
+SHA1-Digest: ilXFvLuWNpslQIUfKJzmJyBWnDk=
+
+Name: res/drawable-hdpi/region_pressed_state.png
+SHA1-Digest: Ku6d5IQijqVl5rZVwiLlt9I1sCQ=
+
+Name: res/drawable-hdpi/ic_menu_warning.png
+SHA1-Digest: 0JeMaou4yl5fkLojOb8dE2x/584=
+
+Name: res/layout/details_footer.xml
+SHA1-Digest: YjC6+qTrJ9BgGW6CNjjF3S4Ct24=
+
+Name: res/drawable/margin_fill.xml
+SHA1-Digest: 02oi5SFMYAeuJGUeWNTODyt1I3g=
+
+Name: res/drawable-hdpi/btn_rating_star_on_pressed_market.png
+SHA1-Digest: PMEisPFTVVGTXMRDL1fKk274cck=
+
+Name: res/drawable-large-hdpi/ic_more_arrow_up.png
+SHA1-Digest: 5RpWipBVZrmxouBBOOGs9Iiojn4=
+
+Name: res/drawable-mdpi/stat_sys_install_complete.png
+SHA1-Digest: jq2LYjmM9USud+6HMN5IG7yyXKs=
+
+Name: res/drawable-hdpi/ic_menu_bag_music.png
+SHA1-Digest: lO7R7Q+Ds639Xwv53Wt0NRxqB38=
+
+Name: res/drawable-hdpi-v11/ic_menu_market_mybooks.png
+SHA1-Digest: tZ7+JCHzbMqWvzDP/NysYKh1Gb8=
+
+Name: res/drawable-hdpi/section_header_cancel.png
+SHA1-Digest: 6e5OPOD76dRf6SLyKJLRfKNJYXA=
+
+Name: res/layout-large-land/generic_details.xml
+SHA1-Digest: cdwGdwOG4Mqhjon46qHbP7rM1YM=
+
+Name: res/layout/billing_addcreditcard_fields.xml
+SHA1-Digest: 4Ytybng1IfSi6HJS+HhwYj3UYew=
+
+Name: res/drawable-hdpi/ic_menu_market_accounts.png
+SHA1-Digest: 4DRRAosLUXyOwbR1tq8E5vUovyE=
+
+Name: res/drawable/details_bg_with_highlight.xml
+SHA1-Digest: B6vM5Ddf+x131eyQYh3lbJCt/Os=
+
+Name: res/drawable-large-mdpi/ic_market_home_nav_movies.png
+SHA1-Digest: fmn0IHtAsAp7UxJT0wxjdjCvMY4=
+
+Name: res/drawable-mdpi/ic_less_arrow.png
+SHA1-Digest: ZKgnzul1xjkK2Tygub1jha0pmZQ=
+
+Name: res/drawable-mdpi/fop_cc_visa.png
+SHA1-Digest: jQ/JOTfLQgerPh88/2qHPMJY/kM=
+
+Name: res/layout/corpus_spinner_selected_item.xml
+SHA1-Digest: vSojDYFnw/CvylRpKOw/cJ1s0c4=
+
+Name: res/layout/permissions_layout.xml
+SHA1-Digest: pNCHlRgi+cefAn06NtBYhfLl1go=
+
+Name: res/drawable-large-mdpi/ic_vm_thumbnail_big_apps.png
+SHA1-Digest: uuO8xSgRwKajp+7Zt5hpNKsHhU4=
+
+Name: res/drawable-hdpi/more_arrow_large_movies.png
+SHA1-Digest: ieJD+FWQZF9Ptb3kNFCXMOiw9PA=
+
+Name: res/layout/content_filter_activity.xml
+SHA1-Digest: o8iL06sJ+qEk32esU0DqXxmAIco=
+
+Name: res/layout/address_textview.xml
+SHA1-Digest: 5JXrp2XN03kxDkqe4nndb/rKfsY=
+
+Name: res/layout/billing_addcreditcard_fragment.xml
+SHA1-Digest: 7e+w1ButkOwKmNrFYf5j+vFcxWg=
+
+Name: res/layout/on_sale_grid.xml
+SHA1-Digest: ySnpH62T7HNuI0ZTIew8Fkpsb3o=
+
+Name: res/layout/corpus_cell.xml
+SHA1-Digest: nE3QmQhjFAgq6QJwGYCGuipv+oI=
+
+Name: res/layout/pin_entry_dialog.xml
+SHA1-Digest: XTQTqI5CYvzUqGn5KNxpgE5KrFw=
+
+Name: AndroidManifest.xml
+SHA1-Digest: RszPGCooDlg9qV9RG/nIMus4Ntk=
+
+Name: res/drawable-mdpi-v11/ic_menu_market_share.png
+SHA1-Digest: Ex6lUqlagRuvlZTsqtv5kF+RZbA=
+
+Name: res/layout/details_section_order_owned.xml
+SHA1-Digest: aeyLAhm9REF+8jWiGGhBeQyg/+A=
+
+Name: res/layout-large/full_row_entry.xml
+SHA1-Digest: j2wG7gZHY2Oz4PcJqoXIGVI64UQ=
+
+Name: res/drawable-hdpi/market_grid_nav_2x4.9.png
+SHA1-Digest: eB0q6wCA9T75UO8t5rhj9A4vv2A=
+
+Name: res/layout/details_section_order_notowned.xml
+SHA1-Digest: SoOlxi8jf04cAWXtwEpigVAnrf8=
+
+Name: res/drawable-hdpi/btn_rating_star_off_focused_market.png
+SHA1-Digest: PylD0OB4C43QtRqPkO+TcR+NO64=
+
+Name: res/layout/purchase_loading_indicator.xml
+SHA1-Digest: EjMvdCGUto+RnrW/30PyppAIy4Q=
+
+Name: res/drawable-mdpi/ic_menu_market_mymovies.png
+SHA1-Digest: KpwxjO6TLPlBVq8wn/ivOwf9Deg=
+
+Name: res/layout/media_player_controls.xml
+SHA1-Digest: RRFP0VdAZUmiA3CwIjTjuu15s68=
+
+Name: classes.dex
+SHA1-Digest: vmDATKFXQ2mlcSzytwX1uO4naPI=
+
+Name: res/drawable-mdpi/btn_rating_star_on_disabled_market.png
+SHA1-Digest: ShuymbWB9vrZsybhizAZC63Eeko=
+
+Name: res/drawable-hdpi/ic_owned_apps.png
+SHA1-Digest: x7nvg+WU99TmMQwT89WKH3e684Y=
+
+Name: res/drawable-hdpi/ic_header_apps.png
+SHA1-Digest: OrAoLk48RIS1EqEdyPn9OZ6ZG/I=
+
+Name: res/layout/details_summary_apps.xml
+SHA1-Digest: HWPoWCq2Y8m5mdIcfspSyZt21Cs=
+
+Name: res/drawable-large-hdpi/ic_rate_star_market_grid_on.png
+SHA1-Digest: kVFN1fo5RPzJdZSpc669DxIHxb0=
+
+Name: res/drawable-mdpi/section_header_cancel.png
+SHA1-Digest: 4ywiPBn6TOgKHLPLzN1q8t4wgSs=
+
+Name: res/drawable-hdpi/ic_header_music.png
+SHA1-Digest: O2VZwcABtWDJzLqUGEa4k+GLs1o=
+
+Name: res/drawable-large-mdpi/ic_more_arrow_down.png
+SHA1-Digest: GaaDzqar5BMdcIASO+P4YGzzjDM=
+
+Name: res/drawable-mdpi/ic_menu_market_share.png
+SHA1-Digest: 4g+d35OGEW/9RK35G+S0ME3lu60=
+
+Name: res/drawable-hdpi/market_grid_nyt.png
+SHA1-Digest: GdSa8tqi+l97kuNS7fNwSqM3zcE=
+
+Name: res/drawable-hdpi/spinner_movies_default_holo_dark.9.png
+SHA1-Digest: I4pPOuYUufq+xwrU52iB1534bzE=
+
+Name: res/drawable-large-mdpi/ic_rate_star_market_half.png
+SHA1-Digest: M0dfAPrrJcZOakyDzEB+2SN/VJs=
+
+Name: res/drawable-mdpi/btn_rating_star_off_pressed_market.png
+SHA1-Digest: Edog58Ch9fWM1B4xNFcZQh9hNWE=
+
+Name: res/drawable-mdpi/btn_rating_star_on_normal_market.png
+SHA1-Digest: SfqAYOcZJdxx9YXfVNM6vR0EpMU=
+
+Name: res/layout/bucket_row.xml
+SHA1-Digest: zu9947laIykz7gfhUQRjrBEOSw8=
+
+Name: res/drawable-mdpi/overlay_pressed.9.png
+SHA1-Digest: PPBRlc2Z0luzeie9m4EOhxk5e3s=
+
+Name: res/layout/purchase_spinner_dropdown.xml
+SHA1-Digest: G1pqAJNyet9yPdER1IO2nBB0png=
+
+Name: res/drawable-hdpi/btn_price_normal_market.9.png
+SHA1-Digest: eHFTtIvUBA02pCp9wDdTv6pw1yw=
+
+Name: res/drawable-hdpi/btn_review_normal.png
+SHA1-Digest: h0z7DQojPIGCSSLSoGXCsEFcRSo=
+
+Name: res/drawable-hdpi/btn_more_focused_market.9.png
+SHA1-Digest: OdVQqaglVjrRcvpbCpZz4uE0n5c=
+
+Name: res/drawable-mdpi/spinner_pressed_holo_dark.9.png
+SHA1-Digest: OtbWuMmp8SjwjgOS/syKUKiVJqo=
+
+Name: res/drawable-hdpi/ic_ab_back.png
+SHA1-Digest: yf99IFCccg9ilF2HAfCiqyeb2Ys=
+
+Name: res/drawable-mdpi/btn_rating_star_off_focused_market.png
+SHA1-Digest: t+hBnvlvTJfsfRADTjhILc2pScQ=
+
+Name: res/drawable-mdpi-v11/ic_menu_market_mybooks.png
+SHA1-Digest: dOfSUr8MVM0m8ZftfZJoZV6cHlE=
+
+Name: res/drawable/custom_ratingbar_full_empty.xml
+SHA1-Digest: WmLj3G5Qii4kNrGfeUV3n4Khzas=
+
+Name: res/drawable-hdpi/more_arrow_large_apps.png
+SHA1-Digest: EaOK1AANPNyxj6JIfO140wY3+94=
+
+Name: res/drawable-mdpi-v11/ic_menu_market_mymusic.png
+SHA1-Digest: P0QTA1qWfXNM4ZJLfsgo5o7NgtI=
+
+Name: res/layout/details_summary_byline.xml
+SHA1-Digest: X1sgRSSLABVtsIf0B3WXSY0i9Fw=
+
+Name: res/drawable-mdpi/ic_developer_website.png
+SHA1-Digest: lKmRCkYZ4YrnRQyNzKJyWQoQwLw=
+
+Name: res/layout-xlarge/my_downloads.xml
+SHA1-Digest: CnwyVHeauhyIusg+EMm7srDNJCs=
+
+Name: res/drawable-hdpi/details_section_bg.9.png
+SHA1-Digest: 9zOJckoDy0WRwJ45nLnOswW120o=
+
+Name: res/drawable-hdpi/spinner_focused_holo_dark.9.png
+SHA1-Digest: wXF8vkIkELatBT2WiXf6aZ+QFGU=
+
+Name: res/drawable-large-hdpi/ic_rate_star_market_half.png
+SHA1-Digest: n5wHQJRwtqARxIW9acukV2B9mx4=
+
+Name: res/drawable-mdpi/spinner_focused_holo_dark.9.png
+SHA1-Digest: TYf3J4SJ3Yae4zjWe2eFbydoXO0=
+
+Name: res/layout/tabbed_browse_frame.xml
+SHA1-Digest: 24sxHL0gSzVAvBDt/j2LFiBa+Eo=
+
+Name: res/drawable-hdpi/plus_one_bubble.9.png
+SHA1-Digest: qkO8ZyE07uHiVelfZcj88bUNguU=
+
+Name: res/xml/searchable.xml
+SHA1-Digest: 2bWL1rsuBaU0nZhXoUnOszM9ACg=
+
+Name: res/drawable-hdpi/ic_developer_website.png
+SHA1-Digest: IfPS1ib2zyb8X9mhkUFHEfoaqlc=
+
+Name: res/drawable-hdpi/ic_more_arrow_righthome.png
+SHA1-Digest: cumqiWvvVTkosRsy1FCysNyrUpE=
+
+Name: res/drawable-large-xhdpi/ic_market_home_nav_games.png
+SHA1-Digest: xnFJvGiNoJGxRMTfU/NHQM5gY10=
+
+Name: res/drawable-hdpi/ic_vm_thumbnail_big_books.png
+SHA1-Digest: QQV6AH4Y4ZCiQ2jD1YAECpBxBlY=
+
+Name: res/drawable-hdpi/fop_cc_visa.png
+SHA1-Digest: yl618QJosMrPnpA3nV4uiuQJjz8=
+
+Name: res/layout/purchase.xml
+SHA1-Digest: scCe72f2CjYIeDozjUHr0aSUlcE=
+
+Name: res/drawable-mdpi/ic_plusone_tall_off_blank.png
+SHA1-Digest: T/2gFRg3hImsFf9VP5yuibLWYUY=
+
+Name: res/drawable-hdpi/more_arrow_large_gray.png
+SHA1-Digest: cUHCv0/H9dmxbQXyRggMYyEAtTs=
+
+Name: res/drawable-hdpi/btn_more_pressed_market.9.png
+SHA1-Digest: EEawdXMOwypMd8u2FHOcrfkqohY=
+
+Name: res/drawable-hdpi/ic_vm_thumbnail_big_apps.png
+SHA1-Digest: vMQF5FqO8K8ZcVz1IdA2uF0UigI=
+
+Name: res/drawable-mdpi/ic_btn_billing_edit.png
+SHA1-Digest: b3GhYYN0vMtyA3YhPkwy0tbASFU=
+
+Name: res/layout/details_summary_books.xml
+SHA1-Digest: j2A2+fBPwYJYOSA7tkwpF+3uP1c=
+
+Name: res/drawable-large-mdpi/ic_more_arrow_up.png
+SHA1-Digest: wJaZVjSw2s8TC1UwkiRIu6c0Uzw=
+
+Name: res/drawable-large-mdpi/ic_rate_star_market_grid_off.png
+SHA1-Digest: 6Ndmm1nmJVWtlt5G2dLlmj7dWzY=
+
+Name: res/layout/purchase_acquire_row.xml
+SHA1-Digest: qvbw9lNLq3JeW1OR2nrHs69xSX0=
+
+Name: res/drawable-mdpi/ic_apps_header.png
+SHA1-Digest: FFT/zTyHN2cYvUNkJo/BXSE1N/8=
+
+Name: res/drawable-mdpi/market_grid_editorschoice.png
+SHA1-Digest: blMIbPWIXDZBjcKDj2CjHMfXhrE=
+
+Name: res/layout/sliding_panel_gutter.xml
+SHA1-Digest: swm16zRQYIrm5kK6gXRtWEqtnrs=
+
+Name: res/drawable-hdpi/spinner_movies_focused_holo_dark.9.png
+SHA1-Digest: osuaNzads04GmdmPBNM4kJN28jk=
+
+Name: res/drawable-mdpi/btn_rating_star_on_focused_market.png
+SHA1-Digest: yjDGwWg1OOlkmZp26vJmQjbCGN4=
+
+Name: res/mipmap-xhdpi/ic_launcher_marketplace.png
+SHA1-Digest: MhTD7MDVr5F+3GOH+dSA/FAPjdQ=
+
+Name: res/layout/details_download_progress.xml
+SHA1-Digest: hgztFT6PvtLxe+XwxgszVsDF5YU=
+
+Name: res/drawable-hdpi-v11/ic_menu_market_share.png
+SHA1-Digest: kRb816iK++pwiO0KdXDhKjq6LiY=
+
+Name: res/drawable-mdpi/details_section_bg.9.png
+SHA1-Digest: hiKmRAethtYhNgBP0GI2K7Hf4LM=
+
+Name: res/drawable-hdpi/bkgd_tile_black.png
+SHA1-Digest: JLersrfkD3h/sZsRExRFW8lR8sQ=
+
+Name: res/drawable-mdpi/ic_more_arrow_right.png
+SHA1-Digest: 9Nt26EaNH33DMfc7dMx8taKxF7g=
+
+Name: res/layout/generic_content_row.xml
+SHA1-Digest: epBr43tepoAgHqL26kI34ovvRS0=
+
+Name: res/drawable-mdpi/menu_divider.9.png
+SHA1-Digest: DlOo3Fp6h04iWMEOUzl2rMxeFaA=
+
+Name: res/drawable-mdpi/market_grid_games.png
+SHA1-Digest: b8jzuZMcmQP1hZ2RIXOXyR95Q4M=
+
+Name: res/drawable-hdpi/ic_header_movies.png
+SHA1-Digest: bfSH51Uo8J+IVMK4YsGYzTYdXpg=
+
+Name: res/drawable-hdpi-v9/stat_notify_marketplace_update.png
+SHA1-Digest: U+SWiPJHuedwrs8/2Zk7ac6sEbk=
+
+Name: res/drawable-mdpi/pause.png
+SHA1-Digest: GuyjfoKPRHtRvSO9jzm4BRI/TUY=
+
+Name: res/drawable-hdpi/spinner_default_holo_dark.9.png
+SHA1-Digest: Wyg4g5ICtlC74BhpElwD61uesso=
+
+Name: res/drawable-hdpi/ic_owned_movies.png
+SHA1-Digest: vyaPyBqhDYQBUfKeHNycszyEvIY=
+
+Name: res/drawable-mdpi-v11/ic_menu_market_myapps.png
+SHA1-Digest: eckYWGLCJpZxXiVyQH0ryTkxOSU=
+
+Name: res/drawable-mdpi/btn_rating_star_off_normal_market.png
+SHA1-Digest: /Z9lmsPcUZiaCcj/ODAHRgebxFo=
+
+Name: res/drawable-mdpi/ic_menu_market_mymusic.png
+SHA1-Digest: 6APzECuOXCO+QhVISSAkpLexMQM=
+
+Name: res/layout/tabbed_browse_lists.xml
+SHA1-Digest: 96l1tAuiDzYBIF6n36uVb8rQlD0=
+
+Name: res/drawable-hdpi/ic_plusone_tall_off.png
+SHA1-Digest: B09qrvOytB933MR5sO069g61kjg=
+
+Name: res/drawable-mdpi/market_tab_bg_overlay_right.9.png
+SHA1-Digest: pJuczu+COSwXUkNtph/9YI/xO9o=
+
+Name: res/drawable-hdpi/ic_plusone_tall_off_blank.png
+SHA1-Digest: Cu5KbB+a/AuUpEXMxP1/PbB1jRw=
+
+Name: res/drawable-mdpi/bkgd_tile.png
+SHA1-Digest: Q+vcsKDqlShP8QlK7XppvSepwdQ=
+
+Name: res/drawable-mdpi/ic_vm_thumbnail_big.png
+SHA1-Digest: yWpEG5R2DkpLmX+NIUyv9kXzViQ=
+
+Name: res/layout/flag_content_message.xml
+SHA1-Digest: mt91rug1yTArdDgqjVgLk16AIxE=
+
+Name: res/layout/my_downloads_section_header.xml
+SHA1-Digest: Ojp2GIWiHcH9oPSlVzyOElFaeA0=
+
+Name: res/drawable-mdpi/ic_menu_bag_books.png
+SHA1-Digest: 5ZGg9tH8pdxWBk45NxkoRkCnC6Q=
+
+Name: res/mipmap-xhdpi/ic_launcher_marketplace_apps.png
+SHA1-Digest: p37KXg/FD5EOVQWcDRYtGVaUkqM=
+
+Name: res/drawable-hdpi/ic_header_books.png
+SHA1-Digest: uHkgKqv9ZbPtifaRsP+yVUOU4FE=
+
+Name: res/drawable-mdpi/ic_rate_star_market_grid_off.png
+SHA1-Digest: xtNqwEJ/zjT7MyxsT7gtKmp31AE=
+
+Name: res/drawable-mdpi/ic_locked_holo_light.png
+SHA1-Digest: GDpVkDOHFLO9EQbJMS/uL1q8V4s=
+
+Name: res/drawable-hdpi/ic_text_dot.png
+SHA1-Digest: CQEPRmVGw3TO/4KPwxy/HlMCr8Y=
+
+Name: res/drawable-mdpi/btn_square_normal.png
+SHA1-Digest: ENTot5LrhSgiBHI8q+3ORMnpVo4=
+
+Name: res/drawable-mdpi/ic_more_arrow_righthome.png
+SHA1-Digest: e7uUBSAftdG2DBpapYQCBwAci1E=
+
+Name: res/drawable-large-xhdpi/ic_vm_thumbnail_big_apps.png
+SHA1-Digest: y/tAb3I5wZfOg8s38UuPfaO2iR4=
+
+Name: res/drawable/pinstripe_actionbar_tile.xml
+SHA1-Digest: LQxjLOaJk1hgVyxgVJjfvuLGUD0=
+
+Name: res/layout/billing_addinstrument_frame.xml
+SHA1-Digest: DZWUsX7x0X27NS5Wmf+fl8qJsPo=
+
+Name: res/drawable/spinner_background_apps.xml
+SHA1-Digest: 8R2kKrdM5G+eoQ4s56n/sWHM4dY=
+
+Name: res/layout/dcb_debug_details_dialog_item.xml
+SHA1-Digest: +clrz4LL4it6SNnPu0ePa87BltA=
+
+Name: res/layout-large/details_summary.xml
+SHA1-Digest: mz/I7d5S0m/Y2qbmmMrd+NpoB7U=
+
+Name: res/drawable-mdpi/ic_owned_apps.png
+SHA1-Digest: kv1nwtLmzevO0d9bYVLjQAJavVY=
+
+Name: res/drawable-large-mdpi/ic_market_home_nav_games.png
+SHA1-Digest: 0FNLttGFQzHUMfy7XPo+C2AN18w=
+
+Name: res/drawable-hdpi/ic_menu_bag_market.png
+SHA1-Digest: 2tD7tKoElJeIYLKeTyMNfpncie4=
+
+Name: res/layout/details_listing_layout_no_separator.xml
+SHA1-Digest: offah/5rFku9j6rfASr6L0M45nc=
+
+Name: res/drawable-hdpi/ic_network_error.png
+SHA1-Digest: b7OJil229nJNkKdu1ZQAggGHBx8=
+
+Name: res/layout/purchase_iab_description.xml
+SHA1-Digest: Ieg0ZPreWKnJRRZE6bHbk0SfCZU=
+
+Name: res/drawable-hdpi/logo_credit_cards.png
+SHA1-Digest: uKgNoFxFaeIrF3Pj+WolmWpPvjo=
+
+Name: res/drawable-mdpi/ic_more_arrow.png
+SHA1-Digest: d6Sbv9pQm/GS/7UsgwC4HoaiRDU=
+
+Name: res/layout/details_summary_dyanmic.xml
+SHA1-Digest: 5LPYkHX9LY07VTM62YoeQe3T0Oo=
+
+Name: res/drawable-hdpi/btn_rating_star_off_disabled_market.png
+SHA1-Digest: nLa+cGlzgd845cyki703r0khz6k=
+
+Name: res/layout-large/details_icon.xml
+SHA1-Digest: SVkGNkYSPG5B/GV07Xgj2qiba3I=
+
+Name: res/layout-large/overview_bucket_entry.xml
+SHA1-Digest: JZYDbo8bSQ5QFqWv9eqAM3y784U=
+
+Name: res/drawable-mdpi/overlay_focused.9.png
+SHA1-Digest: +C+sZDMkQ25hbqWEn0hOOXNFkWg=
+
+Name: res/drawable-mdpi/ic_owned_books.png
+SHA1-Digest: WQN0adMK7ocXUMlq8Yr/H3ZQURc=
+
+Name: res/drawable-hdpi/ic_market_home_nav_apps.png
+SHA1-Digest: 1sCWHkKaHERM7QDgWL9FDD919u4=
+
+Name: res/drawable-mdpi/market_grid_bottom.9.png
+SHA1-Digest: yUzej4Ddwr+IT6ybNn9kAbjtKAI=
+
+Name: res/drawable-large-mdpi/ic_market_home_nav_apps.png
+SHA1-Digest: uTnNdfvch0ctg5Rmt6UGRNAXZ1c=
+
+Name: res/layout/reviews_frame.xml
+SHA1-Digest: /vow2Idvws8eAVGIeykg5nchzxo=
+
+Name: res/drawable-large-xhdpi/ic_vm_thumbnail_big_music.png
+SHA1-Digest: 2YKFCMl77lRTjoD4E2qjeAT7eTY=
+
+Name: res/drawable-mdpi-v11/ic_menu_market_mymovies.png
+SHA1-Digest: g3QOu0upO9FehujSLUnove6LIcg=
+
+Name: res/drawable-hdpi/spinner_pressed_holo_dark.9.png
+SHA1-Digest: tWSwswR245U0i82rEvnnCtfByA4=
+
+Name: res/drawable-hdpi/ic_menu_market_mybooks.png
+SHA1-Digest: 8EzVMSaEC1WtLpMeC7XVPMuU/RU=
+
+Name: res/layout-large/generic_reviews.xml
+SHA1-Digest: vNQkuonEdZNi7z/SNaYJufkKmeI=
+
+Name: res/drawable-mdpi/btn_price_focused_market.9.png
+SHA1-Digest: ZqewA+aXKBMEh70tJTzAHJlxv6Y=
+
+Name: res/layout/price_table.xml
+SHA1-Digest: vJ2Ywe1J9V+Srudrf9Zc3pxSZHw=
+
+Name: res/drawable-mdpi/btn_disabled_market.9.png
+SHA1-Digest: Xs6o6GabSaxmXdQK2cpLTL/9vYo=
+
+Name: res/drawable-hdpi/market_grid_bottom.9.png
+SHA1-Digest: oAMntZLfj1gR0OhD7xF5kalwZFI=
+
+Name: res/drawable-mdpi/ic_menu_bag_music.png
+SHA1-Digest: yn5qnWh4ZmTFKpl69qLxTScrP6k=
+
+Name: res/drawable-hdpi/title_bar_shadow.9.png
+SHA1-Digest: EUzecQAOjeYkUpLN0FQS38GoP6M=
+
+Name: res/layout/promoted_list_grid_item.xml
+SHA1-Digest: p0R2SzT3SJoExnGGHyuFIA1qMnI=
+
+Name: res/layout/terms_of_service.xml
+SHA1-Digest: tDpVfNGfqtbOlBDXyD1ZZrGymtc=
+
+Name: res/drawable-hdpi/market_grid_staffpicks_apps.png
+SHA1-Digest: gtWLr4Czrqi8PIss3Hmoaz2XREw=
+
+Name: res/layout/search_frame.xml
+SHA1-Digest: BelzSygADFzJKVozqpBrSOU9/Iw=
+
+Name: res/drawable-hdpi/ic_market_home_nav_games.png
+SHA1-Digest: 4O6yalL6l9zTxzmEc3qZvdnFz1Q=
+
+Name: res/drawable-hdpi/btn_rating_star_on_disabled_market.png
+SHA1-Digest: Qgj8ZUOPztWdChAjctnQvcIG9rI=
+
+Name: res/drawable-mdpi/spinner_default_holo_dark.9.png
+SHA1-Digest: 07NVeyf0XORNN/yyjen0d3u4RPU=
+
+Name: res/drawable-large-hdpi/ic_market_home_nav_movies.png
+SHA1-Digest: HCQZ23qh6+bCZnBe1vh2boEBQHM=
+
+Name: res/layout/price_table_summary_row.xml
+SHA1-Digest: WIlujmIIEvC/hdXeMCn1VzW/He0=
+
+Name: res/drawable-mdpi/btn_more_pressed_market.9.png
+SHA1-Digest: 1WABkTwecUpOSJxXNslpB3iN75w=
+
+Name: res/drawable-hdpi/btn_square_normal.png
+SHA1-Digest: IcKE/Jwb/a3k7+rO/ZAR70vVG70=
+
+Name: res/mipmap-hdpi/ic_menu_bag_books.png
+SHA1-Digest: MHDktPaWodIKjsE/xGr+USW/7TQ=
+
+Name: res/drawable-mdpi/logo_credit_cards.png
+SHA1-Digest: 0OC/3umUjzC2aRxsvwEoGyZqChQ=
+
+Name: res/layout/error_footer.xml
+SHA1-Digest: aIJR+xjR1BXthQF77Fv+N9ZexEk=
+
+Name: res/drawable-mdpi/ic_plusone_tall_on_blank.png
+SHA1-Digest: Ke1/tPFxpU8c/eQAjAW41OSiWPg=
+
+Name: res/drawable-hdpi/ic_owned_books.png
+SHA1-Digest: T2M5KjTPTp8FPUZUZV14brIL85A=
+
+Name: res/drawable-mdpi/market_grid_nyt.png
+SHA1-Digest: OZ2OjviH5DpH1dq4Hwveyl/zxzQ=
+
+Name: res/layout/purchase_tos_item.xml
+SHA1-Digest: P7y/f+jCCmjmm//yTtlngkYumII=
+
+Name: res/drawable-hdpi/ic_locked_holo_light.png
+SHA1-Digest: 8jymNOeyWdXW1DwOWiVuhctMIPY=
+
+Name: res/layout/purchase_frame.xml
+SHA1-Digest: yRTtDSGFLT5JK0mVBykXqlcPmes=
+
+Name: res/layout/details_text.xml
+SHA1-Digest: 2J+aHbu6aWelfhYzYLU6SH1UHH4=
+
+Name: res/drawable-hdpi/market_grid_editorschoice.png
+SHA1-Digest: cEYIOqC8fuJWNYyaA5lzwG1vab8=
+
+Name: res/layout/cast_credits_list.xml
+SHA1-Digest: fBrWIMoYjkyRf+17rn5oS/QnDIk=
+
+Name: res/layout/new_permissions_required.xml
+SHA1-Digest: dq+fvdttZKwAhiv9oNr3luZ8cUU=
+
+Name: res/layout-large-land/billing_addinstrument_frame.xml
+SHA1-Digest: cPskHKYHdHYXDtX55g8FDG77JNg=
+
+Name: res/drawable-large-hdpi/ic_vm_thumbnail_big_books.png
+SHA1-Digest: RpLDmWd5yuOsbDcZsQ6fLRyirYw=
+
+Name: res/drawable-hdpi/spinner_books_pressed_holo_dark.9.png
+SHA1-Digest: ye0kRsLYwcxEbF60nRsOconA6m8=
+
+Name: res/drawable-hdpi/logo_google.png
+SHA1-Digest: yBxgof+7XrILKOWIx35oJBKIdKU=
+
+Name: res/drawable-mdpi/market_grid_mirror_2x2.9.png
+SHA1-Digest: wcVkEidltVwBYYwnExOleheVbCo=
+
+Name: res/layout/details_pack_layout.xml
+SHA1-Digest: cBtLBKK00NEwSby9baLJEv65vjc=
+
+Name: res/layout/page_error_indicator.xml
+SHA1-Digest: 9rkM4nXEKuqbFPUBiYIUxHEpT08=
+
+Name: res/drawable-hdpi/market_grid_bg_2x2.9.png
+SHA1-Digest: hqN5L3ngT+nriTQqTI+imvMtf58=
+
+Name: res/mipmap-hdpi/ic_menu_bag_movies.png
+SHA1-Digest: pIu9xjznKTs6s9fxTXxGk/LCFL4=
+
+Name: res/layout/purchase_instrument_footer.xml
+SHA1-Digest: LCJrGYmdsQ34KpIUzhyAt17f9C0=
+
+Name: res/layout/purchase_acquire_row_dummy.xml
+SHA1-Digest: P7e9jnBR62NJ7JW8DHL8YnWnzH0=
+
+Name: res/menu/actions.xml
+SHA1-Digest: hT+vUcyazMyX+yj1p6w3cIe3iYw=
+
+Name: res/layout/my_downloads.xml
+SHA1-Digest: d0xHM9wKoLK8CsOWryHgr8pypwU=
+
+Name: res/drawable/title_with_highlight.xml
+SHA1-Digest: w4cSZFMWzmDRMgjs+lF6tCbsxY4=
+
+Name: res/drawable-hdpi/market_grid_partners.png
+SHA1-Digest: D3sNFfhGvSp31UrVITr5vc58Q7M=
+
+Name: res/drawable-hdpi/market_grid_staffpicks_movies.png
+SHA1-Digest: i2hQ/U/xbOQZqFXLiVaKkyjWilM=
+
+Name: res/drawable-hdpi/ic_owned_not_local_books.png
+SHA1-Digest: PWWwMH1O2xXmdrD11LKgbyiQHVA=
+
+Name: res/drawable-hdpi/ic_more_arrow_down.png
+SHA1-Digest: qdqnFyNRBwM9iykE9i9bdpWZk3E=
+
+Name: res/drawable-mdpi/bkgd_tile_black.png
+SHA1-Digest: pR/IguW1dZxcZN/SGeZKsWwaExw=
+
+Name: res/drawable-large-mdpi/ic_more_arrow_right.png
+SHA1-Digest: iQ0Qe/k+zCx2zbratIohahTjltc=
+
+Name: res/drawable-hdpi/btn_rating_star_on_disabled_focused_market.png
+SHA1-Digest: yXrgcOcoyludkL7DmH9MNndgTTQ=
+
+Name: res/drawable-mdpi/more_arrow_large_books.png
+SHA1-Digest: C6FS++M5Si4PCJkGhZCImHAh5Ko=
+
+Name: res/drawable-mdpi/section_header_refresh.png
+SHA1-Digest: Pf5ccoSTRxCDRCt5k7f3057UHb0=
+
+Name: res/layout-large/details_apps_buttons.xml
+SHA1-Digest: yEhYBagXlVQicGAdutl1F3wfI04=
+
+Name: res/drawable-large-mdpi/ic_more_arrow_righthome.png
+SHA1-Digest: AEQt3UdAOhaYeGgDfXsVNij86/I=
+
+Name: res/xml/widget_info.xml
+SHA1-Digest: L+gPoaVcB6xfLuSAQpkCblxo3DA=
+
+Name: res/drawable/pinstripe_with_highlight.xml
+SHA1-Digest: 3nvtC9ZOMBoeTuSWI+Drcv0p5nk=
+
+Name: res/layout/screenshots_frame.xml
+SHA1-Digest: 5VY+ourHza9lSn9FTVkkS1ukrQs=
+
+Name: res/drawable-hdpi/btn_more_normal_market.9.png
+SHA1-Digest: wfmgGP9DZ2U9tr1jf2JzrjLYdsU=
+
+Name: res/layout/details_summary_plusone.xml
+SHA1-Digest: zSmAnuIjAtZvhsaEZTOP83XzbmQ=
+
+Name: res/layout/carrier_tos.xml
+SHA1-Digest: LGF5mxcCkCx5cBZiGqj7rvwCrBk=
+
+Name: res/layout/video_item.xml
+SHA1-Digest: br4DltXfAxX6WNlqxnq6UfC/c3Q=
+
+Name: res/drawable/custom_ratingbar.xml
+SHA1-Digest: A+t0AYdg8k8VMphCsd7irDiSeLo=
+
+Name: res/layout-land/generic_details.xml
+SHA1-Digest: v9o1Fz4lEeSrvIMZNfgFW/5fHaU=
+
+Name: res/layout-xlarge/inline_review_no_text.xml
+SHA1-Digest: t4AxlVrMFm5wOahTS5d3oDUiKqA=
+
+Name: res/drawable/btn_square.xml
+SHA1-Digest: HrI8NDoHiXhZEsxmkGOSdJKum+Y=
+
+Name: res/layout/widget_item.xml
+SHA1-Digest: zyeltl2IuZR/DU+ixbRVCgbjJ1o=
+
+Name: res/drawable-hdpi/ic_less_arrow.png
+SHA1-Digest: 6Ro4m617fnK2S+twHD+JVml4ars=
+
+Name: res/drawable-large-hdpi/ic_more_arrow_right.png
+SHA1-Digest: aw3DR4VqPXfs6j2JoylInGdqZrg=
+
+Name: res/drawable-hdpi/phonesky_widget_top.9.png
+SHA1-Digest: fHSB6yETmFq0juh/07VCfLmLolw=
+
+Name: res/drawable-hdpi/ic_menu_market_search.png
+SHA1-Digest: unOIZMtzDjC9lLlBbuhJL+ZljGg=
+
+Name: res/drawable-large-hdpi/ic_vm_thumbnail_big_music.png
+SHA1-Digest: TOWQgu+WcnApAIPH7q5P7v4SI8Y=
+
+Name: res/layout/address_spinner.xml
+SHA1-Digest: TsnLFlDWLs6SDvTsKBZKmuy3Be4=
+
+Name: res/drawable-mdpi/market_tab_bg_overlay_left.9.png
+SHA1-Digest: tK2/dDH9FEoE9aVP6nmrmjvDA2M=
+
+Name: res/drawable-hdpi/ic_rate_star_market_half.png
+SHA1-Digest: v/kBeULx2qH4gAARK4+rcS2xV3Y=
+
+Name: res/drawable-hdpi-v9/stat_sys_install_complete.png
+SHA1-Digest: alT8fUXChWVdyFNXu+6Qh+OZTX8=
+
+Name: res/mipmap-mdpi/ic_launcher_marketplace_apps.png
+SHA1-Digest: LV8vrYollZ83afMDRMnGoK+a3sM=
+
+Name: res/layout/bucket_single.xml
+SHA1-Digest: NXsmBIA1fQbXFri5xfQHgkxC0yQ=
+
+Name: res/layout/page_loading_indicator.xml
+SHA1-Digest: 6jgjd5G3XvI3DrbskOyBMvgC+AA=
+
+Name: res/layout/settings.xml
+SHA1-Digest: apkesUTszXMOpIyQV/u8FNd2Icw=
+
+Name: res/drawable-mdpi/btn_square_selected.png
+SHA1-Digest: 8UkJa2Mc9EFs+kJP+WHm9sjo47g=
+
+Name: res/layout/carrier_tos_and_address.xml
+SHA1-Digest: f1OGq9u828TB7U1xEGwHG4Au7hk=
+
+Name: res/layout/placeholder_cell.xml
+SHA1-Digest: 8jg5j3xjoELS6QxnDk5y8rSPCl4=
+
+Name: res/drawable-mdpi/ic_menu_market_help.png
+SHA1-Digest: Z+V8tlhF4w24QFMWjevcDcSYwrQ=
+
+Name: res/drawable-hdpi/ic_plusone_tall_on.png
+SHA1-Digest: nOo0QkO69xGehG8OSR+HwoLxL/k=
+
+Name: res/drawable-hdpi/ic_vm_thumbnail_big.png
+SHA1-Digest: gR5Ug3T6BkEkNwCM6huvSG27isQ=
+
+Name: res/mipmap-hdpi/ic_launcher_marketplace.png
+SHA1-Digest: WR+tWaegX3lixOkCL5p0Dptsmpw=
+
+Name: res/drawable-hdpi/fop_cc_add.png
+SHA1-Digest: LDXhbF/R3iKWQ0T+ANJkuVlqE+E=
+
+Name: res/drawable-mdpi/ic_header_apps.png
+SHA1-Digest: iPuIvKdZzAZh5uWo3TUd9JaEvQY=
+
+Name: res/drawable-hdpi/market_grid_mirror_2x2.9.png
+SHA1-Digest: XEtlJsh+aud48GY4uKgQact8xKQ=
+
+Name: res/drawable-mdpi/ic_header_books.png
+SHA1-Digest: 4X0V8kbSImpYF/XpBnMJgqGGf/E=
+
+Name: res/drawable-large-mdpi/ic_vm_thumbnail_big_books.png
+SHA1-Digest: O3JC6q8i2cRtn66ggyaT6BRB7QQ=
+
+Name: res/drawable-hdpi/play.png
+SHA1-Digest: 3yLRGYpO6cHeQB0b+hf3uYPjgVE=
+
+Name: res/layout/uneven_grid_promo.xml
+SHA1-Digest: aAMA1dRsl/5hzkfO4zzs8j9n9Ic=
+
+Name: res/mipmap-xhdpi/ic_menu_bag_market.png
+SHA1-Digest: +hMMqCmVVfmbha7PfEX8d8qgQJ4=
+
+Name: res/drawable-mdpi/ic_more_arrow_left.png
+SHA1-Digest: gAoXJRaD6ENT12cxn/MvEjIl49o=
+
+Name: res/drawable-mdpi/btn_review_normal.png
+SHA1-Digest: iWbE/YK4WapxIrG0m251IquQ9wg=
+
+Name: res/drawable-mdpi/play.png
+SHA1-Digest: M75UGqAgFmz9zG/egk9PpuTbmOk=
+
+Name: res/drawable-hdpi/ic_market_home_nav_books.png
+SHA1-Digest: lvYFQd+XpmKoaB4HKR1XGxf05b8=
+
+Name: res/drawable-mdpi/ic_market_home_nav_books.png
+SHA1-Digest: tnj6cXUlOrnFuqBGdCiSc3q+LsI=
+
+Name: res/drawable-large-hdpi/ic_rate_star_market_on.png
+SHA1-Digest: 9/fn4vYMwIvI1ETa6oxoJpcl2m0=
+
+Name: res/drawable-hdpi/spinner_books_focused_holo_dark.9.png
+SHA1-Digest: PIjtjcq2s29L9aJDSNmCMGoN+YQ=
+
+Name: res/layout/details_frame.xml
+SHA1-Digest: qSo00py/pjGwPHtVZFr4c7Z6LJw=
+
+Name: res/drawable-hdpi/overlay_pressed.9.png
+SHA1-Digest: Xtu1QKBhCfeamqgDKa0o5NGsLqQ=
+
+Name: res/drawable-hdpi/ic_unlocked_holo_light.png
+SHA1-Digest: MA2yl2zQ5KS144DwFpdsF4eJHQs=
+
+Name: res/drawable-mdpi/expander_default_holo_dark.9.png
+SHA1-Digest: 3D7FPjTUYb2W6yT6m82AWHJPSaU=
+
+Name: res/layout/billing_external_addcreditcard_buttonbar.xml
+SHA1-Digest: 1rClQMa7Nq9f9xhJeCUyYrfM/10=
+
+Name: res/drawable-large-xhdpi/ic_vm_thumbnail_big_movies.png
+SHA1-Digest: EF8GxSZ2zylE7o0yKfh334EJE48=
+
+Name: res/drawable-large-xhdpi/ic_rate_star_market_grid_off.png
+SHA1-Digest: 1oDbu1u/1hAkmtSnJffNMhgfMBQ=
+
+Name: res/drawable-hdpi/btn_square_selected.png
+SHA1-Digest: ZF/r9Rc5AMjH1kBs6xnRvqtSYIU=
+
+Name: res/layout/category_item.xml
+SHA1-Digest: vZ69RiLIrsIhoM30fMRmas3RNAo=
+
+Name: res/drawable/details_page_more_button.xml
+SHA1-Digest: ceTxbRIEaSkstJPCoqpga3+GkwY=
+
+Name: res/drawable-hdpi/ic_more_arrow_right.png
+SHA1-Digest: k8vv8YEhF0os5XMF7QRi+2ZdhHY=
+
+Name: res/layout/bucket_list_panel.xml
+SHA1-Digest: nnk1wDEMkp90w1+a6/BR+4TgRdA=
+
+Name: res/layout/billing_external_addcreditcard_fragment.xml
+SHA1-Digest: Sx7wAVJm6eCucoHPUlaPRxOlXbI=
+
+Name: res/drawable-hdpi/spinner_books_default_holo_dark.9.png
+SHA1-Digest: Lpe5m2IoPMlJb6IT1IaQitM7QK4=
+
+Name: res/layout/loading_footer.xml
+SHA1-Digest: L18kZJ7ylKWsDGtPOlbdUZcHtZI=
+
+Name: res/layout/generic_reviews.xml
+SHA1-Digest: XjyLeEYUuAjVtNNxqSWfFRs3N8Q=
+
+Name: res/layout/sliding_panel_overlay.xml
+SHA1-Digest: b3NmJSolSGx8IIRWJJYwgUEYeJU=
+
+Name: res/drawable-hdpi/more_arrow_large_books.png
+SHA1-Digest: cUO0ToXCWcEanCwt7IU2+vHSgP8=
+
+Name: res/layout/details_generic_no_separator.xml
+SHA1-Digest: b5jKwa+rE0cMP/ZbeK+5vSrQTwU=
+
+Name: res/layout/details_starting_download.xml
+SHA1-Digest: BFmTSBzxcxg0k5IZk6tqFGgqynI=
+
+Name: res/drawable-hdpi/ic_menu_market_settings.png
+SHA1-Digest: 4IfPQ/BD6MhFC4tQsmLDg1mXBpk=
+
+Name: res/layout/billing_info_edit.xml
+SHA1-Digest: EnbxQkF5S9s7Su7dN+HUmd3qkmA=
+
+Name: res/drawable-hdpi/stat_sys_install_complete.png
+SHA1-Digest: qQwOecrsJKHm032Z6ziaMg9Yij4=
+
+Name: res/drawable-mdpi/ic_plusone_tall_on.png
+SHA1-Digest: OGJ/ccoEftHwEY2E6RtXdqHxtYI=
+
+Name: res/layout-large-land/details_summary.xml
+SHA1-Digest: zc8ziMD+O8hDOkJcNLR8QP8+bBQ=
+
+Name: res/drawable-mdpi/btn_square_pressed.png
+SHA1-Digest: fXa/f7MtDUcm8vLSl7ptYR5kbiA=
+
+Name: res/layout-large/details_books_buttons.xml
+SHA1-Digest: WtqItMQG6yV2LCSTgoObOO9gDUI=
+
+Name: res/drawable/spinner_background_books.xml
+SHA1-Digest: X7YQ2KrsW03m4HNzeVvHwC1s6ks=
+
+Name: res/drawable-mdpi/market_grid_top.9.png
+SHA1-Digest: FT9EISDRFU/GXfpLPdSXUub5k9o=
+
+Name: res/drawable-mdpi/ic_rate_star_market_on.png
+SHA1-Digest: Tg85wMMT/ZUHjcYN9TtjLTlCMZo=
+
+Name: res/layout/generic_details.xml
+SHA1-Digest: 0wxryuqYQF7ar10EgTzM1ueWBbs=
+
+Name: res/layout/details_summary2.xml
+SHA1-Digest: yHubfO4t6+lXy7yDqdNU/6VG1DM=
+
+Name: res/drawable-mdpi/spinner_books_default_holo_dark.9.png
+SHA1-Digest: in6N4l3x6Yx7TIQRduIjVfvpGhA=
+
+Name: res/drawable-mdpi/btn_rating_star_off_disabled_market.png
+SHA1-Digest: V4DNiGhUo4dz59hkmQUktpSKn5o=
+
+Name: res/menu/dcb_debug.xml
+SHA1-Digest: 5sEye4/bfrU1q8s5v3IB7I/hzKE=
+
+Name: res/drawable-mdpi/ic_menu_market_myapps.png
+SHA1-Digest: pmDqzYnNXw+omBCR29J3lEQKAqI=
+
+Name: res/drawable-mdpi/ic_menu_market_accounts.png
+SHA1-Digest: iJyIsl59qW696FzEj390G4f3LaE=
+
+Name: res/drawable-mdpi/ic_owned_movies.png
+SHA1-Digest: VFd2mfHIBABGJ5oopKiweTW+jDM=
+
+Name: res/drawable-mdpi/ic_plusone_tall_error.png
+SHA1-Digest: PmmLe42Cuis1PW4N0UUuHSMdzDo=
+
+Name: res/layout/corpus_spinner_item.xml
+SHA1-Digest: f2JBJzbzFX11eizgC4uxPkswN0s=
+
+Name: res/drawable-hdpi/ic_rate_star_market_on.png
+SHA1-Digest: fbu52K5EUpgGsJpAnJ8wTT1AqiE=
+
+Name: res/drawable-hdpi/ic_menu_market_help.png
+SHA1-Digest: lb/6neDjLeWfBIpIRBZQ4RVTvFA=
+
+Name: res/drawable-large-hdpi/ic_market_home_nav_music.png
+SHA1-Digest: 0TuvyYJSqCU7JglYHEAzoUskR4s=
+
+Name: res/drawable/tab_highlight_overlay.xml
+SHA1-Digest: NWMwcKrodRMs+eoWvfVzO1icq0A=
+
+Name: res/layout-v11/action_bar.xml
+SHA1-Digest: N+E3Gx54wdgmvblXxlaD5OXxxgU=
+
+Name: res/drawable-mdpi/ic_books_header.png
+SHA1-Digest: M6aoJKKyzjAfhYk3iBAbNuSKmDI=
+
+Name: res/drawable-mdpi/ic_network_error.png
+SHA1-Digest: BCQdrwOdXI1kPsiX8lC55UG7HAs=
+
+Name: res/drawable/custom_ratingbar_full_filled.xml
+SHA1-Digest: r0o02jjP+S1fGWCpKTbdm5t1iHk=
+
+Name: res/layout/fullscreen_loading_indicator.xml
+SHA1-Digest: OX5DUgAn+bIkP6HTePo5CQfNqWI=
+
+Name: res/layout/no_results_view.xml
+SHA1-Digest: DDa/kYMJPwe6MK2JYKPer2NZ9MQ=
+
+Name: res/mipmap-xhdpi/ic_menu_bag_apps.png
+SHA1-Digest: dHwfDwqakqhJsxQUAXXU1S8842g=
+
+Name: res/anim/fade_out.xml
+SHA1-Digest: ue10OeQZEMnZ0VZxtb5QUQQRS3M=
+
+Name: res/drawable-mdpi/ic_notification.png
+SHA1-Digest: AWxfm8lo2bsQyfKQ97/baQ+LwK8=
+
+Name: res/drawable-large-hdpi/ic_market_home_nav_books.png
+SHA1-Digest: 41hDuco8OU6fCvIFBvyUKjYDevk=
+
+Name: res/mipmap-mdpi/ic_menu_bag_music.png
+SHA1-Digest: yqFC1pc8uKilQfIxtgJw2idD1XM=
+
+Name: res/drawable-mdpi/spinner_apps_focused_holo_dark.9.png
+SHA1-Digest: Wybp9Iwqq6z6lPlbkiVI+bk2aAs=
+
+Name: res/layout-large/purchase_buttons.xml
+SHA1-Digest: ivYg7ysFBO2yAE3O51YEkSRT378=
+
+Name: res/drawable-mdpi/ic_owned_not_local_apps.png
+SHA1-Digest: B2qFgE64XwRsCTTkxi6CfQlY8pc=
+
+Name: res/drawable-mdpi/ic_expander_minimized_holo_light.png
+SHA1-Digest: rM4abZMUswHoqLlonqAu6Uk+G1E=
+
+Name: resources.arsc
+SHA1-Digest: nKDRGzBNK4I6lmt7of7fF3BSbp4=
+
+Name: res/drawable-mdpi/ic_movies_header.png
+SHA1-Digest: DawrffIsBBEShawiVCE2rv0Sbak=
+
+Name: res/drawable-large-mdpi/ic_rate_star_market_grid_half.png
+SHA1-Digest: QhQ8hPRhQXOFmCim22veVRTpt1Y=
+
+Name: res/drawable-hdpi/menu_divider.9.png
+SHA1-Digest: OhoRKv3mRdJ1sbrrvMdkl55rlwE=
+
+Name: res/layout/dcb_debug.xml
+SHA1-Digest: B1p/3V2GUC8yY2gzd74AjesImek=
+
+Name: res/drawable-large-mdpi/ic_more_arrow_left.png
+SHA1-Digest: tPSDYkHZueHuhis91Cct49OeYhQ=
+
+Name: res/drawable-mdpi/ic_ab_back.png
+SHA1-Digest: c405AdjqpnLeXfVsGgQZXnquCwQ=
+
+Name: res/layout/details_owned_actions.xml
+SHA1-Digest: OeEVJhKFKMR4ADaEkIN/qWeWI4c=
+
+Name: res/drawable-mdpi/ic_more_arrow_down.png
+SHA1-Digest: +cFwtw++Rd4QkzEHL1Yhof2yVTg=
+
+Name: res/layout-large/purchase.xml
+SHA1-Digest: udUTat8blGqnzEEtQmPhg96qdM0=
+
+Name: res/drawable-mdpi/btn_price_pressed_market.9.png
+SHA1-Digest: DQBBTvqDUHTBW3ehlGvc5vEdXbk=
+
+Name: res/layout/uneven_grid_square.xml
+SHA1-Digest: wU9tSpossPRPMlBIWaptPoONisg=
+
+Name: res/drawable-large-hdpi/ic_market_home_nav_apps.png
+SHA1-Digest: spaVUHmxdCuPAqPbcnaDbgfxexU=
+
+Name: res/layout/details_summary_music.xml
+SHA1-Digest: PPuMuJNDI+jPtclExuytiANdhkg=
+
+Name: res/drawable-mdpi/ic_more_arrow_up.png
+SHA1-Digest: hHisIplsVnyyYMWUguhXGwFV7WU=
+
+Name: res/mipmap-mdpi/ic_launcher_marketplace.png
+SHA1-Digest: s+MYFNmrxzDNPIDcGSjXSYeVlY0=
+
+Name: res/drawable-mdpi/more_arrow_large.png
+SHA1-Digest: 7IiRgetOdXxSqzwzhfSk/xZHABg=
+
+Name: res/drawable-large-xhdpi/ic_market_home_nav_music.png
+SHA1-Digest: hn56QqgIOyQvOwk75ddu1p4S39U=
+
+Name: res/drawable-hdpi/btn_rating_star_on_focused_market.png
+SHA1-Digest: Y626RIUrz2NXo8MKXR8g2mDp5OY=
+
+Name: res/drawable-hdpi/section_header_refresh.png
+SHA1-Digest: 4V/h0U2hrpdOCc2LMrvC9lyuOnE=
+
+Name: res/layout-large-land/details_section_order_notowned.xml
+SHA1-Digest: mv6y7oQ7PQy5hknmw8EOEOdPEvU=
+
+Name: res/layout-large/asset_list_snippet.xml
+SHA1-Digest: 3eph2OlrzWq3oH4/zfgsThrJZ5A=
+
+Name: res/layout/list_song_item.xml
+SHA1-Digest: 8ucHf+Bk1utYo8aVnpyjwP9eIxY=
+
+Name: res/drawable-mdpi/market_grid_staffpicks_apps.png
+SHA1-Digest: gVg2G7Pwr0gUqJL4QJn+olY8gYc=
+
+Name: res/drawable-large-xhdpi/ic_rate_star_market_grid_half.png
+SHA1-Digest: EoYhXrdct2khWICGhupB+u2HRzM=
+
+Name: res/drawable-large-mdpi/ic_rate_star_market_on.png
+SHA1-Digest: YSNY8wy2syQhPtD+vl0Uih3ct9Q=
+
+Name: res/drawable-large-xhdpi/ic_market_home_nav_movies.png
+SHA1-Digest: FFlrOygh3mnZS/+nMNN2SGu4WIw=
+
+Name: res/mipmap-hdpi/ic_menu_bag_music.png
+SHA1-Digest: fVkKmBhWrineQVtOVzOKsf09a5c=
+
+Name: res/drawable-large-mdpi/ic_rate_star_market_grid_on.png
+SHA1-Digest: +oUy2s8hNxUJTUmE9fba+noEMk8=
+
+Name: res/drawable-mdpi/logo_google.png
+SHA1-Digest: Hy0UORwnk326EMToIM5jF0jZaCc=
+
+Name: res/drawable-large-mdpi/ic_market_home_nav_books.png
+SHA1-Digest: 4U1w3rB1mTVcFvMD7H/71fk9Qcs=
+
+Name: res/drawable-hdpi/spinner_apps_focused_holo_dark.9.png
+SHA1-Digest: dgle+nWuRQScClgcF1AvHDLC58U=
+
+Name: res/drawable-mdpi/ic_menu_market_search.png
+SHA1-Digest: 1YXrRpTsw0QTOlXeMYp4lg2u17s=
+
+Name: res/drawable-large-hdpi/ic_more_arrow_left.png
+SHA1-Digest: gz4VGpmPnaPHfR3hZVqEcgmvj18=
+
+Name: res/drawable-large-hdpi/ic_more_arrow_righthome.png
+SHA1-Digest: zWUeAlY2sM9ixOlcntt3ohmWIY8=
+
+Name: res/layout/permissions_footer.xml
+SHA1-Digest: 5VWoF709dTR7o16ds0NEaOOGl4I=
+
+Name: res/drawable/details_page_regular_button.xml
+SHA1-Digest: i2iacfEfjiQ4mo03SVFkWAdQktw=
+
+Name: res/drawable-hdpi/ic_books_header.png
+SHA1-Digest: g75mVmCT7EdFOg//bduX6+dKbO8=
+
+Name: res/drawable-mdpi/btn_price_disabled_market.9.png
+SHA1-Digest: MdGHQOLa/6kAdzPtyLGUQnK4u1E=
+
+Name: res/drawable-large-mdpi/ic_rate_star_market_off.png
+SHA1-Digest: WxWsFQCo+fV9NsAS9DJY2433d3s=
+
+Name: res/drawable-large-mdpi/ic_vm_thumbnail_big_movies.png
+SHA1-Digest: h+aXNMR3YDEb9y8kIMbJbjoFZAM=
+
+Name: res/drawable-large-mdpi/ic_vm_thumbnail_big_music.png
+SHA1-Digest: UdERF+ZYpzuM1UK9C/VR9xoyc08=
+
+Name: res/drawable-hdpi/ic_apps_header.png
+SHA1-Digest: 6yyeED5y7pGoXJvZiiIGo9f5cl0=
+
+Name: res/drawable-large-hdpi/ic_market_home_nav_games.png
+SHA1-Digest: T/3pLTRLF2DmvVATlQ7Wl9d0LUY=
+
+Name: res/layout/fragment_host.xml
+SHA1-Digest: cKNRQ71W2C68q4wra3SHIld8/jE=
+
+Name: res/mipmap-xhdpi/ic_menu_bag_books.png
+SHA1-Digest: H29woAoYU4lH4h3p1h/rztitl2I=
+
+Name: res/drawable-hdpi/btn_rating_star_off_disabled_focused_market.pn
+ g
+SHA1-Digest: Kgy9uNMS+C2+xbH1s1V8o3hv5aQ=
+
+Name: res/mipmap-mdpi/ic_menu_bag_books.png
+SHA1-Digest: rMYboy3Raec+pFFBuU+X13s5I/s=
+
+Name: res/layout-large/details_movies_buttons.xml
+SHA1-Digest: b//qWH022TYyQRH4QdF4Tt+UYSc=
+
+Name: res/drawable-hdpi-v11/ic_menu_market_myapps.png
+SHA1-Digest: K0uN1+nLOP1cX2YHc8dBi2jVvkg=
+
+Name: res/layout/details_footer_inline.xml
+SHA1-Digest: 1NLemS1sQO5pKFmERzqgg1aFKbw=
+
+Name: res/drawable-hdpi/market_tab_bg_overlay_left.9.png
+SHA1-Digest: pqsRnWUDPqPz1v5giYZBWhBOpS0=
+
+Name: res/drawable-hdpi/stat_notify_marketplace_update.png
+SHA1-Digest: HDE2aFrIxgCtkT5nw6eh+v3vt1U=
+
+Name: res/layout/main.xml
+SHA1-Digest: OT7SPMFYJXnUDxUvky+7SvD7f/o=
+
+Name: res/drawable/details_page_buy_button.xml
+SHA1-Digest: AI5S8t4Ly983uEPy3vGFZlMRg58=
+
+Name: res/drawable-mdpi/ic_menu_market_settings.png
+SHA1-Digest: f76QRVq3Tqowh8rykvhLzzLrTgw=
+
+Name: res/drawable-large-hdpi/ic_rate_star_market_off.png
+SHA1-Digest: +9ZssnS+sxIcr9e4HnP7Re7fqhk=
+
+Name: res/drawable-mdpi/ic_market_home_nav_movies.png
+SHA1-Digest: 5/mVZHt301fsnaHz99KPTBUnNNc=
+
+Name: res/drawable-mdpi/btn_more_normal_market.9.png
+SHA1-Digest: bR3P/wFtwO8o5zUS2P4I22t8Ys4=
+
+Name: res/drawable-hdpi/ic_developer_email.png
+SHA1-Digest: bwqSk8Uh40nh7xIFKYtT2ke9YX8=
+
+Name: res/layout/flag_content.xml
+SHA1-Digest: txYjXEBxwf07R6cES7LVO3gO0RM=
+
+Name: res/layout/error_indicator.xml
+SHA1-Digest: ueDBHTmKVWJ4TfmMbjqy4oDRpDs=
+
+Name: res/drawable-mdpi/ic_vm_thumbnail_big_apps.png
+SHA1-Digest: 7PxQZSTsKdGoGe9tYNVm2BUoafA=
+
+Name: res/drawable-mdpi/ic_developer_email.png
+SHA1-Digest: y2JRAsDeLGpOW0YQsWz0umoAlKE=
+
+Name: res/drawable-hdpi/expander_default_holo_dark.9.png
+SHA1-Digest: H4prD8B0pFHVGKC2FKJGrDnfaBY=
+
+Name: res/menu/consumption.xml
+SHA1-Digest: +VHsu07B+lj7C/gYVpIaHAE/KqI=
+
+Name: res/layout/suggestion_bar.xml
+SHA1-Digest: ABSIHLt5XoOgRigPkQrkZ0L9Ml4=
+
+Name: res/mipmap-xhdpi/ic_menu_bag_music.png
+SHA1-Digest: JJ9ppoH7NizrZqv2viXtGM7wPrE=
+
+Name: res/drawable-hdpi/ic_play.png
+SHA1-Digest: SGttNCCNupT+TvX6bEZYqMlJ3EE=
+
+Name: res/drawable-hdpi/spinner_apps_default_holo_dark.9.png
+SHA1-Digest: ge1a6R608ydmPN9IpDrPB+FLtbc=
+
+Name: res/drawable-mdpi/phonesky_widget_bottom.9.png
+SHA1-Digest: p3/U1RbUw45+raicaB12dAiJVFs=
+
+Name: res/drawable-mdpi/notification_bar.9.png
+SHA1-Digest: FpuVdQAdqMiEdcwiNlz5vBuuDCc=
+
+Name: res/drawable-mdpi/spinner_apps_pressed_holo_dark.9.png
+SHA1-Digest: rbPGE7DGwZMSPa1plSdMZ1kkAjY=
+
+Name: res/drawable-hdpi/ic_menu_bag_apps.png
+SHA1-Digest: 96Zzw/VvCTLmHltP0H3dCA2rMhE=
+
+Name: res/layout/flag_content_frame.xml
+SHA1-Digest: dA6AdkUiHIHoSIMPnGMWuLhhjjs=
+
+Name: res/layout/details_reviews.xml
+SHA1-Digest: dKO5R//LB+81csbInmzRwQeKLFE=
+
+Name: res/drawable-mdpi/btn_more_focused_market.9.png
+SHA1-Digest: y6aL5w/K9pGYTDNBEX8FbBXWEW0=
+
+Name: res/layout/reviews_header.xml
+SHA1-Digest: 07X8SPmp5L0/lwGwFTuBwltQPPs=
+
+Name: res/drawable-mdpi/ic_rate_star_market_half.png
+SHA1-Digest: 9jW1xkYbTeZxfKNb6JeNRj4/HYU=
+
+Name: res/layout/details_pack_header.xml
+SHA1-Digest: 87IpEpLAalgt/VmujMGlZxCZ5QY=
+
+Name: res/drawable-mdpi/market_tab_bg.9.png
+SHA1-Digest: KfSO9ukIt67L7W4lUXUH7OlS9g4=
+
+Name: res/mipmap-xhdpi/ic_menu_bag_movies.png
+SHA1-Digest: d/mORT06jplQ5z7pjMh0FUbjsY4=
+
+Name: res/drawable-hdpi/market_tab_bg.9.png
+SHA1-Digest: gqVFQYGxCNZuZUFebZToCmJtctk=
+
+Name: res/drawable-mdpi/market_grid_staffpicks_movies.png
+SHA1-Digest: 5zDlRVijvNt0CM7FJ4UbmBh84HI=
+
+Name: res/drawable-hdpi/btn_price_disabled_market.9.png
+SHA1-Digest: XhJH2lt7FGRCN8s4l2bqgYJQFkE=
+
+Name: res/drawable-hdpi/more_arrow_large.png
+SHA1-Digest: JG9MKRv8Np36+kPYfu2MDdACskg=
+
+Name: res/drawable-large-xhdpi/ic_vm_thumbnail_big_books.png
+SHA1-Digest: sbxlcifj2l1VUfryP7uJ01Pq9a8=
+
+Name: res/drawable-hdpi/ic_market_home_nav_movies.png
+SHA1-Digest: MHCfY8S45wQzv5G5ykznS3nVxFA=
+
+Name: res/drawable-hdpi/ic_expander_minimized_holo_light.png
+SHA1-Digest: DokugAme6QseXp455svZRmqvp1g=
+
+Name: res/layout/error_dialog_message.xml
+SHA1-Digest: kWZYbJLRaHjVoh9Smeh2qRdCSoc=
+
+Name: res/drawable-mdpi/spinner_books_focused_holo_dark.9.png
+SHA1-Digest: s/q9XlUqsU6PXLIEeRiiNhOLnmw=
+
+Name: res/drawable-large-xhdpi/ic_market_home_nav_apps.png
+SHA1-Digest: 0SZlP5PZ/SOYKnT0UU2nKfFqfGk=
+
+Name: res/layout/purchase_footnote_container.xml
+SHA1-Digest: jLRKpyV0TdnsbIUAwyVW2+T39AU=
+
+Name: res/layout/purchase_spinner_selected.xml
+SHA1-Digest: iabpRDhxmg/I6K6JJr1ykrAytqw=
+
+Name: res/drawable-hdpi/notification_bar.9.png
+SHA1-Digest: renUeHXgXW4P7nUGF3VAzeKf+mw=
+
+Name: res/layout/carrier_tos_buttons_bar.xml
+SHA1-Digest: WVUnb6vQq1evH1LNMlGC2Jvl2dc=
+
+Name: res/drawable-mdpi/more_arrow_large_movies.png
+SHA1-Digest: bSL+8iE1tmZEN58z6sPffjDjz5Q=
+
+Name: res/drawable-large-hdpi/ic_rate_star_market_grid_half.png
+SHA1-Digest: juKWeb1P+4gitN/x+gV2VpVvjlI=
+
+Name: res/layout/details_generic_contents.xml
+SHA1-Digest: wDEz0Hm6pp1OhhhSU6X5Intmmlk=
+
+Name: res/layout/address_edittext.xml
+SHA1-Digest: 8VVL/A86fIn3xFTjvUkOAr4mIHI=
+
+Name: res/anim/fade_in.xml
+SHA1-Digest: BOy5CuwR3bkvHtDoeOHzMXD+j1g=
+
+Name: res/layout/details_listing_layout_contents.xml
+SHA1-Digest: KvJ8YAWMZ+VhOuxACPTfkQ06A+o=
+

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator android:label="@string/account_authenticator_label_msn" android:icon="@drawable/account_and_sync_windows_live" android:accountType="com.seven.Z7.msn" android:smallIcon="@drawable/account_and_sync_windows_live" android:accountPreferences="@xml/sync_preferences"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/home_rlayout_wrapper" android:background="@color/home_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/global_title_bar" android:layout_alignParentTop="true" layout="@layout/title_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/home_icons" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="48.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_below="@id/global_title_bar">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/home_news_feed_icon" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/home_icon_view" />
+            <include android:id="@id/home_profile_icon" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/home_icon_view" />
+            <include android:id="@id/home_friends_icon" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/home_icon_view" />
+            <include android:id="@id/home_messages_icon" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/home_icon_view" />
+            <include android:id="@id/home_places_icon" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/home_icon_view" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/home_groups_icon" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/home_icon_view" />
+            <include android:id="@id/home_events_icon" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/home_icon_view" />
+            <include android:id="@id/home_photos_icon" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/home_icon_view" />
+            <include android:id="@id/home_chat_icon" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/home_icon_view" />
+            <include android:id="@id/home_apps_icon" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/home_icon_view" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/home_photo_reel_wrapper" android:background="@drawable/photo_reel_background" android:paddingBottom="48.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/home_icons" android:tileMode="mirror">
+        <Gallery android:gravity="center_vertical" android:id="@id/gallery" android:layout_width="fill_parent" android:layout_height="fill_parent" android:spacing="2.0dip" />
+    </LinearLayout>
+    <SlidingDrawer android:id="@id/home_notifications_panel_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:handle="@id/home_notifications_bar" android:content="@id/home_notifications_panel">
+        <include android:id="@id/home_notifications_bar" layout="@layout/notifications_bar" />
+        <include android:id="@id/home_notifications_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/notifications_bar_view" />
+    </SlidingDrawer>
+</RelativeLayout>

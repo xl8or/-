@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="matches_found">
+        <item quantity="other">%d αποτελέσματα</item>
+        <item quantity="zero">Χωρίς αντιστοίχιση</item>
+        <item quantity="one">1 αντιστοίχιση</item>
+        <item quantity="few">%d αποτελέσματα</item>
+    </plurals>
+</resources>

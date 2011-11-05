@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#1f222222" android:layout_width="fill_parent" android:layout_height="@dimen/listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/attachLayoutView" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/listPreferredItemHeight" android:layout_centerVertical="true">
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/attachAction" android:background="@34079127" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="7.0dip" />
+        <LinearLayout android:gravity="left|center" android:orientation="vertical" android:focusable="false" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:layout_marginRight="8.0dip">
+            <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:focusable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/readscreen_attachment_filename_fontsize" android:textColor="@drawable/mail_unread_from_selecter" android:gravity="left|center" android:id="@id/attachFilename" android:focusable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="180.0dip" android:singleLine="true" />
+                <TextView android:textSize="@dimen/readscreen_attachment_filename_fontsize" android:textColor="@drawable/mail_unread_from_selecter" android:gravity="left|center" android:id="@id/attachSubname" android:focusable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ProgressBar android:id="@id/attachProgressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="5.0dip" android:max="100" android:progress="0" style="?android:attr/progressBarStyleHorizontal" />
+            <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:focusable="false" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/readscreen_attachment_subname_fontsize" android:textColor="@drawable/mail_unread_from_selecter" android:gravity="left|center" android:id="@id/attachProgressText" android:paddingRight="10.0dip" android:focusable="false" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="@dimen/readscreen_attachment_subname_fontsize" android:textColor="@drawable/mail_attachment_secondary_text" android:gravity="left|center" android:id="@id/attachFilesize" android:focusable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/attachViewBottomRound" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@34080404" android:scaleType="fitXY" android:layout_alignBottom="@id/attachLayoutView" />
+    <LinearLayout android:id="@id/attachListDivider" android:layout_alignParentTop="true" style="@style/pure_divider" />
+    <ImageView android:id="@id/attach_top_shadow" android:background="@34078906" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/attach_bottom_shadow" android:background="@34079143" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+</RelativeLayout>

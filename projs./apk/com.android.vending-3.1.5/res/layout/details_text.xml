@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/details_section_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.finsky.layout.AccessibleTextView android:id="@id/header" android:background="@drawable/highlight_overlay" android:paddingLeft="@dimen/details_left_padding" android:paddingRight="@dimen/details_right_padding" android:clickable="false" android:layout_width="fill_parent" style="@style/DetailsPage_HeaderText" />
+    <com.google.android.finsky.layout.DetailsTextLayout android:orientation="vertical" android:id="@id/section_layout" android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/section_content" android:background="@drawable/highlight_overlay" android:paddingLeft="@dimen/details_left_padding" android:paddingRight="@dimen/details_right_padding" android:focusable="true" style="@style/DetailsPage_ContentText" />
+        <TextView android:id="@id/section_extra_content" android:background="@drawable/highlight_overlay" android:paddingLeft="@dimen/details_left_padding" android:paddingTop="12.0dip" android:paddingRight="@dimen/details_right_padding" android:focusable="true" android:visibility="gone" style="@style/DetailsPage_ContentText" />
+        <include layout="@layout/details_footer_inline" />
+    </com.google.android.finsky.layout.DetailsTextLayout>
+</LinearLayout>

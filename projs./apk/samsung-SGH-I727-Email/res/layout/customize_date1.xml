@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <View android:id="@id/FooterLineviewUp" android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RelativeLayout android:id="@id/todayRelativeLayout" android:background="@drawable/search_list_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="80.0px">
+            <TextView android:textSize="26.0px" android:id="@id/todayTextView" android:paddingLeft="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email_search_date_today" android:layout_centerVertical="true" />
+            <RadioButton android:id="@id/todayRadioButton" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0px" android:layout_marginRight="15.0px" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:id="@id/FooterLineviewUp" android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RelativeLayout android:id="@id/onedayRelativeLayout" android:background="@drawable/search_list_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="80.0px">
+            <TextView android:textSize="26.0px" android:id="@id/onedayTextView" android:paddingLeft="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email_search_oneday_before" android:layout_centerVertical="true" />
+            <RadioButton android:id="@id/onedayRadioButton" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0px" android:layout_marginRight="15.0px" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:id="@id/FooterLineviewUp" android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RelativeLayout android:id="@id/oneweekRelativeLayout" android:background="@drawable/search_list_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="80.0px">
+            <TextView android:textSize="26.0px" android:id="@id/oneweekTextView" android:paddingLeft="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email_search_oneweek_before" android:layout_centerVertical="true" />
+            <RadioButton android:id="@id/oneweekRadioButton" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0px" android:layout_marginRight="15.0px" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:id="@id/FooterLineviewUp" android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RelativeLayout android:id="@id/onemonthRelativeLayout" android:background="@drawable/search_list_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="80.0px">
+            <TextView android:textSize="26.0px" android:id="@id/onemonthTextView" android:paddingLeft="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email_search_onemonth_before" android:layout_centerVertical="true" />
+            <RadioButton android:id="@id/onemonthRadioButton" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0px" android:layout_marginRight="15.0px" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:id="@id/FooterLineviewUp" android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RelativeLayout android:id="@id/sixmonthRelativeLayout" android:background="@drawable/search_list_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="80.0px">
+            <TextView android:textSize="26.0px" android:id="@id/sixmonthTextView" android:paddingLeft="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email_search_sixmonths_before" android:layout_centerVertical="true" />
+            <RadioButton android:id="@id/sixmonthRadioButton" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0px" android:layout_marginRight="15.0px" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:id="@id/FooterLineviewUp" android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RelativeLayout android:id="@id/oneyearRelativeLayout" android:background="@drawable/search_list_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="80.0px">
+            <TextView android:textSize="26.0px" android:id="@id/oneyearTextView" android:paddingLeft="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email_search_oneyear_before" android:layout_centerVertical="true" />
+            <RadioButton android:id="@id/oneyearRadioButton" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0px" android:layout_marginRight="15.0px" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:id="@id/FooterLineviewUp" android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RelativeLayout android:id="@id/customizeRelativeLayout" android:background="@drawable/search_list_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="80.0px">
+            <TextView android:textSize="26.0px" android:id="@id/customizeTextView" android:paddingLeft="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email_search_customize" android:layout_centerVertical="true" />
+            <RadioButton android:id="@id/customizeRadioButton" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0px" android:layout_marginRight="15.0px" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:id="@id/FooterLineviewUp" android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <TextView android:enabled="false" android:textSize="26.0px" android:id="@id/fromTextView" android:paddingLeft="10.0px" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email_search_from" />
+        <LinearLayout android:id="@id/fromButtonRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:enabled="false" android:id="@id/fromDateButton" android:paddingLeft="10.0px" android:focusable="false" android:layout_width="300.0px" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:enabled="false" android:id="@id/fromTimeButton" android:focusable="false" android:layout_width="150.0px" android:layout_height="wrap_content" android:layout_marginRight="15.0px" android:layout_weight="1.0" android:layout_alignParentRight="true" />
+        </LinearLayout>
+        <TextView android:enabled="false" android:textSize="26.0px" android:id="@id/toTextView" android:paddingLeft="10.0px" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email_search_to" />
+        <LinearLayout android:id="@id/toButtonRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:enabled="false" android:id="@id/toDateButton" android:paddingLeft="10.0px" android:focusable="false" android:layout_width="300.0px" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:enabled="false" android:id="@id/toTimeButton" android:focusable="false" android:layout_width="150.0px" android:layout_height="wrap_content" android:layout_marginRight="15.0px" android:layout_weight="1.0" android:layout_alignParentRight="true" />
+        </LinearLayout>
+        <View android:id="@id/FooterLineviewUp" android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/searchcancelButtonRelativeLayout" android:background="@drawable/email_softkeyview_bg" android:layout_width="fill_parent" android:layout_height="89.0px">
+            <Button android:id="@id/searchButton" android:layout_width="fill_parent" android:layout_height="75.0px" android:layout_marginLeft="5.0dip" android:text="@string/search_action" android:layout_weight="1.0" />
+            <Button android:id="@id/cancelButton" android:layout_width="fill_parent" android:layout_height="75.0px" android:layout_marginRight="5.0dip" android:text="@string/email_search_cancel" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/delete" android:title="@string/delete_action" />
+    <group android:id="@id/onesend_read">
+        <item android:id="@id/reply" android:title="@string/reply_action" />
+        <item android:id="@id/forward" android:title="@string/forward_action" />
+        <item android:id="@id/mark_as_read" android:title="@string/mark_as_read_action" />
+    </group>
+    <group android:id="@id/onesend_unread">
+        <item android:id="@id/reply" android:title="@string/reply_action" />
+        <item android:id="@id/forward" android:title="@string/forward_action" />
+        <item android:id="@id/mark_as_unread" android:title="@string/mark_as_unread_action" />
+    </group>
+    <group android:id="@id/manysend_read">
+        <item android:id="@id/reply" android:title="@string/reply_action" />
+        <item android:id="@id/reply_all" android:title="@string/reply_all_action" />
+        <item android:id="@id/forward" android:title="@string/forward_action" />
+        <item android:id="@id/mark_as_read" android:title="@string/mark_as_read_action" />
+    </group>
+    <group android:id="@id/manysend_unread">
+        <item android:id="@id/reply" android:title="@string/reply_action" />
+        <item android:id="@id/reply_all" android:title="@string/reply_all_action" />
+        <item android:id="@id/forward" android:title="@string/forward_action" />
+        <item android:id="@id/mark_as_unread" android:title="@string/mark_as_unread_action" />
+    </group>
+    <group android:id="@id/image_download">
+        <item android:id="@id/save_image_action" android:title="@string/save_image_action" />
+        <item android:id="@id/view_image_action" android:title="@string/view_image_action" />
+        <item android:id="@id/set_as_wallpaper_action" android:title="@string/set_as_wallpaper_action" />
+    </group>
+</menu>

@@ -1,0 +1,43 @@
+#### [Git Config](http://gitref.org/creating/)
+
+    git config --global user.name "Henry Lee"
+    git config --global user.email henrylee4j@gmail.com
+    git config --global color.diff auto
+    git config --global color.status auto
+    git config --global color.branch auto
+
+, or
+
+    cp /workspace/gits/henry4j-/bin/.gitconfig ~ # DO NOT forget to edit the user name and email
+
+#### Install P4MERGE in use by git diff
+
+    wget -P /tmp/ https://github.com/henry4j/-/raw/master/bin/p4merge
+    wget -P /tmp/ https://github.com/henry4j/-/raw/master/bin/p4diff
+    wget -P /tmp/ http://dl.dropbox.com/u/47820156/p4merge-mac-osx-july-2011.zip
+    unzip -o /tmp/p4merge-mac-osx-2011-july-18.zip -d /Applications/
+    sudo mv /tmp/p4merge /opt/local/bin/
+    sudo mv /tmp/p4diff /opt/local/bin/
+    sudo chmod +x /opt/local/bin/p4merge
+    sudo chmod +x /opt/local/bin/p4diff
+
+#### [Git Ignore](http://help.github.com/ignore-files/)
+
+    cat <<EOF > ~/.gitignore
+    *.class
+    .DS_Store
+    .p4config
+    .settings/
+    bin/
+    gen/
+    target/
+    EOF
+
+#### Git [Reference](http://gitref.org/creating/), [Screencast](http://www.ralfebert.de/blog/tools/git_screencast/), and [Guide](http://marklodato.github.com/visual-git-guide/index-en.html)
+
+^-^;;;;;
+
+***
+
+* [윈도우즈에서 Git-1.7.x.x-exe (데스크탑 용) 설치](http://code.google.com/p/msysgit/)
+* [윈도우즈에서 Git 사용 가이드](http://github.com/0ishi/main/wiki/Git-on-Windows)

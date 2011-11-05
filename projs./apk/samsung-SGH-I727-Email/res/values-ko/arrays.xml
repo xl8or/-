@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="error_keys">
+        <item>0_text</item>
+        <item>0_title</item>
+        <item>1000_text</item>
+        <item>1000_title</item>
+        <item>1001_text</item>
+        <item>1001_title</item>
+        <item>1002_text</item>
+        <item>1002_title</item>
+        <item>1003_text</item>
+        <item>1003_title</item>
+        <item>1004_text</item>
+        <item>1004_title</item>
+        <item>1005_text</item>
+        <item>1005_title</item>
+        <item>1008_text</item>
+        <item>1008_title</item>
+        <item>100_text</item>
+        <item>100_title</item>
+        <item>1011_text</item>
+        <item>1011_title</item>
+        <item>1014_text</item>
+        <item>1014_title</item>
+        <item>1015_text</item>
+        <item>1015_title</item>
+        <item>1016_text</item>
+        <item>1016_title</item>
+        <item>101_text</item>
+        <item>101_title</item>
+        <item>1020_text</item>
+        <item>1020_title</item>
+        <item>1023_text</item>
+        <item>1023_title</item>
+        <item>1024_text</item>
+        <item>1024_title</item>
+        <item>102_text</item>
+        <item>102_title</item>
+        <item>1036_text</item>
+        <item>1036_title</item>
+        <item>1037_text</item>
+        <item>1037_title</item>
+        <item>1038_text</item>
+        <item>1038_title</item>
+        <item>1039_text</item>
+        <item>1039_title</item>
+        <item>103_text</item>
+        <item>103_title</item>
+        <item>1040_text</item>
+        <item>1040_title</item>
+        <item>104_text</item>
+        <item>104_title</item>
+        <item>1050_text</item>
+        <item>1050_title</item>
+        <item>105_text</item>
+        <item>105_title</item>
+        <item>106_text</item>
+        <item>106_title</item>
+        <item>107_text</item>
+        <item>107_title</item>
+        <item>108_text</item>
+        <item>108_title</item>
+        <item>109_text</item>
+        <item>109_title</item>
+        <item>2000_text</item>
+        <item>2000_title</item>
+        <item>200_text</item>
+        <item>200_title</item>
+        <item>2010_text</item>
+        <item>2010_title</item>
+        <item>2011_text</item>
+        <item>2011_title</item>
+        <item>2012_text</item>
+        <item>2012_title</item>
+        <item>2013_text</item>
+        <item>2013_title</item>
+        <item>2014_text</item>
+        <item>2014_title</item>
+        <item>2015_text</item>
+        <item>2015_title</item>
+        <item>2016_text</item>
+        <item>2016_title</item>
+        <item>2017_text</item>
+        <item>2017_title</item>
+        <item>201_text</item>
+        <item>201_title</item>
+        <item>202_text</item>
+        <item>202_title</item>
+        <item>203_text</item>
+        <item>203_title</item>
+        <item>204_text</item>
+        <item>204_title</item>
+        <item>205_text</item>
+        <item>205_title</item>
+        <item>206_text</item>
+        <item>206_title</item>
+        <item>2099_text</item>
+        <item>2099_title</item>
+        <item>2100_text</item>
+        <item>2100_title</item>
+        <item>2101_text</item>
+        <item>2101_title</item>
+        <item>2102_text</item>
+        <item>2102_title</item>
+        <item>2103_text</item>
+        <item>2103_title</item>
+        <item>2105_text</item>
+        <item>2105_title</item>
+        <item>2106_text</item>
+        <item>2106_title</item>
+        <item>2107_text</item>
+        <item>2107_title</item>
+        <item>2108_text</item>
+        <item>2108_title</item>
+        <item>2109_text</item>
+        <item>2109_title</item>
+        <item>2110_text</item>
+        <item>2110_title</item>
+        <item>2111_text</item>
+        <item>2111_title</item>
+        <item>2112_text</item>
+        <item>2112_title</item>
+        <item>2113_text</item>
+        <item>2113_title</item>
+        <item>2114_text</item>
+        <item>2114_title</item>
+        <item>2115_text</item>
+        <item>2115_title</item>
+        <item>2199_text</item>
+        <item>2199_title</item>
+        <item>2200_text</item>
+        <item>2200_title</item>
+        <item>2221_text</item>
+        <item>2221_title</item>
+        <item>2240_text</item>
+        <item>2240_title</item>
+        <item>2241_text</item>
+        <item>2241_title</item>
+        <item>2242_text</item>
+        <item>2242_title</item>
+        <item>2243_text</item>
+        <item>2243_title</item>
+        <item>2261_text</item>
+        <item>2261_title</item>
+        <item>2320_text</item>
+        <item>2320_title</item>
+        <item>2321_text</item>
+        <item>2321_title</item>
+        <item>2322_text</item>
+        <item>2322_title</item>
+        <item>2323_text</item>
+        <item>2323_title</item>
+        <item>2361_text</item>
+        <item>2361_title</item>
+        <item>2362_text</item>
+        <item>2362_title</item>
+        <item>2363_text</item>
+        <item>2363_title</item>
+        <item>2364_text</item>
+        <item>2364_title</item>
+        <item>2431_text</item>
+        <item>2431_title</item>
+        <item>2432_text</item>
+        <item>2432_title</item>
+        <item>2433_text</item>
+        <item>2433_title</item>
+        <item>2451_text</item>
+        <item>2451_title</item>
+        <item>2601_text</item>
+        <item>2601_title</item>
+        <item>2781_text</item>
+        <item>2781_title</item>
+        <item>2782_text</item>
+        <item>2782_title</item>
+        <item>2801_text</item>
+        <item>2801_title</item>
+        <item>2802_text</item>
+        <item>2802_title</item>
+        <item>2803_text</item>
+        <item>2803_title</item>
+        <item>3000_text</item>
+        <item>3000_title</item>
+        <item>3001_text</item>
+        <item>3001_title</item>
+        <item>3002_text</item>
+        <item>3002_title</item>
+        <item>3003_text</item>
+        <item>3003_title</item>
+        <item>3004_text</item>
+        <item>3004_title</item>
+        <item>3005_text</item>
+        <item>3005_title</item>
+        <item>3006_text</item>
+        <item>3006_title</item>
+        <item>300_text</item>
+        <item>300_title</item>
+        <item>301_text</item>
+        <item>301_title</item>
+        <item>302_text</item>
+        <item>302_title</item>
+        <item>303_text</item>
+        <item>303_title</item>
+        <item>304_text</item>
+        <item>304_title</item>
+        <item>305_text</item>
+        <item>305_title</item>
+        <item>306_text</item>
+        <item>306_title</item>
+        <item>307_text</item>
+        <item>307_title</item>
+        <item>308_text</item>
+        <item>308_title</item>
+        <item>309_text</item>
+        <item>309_title</item>
+        <item>3100_text</item>
+        <item>3100_title</item>
+        <item>310_text</item>
+        <item>310_title</item>
+        <item>311_text</item>
+        <item>311_title</item>
+        <item>312_text</item>
+        <item>312_title</item>
+        <item>313_text</item>
+        <item>313_title</item>
+        <item>314_text</item>
+        <item>314_title</item>
+        <item>315_text</item>
+        <item>315_title</item>
+        <item>316_text</item>
+        <item>316_title</item>
+        <item>317_text</item>
+        <item>317_title</item>
+        <item>318_text</item>
+        <item>318_title</item>
+        <item>319_text</item>
+        <item>319_title</item>
+        <item>320_text</item>
+        <item>320_title</item>
+        <item>321_text</item>
+        <item>321_title</item>
+        <item>322_text</item>
+        <item>322_title</item>
+        <item>323_text</item>
+        <item>323_title</item>
+        <item>324_text</item>
+        <item>324_title</item>
+        <item>325_text</item>
+        <item>325_title</item>
+        <item>326_text</item>
+        <item>326_title</item>
+        <item>327_text</item>
+        <item>327_title</item>
+        <item>328_text</item>
+        <item>328_title</item>
+        <item>329_text</item>
+        <item>329_title</item>
+        <item>4001_text</item>
+        <item>4001_title</item>
+        <item>4002_text</item>
+        <item>4002_title</item>
+        <item>400_text</item>
+        <item>400_title</item>
+        <item>5001_text</item>
+        <item>5001_title</item>
+        <item>5002_text</item>
+        <item>5002_title</item>
+        <item>5003_text</item>
+        <item>5003_title</item>
+        <item>500_text</item>
+        <item>500_title</item>
+        <item>501_text</item>
+        <item>501_title</item>
+        <item>502_text</item>
+        <item>502_title</item>
+        <item>503_text</item>
+        <item>503_title</item>
+        <item>504_text</item>
+        <item>504_title</item>
+        <item>505_text</item>
+        <item>505_title</item>
+        <item>506_text</item>
+        <item>506_title</item>
+        <item>507_text</item>
+        <item>507_title</item>
+        <item>508_text</item>
+        <item>508_title</item>
+        <item>509_text</item>
+        <item>509_title</item>
+        <item>510_text</item>
+        <item>510_title</item>
+        <item>511_text</item>
+        <item>511_title</item>
+        <item>512_text</item>
+        <item>512_title</item>
+        <item>6001_text</item>
+        <item>6001_title</item>
+        <item>6002_text</item>
+        <item>6002_title</item>
+        <item>6003_text</item>
+        <item>6003_title</item>
+        <item>6004_text</item>
+        <item>6004_title</item>
+        <item>6005_text</item>
+        <item>6005_title</item>
+        <item>6006_text</item>
+        <item>6006_title</item>
+        <item>6007_text</item>
+        <item>6007_title</item>
+        <item>6008_text</item>
+        <item>6008_title</item>
+        <item>6009_text</item>
+        <item>6009_title</item>
+        <item>6010_text</item>
+        <item>6010_title</item>
+        <item>6011_text</item>
+        <item>6011_title</item>
+        <item>6012_text</item>
+        <item>6012_title</item>
+        <item>6013_text</item>
+        <item>6013_title</item>
+        <item>6014_text</item>
+        <item>6014_title</item>
+        <item>6015_text</item>
+        <item>6015_title</item>
+        <item>6016_text</item>
+        <item>6016_title</item>
+        <item>6017_text</item>
+        <item>6017_title</item>
+        <item>6018_text</item>
+        <item>6018_title</item>
+        <item>6019_text</item>
+        <item>6019_title</item>
+        <item>6020_text</item>
+        <item>6020_title</item>
+        <item>7001_text</item>
+        <item>7001_title</item>
+        <item>7002_text</item>
+        <item>7002_title</item>
+        <item>7003_text</item>
+        <item>7003_title</item>
+        <item>7004_text</item>
+        <item>7004_title</item>
+        <item>7005_text</item>
+        <item>7005_title</item>
+        <item>8001_text</item>
+        <item>8001_title</item>
+        <item>9001_text</item>
+        <item>9001_title</item>
+    </string-array>
+    <string-array name="error_values">
+        <item>성공</item>
+        <item>오류 없음</item>
+        <item>{0} 사용자의 사용자 제한을 초과했습니다.</item>
+        <item>사용자 제한 초과</item>
+        <item>다음은 중복되는 사용자입니다. {0}</item>
+        <item>중복되는 사용자</item>
+        <item>다음은 중복되는 장치입니다. {0}</item>
+        <item>중복되는 장치</item>
+        <item>사용자를 찾을 수 없습니다. {0}</item>
+        <item>사용자를 찾을 수 없음</item>
+        <item>다음은 잘못된 날짜 형식입니다. {0}. {1}이(가) 필요합니다.</item>
+        <item>잘못된 날짜 형식</item>
+        <item>다음은 잘못된 날짜 형식입니다. {0}. {1}이(가) 필요합니다.</item>
+        <item>잘못된 날짜 형식</item>
+        <item>다음 필수 매개 변수가 누락되었습니다. {0}</item>
+        <item>필수 매개 변수 누락</item>
+        <item>오류가 발생했습니다. 다시 시도하십시오.</item>
+        <item>내부 오류</item>
+        <item>사용자가 액세스할 수 있는 리셀러에서 제공된 프로비전 ID({0})를 찾을 수 없습니다.</item>
+        <item>브랜드를 찾을 수 없음</item>
+        <item>설정된 만료 날짜 없음</item>
+        <item>설정된 만료 날짜 없음</item>
+        <item>액세스 거부</item>
+        <item>액세스 거부</item>
+        <item>다음에 대한 API 액세스가 활성화되지 않았습니다. {0}</item>
+        <item>API 액세스가 활성화되지 않음</item>
+        <item>오류가 발생했습니다. 다시 시도하십시오.</item>
+        <item>잘못된 요청 오류</item>
+        <item>다음은 내부 오류입니다. {0}</item>
+        <item>내부 오류</item>
+        <item>제공된 정보를 사용하는 구독이 이미 있습니다.</item>
+        <item>중복되는 구독</item>
+        <item>일치하는 구독이 여러 개 있음</item>
+        <item>일치하는 구독이 여러 개 있음</item>
+        <item>세션을 시작하려는 동안 오류가 발생했습니다. 다시 시도하십시오.</item>
+        <item>연결 오류</item>
+        <item>쿼리 {0}을(를) 찾을 수 없습니다.</item>
+        <item>쿼리 없음</item>
+        <item>일치하지 않는 매개 변수: {0} 및 {1}</item>
+        <item>일치하지 않는 매개 변수</item>
+        <item>다음은 잘못된 msisdn 형식입니다. {0}</item>
+        <item>잘못된 msisdn 형식</item>
+        <item>다음은 잘못된 제품 매개 변수입니다. {0}</item>
+        <item>잘못된 제품 매개 변수</item>
+        <item>커넥터를 찾을 수 없습니다. 입력한 커넥터 ID를 확인하십시오.</item>
+        <item>커넥터를 찾을 수 없음</item>
+        <item>구독을 찾을 수 없음</item>
+        <item>구독을 찾을 수 없음</item>
+        <item>데이터를 보내는 동안 오류가 발생했습니다. 다시 시도하십시오.</item>
+        <item>데이터 오류</item>
+        <item>AOM 플랫폼에 대한 복제 호출 실패</item>
+        <item>AOM 플랫폼에 대한 복제 호출 실패</item>
+        <item>사용자 동작이 너무 길어 완료할 수 없으므로 시간이 초과되었습니다. 다시 시도하십시오.</item>
+        <item>제한 시간 초과</item>
+        <item>전자 메일 계정에 연결할 수 없습니다. 연결은 자동으로 복원됩니다. 문제가 지속되면 네트워크 설정을 확인하거나 서비스 공급자에게 문의하십시오.</item>
+        <item>연결 문제</item>
+        <item>네트워크를 일시적으로 사용할 수 없거나 전화가 비행기 모드입니다. 네트워크를 사용할 수 있게 되면 연결이 자동으로 복원됩니다.</item>
+        <item>연결 실패</item>
+        <item>서버 사용량이 많습니다. 다시 시도하십시오.</item>
+        <item>서버 작업 중</item>
+        <item>일반 IPC 요청 실패</item>
+        <item>IPC 요청 실패</item>
+        <item>다음에 대한 인증이 실패했습니다. {0}</item>
+        <item>인증 실패</item>
+        <item>유효한 라이선스에 대해서는 서비스 공급자에게 문의하십시오.</item>
+        <item>라이선스가 수락되지 않음</item>
+        <item>SMS 콘텐츠에서 클라이언트 ID를 찾을 수 없습니다.</item>
+        <item>SMS 콘텐츠에서 클라이언트 ID를 찾을 수 없습니다.</item>
+        <item>클라이언트 ID({0})로 클라이언트를 찾을 수 없습니다.</item>
+        <item>지정된 클라이언트 ID로 클라이언트를 찾을 수 없음</item>
+        <item>지정된 MSISDN 정보가 잘못되었거나 누락되었습니다. {0}</item>
+        <item>MSISDN 정보가 지정되지 않았거나 잘못됨</item>
+        <item>다음은 잘못된 MSISDN 형식입니다. {0}. 숫자 값이 필요합니다.</item>
+        <item>잘못된 MSISDN 형식</item>
+        <item>잘못된 클라이언트 ID 형식입니다. {0}. 숫자 값이 필요합니다.</item>
+        <item>잘못된 클라이언트 ID 형식</item>
+        <item>필요한 요금 부과 머리글이 유효성 검사 요청에 없습니다.</item>
+        <item>요금 부과 헤더 유효성 검사 실패</item>
+        <item>시스템에 MSISDN {0}이(가) 이미 있습니다.</item>
+        <item>MSISDN이 이미 있음</item>
+        <item>시스템에 MSISDN {0}이(가) 없습니다.</item>
+        <item>MSISDN이 없음</item>
+        <item>이 [커넥터]를 다시 설치하려면 임시 암호를 제공하십시오.</item>
+        <item>암호 필요</item>
+        <item>선택한 ID가 이미 사용되고 있습니다. 다른 ID를 선택하십시오.</item>
+        <item>ID가 이미 사용되고 있음</item>
+        <item>제공된 임시 암호가 올바르지 않습니다.</item>
+        <item>연결 오류</item>
+        <item>커넥터를 사용할 수 없습니다.</item>
+        <item>커넥터가 비활성화됨</item>
+        <item>서비스를 사용할 수 없습니다.</item>
+        <item>서비스를 사용할 수 없음</item>
+        <item>제공된 제품 버전이 릴레이에 설치된 버전과 일치하지 않습니다.</item>
+        <item>제품 버전 불일치</item>
+        <item>알 수 없는 이유로 트랜잭션이 실패했습니다. {0}</item>
+        <item>알 수 없는 이유로 트랜잭션 실패</item>
+        <item>다음에 대한 인증이 실패했습니다. {0}</item>
+        <item>인증 실패</item>
+        <item>다음에 대한 액세스가 허용되지 않습니다. {0}</item>
+        <item>액세스가 허용되지 않음</item>
+        <item>{0} 사용자 계정이 차단되었습니다.</item>
+        <item>계정 차단</item>
+        <item>일부 트랜잭션 배치가 실패했습니다.</item>
+        <item>일부 트랜잭션 배치 실패</item>
+        <item>목록 호출에서 {0}개의 레코드를 반환했습니다. 제한값은 {1}입니다.</item>
+        <item>크기 제한을 초과하는 목록 반환</item>
+        <item>배치 호출에서 {0}개의 트랜잭션을 요청했습니다. 제한값은 {1}입니다.</item>
+        <item>크기 제한을 초과하는 배치 트랜잭션 요청</item>
+        <item>API 호출에 필수 매개 변수가 누락되었습니다. {0}</item>
+        <item>API 호출에 필수 매개 변수 누락</item>
+        <item>매개 변수 {0}은(는) 이 API 호출에 대해 유효하지 않습니다.</item>
+        <item>API 호출에 잘못된 매개 변수가 있음</item>
+        <item>다음 요청을 처리하는 동안 데이터베이스 오류가 발생했습니다. {0}</item>
+        <item>API 호출로 데이터베이스 오류 발생</item>
+        <item>이러한 액세스 자격 증명에는 와일드카드 문자를 사용할 수 없습니다.</item>
+        <item>와일드카드 문자가 잘못 사용됨</item>
+        <item>다음 요청 매개 변수에 잘못된 와일드카드 문자가 있습니다. {0}</item>
+        <item>요청에 잘못된 와일드카드 문자가 있음</item>
+        <item>머리글이 없거나 잘못된 SOAP 요청이 수신됨</item>
+        <item>머리글이 없거나 잘못된 SOAP 요청이 수신됨</item>
+        <item>필수 머리글 매개 변수가 없는 SOAP 요청이 수신되었습니다. {0}</item>
+        <item>머리글 매개 변수가 없는 SOAP 요청이 수신됨</item>
+        <item>다음 IP 주소에서 SOAP 요청이 수신되었습니다. {0} 이 주소는 API를 사용할 수 없습니다.</item>
+        <item>차단된 IP 주소에서 SOAP 요청이 수신됨</item>
+        <item>다음에 대한 API 액세스가 활성화되지 않았습니다. {0}</item>
+        <item>API 액세스가 활성화되지 않음</item>
+        <item>알 수 없는 이유로 SOAP 요청이 실패했습니다. {0}</item>
+        <item>알 수 없는 이유로 SOAP 요청 실패</item>
+        <item>createAccountSubscription API 호출에는 AccountID 또는 MSISDN 매개 변수가 필요합니다.</item>
+        <item>AccountID 또는 MSISDN 없이 createAccountSubscription이 호출됨</item>
+        <item>listAccountSubscription API 호출에 제품 매개 변수를 사용하려면 MSISDN, AccountID, GroupID 중 하나 이상이 필요합니다.</item>
+        <item>제품 매개 변수는 있지만 ID 매개 변수 없이 listAccountSubscription이 호출됨</item>
+        <item>제공된 구독 확인 기준과 일치하는 레코드가 여러 개입니다. 업데이트가 처리되지 않았습니다.</item>
+        <item>구독 확인 기준과 일치하는 레코드가 여러 개임</item>
+        <item>잘못된 ID 매개 변수 집합이 제공되었습니다.</item>
+        <item>잘못된 ID 매개 변수 집합이 제공됨</item>
+        <item>업데이트할 필드 없이 updateAccountSubscription API가 호출되었습니다.</item>
+        <item>업데이트할 필드가 지정되지 않음</item>
+        <item>제공된 구독 확인 기준과 일치하는 레코드가 없습니다. 업데이트가 처리되지 않았습니다.</item>
+        <item>구독 확인 기준과 일치하는 레코드 없음</item>
+        <item>deleteAccountSubscription API 호출에 제품 매개 변수를 사용하려면 MSISDN, AccountID, GroupID 중 하나 이상이 필요합니다.</item>
+        <item>제품 매개 변수는 있지만 ID 매개 변수 없이 deleteAccountSubscription이 호출됨</item>
+        <item>제공된 구독 확인 기준과 일치하는 레코드가 여러 개입니다. 업데이트가 처리되지 않았습니다.</item>
+        <item>구독 확인 기준과 일치하는 레코드가 여러 개임</item>
+        <item>updateConnectorSubscription API 호출에는 SubscriptionId 또는 ConnectorId 매개 변수가 필요합니다.</item>
+        <item>잘못된 ID 매개 변수 집합이 제공됨</item>
+        <item>업데이트할 필드 없이 updateConnectorSubscription API가 호출되었습니다.</item>
+        <item>업데이트할 필드가 지정되지 않음</item>
+        <item>제공된 구독 확인 기준과 일치하는 레코드가 없습니다. 업데이트가 처리되지 않았습니다.</item>
+        <item>구독 확인 기준과 일치하는 레코드 없음</item>
+        <item>제품으로 CE를 사용하여 createPreProvisionedAccount API를 호출하는 경우 프로비전 ID 및 ISP 서버 브랜드 ID를 제공해야 합니다. 제품이 CE가 아닌 경우 커넥터 ID를 제공해야 합니다.</item>
+        <item>잘못된 매개 변수로 createPreProvisionedAccount가 호출됨</item>
+        <item>데이터베이스에서 입력된 회사 이름을 찾을 수 없거나 입력된 프로비전 ID가 ISP 회사와 일치하지 않습니다.</item>
+        <item>매개 변수를 사용하여 회사를 찾을 수 없음</item>
+        <item>데이터베이스에서 ISP 서버 브랜드 ID를 찾을 수 없음</item>
+        <item>데이터베이스에서 ISP 서버 브랜드 ID를 찾을 수 없음</item>
+        <item>입력 브랜드 ID로 찾은 ISP 서버에서 지정된 제품 유형을 지원하지 않음</item>
+        <item>입력 브랜드 ID로 찾은 ISP 서버에서 지정된 제품 유형을 지원하지 않음</item>
+        <item>업데이트가 적용되는 계정이 두 개 이상입니다. 암호를 업데이트할 수 없습니다.</item>
+        <item>changeAccountPassword와 일치하는 계정이 두 개 이상 있습니다.</item>
+        <item>업데이트가 적용되는 계정이 발견되지 않았습니다. 암호가 업데이트되지 않습니다.</item>
+        <item>changeAccountPassword와 일치하는 계정 없음</item>
+        <item>암호를 업데이트하려는 동안 오류가 발생했습니다. 잘못된 암호 때문일 수 있습니다.</item>
+        <item>changeAccountPassword로 암호 업데이트 실패</item>
+        <item>사용자 정보 나열이 요청되었지만 지정된 매개 변수와 일치하는 기존 사용자가 없습니다.</item>
+        <item>getUserInformation에서 지정된 매개 변수로 사용자를 찾을 수 없습니다.</item>
+        <item>isValidConnectorId가 이미 사용되고 있는 ID로 호출되었습니다.</item>
+        <item>커넥터 ID가 이미 사용되고 있음</item>
+        <item>지정된 SQL 스크립트에 유효하지 않은 매개 변수로 runScript가 호출되었습니다.</item>
+        <item>SQL 스크립트에 유효하지 않은 매개 변수</item>
+        <item>알 수 없는 SQL 스크립트에 대해 runScript가 호출되었습니다.</item>
+        <item>SQL 스크립트를 찾을 수 없음</item>
+        <item>다운로드 링크 보내기 기능을 API에서 사용할 수 없습니다.</item>
+        <item>기능이 활성화되지 않은 상태로 sendDownloadLink가 호출됨</item>
+        <item>SMS 게이트웨이에 대한 메시지 요청 실패</item>
+        <item>SMS 게이트웨이에 대한 메시지 요청 실패</item>
+        <item>지정된 매개 변수에 대한 클라이언트를 찾을 수 없습니다.</item>
+        <item>지정된 매개 변수에 대한 클라이언트를 찾을 수 없습니다.</item>
+        <item>지정된 메일 공급자를 찾을 수 없어 메일을 테스트하지 못했습니다. 공급자로 POP3, IMAP, POP3S, IMAPS, SMTP 또는 SMTPS를 사용해야 합니다.</item>
+        <item>메일 공급자를 찾을 수 없음</item>
+        <item>지정된 메일 서버에 대한 연결이 실패하여 메일을 테스트하지 못했습니다. 사서함 설정을 확인하십시오.</item>
+        <item>연결 실패</item>
+        <item>지정된 메일 서버에 대한 연결이 실패하여 메일을 테스트하지 못했습니다. 사서함 설정을 확인하십시오.</item>
+        <item>받은 편지함을 찾을 수 없음</item>
+        <item>받은 편지함에서 메시지 검색이 실패하여 메일을 테스트하지 못했습니다. 사서함 설정을 확인하십시오.</item>
+        <item>받은 편지함 검색 실패</item>
+        <item>전자 메일 주소가 잘못되어 메일을 테스트하지 못했습니다. 지정된 전자 메일 주소를 확인하십시오.</item>
+        <item>잘못된 전자 메일 주소</item>
+        <item>첨부 파일이 최대 크기를 초과합니다.</item>
+        <item>첨부 파일 크기가 너무 큼</item>
+        <item>메시지 본문 크기가 너무 큽니다.</item>
+        <item>본문 크기가 너무 큽니다.</item>
+        <item>{0} 및/또는 암호가 잘못되어 로그인 시도가 실패했습니다. {0} 및 암호를 확인하고 다시 시도하십시오.</item>
+        <item>로그인이 올바르지 않음</item>
+        <item>{0}, 암호 또는 설정이 잘못되어 로그인 시도가 실패했습니다. 웹에서 {0}, 암호 및 설정을 확인하고 다시 시도하십시오.</item>
+        <item>로그인이 올바르지 않음</item>
+        <item>{0}이(가) 잘못되어 로그인 시도가 실패했습니다. {0}을(를) 확인하고 다시 시도하십시오.</item>
+        <item>사용자를 찾을 수 없음</item>
+        <item>제공한 사용자 이름에 대한 등록이 여러 개 있습니다. {0} 및 암호를 확인하고 다시 시도하십시오.</item>
+        <item>사용자를 찾을 수 없음</item>
+        <item>메일 서버에 대한 설정을 찾을 수 없습니다. 다음 화면에서 계정 정보를 정의하십시오.</item>
+        <item>서버를 찾을 수 없음</item>
+        <item>로그인하지 못했습니다. 사용자 이름이 전자 메일 주소와 다를 경우 전자 메일 계정에 사용자 이름을 제공하십시오.</item>
+        <item>로그인 실패</item>
+        <item>이 계정으로 시도한 인증의 실패 횟수가 너무 많습니다. 잠금이 해제될 때까지 기다리거나 관리자에게 문의하십시오.</item>
+        <item>계정 잠김</item>
+        <item>이 전화 번호는 이미 등록되었습니다. 올바른 전화 번호를 입력했는지 확인하거나 서비스 공급자에게 문의하십시오.</item>
+        <item>미리 프로비전된 계정이 이미 있음</item>
+        <item>성능을 향상시키기 위해 연결이 다른 서버로 리디렉션되었습니다. 마지막 작업을 다시 시도하십시오.</item>
+        <item>리디렉션됨</item>
+        <item>지금은 전자 메일 서버를 사용할 수 없습니다. 나중에 다시 시도하십시오.</item>
+        <item>로그인 실패</item>
+        <item>{0} 오류로 인해 메일을 테스트하지 못했습니다. 사서함 설정을 확인하십시오.</item>
+        <item>알 수 없는 오류</item>
+        <item>이 계정으로 시도한 인증의 실패 횟수가 너무 많습니다. 커넥터에서 추가 로그인을 금지했습니다. 잠금이 해제될 때까지 기다리거나 커넥터 관리자에게 추가 로그인 시도 허용을 요청하십시오.</item>
+        <item>로그인 비활성화됨</item>
+        <item>다시 시도하기 전에 확인을 클릭하여 {0} 및 암호를 확인하거나 RSA 토큰을 확인하십시오.</item>
+        <item>RSA 로그인이 올바르지 않음</item>
+        <item>사용 중인 클라이언트 버전은 이 메일 공급자에 의해 인증되지 않았습니다. 인증된 클라이언트 버전을 얻으려면 공급자에게 문의하십시오.</item>
+        <item>클라이언트가 이 ISP용으로 인증되지 않음</item>
+        <item>입력한 Microsoft Exchange 서버 주소는 올바른 웹 주소가 아닙니다. 주소를 확인하고 다시 시도하십시오.</item>
+        <item>Microsoft Exchange 주소가 잘못됨</item>
+        <item>공급자를 고급 서비스로 사용할 수 있습니다. 공급자 목록으로 돌아가서 다시 선택하십시오.</item>
+        <item>지정된 URL이 허용되지 않음</item>
+        <item>원격 끝점의 공개 키가 변경되었습니다. 침입 시도가 있었던 것 같습니다. 원격 끝점의 데이터가 삭제되었습니다.</item>
+        <item>공개 키 불일치</item>
+        <item>다시 로그인할 수 없습니다. 사용자가 서비스에 다시 로그인하는 데 필요한 새 자격 증명을 입력할 수 없으며 다른 작업을 수행해야 함을 나타냅니다.</item>
+        <item>다시 로그인할 수 없음</item>
+        <item>지정한 주소의 서버가 응답하지 않습니다. VPN/SSL 포털이 사용되는 경우 회사 전자 메일에 액세스하는 데 Microsoft Exchange를 사용할 수 없습니다. 다음 연결 옵션을 사용하여 회사 전자 메일에 액세스하려면 확인을 선택하십시오.</item>
+        <item>OWA 주소- 응답 없음</item>
+        <item>지정된 주소의 서버가 Microsoft Exchange 서버가 아닙니다. Microsoft Exchange 서버 주소를 확인하고 다시 시도하십시오.</item>
+        <item>Microsoft Exchange 주소 - 잘못된 형식</item>
+        <item>암호가 만료되었습니다. PC에서 암호를 변경한 후 새 암호로 다시 시도하십시오.</item>
+        <item>암호가 만료됨</item>
+        <item>프로비전할 수 있는 최대 전화 수에 도달했습니다. 관리자에게 문의하십시오.</item>
+        <item>전화가 너무 많습니다.</item>
+        <item>사용할 수 있는 Notes ID 파일이 없어서 로그인할 수 없습니다. 관리자에게 문의하십시오.</item>
+        <item>사용할 수 있는 ID 파일이 없습니다.</item>
+        <item>요청된 서비스는 잠시 사용할 수 없습니다. 나중에 다시 시도하십시오. 문제가 계속되면 웹 브라우저를 사용하여 계정에 로그인하십시오.</item>
+        <item>ISP 서비스를 일시적으로 사용할 수 없음</item>
+        <item>ISP에서 웹 로그인이 필요하다는 오류가 반환되었습니다. 웹 브라우저를 사용하여 계정에 로그인하십시오.</item>
+        <item>웹 로그인 필요</item>
+        <item>ISP 오류가 발생했습니다. 나중에 다시 시도하십시오. 문제가 계속되면 웹 브라우저를 사용하여 로그인해 보십시오.</item>
+        <item>ISP에서 오류가 반환되었습니다.</item>
+        <item>사서함이 현재 사용 중입니다. 나중에 다시 시도하십시오.</item>
+        <item>사서함이 현재 사용 중입니다.</item>
+        <item>이 피드 URL에 대한 응답이 없습니다. URL을 수정하거나 나중에 다시 시도하십시오.</item>
+        <item>이 피드 URL에 대한 응답이 없음</item>
+        <item>Parental consent is needed.</item>
+        <item>Parental Consent Required.</item>
+        <item>The Feed Id is invalid. Please correct the id and try again later.</item>
+        <item>Invalid Feed Id</item>
+        <item>Subscription with the provided details already exists</item>
+        <item>Duplicate Feed Subscription</item>
+        <item>Exchange Access 전자 메일에 연결할 수 없습니다. 연결은 자동으로 복원됩니다. 문제가 지속되면 IT 관리자에게 문의하십시오.</item>
+        <item>연결 문제</item>
+        <item>{0} 전자 메일에 연결할 수 없습니다. 연결은 자동으로 복원됩니다. 문제가 지속되면 {0}에 문의하십시오.</item>
+        <item>연결 문제</item>
+        <item>시도한 계정 업데이트 작업이 실패했습니다. 다시 시도하십시오.</item>
+        <item>업데이트 실패</item>
+        <item>RPC 요청에 잘못된 XML이 있습니다.</item>
+        <item>RPC에 잘못된 XML이 있습니다.</item>
+        <item>XML RPC API에 내부 오류가 발생했습니다. 다시 시도하십시오.</item>
+        <item>XML RPC API에 내부 오류가 발생했습니다.</item>
+        <item>XML RPC 요청에 잘못되거나 누락된 매개 변수가 있습니다. 매개 변수와 그 값을 확인하십시오.</item>
+        <item>잘못되거나 누락된 매개 변수</item>
+        <item>서비스가 데이터를 저장할 수 없습니다. 다시 시도하십시오.</item>
+        <item>데이터베이스 오류</item>
+        <item>이 이름의 조직이 이미 있습니다. 다른 이름을 선택하십시오.</item>
+        <item>조직이 이미 있음</item>
+        <item>지정한 커넥터 ID가 이미 사용되고 있습니다. 다른 ID를 선택하십시오.</item>
+        <item>이름이 이미 사용되고 있음</item>
+        <item>지정한 사용자 이름이 이미 사용되고 있습니다. 다른 사용자 이름을 선택하십시오.</item>
+        <item>사용자 이름이 이미 사용되고 있음</item>
+        <item>이 사용자가 이미 있습니다.</item>
+        <item>사용자가 이미 있음</item>
+        <item>만들려고 한 미리 프로비전된 계정이 이미 있습니다. 새 계정을 추가하려면 커넥터 관리자가 이 기존 계정을 제거해야 합니다.</item>
+        <item>미리 프로비전된 계정이 이미 있음</item>
+        <item>액세스 권한이 부족하여 이 작업을 수행할 수 없습니다.</item>
+        <item>액세스 거부</item>
+        <item>구독이 만료되었습니다. 구독을 갱신하려면 공급자에게 문의하십시오.</item>
+        <item>로그인할 수 없음</item>
+        <item>구독 제한에 따라 계정을 더 이상 추가할 수 없습니다. 구독을 업그레이드하려면 http://eu020.fra.samsungsocialhub.com을(를) 방문하십시오.</item>
+        <item>로그인할 수 없음</item>
+        <item>Social Hub을(를) 구독하려면 http://eu020.fra.samsungsocialhub.com을(를) 방문하십시오.</item>
+        <item>로그인할 수 없음</item>
+        <item>이 사이트의 SSL 인증서에 문제가 있습니다.</item>
+        <item>인증서 문제</item>
+        <item>지정된 URL이 올바른 Outlook Web Access 서비스에 속하지 않습니다. URL을 확인하고 다시 시도하십시오.</item>
+        <item>잘못된 서비스 주소</item>
+        <item>이 URL은 미리 구성되어 있습니다. 미리 구성된 공급자 목록으로 돌아간 다음 목록에서 공급자를 선택하십시오.</item>
+        <item>액세스 거부</item>
+        <item>메시지를 보낼 때 연락처가 오프라인 상태였습니다.</item>
+        <item>연락처 오프라인</item>
+        <item>메시지를 보낼 때 연락처가 차단된 상태였습니다.</item>
+        <item>연락처가 차단됨</item>
+        <item>전송 파일의 크기가 지정된 값과 일치하지 않습니다.</item>
+        <item>파일 크기가 일치하지 않습니다.</item>
+        <item>최대 P2P 세션 초과</item>
+        <item>최대 P2P 세션 초과</item>
+        <item>생년월일 없음</item>
+        <item>생년월일 없음</item>
+        <item>수신자가 파일 전송을 지원하지 않습니다.</item>
+        <item>P2P 세션이 지원되지 않습니다.</item>
+        <item>사용자가 메시징 서비스에 등록해야 합니다.</item>
+        <item>등록 만료됨</item>
+        <item>서버 사용량이 많아 요청을 완료할 수 없습니다. 나중에 다시 시도하십시오.</item>
+        <item>서버 작업 중</item>
+        <item>이 대화에는 VoiceClip이 지원되지 않습니다.</item>
+        <item>음성 클립 지원 안 됨</item>
+        <item>파일 전송 작업을 위한 대화에는 2명만 참가할 수 있습니다.</item>
+        <item>참가자가 너무 많음</item>
+        <item>지정한 대화에 참가자가 없습니다.</item>
+        <item>참가자 없음</item>
+        <item>사용자의 보호자가 메신저 로그인을 허용하지 않습니다.</item>
+        <item>보호자 권한 필요</item>
+        <item>대화 식별자가 올바르지 않습니다. 클라이언트 응용 프로그램에서 이 대화를 중단해야 합니다.</item>
+        <item>잘못된 호출 ID</item>
+        <item>초대 요청을 시도했지만 클라이언트 장치에서 사용자의 상태가 오프라인으로 설정되어 있습니다.</item>
+        <item>사용자 오프라인</item>
+        <item>초대 요청에서 잘못된 사용자를 추가하려 했음</item>
+        <item>알 수 없는 사용자</item>
+        <item>지정된 전자 메일 도메인에 대한 구성을 찾을 수 없음</item>
+        <item>알 수 없는 ISP</item>
+        <item>토큰 기반 인증 실패는 다른 방식으로 처리됩니다.</item>
+        <item>토큰 기반 인증 실패</item>
+        <item>이 서비스는 구독해야 사용할 수 있습니다.</item>
+        <item>구독 필요</item>
+        <item>사용할 수 있는 Seven 서비스가 없습니다.</item>
+        <item>사용할 수 있는 서비스가 없음</item>
+        <item>다른 컴퓨터 또는 장치에서 로그인하여 로그아웃되었습니다.</item>
+        <item>만료된 계정</item>
+        <item>Ping 등록 시 계정 생성 실패</item>
+        <item>계정 생성 실패</item>
+        <item>호스트 서버 등록 시 서비스 키가 잘못됨</item>
+        <item>잘못된 서비스 키</item>
+        <item>호스트 서버 등록 시 서비스 설명이 잘못됨</item>
+        <item>잘못된 서비스 설명</item>
+        <item>호스트 서버 등록 시 사용자 지정 데이터가 잘못됨</item>
+        <item>잘못된 사용자 지정 날짜</item>
+        <item>이미 사용자가 호스트 서버에 등록되어 있음</item>
+        <item>이미 등록된 사용자</item>
+        <item>서비스를 찾는 동안 오류가 발생했습니다. 다시 시도하십시오.</item>
+        <item>요청 실패</item>
+        <item>Billing error has occurred. Please contact carrier for more information.</item>
+        <item>Billing error.</item>
+    </string-array>
+    <string-array name="search_list">
+        <item>Google</item>
+        <item>Google 번역</item>
+        <item>위키피디아</item>
+        <item>사전</item>
+    </string-array>
+    <string-array name="share_list">
+        <item>텍스트로 공유</item>
+        <item>이미지로 공유</item>
+    </string-array>
+</resources>

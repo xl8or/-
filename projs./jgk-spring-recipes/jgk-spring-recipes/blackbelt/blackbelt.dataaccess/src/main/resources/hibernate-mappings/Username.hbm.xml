@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.jgk.springrecipes.blackbelt.dataaccess.domain.Username"
+		table="username">
+		<id name="username" type="java.lang.String">
+			<column name="USERNAME" />
+			<generator class="assigned" />
+		</id>
+		<property name="interimName" type="java.lang.String" update="true"
+			insert="true" column="interim_Name" />
+
+		<property name="password" type="java.lang.String" update="true"
+			insert="true" column="password" />
+
+		<property name="passwordExpirationDate" type="java.sql.Date"
+			update="true" insert="true" column="password_Expiration_Date" />
+
+		<property name="passwordReminder" type="java.lang.String"
+			update="true" insert="true" column="password_Reminder" />
+		<property name="passwordStatus" type="java.lang.String"
+			update="true" insert="true" column="password_Status" />
+		<property name="personId" type="java.lang.String" update="true"
+			insert="true" column="person_Id" />
+
+		<property name="userExpirationDate" type="java.sql.Date"
+			update="true" insert="true" column="user_Expiration_Date" />
+		<property name="userType" type="java.lang.String" update="true"
+			insert="true" column="user_Type" />
+	</class>
+
+</hibernate-mapping>

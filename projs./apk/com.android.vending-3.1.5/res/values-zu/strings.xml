@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setup_wizard_market_setup">Faka ikhadi lesikoloto ukuze ukwazi ukuthenga izinhlelo zokusebenza, amabhuku, kanye namamuvi e-Android Market.</string>
+    <string name="tos_locale_replacement" />
+    <string name="billing_countries_loading_failed">Iphutha livelile ngenkathi ixhumana namaseva e-Google. Sicela uzame futhi.</string>
+    <string name="background_data_error">I-Market idinga idatha yasemuva ukuva ivunyelwe.</string>
+    <string name="flagging_title">Hlaba umkhosi njengaleyo engalungile</string>
+    <string name="flagging_description">Tshela i-Market uma uthola lolu hlelo lokusebenza noma lesi sikrini njengesinokuqukethwe okungathandeki.</string>
+    <string name="flag_improper_content_rating">Isilinganiso sokuqukethwe esingalungile</string>
+    <string name="info_market_content_label">Okuqukethwe kwemakethe</string>
+</resources>

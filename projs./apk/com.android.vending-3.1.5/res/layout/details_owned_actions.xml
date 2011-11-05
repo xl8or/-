@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/details_section_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/auto_update_section" android:background="@drawable/highlight_overlay" android:paddingLeft="@dimen/details_left_padding" android:paddingTop="6.0dip" android:paddingRight="@dimen/details_right_padding" android:paddingBottom="6.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip">
+        <CheckBox android:id="@id/auto_update_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        <TextView android:ellipsize="end" android:id="@id/auto_update_checkbox_label" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/info_allow_auto_updates" android:singleLine="true" android:layout_centerVertical="true" style="@style/BaseText" />
+    </LinearLayout>
+    <View android:background="@color/details_panel_separator" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/rate_and_review_section" android:background="@drawable/highlight_overlay" android:paddingLeft="@dimen/details_left_padding" android:paddingRight="@dimen/details_right_padding" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.finsky.layout.AccessibleTextView android:layout_gravity="center_vertical" android:id="@id/my_rating_text" android:focusable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="40.0dip" android:layout_weight="1.0" style="@style/DetailsPage_HeaderText" />
+        <RatingBar android:layout_gravity="center_vertical" android:id="@id/my_rating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:stepSize="1.0" style="@style/FinskyRatingBarMedium" />
+    </LinearLayout>
+</LinearLayout>

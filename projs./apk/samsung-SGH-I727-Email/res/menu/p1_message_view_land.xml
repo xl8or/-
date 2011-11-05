@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/deselect_all_group_land">
+        <item android:id="@id/new_menu" android:title="@string/new_action" />
+        <item android:id="@id/delete" android:title="@string/delete_action" />
+        <item android:id="@id/add_account" android:title="@string/add_account_action" />
+        <item android:id="@id/account_settings" android:title="@string/account_settings_action" />
+        <item android:id="@id/move_to_mailbox" android:title="@string/move_to_mailbox_action" />
+    </group>
+</menu>

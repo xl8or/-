@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.finsky.layout.AccessibleTextView android:textColor="@color/details_panel_pack_header_foreground" android:ellipsize="end" android:gravity="left|center" android:id="@id/header" android:background="@drawable/highlight_overlay" android:paddingLeft="@dimen/details_left_padding" android:paddingRight="@dimen/details_right_padding" android:focusable="true" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip" android:singleLine="true" android:drawableRight="@drawable/more_arrow_large_gray" android:drawablePadding="8.0dip" style="@style/DetailsPage_HeaderText" />
+    <View android:background="@color/details_panel_separator" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+</LinearLayout>

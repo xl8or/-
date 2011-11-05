@@ -1,0 +1,2503 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: EN327vSbgEF2R0seKTcvy9u6flQ=
+
+Name: res/anim/image_select.xml
+SHA1-Digest: 61vHyTrNtNOmMPTA7NbyuJ9Z9CU=
+
+Name: res/drawable/selector_text_color_from000000_toc8c8c8.xml
+SHA1-Digest: A/ILfAbFrFywGBZpLqRunNQtA7c=
+
+Name: res/drawable-hdpi/email_inbox_press.9.png
+SHA1-Digest: +k0oitu7Vkwj9vXje/L6tl1ER/w=
+
+Name: res/drawable-hdpi/attach_audio.png
+SHA1-Digest: LbLK4d15fyoDFD0tGTO+3cSsfQQ=
+
+Name: res/drawable-hdpi/email_icon_delete_press.png
+SHA1-Digest: nOtIgvI/CEYjQ58g/oWXn//N5xI=
+
+Name: res/drawable/p1_message_list_selector_thread.xml
+SHA1-Digest: T3jMbVUyBDPS76zg+0rnyodxCwk=
+
+Name: res/drawable-hdpi/email_title_button_icon_all_email.png
+SHA1-Digest: ooKKoAyqDJNKVRWqLeCG1QZNyKo=
+
+Name: res/layout/p1_move_to_mailbox_popup_main.xml
+SHA1-Digest: Aq4KwaMLqt62dFYFEPRlG8WSlBA=
+
+Name: res/drawable-hdpi/ic_selection_share.png
+SHA1-Digest: cawshoJwuDsHeIMyKvzSCEAyhyU=
+
+Name: res/drawable-hdpi/alarm_day_btn_bg_press.png
+SHA1-Digest: qrRfK853dqtI4Oe9sWqgnjU8iUg=
+
+Name: res/drawable-hdpi/email_icon_priority_low.png
+SHA1-Digest: CnLSdU3ooLMBl5QwkYnvNwyEbrI=
+
+Name: res/layout/message_list_item_large_previewline.xml
+SHA1-Digest: ZskC0BUPQH1T9QDLVrKPFbyllQI=
+
+Name: res/drawable-hdpi/email_icon_folder_send_d.png
+SHA1-Digest: o+gwgFnzE3emvQ7Zj3nIqiGcIdk=
+
+Name: res/drawable/email_icon_reply_btn.xml
+SHA1-Digest: Z7HklMnLaeQ9R2zxpv3SYfB3mNQ=
+
+Name: res/drawable-hdpi/btn_close_normal.png
+SHA1-Digest: sQtrGPoHHfNG0NQjk/NB2tgMANc=
+
+Name: res/drawable-hdpi/list_icon_images.png
+SHA1-Digest: 2sTMiayIxD8wCykZKsTbI3kSkow=
+
+Name: res/xml/modifying_account_settings_preferences_premium.xml
+SHA1-Digest: vcsbwZa5aZcODKZF/jEJcLXJxQQ=
+
+Name: assets/loading.html
+SHA1-Digest: +lwxDHM3hpcF9w/cBPkcaTEQ2q8=
+
+Name: res/drawable-hdpi/email_btn_check_on.png
+SHA1-Digest: hz3J11LvtQ8brwBLLqi4+WtuHoE=
+
+Name: res/drawable-hdpi/popup_spin_left.png
+SHA1-Digest: aVQojHmHqnBBC575t/41NYB0jdU=
+
+Name: res/drawable-hdpi/dark_header.9.png
+SHA1-Digest: 5X63uTQxJLkMatuOOoNwFrgB1A0=
+
+Name: res/drawable-hdpi/email_add_icon.png
+SHA1-Digest: tf+lzJwT8W8xqzRwogcV+sJ+vgM=
+
+Name: res/drawable-hdpi/attach_record_audio.png
+SHA1-Digest: uGDDmBnnD/qCLVUkNRRcT4BzRC8=
+
+Name: res/drawable-hdpi/btn_01_default_normal.9.png
+SHA1-Digest: 0556D2DBqQi/a2GqcxtFc8bsAks=
+
+Name: res/drawable-hdpi/ic_menu_save_as_draft.png
+SHA1-Digest: +dmFW3KZfcX1wRA76rw59yfvhF4=
+
+Name: res/xml/calendar_sync_adapter_gmail.xml
+SHA1-Digest: jhSDt4097lX3K1EpAoVLZqFYpDs=
+
+Name: res/drawable-hdpi/list_icon_favorite_off_p.png
+SHA1-Digest: 7n3UshjNXo09a6ssxO/rGKM/x44=
+
+Name: res/xml/authenticator_alternate.xml
+SHA1-Digest: UFut9ksDrZ12UMHlqm2AboNfbKQ=
+
+Name: res/color/tw_textappearance_listtwolinesecondarygrey.xml
+SHA1-Digest: 2wlsuFSKDt5FppWygmjV+eY3kV0=
+
+Name: res/drawable-hdpi/stat_notify_calendar.png
+SHA1-Digest: YsgVWDMP+WT5RfWpov05a22qPjU=
+
+Name: res/drawable-hdpi/textfield_search_pressed_02.9.png
+SHA1-Digest: qD2RXXspfSU1+k/4kP1HCx94j7g=
+
+Name: res/drawable/btn_arrow_left.xml
+SHA1-Digest: a+nQ7d/frVlkQd2htGAeWyc8ZV4=
+
+Name: res/drawable/p1_text_color_0_from0881d3_toffffff.xml
+SHA1-Digest: hV5X4Hd6hXvYaHPZCwtJFkBWLl8=
+
+Name: res/drawable-hdpi/hub_icon_btn.9.png
+SHA1-Digest: 3RKhwA6rhaJb9gQb5vHFZYg8Uvc=
+
+Name: res/drawable-hdpi/popup_spin_left_p.png
+SHA1-Digest: jwyF1wNhRt7OUstJ0p6NmbGYrtg=
+
+Name: assets/empty_darkgrey.html
+SHA1-Digest: uA9j1mk10l+MscgGudUxb0iWY2c=
+
+Name: res/drawable-hdpi/ic_email_encryption.png
+SHA1-Digest: rYlnkAbz6frx3oTamy7nCFVRPAk=
+
+Name: res/layout/list_separatorinview.xml
+SHA1-Digest: HzX1EkuzxcYoDn/VBw5Nf2pL0FI=
+
+Name: res/drawable-hdpi/btn_circle_disable.png
+SHA1-Digest: fCvscrYtu7tdY4QJZWebVp8tWg4=
+
+Name: res/layout/folder_message_list_group.xml
+SHA1-Digest: c1jw1LUIx/BI9+emI91ZbjprIu8=
+
+Name: res/layout/p1_mail_box_list_allaccount_first.xml
+SHA1-Digest: LZAsXEJbebyc7fhy9qhhJnnXss4=
+
+Name: res/menu/account_folder_list_option.xml
+SHA1-Digest: 0B5WitspQDK/hAhYPkiEyafLiQI=
+
+Name: res/drawable-hdpi/email_btn_default_pressed.9.png
+SHA1-Digest: 0ppMYeT3lars53jz6XvJdRk3HL0=
+
+Name: res/drawable/icon_popup_menu_slider_btn.xml
+SHA1-Digest: jYHVnHPVlrD1WOLCWCNAEXK751w=
+
+Name: res/drawable-hdpi/icon_popup_menu_slider_grip_left.png
+SHA1-Digest: RpxE5k2+WIVCVttvLHC5ZbAn/q0=
+
+Name: res/drawable-hdpi/ic_menu_save_draft.png
+SHA1-Digest: NXsmIWSmbmJkXE6cWYWU/rcGWII=
+
+Name: res/drawable-hdpi/icon_popup_menu_slider_btn_on.9.png
+SHA1-Digest: lxKLG3Z9vSSANb51W2AlPxmh6iY=
+
+Name: res/layout/message_view_invitation.xml
+SHA1-Digest: 9K6iLIPFdONaNjV9lyEAhAUwI5s=
+
+Name: res/drawable/p1_email_icon_btn.xml
+SHA1-Digest: WDAHtPeVM/6vuCToH9VlaQeIV20=
+
+Name: res/drawable-hdpi/ta_im_btn_default_disable.9.png
+SHA1-Digest: ZYMLgkNZce5bD3rsCEKN4IEc4ss=
+
+Name: res/layout/message_list_item_large.xml
+SHA1-Digest: e3IUBZcRNprZRckFqAW8UpmoveI=
+
+Name: res/layout/p1_message_list_delete_item.xml
+SHA1-Digest: wv+/Ybk3NS9hkn2BLZ3JqQIxR/E=
+
+Name: res/layout-land/message_view.xml
+SHA1-Digest: o3PZkfF+FuR5LFdP/zZcKU3Os7Q=
+
+Name: res/layout/auto_discover_setup_exchange.xml
+SHA1-Digest: JBsMR969ixy49cg+T0kquE1Kwxc=
+
+Name: res/layout/debug.xml
+SHA1-Digest: oSPIamQdtvRdk8SVcipaAngj9Mc=
+
+Name: res/layout/policies_list.xml
+SHA1-Digest: NRE74jWhJs8O/bULOY4GS8jPqQY=
+
+Name: res/drawable/email_icon_down_btn.xml
+SHA1-Digest: rpSXzqojY7aj7hgL3qn9PnLy7NQ=
+
+Name: res/drawable-hdpi/hub_title_bg.9.png
+SHA1-Digest: TmqnwVBFTy2aI31nGaJiFfX42/w=
+
+Name: res/drawable-hdpi/email_icon_reply_d.png
+SHA1-Digest: 2ajkdDxklDuOr1zqRcG4vJEuNyc=
+
+Name: res/layout/list_separator.xml
+SHA1-Digest: BfAttW2hOMO5oymvyADii4KV5H8=
+
+Name: res/drawable/p1_email_reply_select.xml
+SHA1-Digest: UzZoTKMnEBJERvyqn/q+3yBdhHg=
+
+Name: res/drawable-hdpi/email_icon_up_d.png
+SHA1-Digest: fr/dfxCzzJSn8SrO81KUycDdXUs=
+
+Name: res/layout/attach_save_button.xml
+SHA1-Digest: pt6IjOgygRIHZ/hB6mdGDZ/yUZk=
+
+Name: res/drawable-hdpi/email_btn_03_focus.9.png
+SHA1-Digest: 8cvePXA2GcuthrkCk1kgpEhT3UQ=
+
+Name: res/layout/account_setup_names.xml
+SHA1-Digest: tUM7YvjSym6JtUDuJgcCW9SVFmM=
+
+Name: res/layout/message_list_item_largest_previewline.xml
+SHA1-Digest: Mq41y82vX5QUBngh1WYhZFy9rhg=
+
+Name: res/drawable-hdpi/list_icon_01_press.png
+SHA1-Digest: /rY2WvC2lwDXmMJzvHbWF3wq758=
+
+Name: res/drawable/p1_text_color_0_from656565_toffffff.xml
+SHA1-Digest: Ft47aRY53i9aEUCbhqCD+1eMsH4=
+
+Name: res/drawable/p1_message_list_selector_thread_white.xml
+SHA1-Digest: IyAuk70PDJtjdwAUEk28LDEOD0s=
+
+Name: res/drawable-hdpi/email_file_bg_01_focused.9.png
+SHA1-Digest: vO2Dzrj9ob+JwARbV7rP75DUZsc=
+
+Name: res/drawable/p1_message_list_btn.xml
+SHA1-Digest: ymxlS08wwMDvhVb8arImQC4Rcls=
+
+Name: res/drawable-hdpi/email_list_color_12.9.png
+SHA1-Digest: izQD6fcVRedZUlAGyvX+VznL29M=
+
+Name: res/drawable/selector_email_inbox.xml
+SHA1-Digest: 0XaUjeINMcyaD23AYprhNdE9+3U=
+
+Name: res/drawable-hdpi/button_indicator_next.png
+SHA1-Digest: gZ1ekdfCAEI2eJ/ZpLBEFxW1J2E=
+
+Name: res/drawable-hdpi/email_title_bg.9.png
+SHA1-Digest: LVLLg7zxv++eBrBdpQiUtmOwRdY=
+
+Name: res/color/tw_textappearance_title.xml
+SHA1-Digest: td1Z+huhyjHpT/iZ5qcu4W3Z5WI=
+
+Name: res/drawable-hdpi/popup_full_bright.9.png
+SHA1-Digest: DFGJyqzw8OGgB1/BW37VWJoGmN0=
+
+Name: res/xml/syncadapter_tasks.xml
+SHA1-Digest: n8T7LUTYH/vI5cpTvFID1ScZl0c=
+
+Name: res/layout/p1_message_list_sub_title.xml
+SHA1-Digest: vr3Y5CHVtCVAOzGKqfZc7mjUi0M=
+
+Name: res/drawable-hdpi/activity_title_bar.9.png
+SHA1-Digest: C5xtW7/TMoxld6ob0AnmJ0Jb+vM=
+
+Name: res/drawable/p1_email_account_manager_btn.xml
+SHA1-Digest: MWzcsQ2lh+QLEpyh6BlFOf55ZvM=
+
+Name: res/drawable-hdpi/email_inbox_line.png
+SHA1-Digest: 0aU2OHTyeOBxGC0ENZsN2xQ+3mc=
+
+Name: res/drawable-hdpi/email_eas_folder_draftbox.png
+SHA1-Digest: VXNPHyWt7CrYY08RYuGlJHcHobs=
+
+Name: res/drawable-hdpi/ic_menu_cc_bcc.png
+SHA1-Digest: AhCpL969WtSO6AYwhqDTnmT0sfo=
+
+Name: res/drawable-hdpi/email_icon_refresh_02.png
+SHA1-Digest: u7QUYAwamksFszvptS5Djfbdfkc=
+
+Name: res/drawable-hdpi/ic_menu_synchronise_view.png
+SHA1-Digest: DxgBq7g0h60jGbsM/3wispGLRuA=
+
+Name: res/drawable/p1_search_dropdown_bg_center.xml
+SHA1-Digest: Adgv7kk8Xi7sV24TDyOEvIfDUhY=
+
+Name: res/drawable-hdpi/btn_star_big_buttonless_dark_off.png
+SHA1-Digest: hMpKtRH30h7+xv1qVyYRYP+fMCY=
+
+Name: res/xml/account_push_settings_sync_schedule.xml
+SHA1-Digest: C3xdF7a/umYId8jXGlUH6q9ST/8=
+
+Name: res/drawable-hdpi/email_eas_folder_inbox.png
+SHA1-Digest: u/NyIcgR0HW5gMLiBVIy7Q+N+MA=
+
+Name: res/drawable-hdpi/icon_popup_menu_drop_shadow.9.png
+SHA1-Digest: SMMdmxTZtblXkTBgMc7qNu7ikP0=
+
+Name: res/drawable-hdpi/email_address_bg_focus.9.png
+SHA1-Digest: VtpQupVJymUun+jjc6qDc9lobY4=
+
+Name: res/layout/message_compose_attachment_summary.xml
+SHA1-Digest: jKk4QNfKZ37xju7XbZBrW4Qf4qc=
+
+Name: res/layout/p1_composer_account_popup_main.xml
+SHA1-Digest: uzK29BwXt3C/nM3iflhCXSC7xA8=
+
+Name: res/drawable-hdpi/icon_question_normal.png
+SHA1-Digest: zW2h0+TNa9hoyISuzBV2+wZ/N2M=
+
+Name: res/drawable-hdpi/btn_maybe_pressed.png
+SHA1-Digest: wzbdsPz/JN4vcHpphN+5o0qpOP8=
+
+Name: res/layout/mailbox_list_item.xml
+SHA1-Digest: Pa93TCPBmyV19DZoIpn9KP7CdXc=
+
+Name: res/drawable/email_icon_new_btn.xml
+SHA1-Digest: bgSu4vDEEiHaCyWUl/W0Qp55tK0=
+
+Name: res/layout/account_folder_list.xml
+SHA1-Digest: nR4QL0sLkIV+cg8/ApQWm1ol0qA=
+
+Name: res/anim/footer_appear.xml
+SHA1-Digest: Hdoq00jll8sdTI/cHAg1g9+hvt0=
+
+Name: res/drawable/email_icon_favorite_off_btn.xml
+SHA1-Digest: 8gb1BvrLC8b+uHxnObR6UVxFxLs=
+
+Name: res/layout/message_list_item_empty_footer.xml
+SHA1-Digest: u2N1E7szeA0zgKVXh2IClNroeKQ=
+
+Name: res/drawable-hdpi/email_eas_folder.png
+SHA1-Digest: +Qrt9NvyAyaN1ZCAewLqRjf3dZM=
+
+Name: res/drawable/p1_text_color_from000000_toffffff.xml
+SHA1-Digest: 9v4CfsfePw+jJLW8E9QMzADjoc0=
+
+Name: res/drawable-hdpi/email_tab_btn_left.9.png
+SHA1-Digest: WGMTB2uCVUQaseHMmjAtyq+AgeA=
+
+Name: res/drawable-hdpi/email_eas_folder_sentbox.png
+SHA1-Digest: yY46tuNbNglrRYfVQl7nMUEMNc8=
+
+Name: res/layout/policy_list.xml
+SHA1-Digest: fVtD3qIY9AvcsOEqCZvcQfPDTVc=
+
+Name: res/drawable-hdpi/btn_check_off.png
+SHA1-Digest: majc9PQhvpybHMfXevZqCfv1gLw=
+
+Name: res/drawable-hdpi/btn_close_selected.png
+SHA1-Digest: N17mQAi+WHhIN88xvj7fTNTBMMw=
+
+Name: res/drawable-hdpi/email_list_color_15.9.png
+SHA1-Digest: o32fc6MJjdSWKNrNJ8PJ6ZNTf5c=
+
+Name: res/layout/device_admin_add.xml
+SHA1-Digest: oLiH7oJ5XOdNKWu9cN+2G0Ph8I0=
+
+Name: res/drawable-hdpi/email_inbox_focus_top.png
+SHA1-Digest: vb1HSDtCW1jK11jGP5i+ZUL9y8A=
+
+Name: res/layout/list_title.xml
+SHA1-Digest: fBopIO3jfG3Fa9sX1yLGki/Zfos=
+
+Name: res/layout/save_all_button.xml
+SHA1-Digest: +DJ8q1VRcBOuQjDAdT5U+eaFZog=
+
+Name: res/drawable/btn_close.xml
+SHA1-Digest: ssPmk1w9HzI9uHsVqA9cAx+m2n4=
+
+Name: res/drawable-hdpi/email_icon_down_d.png
+SHA1-Digest: +b1ehNVL8XYHNm826OqiLmEToDU=
+
+Name: res/menu/message_list_context.xml
+SHA1-Digest: O2WoxnF8Sj2f/ZZKJD3IDfP+0Ok=
+
+Name: res/drawable-hdpi/one_pixel_border_pressed.9.png
+SHA1-Digest: tIaw6qhrUBmlzcXjkCYoRFKJq6A=
+
+Name: res/drawable-hdpi/search.png
+SHA1-Digest: n4KeJIWfVWVVSnNNssNvHahio60=
+
+Name: res/drawable/search_list_bg.xml
+SHA1-Digest: KhGavHFVHZZeKsJ/jNBsdPDjI0c=
+
+Name: res/drawable-hdpi/email_inbox_line_center.9.png
+SHA1-Digest: qSAA1ypM1pcwJAs5vrEEQdCrI+0=
+
+Name: res/drawable-hdpi/ic_btn_arrow_left_focus.png
+SHA1-Digest: fjty7hIMKuNQ8J2bXWzpMfiASjs=
+
+Name: res/drawable/folder_message_list_child_background.xml
+SHA1-Digest: v3k2svVQ6h/Gf/5qKcyJoxRrDrg=
+
+Name: res/drawable/btn_shrink.xml
+SHA1-Digest: GXE/MP1X5a+p82EJPgzDjnkMyd8=
+
+Name: res/drawable-hdpi/email_btn_03_press.9.png
+SHA1-Digest: KlG47w3Op+ZhaEOWEg+/mvu8ESM=
+
+Name: res/color/woodtab_indicator_text.xml
+SHA1-Digest: 7bAehsMRzyX8UOsWrCMmScJa5fs=
+
+Name: res/layout/p1_mail_box_list_first.xml
+SHA1-Digest: 4KWPNvDMbkJMO9P+KQqMmrlelzo=
+
+Name: res/drawable-hdpi/icon_next.png
+SHA1-Digest: DNxxFxaU07OWsrT6dXUkOc67S4I=
+
+Name: res/drawable-hdpi/btn_default_selected.9.png
+SHA1-Digest: wRiObx2V3Y86N9rlduiOEPYY9DA=
+
+Name: res/drawable-hdpi/email_btn_default_disable.9.png
+SHA1-Digest: //M5DwGfW7Hs4z8idrAMuJnQwwA=
+
+Name: res/drawable-hdpi/receiving.png
+SHA1-Digest: hqZ2sq86USd2i225W5ujDVl8EXA=
+
+Name: res/drawable-hdpi/icon_popup_menu_arrow_down.png
+SHA1-Digest: lChxZqpYVRkRuKUKvF7UxvtqvLo=
+
+Name: res/drawable-hdpi/split_point.png
+SHA1-Digest: uKGqY3653DO2Z9V7Bnf9X+n3S+Q=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_5.9.png
+SHA1-Digest: sxWg7MSpv5R8dWAKz1YWj+EFwn4=
+
+Name: res/layout/p1_multi_move_to_mailbox_popup_main.xml
+SHA1-Digest: jLRrsxWEVuxEs+/aW7OEwWDbdXE=
+
+Name: res/layout/folder_message_list_child.xml
+SHA1-Digest: MveaJ4IlQEEC+4W1XpGV9wYVOrA=
+
+Name: res/drawable/p1_message_view_attachment_save.xml
+SHA1-Digest: TI8uvknIsQgjpfPLt/vHC5xek8o=
+
+Name: res/drawable-hdpi/email_drop_folder_indepth.png
+SHA1-Digest: fXkvDXKBgQR3y1hBc0bQAR+hCIo=
+
+Name: res/layout/p1_account_menu_item1.xml
+SHA1-Digest: B0EeIe9IrRfsJMBSDmQiSmj2UMk=
+
+Name: res/drawable-hdpi/email_img_nodata.png
+SHA1-Digest: /PY/nLzNfbRlX+7vHXM6xzqs6Bg=
+
+Name: res/drawable-hdpi/list_icon_expandable_up.png
+SHA1-Digest: KxowgIm8wZ6LnmBsydiaRmWlZuE=
+
+Name: res/drawable-hdpi/attach_namecard.png
+SHA1-Digest: VyRkPTA+kWfz2RBgR06C7aP5HlA=
+
+Name: res/drawable-hdpi/icon_question_press.png
+SHA1-Digest: NlWpyyCGNph5gSfBhXoNoKG0sEI=
+
+Name: res/drawable/message_composer_attachment_delete_btn_bg.xml
+SHA1-Digest: 7E4DccaR3LaekkitT30eNCo69+c=
+
+Name: res/color/tw_textappearance_softkey.xml
+SHA1-Digest: UpviwYDR8dBMu5f8BCYJmsEKPwQ=
+
+Name: res/anim/push_right_out.xml
+SHA1-Digest: i7p2sOJkMkNS5C2IH+SPsAbH8+o=
+
+Name: res/layout/policy_list_admin_description.xml
+SHA1-Digest: HdBjF5524p7T0Kt9OjLtkVssFNI=
+
+Name: res/drawable-hdpi/email_bg_02.9.png
+SHA1-Digest: l/y2+4rT4OTA4CGgPv410HetyjI=
+
+Name: res/drawable-hdpi/list_icon_flag.png
+SHA1-Digest: hP10z5QWr0+fMFOO+awFgv10RZI=
+
+Name: res/drawable/p1_email_search_delete_select.xml
+SHA1-Digest: kmdIWfcqs4Bg/JCzPE6SMUo1w0E=
+
+Name: res/drawable/p1_text_color_0_from000000_toffffff.xml
+SHA1-Digest: mtlIASCgEDCmf2S6T7CkiLNX2ZA=
+
+Name: res/drawable-hdpi/list_icon_xls.png
+SHA1-Digest: XJ87R2ZHFGA5ZpdThV4h/RLOWTU=
+
+Name: assets/loading.gif
+SHA1-Digest: rE5u7fb8gUMGRWiOUDE6emgQEo0=
+
+Name: res/layout/account_setup_options.xml
+SHA1-Digest: DSeHPcn4SoOT7chxtN66cW60Al8=
+
+Name: res/drawable/account_email_address_text_color.xml
+SHA1-Digest: ecBCqF1MQlRL32YMA0dJ23k5MJw=
+
+Name: res/drawable-hdpi/email_list_color_18.9.png
+SHA1-Digest: 1XN4DD24OgpgeaDDVE0QPIGv/MA=
+
+Name: res/layout/p1_message_view_popup.xml
+SHA1-Digest: fK0jtFSCZCAjcxi7znG5pVIsksA=
+
+Name: res/drawable-hdpi/btn_circle_selected.png
+SHA1-Digest: roXihaD0uyIPBAw2iWhXO/n08SA=
+
+Name: res/drawable-hdpi/btn_toggle_arrow_up_pressed.png
+SHA1-Digest: Vb62dykZez9LyksXMoD8Qgkiaxc=
+
+Name: res/xml/account_authenticator_msn.xml
+SHA1-Digest: 4Mq6ULZZuMowoIO2+A1xeDcipMM=
+
+Name: res/menu/mailbox_list_option.xml
+SHA1-Digest: eAa1ylxy29T7piDLrEbWjSETMD8=
+
+Name: res/drawable-hdpi/bg_arrow_unselected.9.png
+SHA1-Digest: Us84szwugv4iPSyTvx0i7JOF2pE=
+
+Name: res/drawable-hdpi/one_pixel_border.9.png
+SHA1-Digest: +OYnM8yXU5zPWEIxfVYmQb0PklY=
+
+Name: res/menu/debug_option.xml
+SHA1-Digest: plQn2Qk6o/KOJH53U1OE+bZkIfk=
+
+Name: res/drawable-hdpi/btn_yes_off.png
+SHA1-Digest: B3VVLZDDGTbxMjekeCXUK5lE18M=
+
+Name: res/drawable-hdpi/winset_list_press_bg.9.png
+SHA1-Digest: 5hSatGZbDCTecFJ1DiBiI4foXVg=
+
+Name: res/color/tw_textappearance_edittitle.xml
+SHA1-Digest: mPKcaUApj1lY3tl9LUeGyMJysIM=
+
+Name: res/layout/app_permission_item.xml
+SHA1-Digest: nEGyCmrJkYFhmk5L275Y8fiCobc=
+
+Name: res/layout/account_setup_check_settings.xml
+SHA1-Digest: au7qRjqBkJKt8cXeY1HI9OzcYXM=
+
+Name: res/xml/searchable.xml
+SHA1-Digest: NMVfSU6/g/ygSHZWvqzU7Kl5G98=
+
+Name: res/menu/account_folder_list_smart_folder_context.xml
+SHA1-Digest: ZOra/I49s1GTGkoB1zi6D6Z2bhs=
+
+Name: res/drawable-hdpi/list_selector_background_focus.9.png
+SHA1-Digest: yRH892rkvl3HekuodNVsbOQZCXU=
+
+Name: res/drawable/message_composer_attachment_delete_btn.xml
+SHA1-Digest: /FECBbvPX/WWznh/ZdvJqTujRiE=
+
+Name: res/drawable-hdpi/hub_tab_btn_left.9.png
+SHA1-Digest: 4vGh3O1SF4lSqcrJeep4sFUx+v8=
+
+Name: res/drawable-hdpi/ic_menu_preview.png
+SHA1-Digest: tz71S3gjjOoKGXn8cbICSXIVnAc=
+
+Name: res/layout/account_setup_other_protocol.xml
+SHA1-Digest: Z93iQvGaVJup3USyMuH9IZFUeH0=
+
+Name: res/anim/text_up_in.xml
+SHA1-Digest: 8CuqcpmHqKajXOqHONKtACJFXG0=
+
+Name: res/drawable-hdpi/email_icon_zoomin.png
+SHA1-Digest: 81KpTPJZUEWY3nbBSu7HKhk7ULA=
+
+Name: res/layout/simple_spinner_dropdown_item.xml
+SHA1-Digest: xp49vkMtKGJIKkyPQ/UBpQZHHKY=
+
+Name: res/drawable-hdpi/ic_mms_attachment_small.png
+SHA1-Digest: qdCVJV646ZuR1QzRrQrmOdMo0Lo=
+
+Name: res/anim/footer_disappear.xml
+SHA1-Digest: t3+hQe4Kf2H75qtDlApx9SAPMcI=
+
+Name: res/menu/message_list_context_drafts.xml
+SHA1-Digest: KpBG7twVeM5JHeGy6VLu4soINPM=
+
+Name: res/drawable-hdpi/email_list_color_07.9.png
+SHA1-Digest: POfUG/FIRqlh45ndCWp0EqaRVFk=
+
+Name: res/drawable-hdpi/ic_exchange_minitab_selected.png
+SHA1-Digest: gigv0+1LdzNB0l4Ussp6Tq3Jry0=
+
+Name: res/layout/prov_error.xml
+SHA1-Digest: FbmZ1SzGsw+mUP7BfERMG5QiIzU=
+
+Name: res/drawable/contact_popup_move_left.xml
+SHA1-Digest: ptE68AT7LIvOWq2kZTsdKhU8KpA=
+
+Name: res/layout/account_setup_select_service.xml
+SHA1-Digest: xRoQsOvZ4xEng9hX4JIV0NMgb5g=
+
+Name: res/drawable-hdpi/ic_btn_round_more02_normal.png
+SHA1-Digest: omYHrN2t/GtaxIGwBb8snAtlsZM=
+
+Name: res/drawable/p1_email_btn_red_select.xml
+SHA1-Digest: R+EdzgX6WD7wyHgb9kkxKULGYcA=
+
+Name: res/drawable-hdpi/email_softkey_bg.png
+SHA1-Digest: HHcr6HWztf0ORK+t8+4v7SUeuTU=
+
+Name: res/layout/message_list_item_small_previewline.xml
+SHA1-Digest: WEvto2Ag+HK3F1YZpCLw59yv+wc=
+
+Name: res/drawable-hdpi/email_address_bg_press.9.png
+SHA1-Digest: 5vUxGUMFAgXPnDsiPtjL1DdfCYI=
+
+Name: res/drawable-hdpi/email_list_color_19.9.png
+SHA1-Digest: t9eyxxluDDHaaUmIfiaqlV+Es8E=
+
+Name: res/drawable/email_icon_trash_btn.xml
+SHA1-Digest: AuTQdeeSbvkjkz7AunDoTsUlxnc=
+
+Name: res/drawable-hdpi/icon_popup_menu_slider_grip_right.png
+SHA1-Digest: Sg5Y/FC4ExIg+ZUFOtpOgnWakrk=
+
+Name: res/layout/location_map.xml
+SHA1-Digest: ebaqqE79SZmB/MCBm4LZ2EamRNE=
+
+Name: res/drawable-hdpi/insync.png
+SHA1-Digest: SUP2JhFruMhtVtQBGuyqD6o9r/E=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_11.9.png
+SHA1-Digest: YAelP1/E7WRnDqxWc/peKytooBY=
+
+Name: res/drawable-hdpi/email_address_bg.9.png
+SHA1-Digest: qwriVhg1I4x4ecw37gtPBwv2Cws=
+
+Name: res/menu/p1_message_list_option.xml
+SHA1-Digest: U3dY8rsV2spJ3v9BsWqWpBc+JcA=
+
+Name: res/drawable-hdpi/list_icon_01.png
+SHA1-Digest: mx5A84Wto+VXo/6xp3FuzSTEhag=
+
+Name: res/drawable-hdpi/email_icon_05.png
+SHA1-Digest: d6S+wUlW6L65F2CDdvjRZYY/IhY=
+
+Name: res/drawable-hdpi/email_list_color_20.9.png
+SHA1-Digest: ixN3AYpgB1YuSGzVbc+niSFT7QU=
+
+Name: res/layout/icon_popup_menu_item.xml
+SHA1-Digest: ED785b6oQ3zpHCt5a534YemgHB8=
+
+Name: res/drawable-hdpi/email_list_color_05.9.png
+SHA1-Digest: Tyo4H0dVCdH53ssLa3e4SIE9pPw=
+
+Name: res/drawable-hdpi/email_btn_default_selected.9.png
+SHA1-Digest: CaxskHB9ZAQnw8q8+tj+DLpPTAw=
+
+Name: res/anim/push_up_in.xml
+SHA1-Digest: zscZTmCs94gPaUZ3htQaV8NaZ0Q=
+
+Name: res/xml/senders.xml
+SHA1-Digest: DOYjcpzkGIspf93+6e+HjuHmWUY=
+
+Name: res/drawable/btn_invite_yes.xml
+SHA1-Digest: 6ojfK8vcE+Qp5Q+rfjVJpevgNa8=
+
+Name: res/drawable/icon_question.xml
+SHA1-Digest: EDYl8I+Ln9LuIaxIsHicPJDNddQ=
+
+Name: res/layout/upgrade_accounts_item.xml
+SHA1-Digest: q84LOBIPVvfNX6B0hNL++dYCF0g=
+
+Name: res/drawable-hdpi/attach_video.png
+SHA1-Digest: OiwRd/XrujXgwLBtmAV/8Jlh2ts=
+
+Name: res/menu/certificate_list_menu.xml
+SHA1-Digest: 4Iz5vzpi4bHtutIs1ydGN3OA7mE=
+
+Name: res/drawable-hdpi/ic_menu_compose.png
+SHA1-Digest: jsyCx+YsBHqQHRyGxJSXS9OfwGM=
+
+Name: res/xml/contacts_sync_adapter_yahoo.xml
+SHA1-Digest: 53OvR2RJbuF8c9PsE/zSfuTJ27U=
+
+Name: res/layout/message_view.xml
+SHA1-Digest: Az54ehgPGg4PZvNYCPDWu/YsZNc=
+
+Name: res/drawable/p1_mail_box_list_layou_bg_body.xml
+SHA1-Digest: QFPth74ZwkxTBcw7/DoY0KCykOs=
+
+Name: res/drawable-hdpi/quickcontact_presence_bg.png
+SHA1-Digest: ink/AOPYXZoqM5diwNicqRtM9jY=
+
+Name: res/layout/single_edit_line_dialog.xml
+SHA1-Digest: zr1Q2qR0vKzNwLy1BTAYDzRen+Q=
+
+Name: res/drawable-hdpi/btn_no_off.png
+SHA1-Digest: vhG4C3REVXGSF+OanFWAkNcUqh0=
+
+Name: res/menu/message_list_option.xml
+SHA1-Digest: d9ioDcc2TaTTONEbAkjrSSlOHzI=
+
+Name: res/drawable-hdpi/email_icon_zoomin_press.png
+SHA1-Digest: f58a/98mkimx7yDBCmOTx0JXWQM=
+
+Name: res/drawable/selector_email_all_account_box.xml
+SHA1-Digest: DFoMAdPMfcq/1YcWKh4miRBq4yw=
+
+Name: res/layout/p1_account_menu_item2.xml
+SHA1-Digest: uSSxpHicVgt3CH0sj0FnJbx/Ckg=
+
+Name: res/drawable-hdpi/ic_list_starred.png
+SHA1-Digest: zN4wXrqUM9M67BYW5twUusCHZ6Y=
+
+Name: res/drawable/p1_message_view_attachment_bg.xml
+SHA1-Digest: uYjbohTMxN9wvfcIaz6fG8fSrDE=
+
+Name: res/drawable/p1_split_line_02_selector.xml
+SHA1-Digest: vWbQbUdTLFmx+iFXfQyVDq4HYN8=
+
+Name: res/drawable-hdpi/email_today_bg_focused.9.png
+SHA1-Digest: 0sTSq553/b7VO3SH2uC9DMLprIo=
+
+Name: res/drawable-hdpi/email_eas_folder_trash.png
+SHA1-Digest: IThyHn2Ir2dTDOxBlPelEmNUZcY=
+
+Name: res/drawable-hdpi/btn_maybe_off.png
+SHA1-Digest: in5LZlsSd7EV6XL+IzhVbo9dKH4=
+
+Name: res/drawable-hdpi/hub_tab_btn_left_press.9.png
+SHA1-Digest: cuWSfvFkDWt/IafyOZJdJpu3lGk=
+
+Name: res/layout/account_setup_incoming.xml
+SHA1-Digest: HmyvZUOYCR8WN1oSFijytd84Lr0=
+
+Name: res/layout/accounts.xml
+SHA1-Digest: K3EB1qdGOXIdUUAWdOqjsyTFFLo=
+
+Name: res/drawable-hdpi/email_add_icon_press.png
+SHA1-Digest: XDGHNKdpVVvhvqHvU0m9tdXbhzU=
+
+Name: res/drawable-hdpi/email_add_button.png
+SHA1-Digest: IjwaoCaQKnTElCCLFQRML7hNDWY=
+
+Name: res/drawable/focus_selector_add_to_calendar.xml
+SHA1-Digest: j/IqWU9rXiK4nm/IQ6Zr+mB1x8Y=
+
+Name: res/drawable-hdpi/list_icon_01_focus.png
+SHA1-Digest: S5DebgmeFDkF+20RcWkpVBx0K4E=
+
+Name: res/drawable-hdpi/email_drop_folder_trash.png
+SHA1-Digest: bW0efdwer8yfeq5sUeJh4MR6Awk=
+
+Name: res/drawable-hdpi/account_and_sync_yahoo.png
+SHA1-Digest: 74D9K/i2Vj+ngQFEplD8BgFsAtI=
+
+Name: res/drawable-hdpi/ic_menu_print.png
+SHA1-Digest: fSx+VI4ZojY8WJ0v/f15uLIf4Kw=
+
+Name: res/layout/message_list_item_medium_previewline.xml
+SHA1-Digest: onQnMgacUnaMCakeiE3pUBaChJ4=
+
+Name: res/layout/message_list_item_footer.xml
+SHA1-Digest: YVDWqSQYthhn/tckToWocqhSrgA=
+
+Name: res/xml/contacts_sync_adapter_msn.xml
+SHA1-Digest: Uo3LgL5ZvIVNrKk090ZdXzjev/k=
+
+Name: res/drawable-hdpi/light_header.9.png
+SHA1-Digest: ho0I5AMe41BWXkPRert+BiNLbHw=
+
+Name: res/xml/calendar_sync_adapter_yahoo.xml
+SHA1-Digest: 99fciU+wdBBTwir+97v6vVNyccw=
+
+Name: res/drawable-hdpi/hub_tab_btn_middle_press.9.png
+SHA1-Digest: uPY1nzb52vZQY+Tb43v88v9OvbM=
+
+Name: res/anim/attachment_disappear.xml
+SHA1-Digest: zSwwYYL0EYBmTBBU46C45/N0B98=
+
+Name: res/layout/day_of_the_week_widget.xml
+SHA1-Digest: Z/8GKyQNv5aQqofG0s144EfCVkw=
+
+Name: res/drawable-hdpi/presence_inactive.png
+SHA1-Digest: 1D1Wus2fj0ej/36hQ4wwfZE2Ejs=
+
+Name: res/drawable-hdpi/notpushing.png
+SHA1-Digest: /bXro7bpfz5Fi0kKY2bqyUZa6UI=
+
+Name: res/drawable-hdpi/bg_color_4.png
+SHA1-Digest: 2eXV7r0U1wHilZucOXC76UQ8ef0=
+
+Name: res/drawable-hdpi/hub_tab_btn_left_focus.9.png
+SHA1-Digest: xbjd+imexgguWOaHEzXNeQXAZMk=
+
+Name: res/drawable/email_messagelist_sub_title.xml
+SHA1-Digest: U59H30kVikStasVBcdRK2g7CAqE=
+
+Name: res/drawable-hdpi/hub_tab_btn_right_focus.9.png
+SHA1-Digest: J8ThyAdT3md8t9JN4m4oBxP/WyM=
+
+Name: res/drawable-hdpi/ic_menu_security_options.png
+SHA1-Digest: YwPXOZjNLrwNVFO5/2KYQhzPRrM=
+
+Name: res/xml/calendar_sync_adapter_work.xml
+SHA1-Digest: xgjFLYrJg13H16zLW/rtI9ZuRrY=
+
+Name: res/menu/mailbox_list_context.xml
+SHA1-Digest: t7ojLiEHcAmPgmLBrY03Osl7Hr0=
+
+Name: res/drawable-hdpi/list_icon_reply.png
+SHA1-Digest: z2rNgvryoOErG/CJb+KaeDzSU8I=
+
+Name: res/drawable-hdpi/email_list_color_09.9.png
+SHA1-Digest: WksEpadmg/IrNKUeTbWHI3TsqIs=
+
+Name: res/layout/message_compose_preview_attachment.xml
+SHA1-Digest: u8sKN8rHnTQ18Uj5ub+1I67OEk0=
+
+Name: res/layout/p1_search_dropdown_menu.xml
+SHA1-Digest: G5SDDPCNq793t/nOREqS8geXbE0=
+
+Name: res/layout/exchange_legal_info.xml
+SHA1-Digest: wYqCcYyqHo5qK0d+2ytGqkXTDgE=
+
+Name: res/drawable-hdpi/email_split.png
+SHA1-Digest: wGBdoFprId2lpyg4VWlLZaxzSvE=
+
+Name: res/layout-land/p1_message_list_full.xml
+SHA1-Digest: t9d74XfkWXh4OmvMYFD79DapGcI=
+
+Name: res/drawable-hdpi/list_icon_txt.png
+SHA1-Digest: KPp0G48SbzBY7MuXhPBsSdzIMiY=
+
+Name: res/drawable/attachment_field_background.xml
+SHA1-Digest: 2hLg6tIVLbuz2eC/5SigWy7rRnI=
+
+Name: res/layout-land/p1_message_list.xml
+SHA1-Digest: boIF/e/Ehzw15iI0+EJUk03/fJE=
+
+Name: res/drawable/message_composer_attachment_file_bg.xml
+SHA1-Digest: C09LYS/OP5KwKPfMmU5D7OLT57g=
+
+Name: res/drawable/btn_arrow_expandable_down.xml
+SHA1-Digest: 4VXzGVAwi0XCVYEeykREOdhNqIs=
+
+Name: res/drawable-hdpi/list_icon_attach.png
+SHA1-Digest: vis8I3CQyBFgchBwWuwMkxXQKFg=
+
+Name: res/drawable-hdpi/email_write_icon_02.png
+SHA1-Digest: Jrina6WjcQ72BlgnrkQJoXLKjbA=
+
+Name: res/drawable-hdpi/stat_notify_email_generic.png
+SHA1-Digest: KcG3eQ65XKi9n2LIHec36aF9tBQ=
+
+Name: res/layout/p1_message_view_attachment.xml
+SHA1-Digest: k/7v4KD9IqqgLZjMEF3Q3ln3VZY=
+
+Name: res/drawable-hdpi/ic_menu_attachment.png
+SHA1-Digest: 54VF+iCr4jJgm8BMglmhhZunabI=
+
+Name: res/layout/p1_message_compose.xml
+SHA1-Digest: ikZcc9YepnsU6+9n4dpKewK/r50=
+
+Name: res/drawable-hdpi/list_icon_jungeum_global.png
+SHA1-Digest: 9dSeEarJoTUic1dMYHjGGG3THB4=
+
+Name: res/drawable-hdpi/email_icon_forward_last_verb.png
+SHA1-Digest: X7bofYeDlYRykG3ksEKNbqc7yR4=
+
+Name: res/drawable-hdpi/email_list_icon_other.png
+SHA1-Digest: ROQtBIaLg3o9qHfP0LoL159HaiA=
+
+Name: res/layout/upgrade_accounts.xml
+SHA1-Digest: XGWwv1MNQEbISOAhqbWPwxMu0Uk=
+
+Name: res/drawable-hdpi/attach_slideshow.png
+SHA1-Digest: jMiXYiXamFpn/srPOI7ewx4xtUA=
+
+Name: res/drawable-hdpi/textfield_search_default_02.9.png
+SHA1-Digest: dtuHrL85P0ElaJKFVCe6MXj8ywo=
+
+Name: res/drawable/email_icon_folder_btn.xml
+SHA1-Digest: U4P8+T5OPO0rL1tJeLW52CXFQMo=
+
+Name: res/layout/out_of_office_settings.xml
+SHA1-Digest: iZHhmnmOuZOFgxTR8EpnbaENca4=
+
+Name: res/drawable-hdpi/text_box_light.9.png
+SHA1-Digest: STK3Ad8vXHwSVjF/OHYSofvlY3I=
+
+Name: res/drawable/expander_ic_folder.xml
+SHA1-Digest: mzDLQ+fcnR50U/qHudVFLI+MejI=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_8.9.png
+SHA1-Digest: noKSVhGojh4l7UZpPtH/GLhjAKc=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_10.9.png
+SHA1-Digest: QcXRaDEuxgKREj+/zpaskBGf2u4=
+
+Name: res/drawable-hdpi/backcolor_basic.png
+SHA1-Digest: AnDjccMsoAHP/7okWbGHznSkvVY=
+
+Name: res/drawable-hdpi/email_inbox_focused.9.png
+SHA1-Digest: 3r0lt0fYoXde87IP8mk7GjOrfOI=
+
+Name: res/drawable-hdpi/email_btn_red.9.png
+SHA1-Digest: wAzYkLPaCeh27MnCWCnRngumGUg=
+
+Name: res/drawable-hdpi/ic_btn_round_more02_disable.png
+SHA1-Digest: QbndyEgWkyG7680livk9Fl7GfAY=
+
+Name: res/drawable-hdpi/list_icon_favorite.png
+SHA1-Digest: yIFX+Hs2whnXXIBC8vXJlMY0aKM=
+
+Name: res/drawable/p1_email_icon_delete_select.xml
+SHA1-Digest: f0h55MDG0BsVYH+YKRIJXHzPmME=
+
+Name: res/drawable-hdpi/email_bg_04.9.png
+SHA1-Digest: S70+Q5bRKEFyAgkujc0MCf04zOE=
+
+Name: res/drawable-hdpi/ta_im_btn_default_normal.9.png
+SHA1-Digest: KJNmdlS5pT6HpIwhy/NZKwO5Zls=
+
+Name: res/layout/message_list_item_footer_null.xml
+SHA1-Digest: kDEAMkNG8umxI2zKDaTcKp5v5R0=
+
+Name: res/drawable/btn_invite_maybe.xml
+SHA1-Digest: RzlHwCUv2FiUmNWZsInBvjJxiH4=
+
+Name: res/drawable-hdpi/ic_list_folder.png
+SHA1-Digest: cOL/XWEToTKpMVhUjr1NF9XKVVY=
+
+Name: res/drawable-hdpi/list_icon_sms.png
+SHA1-Digest: ePOJu7pBHHDnxUh9sI1j9A5iBm0=
+
+Name: res/drawable-hdpi/btn_minus.png
+SHA1-Digest: aHWKfbJ7DHzveCXVNM26Qirn0ZU=
+
+Name: res/drawable/message_compose_to_me_btn.xml
+SHA1-Digest: lyy4Wcjep0W+AneaKFCUzHXCCdQ=
+
+Name: res/layout/p1_mail_box_list_tail.xml
+SHA1-Digest: EDd5yPQ5YZguy29f0nyq5xY7wNg=
+
+Name: res/drawable-hdpi/email_inbox_press_01.9.png
+SHA1-Digest: rlcF1HBqcs4NdS4KFSUez4zZNQA=
+
+Name: res/drawable-hdpi/email_icon_list.png
+SHA1-Digest: +ElmeXETeJOrscKBFt6db1V4TIM=
+
+Name: res/drawable/p1_message_view_attachment_icon.xml
+SHA1-Digest: E+qCs41n/HA5etziTO7x8wrLyDY=
+
+Name: res/anim/messagelist_title_disappear.xml
+SHA1-Digest: z/WJxwCcm9WLidWx9AJHcbptIeU=
+
+Name: res/drawable-hdpi/ic_menu_brightness.png
+SHA1-Digest: klnHBGiUF0CBrROq2GrP6wUmec4=
+
+Name: res/drawable/p1_text_color_from006eaa_toffffff.xml
+SHA1-Digest: 61W/c/ULUDscyASvBRA+gDcqZy0=
+
+Name: res/drawable-hdpi/list_icon_03_press.png
+SHA1-Digest: 792YRqyBNe5t5WlXCOEhN6qGBKc=
+
+Name: res/drawable/message_list_item_background_unread.xml
+SHA1-Digest: CMyDwbwoR+rzHR7VcmbaWIj46GA=
+
+Name: res/layout/p1_account_menu_after_delete.xml
+SHA1-Digest: nbBe11SwsBNmVUEAstFQRthC9hI=
+
+Name: res/drawable-hdpi/email_tab_arrow_01.png
+SHA1-Digest: 36C85LA2DM5xxzi7VMtXRV2vpBQ=
+
+Name: res/drawable/p1_email_icon_zoomin.xml
+SHA1-Digest: G8Nn1E7RnJTlOjBmGmSB0p+iHqc=
+
+Name: res/drawable-hdpi/ic_menu_move_to_my_folders.png
+SHA1-Digest: N/AoOgeZpu3qk5jP+ST+/WG81lo=
+
+Name: res/drawable/ta_im_btn_softkey_textcolor_selector.xml
+SHA1-Digest: ifhtUT9zTNLRK+2o7FBu9hGdWeg=
+
+Name: res/drawable-hdpi/list_icon_expandable_down_p.png
+SHA1-Digest: h3ngDkzdeYBGFcBNohRXZmvmUSI=
+
+Name: res/drawable-hdpi/email_softkeyview_bg.9.png
+SHA1-Digest: 7jk61d8WHUyp1jh4YkSY1cmPouY=
+
+Name: res/layout/message_view_attachment.xml
+SHA1-Digest: 29MxD/CC9d2iu5+Ln1u+ncgc/vc=
+
+Name: res/drawable/p1_split_opener_selector.xml
+SHA1-Digest: KNIzUYGH+DJ1d1BMrekghmjr+os=
+
+Name: res/anim/header_appear.xml
+SHA1-Digest: Dglq+4mX2HvOXyKn7AhSJTDyN4I=
+
+Name: res/xml/contacts_sync_adapter_gmail.xml
+SHA1-Digest: 8GBnitTMqFkANMgbFePjiSJJ+gQ=
+
+Name: res/layout/dayoftheweek.xml
+SHA1-Digest: GLs9nErDgQGwcesYgxXM9jBCNQs=
+
+Name: res/drawable/p1_email_icon_zoomout.xml
+SHA1-Digest: ysBgb0g5pnVd+KQRwG1Ispo2KCg=
+
+Name: res/drawable-hdpi/list_icon_doc.png
+SHA1-Digest: fB32/DB9DYznlFn9rm5MRs7lZQ8=
+
+Name: res/drawable-hdpi/email_box.9.png
+SHA1-Digest: MHSR8c9rC7Zdh+vhT3n/tg4ReW8=
+
+Name: res/drawable-hdpi/email_list_color_17.9.png
+SHA1-Digest: D7YbHcx+16JpdOYds5JMfAx7hlQ=
+
+Name: res/layout/account_setup_outgoing.xml
+SHA1-Digest: VjVWx/fkRdfJ9QfSprm9mevUwM4=
+
+Name: res/drawable/btn_minus_src.xml
+SHA1-Digest: Ii2r9i9AWVjBMoS1DlrSlXWsfsg=
+
+Name: res/drawable-hdpi/email_eas_folder_outbox.png
+SHA1-Digest: 9YCST4srxGOoaYXFFJliJ/fkKn8=
+
+Name: res/drawable-hdpi/btn_default_disable_focused.9.png
+SHA1-Digest: lUsJUA2I4ifq3U4VkQXDhYh29+8=
+
+Name: res/layout/list_fat_title.xml
+SHA1-Digest: /DuysQecxkFxHRPWKry41SA+kA8=
+
+Name: res/drawable/p1_message_list_selector_subtitle.xml
+SHA1-Digest: UvKvLSrAO835bryaC/PtZdWL8Ek=
+
+Name: res/layout/p1_message_view_header.xml
+SHA1-Digest: zWPm3GPOofN4XyKFY+NQ1uVaFlk=
+
+Name: res/drawable-hdpi/email_btn_press.9.png
+SHA1-Digest: ekFRWFlTHOoqw4mwqTZJmdNM41k=
+
+Name: res/drawable/ta_im_btn_softkey_selector.xml
+SHA1-Digest: kmUbRNTtCkwaI8aRuCCSgb0IXAQ=
+
+Name: res/drawable/p1_text_color_from656565_toffffff.xml
+SHA1-Digest: SWUIr8J11YwqzswpYfAWb8jmpKM=
+
+Name: res/layout/p1_account_delete_popup_main.xml
+SHA1-Digest: 5tJ9BBZ15UDP3Ei04CjZh9cgE+4=
+
+Name: res/drawable-hdpi/ic_menu_font_size.png
+SHA1-Digest: MUOJX2Hn3zo1xLeTsJvXAw7m4xM=
+
+Name: res/drawable/email_icon_list_btn.xml
+SHA1-Digest: Q65vZ7JpvemtSXcR1Tl7k6OxVUQ=
+
+Name: res/drawable-hdpi/email_eas_folder_open.png
+SHA1-Digest: acI94KRqRRKwxK9GrxUsiltB0PY=
+
+Name: res/drawable-hdpi/email_list_color_08.9.png
+SHA1-Digest: sycUO6whoEPJxbnXV24y8+1y1vc=
+
+Name: res/drawable-hdpi/ic_exchange_selected.png
+SHA1-Digest: efpNIEOKSsAds3DBKAQ+n+P3jPw=
+
+Name: res/drawable/btn_circle.xml
+SHA1-Digest: 2Iou8GA6AjzJqa/FStQwyRbj9GQ=
+
+Name: res/drawable-hdpi/email_icon_priority_high.png
+SHA1-Digest: luy/JxOpYIJaQpbAQrcQcNhGoBw=
+
+Name: res/drawable/selector_btn_softkey_press.xml
+SHA1-Digest: /zOy9calFzuj6sUl96Y0/vjFXKI=
+
+Name: res/drawable-hdpi/btn_minus_disable.png
+SHA1-Digest: moBIyExgpQ5sfwLZDj39dyHnNdk=
+
+Name: res/drawable-hdpi/email_file_bg_01_press.9.png
+SHA1-Digest: pHScA/UoYhBI4VrMt7Lej17QhG8=
+
+Name: res/layout/recipient_dropdown_separator.xml
+SHA1-Digest: KxDcJEw/l1vcBEeYZZOzaNApEV8=
+
+Name: res/drawable-hdpi/bg_color_1.png
+SHA1-Digest: V0chI8pKHug2TDwZIWeJ7dxc7U0=
+
+Name: res/drawable-hdpi/email_bg_03.9.png
+SHA1-Digest: zuiJnGy7lrhcyve+rviy6RtBF9U=
+
+Name: res/drawable-hdpi/email_list_color_01.9.png
+SHA1-Digest: AY/SO0P9GyU79nXCYZhO5Sl7DYw=
+
+Name: res/drawable-hdpi/email_list_icon_sync.png
+SHA1-Digest: 1Q/zOUsimzs2HPFFyBZaogqv/g4=
+
+Name: res/drawable-hdpi/ic_list_combined_inbox.png
+SHA1-Digest: 4vKbnXF3cR8jU0wLFVbblcyrevI=
+
+Name: res/anim/push_down_in.xml
+SHA1-Digest: lCRULN0AY7MTvnpUrJugu7x7jxE=
+
+Name: res/layout/policy_list_row.xml
+SHA1-Digest: juo+EO33sB6TcZGOUs6njg41cbQ=
+
+Name: res/drawable-hdpi/email_list_color_16.9.png
+SHA1-Digest: K5eVeZNYRZN0wKi2sY3+W5Bdr8A=
+
+Name: res/drawable-hdpi/icon_popup_menu_slider_btn_pressed.9.png
+SHA1-Digest: CueU8akQ2pf+OYS3ttKlV5QHqbU=
+
+Name: res/drawable-hdpi/email_icon_btn.9.png
+SHA1-Digest: sEfPomw7Ei3KrDS9pLUfobxu0ZQ=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_21.9.png
+SHA1-Digest: U160Uc2dxHhUW7Vh9XiZ2qTErAM=
+
+Name: res/layout/search_item.xml
+SHA1-Digest: a/H36lcAqIYu/wFtYKkLaj+e5/0=
+
+Name: res/menu/p1_message_list_option2.xml
+SHA1-Digest: zkWvQ2/XJqQ8duhVT+sTGiurLLM=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_12.9.png
+SHA1-Digest: GC1EA4wruevYjgh7iLDlrlRzU9s=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_14.9.png
+SHA1-Digest: 3GlgoLxrvsfOeLJhp1nnn3Y4cKY=
+
+Name: res/drawable-hdpi/btn_check_on.png
+SHA1-Digest: 6pwKgyshR2OCULGG8OzEp82iYRU=
+
+Name: res/drawable/p1_mail_box_list_layou_bg_first.xml
+SHA1-Digest: 2OHO4JgG3NpwjM7JJQWzfQtd63I=
+
+Name: res/layout/folder_message_list_child_footer.xml
+SHA1-Digest: sCMOiP9m1RYd0SGXKyakFtC1qhU=
+
+Name: res/layout/account_setup_incoming_premium.xml
+SHA1-Digest: /TwJ7mLp1ss8o+e1vYDnZFZ21Qw=
+
+Name: res/layout/account_dialog_item.xml
+SHA1-Digest: zpryuUVCP50UNpFQGsWD98J2RfU=
+
+Name: res/drawable-hdpi/divider_horizontal_email.9.png
+SHA1-Digest: xDuUSerE7rYVM2CWPCtZaxlaYvY=
+
+Name: res/drawable-hdpi/ic_menu_email_deselect_mail.png
+SHA1-Digest: oskKBjU7yi+xlL3BmJ9wWD6iZsE=
+
+Name: res/xml/syncadapter_contacts.xml
+SHA1-Digest: YU6bIaXA1cOxYFlYxsmyehJtRf8=
+
+Name: res/layout/oof_set_message.xml
+SHA1-Digest: I6IKjnP/YqHASQGHC9p19YwPAHc=
+
+Name: res/drawable-hdpi/list_icon_favorite_f.png
+SHA1-Digest: lj+AZY3RQOSTfP9Pv0aj/adC9LA=
+
+Name: res/drawable-hdpi/ic_menu_search.png
+SHA1-Digest: SufKYmxkamKCiJhWS7sN9m9s4Hw=
+
+Name: res/drawable-hdpi/email_bubble_title.9.png
+SHA1-Digest: PmHKcbEA1oDjO+WKMOrodbl+ZLQ=
+
+Name: res/drawable-hdpi/hub_tab_btn_right.9.png
+SHA1-Digest: vz9hLr/mWg0BHHYsOMoQxMB6sVY=
+
+Name: res/xml/syncadapter_calendar.xml
+SHA1-Digest: jaimmBgImZq6pCCrEx3eKstV+2c=
+
+Name: res/layout/message_list_item_smallest.xml
+SHA1-Digest: q7e/q74rb1JV3ST5Et1FaRtuLbk=
+
+Name: res/xml/sync_schedule_settings.xml
+SHA1-Digest: aSdij+R9Dfy3Wv5CjByGocqZbb4=
+
+Name: res/drawable/message_composer_contact_btn.xml
+SHA1-Digest: UhNWu8Fe+gQCXYq4XfvmGIBxfl4=
+
+Name: res/drawable-hdpi/ic_dialog_alert.png
+SHA1-Digest: EuiU5J8mRX3DWeNGz6f/l1b4hHc=
+
+Name: res/drawable-hdpi/split_press.9.png
+SHA1-Digest: itGOHySWqEDPJNmqtiSAC1Izs6I=
+
+Name: res/drawable-hdpi/email_tab_btn_middle.9.png
+SHA1-Digest: vQBGDRi+a6sDDu+oAgvGK0VGxfk=
+
+Name: res/drawable-hdpi/ic_menu_viewmode.png
+SHA1-Digest: OwXVeGIN7oe090G50v4Z/wrRhPs=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_9.9.png
+SHA1-Digest: D+DHZ/XZKjr8Yon0wb8Hv5ocdrk=
+
+Name: res/drawable-hdpi/btn_default_pressed.9.png
+SHA1-Digest: vQ+QYwFyAiiymEy5UhrEhPlny0s=
+
+Name: res/layout/message_view_header.xml
+SHA1-Digest: 7QDSPEIeK2WCUO4i/QOAXJea5l0=
+
+Name: res/layout/p1_mail_box_list_layou_bg.xml
+SHA1-Digest: PWWFj0KQCrbI7pXMyAXSCf2QO2k=
+
+Name: res/drawable/p1_text_color_2_from006eaa_toffffff.xml
+SHA1-Digest: 2de9oIjEK80mhpQpz8HI/iPQnxQ=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_7.9.png
+SHA1-Digest: QukXKOxecxtPaIH79umlstpozFg=
+
+Name: res/drawable-hdpi/ic_menu_account_manager.png
+SHA1-Digest: 8doddthbI1gc1PshW12Mfb4a/sg=
+
+Name: res/raw/mimetypes.properties
+SHA1-Digest: oiB8jNEjpwDyhA7ArooFK+Mq4k8=
+
+Name: res/anim/push_up_out.xml
+SHA1-Digest: iysm/ESFqLkJRldqRCf/6z2V2rA=
+
+Name: res/drawable-hdpi/btn_minus_focused.png
+SHA1-Digest: RQ6ghfFMoNFsWMkToYvj2FpC5Oo=
+
+Name: res/layout/message_compose_attachment.xml
+SHA1-Digest: FS07rEHxW9eD91U/FnNAkE3Oiog=
+
+Name: res/drawable/btn_expand.xml
+SHA1-Digest: VjQuW4yq7yGAEk/lF95s/toqftM=
+
+Name: res/layout/security_options.xml
+SHA1-Digest: VDFV+9iyAxOrNwep82GMXqsBCwc=
+
+Name: res/drawable-hdpi/attach_capture_video.png
+SHA1-Digest: s1aHNT/sUCLbeTy+8JPHsa/gIb0=
+
+Name: res/drawable-hdpi/btn_toggle_arrow_down_pressed.png
+SHA1-Digest: e2adQGlYS0PAkXvideiTpOLOw80=
+
+Name: res/drawable-hdpi/ic_selection_copy.png
+SHA1-Digest: MO8DbK8ZNBq0dCc54OGMYH/ffdw=
+
+Name: res/drawable-hdpi/email_icon_btn_press.9.png
+SHA1-Digest: zpfGTGbRZ3ufeCYwKOCTo5sDmj4=
+
+Name: res/drawable-hdpi/email_icon_phonebook.png
+SHA1-Digest: qEhl+LrADMZSf/Y/G9SZtForVBA=
+
+Name: res/drawable-hdpi/icon_popup_menu_slider_btn_normal.9.png
+SHA1-Digest: QKaC4+FaCHQRXxRTwID7LciDT2o=
+
+Name: res/drawable/p1_message_list_selector_white.xml
+SHA1-Digest: y/t7spBpMBL3ls3eMzbt0meWo4Y=
+
+Name: res/drawable-hdpi/alarm_day_btn_bg_focus.png
+SHA1-Digest: DLdehhOo+Ed5ZAmF47Zt767mxpE=
+
+Name: res/drawable-hdpi/ic_list_trash.png
+SHA1-Digest: YPgHcIICdvCyqriop7v7pWc9yj4=
+
+Name: res/drawable-hdpi/backcolor_white.png
+SHA1-Digest: yQCrE6ut2TzSriO8jQzFv9eEqFI=
+
+Name: res/layout/p1_message_list_bg_color.xml
+SHA1-Digest: vyic5ohQWLb+HbPKphHszGxjsR0=
+
+Name: res/menu/account_folder_list_context.xml
+SHA1-Digest: ftotyVWnkvIT5F6vHWi8QVBvT94=
+
+Name: res/drawable-hdpi/ic_menu_folder.png
+SHA1-Digest: ZfIWcUFJ/u87UGDDiYcCvQyK4PU=
+
+Name: res/drawable-hdpi/split_point_press.png
+SHA1-Digest: Ya/zQuNlS2aE8NmFbilqvlMrWJc=
+
+Name: res/drawable/p1_email_add_button_select.xml
+SHA1-Digest: N39dXqekvDwMjoS/LCMsGsRmX28=
+
+Name: res/drawable-hdpi/email_composer_bg.9.png
+SHA1-Digest: kKaIqzlVpb5X7Q6ATOTYv8unWAE=
+
+Name: res/drawable-hdpi/split.9.png
+SHA1-Digest: tisg8dmAy20d5zzf9ykVeCDjSkM=
+
+Name: res/drawable/focus_shape_add_to_calendar.xml
+SHA1-Digest: oc67LJRo26AcZxn0tq6UdKe9vTw=
+
+Name: res/drawable-hdpi/attach_memo.png
+SHA1-Digest: x4eQKJ3TOpwTizZU6t6aAo46gqg=
+
+Name: res/drawable-hdpi/ind_default.png
+SHA1-Digest: HXzMtYVYnBTqG6/oq3HjjPMnlKI=
+
+Name: res/drawable-hdpi/btn_icon_bg_pressed.9.png
+SHA1-Digest: Dgn0pbEo11Sg31UQngKGcft13LU=
+
+Name: res/xml/providers.xml
+SHA1-Digest: +Jub8qEHsoHAwHSBzRjhhUWSi8A=
+
+Name: res/drawable-hdpi/popup_spin_right_p.png
+SHA1-Digest: YtgQZr8z9Ls2pllvm/wFO7FLj7Y=
+
+Name: res/drawable-hdpi/winset_split_line_02.png
+SHA1-Digest: khPcLAh+bz1uax5UYWTK49IW1+k=
+
+Name: res/drawable-hdpi/backcolor_basicnega.png
+SHA1-Digest: nDnC+lmNsRADhkHpnlqb4lvgWTw=
+
+Name: res/layout/sync_schedule_settings.xml
+SHA1-Digest: 6Jb4gdmSIWIab98n4CUM7DEhftA=
+
+Name: res/drawable-hdpi/expander_ic_folder_maximized.9.png
+SHA1-Digest: dbTk/O2VsfYhJWl49bLCgIdC4qA=
+
+Name: res/drawable-hdpi/list_icon_02.png
+SHA1-Digest: qEU60GBwy+iTQcYyzG7dnZuwNjU=
+
+Name: res/drawable-hdpi/winset_listcount_bg.png
+SHA1-Digest: EUrXj9GmfYlk4HB8y3pFyyN/9zE=
+
+Name: res/anim/icon_popup_menu_above_enter.xml
+SHA1-Digest: 2zv5foUeKaociNKlNChp/95xSuw=
+
+Name: res/anim/push_down_out.xml
+SHA1-Digest: wAtLA6H3en5kSq0x4eptb63ommI=
+
+Name: res/drawable-hdpi/backcolor_black.png
+SHA1-Digest: 2qBvqa3PLoLtAlNNngfeTYFiEko=
+
+Name: res/drawable-hdpi/email_icon_04.png
+SHA1-Digest: O8ptopqavXtrabdEbOj21rCmGOo=
+
+Name: res/drawable-hdpi/list_icon_favorite_p.png
+SHA1-Digest: GFsiYMRpOIPXrBYbzXGYU/V7Jpg=
+
+Name: res/drawable/messagecomposebubblebutton.xml
+SHA1-Digest: A6VEgDvCvtoqkdoVL4TolqurOyA=
+
+Name: res/drawable-hdpi/btn_circle_disable_focused.png
+SHA1-Digest: eMWSW22vs4q17daR8ai3VrAZGAc=
+
+Name: res/drawable-hdpi/list_icon_02_focus.png
+SHA1-Digest: DBuOhj2IFDY7C+jpgdE3ToUjW1o=
+
+Name: res/layout/account_setup_basics_premium.xml
+SHA1-Digest: 8bQ+PRcTX2b9rmhcx/tI/NUi4v4=
+
+Name: res/layout/email_search_query.xml
+SHA1-Digest: goJXhtt2Rh+XmTqG8YWWroJlwuk=
+
+Name: res/drawable-hdpi/alarm_day_btn_bg.png
+SHA1-Digest: i48UzLkLDJQHFKX7SeEit92N0to=
+
+Name: res/xml/account_authenticator_yahoo.xml
+SHA1-Digest: UttFKnWrcOiwem9gaZMuWVcykdA=
+
+Name: res/layout-land/p1_message_view_header.xml
+SHA1-Digest: omJnHB8U3kVrgCMs89wvL0EpdDI=
+
+Name: res/drawable-hdpi/list_icon_contacts.png
+SHA1-Digest: +Bp0y6HGJ9xrbc6IOo5EmK7nwkQ=
+
+Name: res/layout/rename_certificate.xml
+SHA1-Digest: gKLPqzHHBpiGmN4/zXYlhxOh/eA=
+
+Name: res/anim/messagelist_title_appear.xml
+SHA1-Digest: or8TSNF8dKTedS/tS26y7+jLlJQ=
+
+Name: res/drawable-hdpi/email_drop_folder_draftbox.png
+SHA1-Digest: m6mYluICzn9CMiDJGxQmR2apqBQ=
+
+Name: res/drawable-hdpi/error.png
+SHA1-Digest: VR07bx8dYsmqkXk5MLY7zy70ZX8=
+
+Name: res/layout/p1_account_menu_delete.xml
+SHA1-Digest: /ECFM7zouK1NigevW0yYFFwARME=
+
+Name: res/drawable-hdpi/ic_calendar_event_small.png
+SHA1-Digest: 5d5RPUQkikFtnNwpaG/PZJzH/5c=
+
+Name: res/drawable-hdpi/email_list_color_04.9.png
+SHA1-Digest: fj6eln050RyWilJ2e3DTxv/mhvQ=
+
+Name: res/drawable-hdpi/winset_split_line_02_p.png
+SHA1-Digest: +pitQ8eAnEU4LcOIzu9wEFSOPH8=
+
+Name: res/drawable-hdpi/attach_calendar.png
+SHA1-Digest: 2ZZVN54EbOpyPQUbESFB4AFJM9c=
+
+Name: res/drawable-hdpi/email_list_color_14.9.png
+SHA1-Digest: stComgGnqHuC3WH+6b+bmCosp/M=
+
+Name: res/drawable-hdpi/list_icon_02_press.png
+SHA1-Digest: Gict9V6DjeJh/8tqyBiqP1lWg5w=
+
+Name: res/drawable-hdpi/winset_list_focus_bg.9.png
+SHA1-Digest: OdlGFQcHXgf4l+7JgUh839E6qGU=
+
+Name: res/menu/folder_message_list_context.xml
+SHA1-Digest: nB2tch/LLnrP0hsRtFSKAZlxHy0=
+
+Name: res/layout/account_setup_other_outgoing.xml
+SHA1-Digest: s4SJyjm+7oFHCIGXFYHJx+9TnxA=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_1.9.png
+SHA1-Digest: l6h9sR+8S0khAY4nz/nFvrNMluE=
+
+Name: res/drawable-hdpi/bg_color_3.png
+SHA1-Digest: sGWGu03QIoK/0VHdAfWMF61Gckc=
+
+Name: res/drawable-hdpi/ic_event_email.png
+SHA1-Digest: I6CZoVZ6GlkHXoSC4h7IIgPiS60=
+
+Name: res/drawable-hdpi/email_inbox_focus_end.png
+SHA1-Digest: P11ExefjKR7aXS16wq2AJs7H1uM=
+
+Name: res/drawable/message_composer_contact_btn_bg.xml
+SHA1-Digest: jZmaMHmPBV6Y6grBfjLC+scrvdk=
+
+Name: res/drawable-hdpi/email_noimage.png
+SHA1-Digest: U9+KKJqRJHKs103VL+0DxHZyr18=
+
+Name: res/drawable/btn_arrow_background.xml
+SHA1-Digest: LyJpGDhuUNAmAdyG8XTFNSWgdPA=
+
+Name: res/layout/account_setup_provisioning_item.xml
+SHA1-Digest: E8Wd++pISh2hwMnWTua0SBhQ0ls=
+
+Name: res/drawable-hdpi/list_icon_video.png
+SHA1-Digest: z5Mj8t3+R+fwFGhN9Ak0AVsM7xA=
+
+Name: res/drawable/selector_text_color_from000000_tob3b3b3.xml
+SHA1-Digest: xpTkD9j3uXScwaJ2BD/x3UL4+/8=
+
+Name: res/layout/p1_reply_popup_main.xml
+SHA1-Digest: p6yWbkLR7I33Ouvu+l7khh3FY2g=
+
+Name: res/layout/textsize_list_item.xml
+SHA1-Digest: e8C6C8LI5RRx6p8WIGcdAre3JFk=
+
+Name: res/drawable/message_compose_text_field.xml
+SHA1-Digest: +zG13LR/4S4UIHOBNsf/sVDZ1rA=
+
+Name: res/anim/push_right_in.xml
+SHA1-Digest: oLqKDzQkiWMYmswkGQGm+R44xVQ=
+
+Name: res/drawable-hdpi/icon_attach.png
+SHA1-Digest: eNXwF58Na+scAkqc0ydZElRahGE=
+
+Name: res/layout/message_list_item_smallest_previewline.xml
+SHA1-Digest: ql1TZvHtfekbJ1xZeEzHAoIylkI=
+
+Name: res/drawable/icon_thread_up.xml
+SHA1-Digest: ZVY7Nu5ofVpZo77r3gqTywwUU8U=
+
+Name: res/layout/account_setup_disclaimer_web.xml
+SHA1-Digest: 0uHnQ8xHf9cd6ncYunIlVTMAE64=
+
+Name: res/anim/button_disappear.xml
+SHA1-Digest: UhARcUyQf5s+hbXe7XLk0UBQ9ww=
+
+Name: res/drawable-hdpi/email_btn_default_disable_focused.9.png
+SHA1-Digest: yVDV4mP9Nau2ZnWSTz0mNP07Cy8=
+
+Name: res/color/tw_textappearance_listoneline.xml
+SHA1-Digest: 9c2RaVu7sEQlnyRzAft7X/kh10k=
+
+Name: res/drawable-hdpi/list_icon_favorite_off_f.png
+SHA1-Digest: T/11ENLNiorXRy2kFdatYKt5gqA=
+
+Name: res/drawable-hdpi/popup_spin_r.png
+SHA1-Digest: wpng3QQitKGXF9nPC+M/NehxjAA=
+
+Name: res/menu/message_list_option_smart_folder.xml
+SHA1-Digest: xPdRvHSGDMidB4Hn9p+4IM95dGc=
+
+Name: res/layout/account_push_settings_peak_time.xml
+SHA1-Digest: HcJYLBAqetN3mEV+0lQJEGuuQ1w=
+
+Name: res/layout/location_dialog_current_location.xml
+SHA1-Digest: N19mqZnYoALXy7CYKNIcItMBxFE=
+
+Name: res/drawable-hdpi/email_icon_zoomout.png
+SHA1-Digest: ZlyTgqGXxHXxbo8aktnn6Ujyr3I=
+
+Name: res/drawable-hdpi/ic_email_attachment.png
+SHA1-Digest: zTyo6b3j2wpsiOYVhk3dKul/BiU=
+
+Name: res/drawable/p1_message_list_selector.xml
+SHA1-Digest: jAz85VqdW8sheC9QzCjvZne3ces=
+
+Name: res/drawable-hdpi/ic_dialog_menu_generic.png
+SHA1-Digest: g22jaohBP34yncFvWYeb/WeqFoY=
+
+Name: res/drawable/message_compose_address_input_filed_bg.xml
+SHA1-Digest: W6Z/JCXt/lsobvKnas5a8VSOBP0=
+
+Name: res/menu/message_view_option.xml
+SHA1-Digest: A/mqzY+eajWERyIco/5/DKjH83w=
+
+Name: res/drawable-hdpi/email_button_arrow.9.png
+SHA1-Digest: jcS1yWopHuVdLhJ4/imKoiRzOxA=
+
+Name: res/drawable-hdpi/list_icon_ppt.png
+SHA1-Digest: FmQkv3CTyh2RWbKxVzSG5Zyvgc0=
+
+Name: res/drawable/message_composer_bubble_btn.xml
+SHA1-Digest: OdlZc95fBNXavCee3zopQl8+OZQ=
+
+Name: res/drawable-hdpi/email_eas_img_frame.png
+SHA1-Digest: UDSU6hkeh8pdqeHf2xhay6elE3s=
+
+Name: res/drawable/p1_text_color_2_from000000_toffffff.xml
+SHA1-Digest: Z8vD6O2Zj+3ubvj47hy5BDS9+uc=
+
+Name: res/drawable-hdpi/paused.png
+SHA1-Digest: j33PrrrxcodT1f+OS3UWzzuY46M=
+
+Name: res/drawable-hdpi/ic_menu_delete.png
+SHA1-Digest: UwR+kkwdLAK1GuJtDviKwFx1cKg=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_18.9.png
+SHA1-Digest: e1f1z54reWGOekDmKquX01OJivU=
+
+Name: res/drawable-hdpi/email_btn__focused.9.png
+SHA1-Digest: Amw3+6eE4ociVZPWjt34dO8/iqk=
+
+Name: res/layout/p1_message_view_content_title.xml
+SHA1-Digest: OiRniEYeiok4zOJu5kVp8XaWqok=
+
+Name: res/layout/p1_message_list.xml
+SHA1-Digest: D5UhMpKMAX/wTmeOz1yOWPfnWQg=
+
+Name: res/drawable/selector_text_color_from3484c8_tob3b3b3.xml
+SHA1-Digest: SDzaF7ehBGj9HN4iTcS7AfVawL4=
+
+Name: res/drawable-hdpi/email_input_bg.9.png
+SHA1-Digest: 1/MRxnwMuC3cJvVWqY6iDed3KLg=
+
+Name: res/drawable-hdpi/email_inbox_bg_press_01.9.png
+SHA1-Digest: qtEtARDksOwZBraztPi/rzkSDj4=
+
+Name: res/drawable-hdpi/email_list_color_13.9.png
+SHA1-Digest: GpCFN+UmekGt/x1BebrNWYp+DUM=
+
+Name: res/layout-land/p1_message_view_content_title.xml
+SHA1-Digest: vc2D1lzr7ExFBT3tiILKQdECYv0=
+
+Name: res/xml/senders_product.xml
+SHA1-Digest: 2U9+6SAHe8Jb8XylYFB2OtJoBDY=
+
+Name: res/menu/p1_message_view_land.xml
+SHA1-Digest: YnHkgjU8vJTppg4tXJf3fpGhaSc=
+
+Name: res/drawable-hdpi/email_list_press.9.png
+SHA1-Digest: PsyHNw28tjWPObejG/hLIpEajro=
+
+Name: res/anim/push_left_in.xml
+SHA1-Digest: xzhcgCWHKfG4UuNCjl4SQlErSQc=
+
+Name: res/layout/accounts_item.xml
+SHA1-Digest: qn8HdhgcJmEAVxSz089iNjYOxAw=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: WkdS/RYkB4ELaIBssecLvo8u4f0=
+
+Name: res/drawable-hdpi/btn_01_default_pressed.9.png
+SHA1-Digest: BlmAYEXswHxydoqPEB5vMCbhiMs=
+
+Name: res/drawable-hdpi/email_popup_full.9.png
+SHA1-Digest: DGpbt0AH2nVfO7TfnGaeJ65YUsE=
+
+Name: res/layout/list_item.xml
+SHA1-Digest: rU73oA7HHLvc8DDBNQ7bIGt20j0=
+
+Name: res/drawable/p1_text_color_from3484c8_toffffff.xml
+SHA1-Digest: sbIWD9JgIfNVPxnTJPw63oOMiaw=
+
+Name: res/drawable-hdpi/list_icon_expandable_up_f.png
+SHA1-Digest: 3BLn6DmdBnTf6C6oj73HWFd66Wc=
+
+Name: res/layout/account_setup_account_type.xml
+SHA1-Digest: Yt5VmnVaXF7xflimPIXJ8CkBJao=
+
+Name: res/drawable-hdpi/email_icon_save_p.png
+SHA1-Digest: NpeZ1wgTjUgRsGrRCfxhZ4JyWDI=
+
+Name: res/drawable-hdpi/hub_icon_btn_press.9.png
+SHA1-Digest: C/QLYCCR0PDHSc4LyjyN2jqIauI=
+
+Name: res/drawable-hdpi/btn_star_big_buttonless_on.png
+SHA1-Digest: Zm0too4kcUhgrK3pCYYw9TeR3HQ=
+
+Name: res/drawable-hdpi/msg_popup_attach_icon.png
+SHA1-Digest: Y0pZBn20TgEHl77Xhp+5sHpAnrU=
+
+Name: res/drawable-hdpi/email_sub_title_bg.9.png
+SHA1-Digest: cjx7lHD+qf15scaK04XbvVsXUZE=
+
+Name: res/color/tw_textappearance_edittext.xml
+SHA1-Digest: kWQ1k+qPNLDFJBfXGj8uHAqhAMI=
+
+Name: res/drawable-hdpi/email_btn_default_normal.9.png
+SHA1-Digest: ODnFYF34vHU85t8XCRcY2euja24=
+
+Name: res/layout/p1_mail_box_list_allaccount_tail.xml
+SHA1-Digest: 9X/zXJCIIoPWl9+JvLK+ZfDKlU0=
+
+Name: res/drawable-hdpi/email_icon_encryption.png
+SHA1-Digest: Z+d+o//x2ak8WeArNklPKIqpNXg=
+
+Name: res/drawable-hdpi/btn_toggle_arrow_down_normal.png
+SHA1-Digest: ibcISv3bGClsy4iecpZt+x+yUFo=
+
+Name: res/layout/p1_account_manager.xml
+SHA1-Digest: cqLFzQK83GdVLN/tE6vgpV28qJI=
+
+Name: res/menu/folder_message_list_option.xml
+SHA1-Digest: L1jBA0h6OvE9xrHM4RJVLvkN1RQ=
+
+Name: res/menu/message_list_option_search.xml
+SHA1-Digest: 0YlE0h8IZU2rBA3OjtB5RGcGRPs=
+
+Name: res/drawable-hdpi/email_drop_folder_spambox.png
+SHA1-Digest: JofGXk1VjCXhnuu2U2J22VCJ06I=
+
+Name: res/drawable-hdpi/email_icon_voice_mail_attachment_message.png
+SHA1-Digest: IwCTIKc/xttUvS6IcC8hadSOfCw=
+
+Name: res/drawable-hdpi/ta_im_btn_default_selected.9.png
+SHA1-Digest: kz10UePQzyzEJMjHUzFQfN9QpAg=
+
+Name: res/layout/account_setup_footer.xml
+SHA1-Digest: KW2fmG/wP9lMpDBUThmRZzOMAOU=
+
+Name: res/layout/active_push_service_btn.xml
+SHA1-Digest: ry2Zy2rRywO8wgBR10NND4LltHE=
+
+Name: res/xml/sync_preferences.xml
+SHA1-Digest: sdGssmgpWwSUg17Vpwp88w/IKIs=
+
+Name: res/menu/message_list_context_trash.xml
+SHA1-Digest: eWMAiQt7G8aMKIjYh1PZPQ9qCxg=
+
+Name: res/drawable-hdpi/email_icon_replylist_last_verb.png
+SHA1-Digest: j3hbT2y+Vt4IVnmPRKtBhmQm/ho=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_6.9.png
+SHA1-Digest: MzXzPJ/99JFHY2Ulj10Wqh2io/g=
+
+Name: res/layout/account_setup_basic_exchange.xml
+SHA1-Digest: GrqTKFSc2KNoiQ52aQKeUrmLOxE=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 8QJWzgs6LH40KhV4c454upEGEVk=
+
+Name: res/layout/mailbox_list.xml
+SHA1-Digest: tpl8ZH/lTSKLMwK2JEjZ/3Oou/c=
+
+Name: res/drawable-hdpi/ic_btn_arrow_right_focus.png
+SHA1-Digest: UtZDwzgos1vVuGxalEaWircTcE0=
+
+Name: res/drawable-hdpi/winset_split_line_01.png
+SHA1-Digest: yJ1uIFB41ALu+3Gc0XYS0OUhicw=
+
+Name: res/drawable-hdpi/email_tab_btn_right.9.png
+SHA1-Digest: IeszRbMKGp5klMq8+UMpxEcgOgE=
+
+Name: res/drawable-hdpi/btn_circle_pressed.png
+SHA1-Digest: WkN5cUlSKBwLuG0MfqtWk7q1uwM=
+
+Name: res/drawable-hdpi/list_selector_background_pressed.9.png
+SHA1-Digest: U8awmiW1+bUqE7EG6RNrDx94Qxk=
+
+Name: res/anim/mailboxes_list_appear.xml
+SHA1-Digest: J4bDGVEMt8+Mn3UXuPJmwqPxtX0=
+
+Name: res/drawable/account_folder_name_text_color.xml
+SHA1-Digest: zDsY+K0AYI2raOy2phOc4P6v2iw=
+
+Name: res/drawable/account_setup_btn.xml
+SHA1-Digest: P9Qmf1b8VtkCK3caSaEvAobtP8k=
+
+Name: res/drawable-hdpi/list_icon_clear.png
+SHA1-Digest: mYU9iD3L4d94PI4PLIYbSMLiniI=
+
+Name: res/drawable/email_icon_favorite_on_btn.xml
+SHA1-Digest: phPFGplC4c7PdEuXIx5Ssxzy0dY=
+
+Name: res/drawable-hdpi/email_input_bg_focus.9.png
+SHA1-Digest: ID4Wp0M63KylNQFQoAt97SLhp7U=
+
+Name: res/layout/p1_mail_box_list_main.xml
+SHA1-Digest: gtdGw8hAbmYWq1MFZ+Zc2pcb2vw=
+
+Name: classes.dex
+SHA1-Digest: 11nwU2QW1D7PILy7p/1e6kywnW0=
+
+Name: res/drawable-hdpi/email_search_delete_btn_press.png
+SHA1-Digest: QxQQt7Niowb95iJxjMvXE4z1v2U=
+
+Name: res/drawable-hdpi/email_icon_replay.png
+SHA1-Digest: Qo33MVmffqmG0vl8OWIQ77YL8Uc=
+
+Name: res/drawable-hdpi/popup_top_dark.9.png
+SHA1-Digest: Fe9HsSQGZOlisAYiLM8tltkN0BQ=
+
+Name: res/drawable/p1_email_add_icon_select.xml
+SHA1-Digest: f8SDVCmY/1tVGWO0tpORZK9yzOM=
+
+Name: res/drawable-hdpi/email_list_color_02.9.png
+SHA1-Digest: WDf2Jil9j3+adCxgQmVE73UOlUw=
+
+Name: res/drawable-hdpi/email_file_bg.9.png
+SHA1-Digest: bcsckXYSP6OOgMYfqWCuYvtsOkE=
+
+Name: res/drawable-hdpi/email_drop_folder_sentbox.png
+SHA1-Digest: CHyJs2oi7kYzM2lxmxEoc/2VVRY=
+
+Name: res/xml/account_settings_preferences.xml
+SHA1-Digest: GbfBaytRZtONFMyrhFcQlLFp6/M=
+
+Name: res/color/tw_textappearance_listtwolineprimary.xml
+SHA1-Digest: NqHiYrI9yNVH7Egqs7wi2/7YpOA=
+
+Name: res/layout/location_dialog.xml
+SHA1-Digest: NpGHlUtUstbC3AvMEAfmIZ97ZI4=
+
+Name: res/drawable-hdpi/email_drop_folder_inbox.png
+SHA1-Digest: vFYVHFd2xolNVh+iIzBGWVHnxn4=
+
+Name: res/drawable-hdpi/text_box.9.png
+SHA1-Digest: zcBKW18WWpBbOM4AHIAai1r/hG0=
+
+Name: res/drawable-hdpi/winset_split_opener.9.png
+SHA1-Digest: sZMsJso7YzK/Jkkq1hNUtoBOz4s=
+
+Name: res/drawable-hdpi/email_sub_title_bg_focus.9.png
+SHA1-Digest: rTCwUFr1Y/hdKrzBHEXx9NGg2Uo=
+
+Name: res/drawable-hdpi/email_list_focus.9.png
+SHA1-Digest: 0HSZz4cMHRNnnmy7VjJLqBBkil4=
+
+Name: res/drawable-hdpi/email_inbox_line_end.9.png
+SHA1-Digest: 5mHOuNzPEQNCaAtqibf8IoMVXE8=
+
+Name: res/anim/icon_popup_menu_below_exit.xml
+SHA1-Digest: uQ1U9TS68paUq/Mz6zcwu94Vs/k=
+
+Name: res/drawable-hdpi/popup_spin_l.png
+SHA1-Digest: mVtqi4V9KJnLlruHqx7CA9Q5trg=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_2.9.png
+SHA1-Digest: bvJrohrNXXZOScOE4YbQJqC920A=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_17.9.png
+SHA1-Digest: Ta07eY/az2szE10T6DqDSqc5SW0=
+
+Name: res/drawable-hdpi/list_icon_rtf.png
+SHA1-Digest: juqRGUJ+dr7rreFFV/HEZAeJSJ4=
+
+Name: res/drawable/p1_email_icon_folder_select.xml
+SHA1-Digest: pgAGKb5g4v7q4ldXGU/jzPo50XA=
+
+Name: res/layout/account_setup_owa.xml
+SHA1-Digest: 5861kVXf39ydEP9pVwigH3GBnaI=
+
+Name: res/drawable-hdpi/email_list_color_06.9.png
+SHA1-Digest: PlUTpVoZUSv77mBcixjg3rCp7s8=
+
+Name: res/drawable-hdpi/email_list_color_03.9.png
+SHA1-Digest: zrN1w7SIDUUnQEDZAkPTcg9OYaU=
+
+Name: res/xml/account_preferences.xml
+SHA1-Digest: apzI4GSn/Okc1lB71bfdA5l8YHQ=
+
+Name: res/drawable-hdpi/hub_tab_btn_right_press.9.png
+SHA1-Digest: hBbSVziIXTtTP6JO3W/c754K1GQ=
+
+Name: res/drawable-hdpi/btn_yes_focused.png
+SHA1-Digest: ECzPdHRZY1g1zhIz6jDSn4h9uCQ=
+
+Name: res/drawable-hdpi/ic_launcher_task.png
+SHA1-Digest: 6Kg7yZeDJCPfWBbgDdq8dz8c89Q=
+
+Name: res/drawable-hdpi/email_eas_folder_spambox.png
+SHA1-Digest: FhP500SDiC90t9umTAtx0slfQoI=
+
+Name: res/drawable-hdpi/one_pixel_border_selected.9.png
+SHA1-Digest: KFE/wGzqrCX/+8CQXDBPLN0tQRE=
+
+Name: res/drawable-hdpi/attach_pictures.png
+SHA1-Digest: tO5Vq9xPC2/63rSTyk69kY9eWiw=
+
+Name: res/drawable-hdpi/attached_image_placeholder.png
+SHA1-Digest: MIudAC/x/kCc120n6Pd0juTtDZ0=
+
+Name: res/drawable-hdpi/btn_default_disable.9.png
+SHA1-Digest: Ek/elZz7MhXVX7ejWz7hva7U7ss=
+
+Name: res/drawable-hdpi/textfield_search_selected_02.9.png
+SHA1-Digest: 0PBedsxH+psWZyEUKGpi9QpPIos=
+
+Name: res/layout/p1_mail_box_list_allaccount_body.xml
+SHA1-Digest: MmSBtwygYX0mQHRXEPvHLwNEhWk=
+
+Name: res/drawable-hdpi/ic_btn_arrow_left_unselected.png
+SHA1-Digest: wbeBPxjDeNBIl/2/xPiiBXmDOdw=
+
+Name: res/layout/folder_name.xml
+SHA1-Digest: BTqHymou75or2Uow5fczly8xmN0=
+
+Name: res/drawable-hdpi/hub_tab_btn_middle.9.png
+SHA1-Digest: LsD79+HrJR8RxCaucztK3cBG58g=
+
+Name: res/drawable-hdpi/btn_close_pressed.png
+SHA1-Digest: S+Sbyv7yiTjlt6qdx77xFosSeDk=
+
+Name: res/drawable-hdpi/email_btn.9.png
+SHA1-Digest: C7nwgRPMucGWx9vLIHJsATjUhJk=
+
+Name: res/drawable-hdpi/email_icon_sms_sync.png
+SHA1-Digest: bN6QuEWE5Nh8cBGcYaive5tgCLw=
+
+Name: res/drawable-hdpi/ic_menu_mark_as_unread.png
+SHA1-Digest: Jfg1OUxRrS4HJvoHj8GDc/d2P3s=
+
+Name: res/layout/recent_list_item.xml
+SHA1-Digest: HXa3HtH/84QYoYC6LLNAN/ZZp4c=
+
+Name: res/anim/header_disappear.xml
+SHA1-Digest: h5ekiHooJL40XQYRntPqbZuaXTg=
+
+Name: res/drawable/message_composer_contact_btn_src.xml
+SHA1-Digest: BBAab7EC4FHcGSQfcjTV6cGpbL4=
+
+Name: res/drawable-hdpi/email_list_color_11.9.png
+SHA1-Digest: udBZOUZFSaVE4O/tTNDg905IoM8=
+
+Name: res/drawable-hdpi/ta_im_btn_default_disable_focused.9.png
+SHA1-Digest: 0i5byPgeeJN6wLNMHVQPgT9b524=
+
+Name: res/drawable/email_icon_up_btn.xml
+SHA1-Digest: X5x7YjLNZr3+mGOzvPIuC0boIKk=
+
+Name: assets/empty_beige.html
+SHA1-Digest: BeLzLgjJwcQoaDCrtE7T/KV4ZKM=
+
+Name: res/color/tw_textappearance_tab.xml
+SHA1-Digest: /r97MS4IEduKo8Zglqave2M/6zw=
+
+Name: res/layout/account_setup_other_review.xml
+SHA1-Digest: wpTdIW3RypPZ1O88vXkTE3t1g8s=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_16.9.png
+SHA1-Digest: Amnam3D5oZA3Jn/OC7vfDO4r2HI=
+
+Name: res/drawable/p1_message_list_selector_thread_black.xml
+SHA1-Digest: eaDtYYztbNTCxSc5HBmiBSFwN3U=
+
+Name: res/layout/account_history_item.xml
+SHA1-Digest: 3A/BRdqj1n4+kaMPeEhKocu6kxM=
+
+Name: res/layout/message_list_item_medium.xml
+SHA1-Digest: zULnD2rUc/udt7tJNvd2XZgGfmI=
+
+Name: res/layout/message_list_item_small.xml
+SHA1-Digest: k70SF3waeDbrb8u6AsPCFbanF6U=
+
+Name: res/drawable-hdpi/email_icon_delete_d.png
+SHA1-Digest: x7NPUY2zl7Fm57sIvLwIsgeXqLc=
+
+Name: assets/test.html
+SHA1-Digest: 2Zk5cUsERC8xvrQi/dQEPQQUoMQ=
+
+Name: res/drawable-hdpi/btn_no_focused.png
+SHA1-Digest: 7TI88MbfE6qcHsGgI1+GkEWeG58=
+
+Name: res/drawable-hdpi/ic_menu_forward_mail.png
+SHA1-Digest: nfmz8vttEusaW145txa6h+N7wKk=
+
+Name: res/xml/calendar_sync_adapter_msn.xml
+SHA1-Digest: qxigkD11iFjx8oPIjV6xGOxhBas=
+
+Name: res/drawable/btn_invite_no.xml
+SHA1-Digest: QVPhk3E3mTCM+u5pEsXXLFQ4G/Q=
+
+Name: res/layout/certificate_list_layout.xml
+SHA1-Digest: vIAJkw2UE4w7q1tZkk1Dy118OGU=
+
+Name: res/drawable-hdpi/email_tab_arrow_02.png
+SHA1-Digest: diRi4diAuoyALd1TBh52pHySVFo=
+
+Name: res/layout/p1_message_webview.xml
+SHA1-Digest: 5WAN3qrjBHhrPKILv4+m9h7Ymbw=
+
+Name: res/layout/p1_brightness_dialog.xml
+SHA1-Digest: NwVpqfTnMBr1KqrNGLPaxFY4h10=
+
+Name: res/anim/icon_popup_menu_above_exit.xml
+SHA1-Digest: LLGK/hDo7zw38NUkqZekdZ0ara0=
+
+Name: res/xml/providers_product.xml
+SHA1-Digest: FXtknbCrb9S5P1CwlLgCPT3ZOsc=
+
+Name: res/layout/message_list.xml
+SHA1-Digest: 7nvPqdzGmo7DZ8VAHgKRMEWy3w8=
+
+Name: res/drawable-hdpi/email_icon_reply_last_verb.png
+SHA1-Digest: vHqIsF8EzXgpFMS/kBYw0oa7Q9w=
+
+Name: res/drawable/message_list_item_background_read.xml
+SHA1-Digest: laOZWM6GEiQcs0Hwn0Jl8ZwshQc=
+
+Name: res/layout/alarm_day_btn_bg.xml
+SHA1-Digest: d1RPggZfA6M7I5PlsVGykHSE0g4=
+
+Name: res/layout/import_certificate.xml
+SHA1-Digest: gMs+9uuokhHn1HOnqmLHTEjKYRg=
+
+Name: res/drawable-hdpi/ic_selection_search.png
+SHA1-Digest: LIkHuIEIGgUXs8h8afbDjJxsSPk=
+
+Name: res/drawable-hdpi/phonebook_check_box.png
+SHA1-Digest: zVANanE8g25tQd3oI9wKVbotqac=
+
+Name: res/layout/p1_account_menu_item3.xml
+SHA1-Digest: mTT+Xlsrqw1uO6ZSLsBzE6gNnDk=
+
+Name: res/drawable-hdpi/email_drop_folder_icon_01.png
+SHA1-Digest: 67JpnEBN5HG8Ls83n5k2Dho39Fs=
+
+Name: res/drawable-hdpi/ic_btn_round_more01_disable.png
+SHA1-Digest: GSUKPJzJF0XXRMNWKejl1Kzu7U4=
+
+Name: res/layout/preference.xml
+SHA1-Digest: +Wll6sJTTNacPsAdY0IPwhYKupg=
+
+Name: res/drawable-hdpi/ic_menu_add.png
+SHA1-Digest: AhrcqIuTwKCsjszMMezpU+b6uYE=
+
+Name: res/anim/icon_popup_menu.xml
+SHA1-Digest: 6KdwbJSHSVr37cc8NXihTOZ7kUA=
+
+Name: res/xml/authenticator.xml
+SHA1-Digest: 9IkIMgs0Xx9mL52ppeGxr/+NVHg=
+
+Name: res/xml/security_options_preference.xml
+SHA1-Digest: DqH0GtK8zBy2CwbEO1T9GL1aois=
+
+Name: res/drawable-hdpi/list_icon_expandable_down_f.png
+SHA1-Digest: iQzECmmjgL1IqcDtKtVd76rVD/Y=
+
+Name: res/drawable-hdpi/email_icon_06.png
+SHA1-Digest: L8x4hDE4Zu65/7FOEfqRo+QYWYI=
+
+Name: res/drawable-hdpi/attach_capture_picture.png
+SHA1-Digest: 1DbZYmw44fMxiT+c18JuCH7xigI=
+
+Name: res/drawable-hdpi/account_list_icon.png
+SHA1-Digest: QF4Y6O+Bp2u7H/ylDsUQ6ZPdiak=
+
+Name: res/drawable/p1_message_list_search_textfield.xml
+SHA1-Digest: WPpIMHFVkW7bVN3vsi/zMjOM5Ng=
+
+Name: res/layout/icon_list_item.xml
+SHA1-Digest: gM4LG1Zqxx/gKg2scDklHrE1A2g=
+
+Name: res/drawable/p1_email_btn_select.xml
+SHA1-Digest: xp2xveeDEpVl7OmWTC5RIEDT40I=
+
+Name: res/layout/p1_mail_box_list_body.xml
+SHA1-Digest: 6kdqbuB2AK5Ke6PWU5DfOPOjCEY=
+
+Name: res/drawable-hdpi/email_sub_title_bg_press.9.png
+SHA1-Digest: kAfqSfWkTTnx1/lcUGDIRneTCII=
+
+Name: res/anim/button_appear.xml
+SHA1-Digest: /W14xR8ewNQwzib+CdRpXVkIMPs=
+
+Name: res/layout/account_setup_exchange.xml
+SHA1-Digest: IXWMHKdC2+RTviP0+tnXWJ08oQ4=
+
+Name: res/drawable-hdpi/attach_location.png
+SHA1-Digest: kv0zpPNMI9THCOxReNclX2t08n4=
+
+Name: res/drawable-hdpi/account_and_sync_windows_live.png
+SHA1-Digest: jhhDzqtZr7OWJN9RdxmYKMqZEE8=
+
+Name: res/drawable-hdpi/email_btn_default_normal_focused.9.png
+SHA1-Digest: Jfl92GaE0QTcKbQKH+EytBuUw1Q=
+
+Name: res/layout/view_more_button.xml
+SHA1-Digest: VsrSC7HTMczh4F8h6FmtTEL2dmE=
+
+Name: res/drawable-hdpi/email_file_bg_01.9.png
+SHA1-Digest: ar4+3APQNIqKiOgk1c/NAg+rj0g=
+
+Name: res/drawable-hdpi/email_today_bg.9.png
+SHA1-Digest: P1nMYcf6hXIxDBs19J4UrcCW9pA=
+
+Name: res/drawable-hdpi/hub_tab_btn_middle_focus.9.png
+SHA1-Digest: //ApWx+DgahZ6/uom1rYh2pRA8c=
+
+Name: res/menu/message_list_context_outbox.xml
+SHA1-Digest: ylmK7KDVTP/eOCEIpqqyVjZ0n8s=
+
+Name: res/drawable/alarm_day_btn_bg_selector.xml
+SHA1-Digest: 0z5+4Gxtc9DtrirpqyfApgEqAA0=
+
+Name: res/layout/check_premium_user.xml
+SHA1-Digest: XNk2uOwI6ZvS+AUogddD7PjG/Lw=
+
+Name: res/drawable-hdpi/email_icon_03.png
+SHA1-Digest: kzCShKksWzRMbJ0H067BE55jk3k=
+
+Name: res/drawable/one_pixel_border_button.xml
+SHA1-Digest: 5IuFg2wF9uD/NnOVk0JwcxkyWsw=
+
+Name: res/layout/connection_error_banner.xml
+SHA1-Digest: wQ291S4QmylQO9KIQLVGJ8eCXZE=
+
+Name: res/drawable-hdpi/divider_horizontal_bright.9.png
+SHA1-Digest: sreivRCrEjeWn9N0Incqc2GjWKQ=
+
+Name: res/drawable-hdpi/email_icon_check.png
+SHA1-Digest: zidROvnHc3H1MBluXg7FsGqVaZM=
+
+Name: res/drawable-hdpi/ic_menu_backgroundcolor.png
+SHA1-Digest: lXZ7d1+rJedFimKa7A/XoV5JdW4=
+
+Name: res/drawable-hdpi/email_icon_sign.png
+SHA1-Digest: B03SU+PGVDi0uOJUdP/wuiD6QeM=
+
+Name: res/drawable-hdpi/btn_toggle_arrow_up_normal.png
+SHA1-Digest: KQNUwdH1DVe24cf3QwsRA8oaftI=
+
+Name: res/drawable/p1_message_list_selector_black.xml
+SHA1-Digest: QGwZdqFjzrbUmh2ka12EYTwenlQ=
+
+Name: res/layout/p1_alert_popup_move.xml
+SHA1-Digest: ghxVVVrfsqLn4+4gZeB67eg4a4M=
+
+Name: res/menu/p1_message_list_context.xml
+SHA1-Digest: 9O2A9BD/1tUwW9VFQaeounJ93ZE=
+
+Name: res/drawable/btn_arrow_right.xml
+SHA1-Digest: o0ooWGAG1VaGWMzeE4L3PH+DOpE=
+
+Name: res/drawable/p1_email_icon_replay_select.xml
+SHA1-Digest: K75/WIZe16tlDW3IldpJxRxONIM=
+
+Name: res/drawable-hdpi/btn_default_normal.9.png
+SHA1-Digest: onxKvhLSPt3Q/RN07j0doMkftCk=
+
+Name: res/anim/image_after_select.xml
+SHA1-Digest: PVvxf8JpLZpevioaSfyCwNXtUDQ=
+
+Name: res/layout/account_setup_basics.xml
+SHA1-Digest: S0+XsEzOQ1isdtcugfHXUoRA60Y=
+
+Name: res/layout/p1_message_list_null.xml
+SHA1-Digest: eKQpwa+jkN6vKagJ+92VXIrvtUo=
+
+Name: res/drawable-hdpi/email_add_button_focus.png
+SHA1-Digest: ijHqR4P2UYXB6Svuxi/4rKPJDI8=
+
+Name: res/drawable/p1_split_opener_selector_disable.xml
+SHA1-Digest: 2JwqCt1bGU5OyrVErY3UjHGSmzw=
+
+Name: res/xml/account_settings_preferences_premium.xml
+SHA1-Digest: wEVOXtfS1iwTS8FRLlfOtqgjt+w=
+
+Name: res/drawable-hdpi/btn_check_buttonless_dark_off.png
+SHA1-Digest: NE2GA5e2XNrgYeRs2d8C5tJ3hZI=
+
+Name: res/drawable-hdpi/ic_email_signature.png
+SHA1-Digest: aPX3i9pZj8IjF+mrtfjBtZFGO+I=
+
+Name: res/drawable-hdpi/email_search_delete_btn.png
+SHA1-Digest: pPxf4VYYRInyy0LV7B/kHVcnfmc=
+
+Name: res/drawable-hdpi/email_icon_clip.png
+SHA1-Digest: poouYpNRREpeXNwCMPBP8wZlj+k=
+
+Name: res/drawable-hdpi/widget_days_location_icon.png
+SHA1-Digest: Pp8cFrJvA3moqZG9qfsHCU6IPZY=
+
+Name: res/drawable-hdpi/email_today_bg_press.9.png
+SHA1-Digest: 3WsT3z9SA0McAmS1spjdii6Z1N0=
+
+Name: res/layout/message_list_item.xml
+SHA1-Digest: /grI8f+EDDrpjfu05Xn28Q/m5gE=
+
+Name: res/drawable-hdpi/email_text_bg.9.png
+SHA1-Digest: HRHDDwOw4xUarusyOcLq9V+85rs=
+
+Name: res/drawable-hdpi/email_icon_flog_p.png
+SHA1-Digest: dMiEtIWFE3v0f1n29t5e0TK9H+Y=
+
+Name: res/xml/stores_product.xml
+SHA1-Digest: m3YUAFpSWTIA+zm23+JJ9XTtzyM=
+
+Name: res/drawable/p1_split_line_01_selector.xml
+SHA1-Digest: nGU67klA92smcCXer51EnyxRUNg=
+
+Name: res/layout/recipient_dropdown_item.xml
+SHA1-Digest: zYSoxnMIXhDr/qCu8SzpLLDNz4g=
+
+Name: res/drawable-hdpi/icon_popup_menu_bottom_frame.9.png
+SHA1-Digest: 8yZgJiY5JwlgcvqRcYG/bmT7rLc=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_19.9.png
+SHA1-Digest: MlflBY6kwv3tbnAmcQitQUvAIo8=
+
+Name: res/drawable-hdpi/btn_yes_pressed.png
+SHA1-Digest: 4MHPlWLLM3nU+QIMjNiuL3dCf/8=
+
+Name: res/drawable-hdpi/email_drop_folder_outbox.png
+SHA1-Digest: tEdOVXh/Bvl/ZUsBShlAN88vIgc=
+
+Name: res/drawable/btn_toggle_arrow.xml
+SHA1-Digest: 0lNXQa0L7bzG/cp+okS3VyqQ1+8=
+
+Name: res/drawable/account_sync_time_text_color.xml
+SHA1-Digest: fmC9dSrRdo0rWzuvpAWjz+iijkg=
+
+Name: res/drawable-hdpi/email_drop_folder_open.png
+SHA1-Digest: LEyBRhUzjaWwAOutg8cU4rL5EHw=
+
+Name: assets/empty.html
+SHA1-Digest: 5/ZT4kCiUBP9VB/ZNvh09Uk/75M=
+
+Name: res/drawable-hdpi/email_icon_btn_focused.9.png
+SHA1-Digest: oBlUulh0EHrpKanYLQzHe9aPZMk=
+
+Name: res/drawable-hdpi/list_icon_etc.png
+SHA1-Digest: 94a+ORNBx59q+Xouoi3y6ql7Q08=
+
+Name: res/layout/p1_message_compose_origin.xml
+SHA1-Digest: ZB7BvgGy7SkYVe54TYckTp4z3sU=
+
+Name: res/layout/sync_schedule_spinner.xml
+SHA1-Digest: pM3JhgalLDK53PzISdKHaaH2sPU=
+
+Name: res/color/tw_textappearance_listtwolinesecondaryorange.xml
+SHA1-Digest: ZO0psJsndI4qSj8PVUNwV4GeqVA=
+
+Name: res/drawable-hdpi/expander_ic_folder_minimized.9.png
+SHA1-Digest: xvIUQTwSexT1RNZJbdjLRUyTvz8=
+
+Name: res/drawable-hdpi/textfield_selected.9.png
+SHA1-Digest: KxDLE+lUb2gZHm4mCEUn835w4yQ=
+
+Name: res/menu/conversation_list_context.xml
+SHA1-Digest: vBlsKu2ciQaQlnYVlLJGBUNnwi0=
+
+Name: res/drawable-hdpi/btn_maybe_focused.png
+SHA1-Digest: kYlbcOk2LFi9baKw1QQlpv7cQ8U=
+
+Name: res/drawable-hdpi/divider_horizontal_dark.9.png
+SHA1-Digest: 3Si8MgCYGMsl800NCjZ70ItY9Uc=
+
+Name: res/color/tw_textappearance_grouptitle.xml
+SHA1-Digest: kBftMorL/mfNCrTZDu9OW58p8Mo=
+
+Name: res/anim/mailboxes_list_disappear.xml
+SHA1-Digest: ep+P+Wacs/N7/38IRCcDepINAwE=
+
+Name: res/layout/search_activity.xml
+SHA1-Digest: c+LtN9pUjBFhjMr2NTbv+W6JrhA=
+
+Name: res/drawable-hdpi/hub_icon_btn_focus.9.png
+SHA1-Digest: LFDUdP6XitJP/HpqlS/obqMpu/M=
+
+Name: res/drawable-hdpi/email_icon_reply.png
+SHA1-Digest: xLmpJLi5hzDKq9blUgnDJKWsdvQ=
+
+Name: res/drawable-hdpi/email_eas_folder_icon.png
+SHA1-Digest: YGDWX2WHBppawWTxo2EuseFjWlk=
+
+Name: res/drawable-hdpi/icon_popup_menu_slider_btn_selected.9.png
+SHA1-Digest: qNgK3Mhpxz1mWfU761ItBsvXvB4=
+
+Name: res/drawable-hdpi/btn_minus_pressed.png
+SHA1-Digest: zFiBR/p3GTykcThWHe2lXGnpnYU=
+
+Name: res/drawable/p1_search_dropdown_bg_up.xml
+SHA1-Digest: xnE9rT10Mi7Ii5sq3HyypdyalG4=
+
+Name: res/drawable-hdpi/list_icon_pdf.png
+SHA1-Digest: wqe0q3vs37cT3Q7w3oP3d8b3NV4=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_13.9.png
+SHA1-Digest: 2rCT4YStxkiNBbfHQBR77AhYAKg=
+
+Name: res/drawable-hdpi/divider_horizontal_dark_opaque.9.png
+SHA1-Digest: g6PtKFLea6o3yr7DsdZtE/iYOVc=
+
+Name: res/drawable-hdpi/list_icon_03_focus.png
+SHA1-Digest: WgGoq8ApRCDblsFbd+yURWmRU1U=
+
+Name: res/drawable-hdpi/email_quoted_bar.9.png
+SHA1-Digest: qAW+tMeGp0JZb80qkazeriRHatY=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_4.9.png
+SHA1-Digest: Z4DzXSxwDijLvlO7eGSh0PtaxaA=
+
+Name: res/drawable-hdpi/email_icon_zoomout_press.png
+SHA1-Digest: N1GZb4ZlYiO8FMDZysk8OX+h4mM=
+
+Name: res/layout/message_compose_preview.xml
+SHA1-Digest: s8YVxJL1LKVjzBFn5icBL5s+uN8=
+
+Name: res/drawable-hdpi/email_inbox_press_03.9.png
+SHA1-Digest: mpd6vNC4Z1Uby/VczfnnKTX3mCY=
+
+Name: res/drawable/contact_popup_move_right.xml
+SHA1-Digest: JeQu+Fk+AN9qPMKgLENAP5wUhuw=
+
+Name: res/anim/text_down_out.xml
+SHA1-Digest: 9y+5ycXK4ob9NDNxTkzkOIxk2mI=
+
+Name: res/drawable/p1_text_color_2_from656565_toffffff.xml
+SHA1-Digest: u8y/XtCimO47R03lW3ZnjUltwdU=
+
+Name: res/drawable-hdpi/email_tab_arrow_03.png
+SHA1-Digest: hZp94KNWJw/hwa0nWMoHQG4C0dk=
+
+Name: res/menu/message_compose_option.xml
+SHA1-Digest: VYoyzSZAXGPMw0IUK3tAfBS9qTs=
+
+Name: res/layout/p1_search_item.xml
+SHA1-Digest: lMVT0tiB8Bu0N4O6iQS/24/xex4=
+
+Name: res/menu/message_list_context_search_doc.xml
+SHA1-Digest: TmyzFMxxVDiZVVT8ZMJcc+QPywQ=
+
+Name: res/drawable-hdpi/list_selector_background_focused.9.png
+SHA1-Digest: OhGs0IDnjsE/G3HmKSn4SUxLutA=
+
+Name: res/layout/customize_date1.xml
+SHA1-Digest: t4wLtIltgavDVNTPiYqx6BwBh4g=
+
+Name: res/drawable-hdpi/list_icon_expandable_up_p.png
+SHA1-Digest: Ji9UfzZZyt2+kMpM/YVT587GpqA=
+
+Name: res/layout/attachment_details.xml
+SHA1-Digest: KNzuN0nDI1r9hoLengDAIJfP7Qc=
+
+Name: res/drawable-hdpi/btn_no_pressed.png
+SHA1-Digest: JtvJTbWX5JvH6RG3TuhPIyzoNPI=
+
+Name: res/drawable-hdpi/ic_btn_round_more01_normal.png
+SHA1-Digest: RCtd+FRGUUxg8ADPu34YLWtrkrs=
+
+Name: res/drawable-hdpi/btn_icon_bg_focused.9.png
+SHA1-Digest: cN9yqQxrINxhjUoywLAmbzRXFMg=
+
+Name: res/xml/contacts_sync_adapter_work.xml
+SHA1-Digest: ThZjcNPot6PRYqQA4YCcwD5Xuv4=
+
+Name: res/drawable-hdpi/winset_split_line_01_p.png
+SHA1-Digest: J66LWITyLBSHkzdOtVvPYsKVXgM=
+
+Name: res/drawable-hdpi/email_tab_arrow_04.png
+SHA1-Digest: DRNOLck3cRbFD9NhoPl5D9Hk2/g=
+
+Name: res/drawable-hdpi/icon_popup_menu_arrow_up.png
+SHA1-Digest: 5PnhMnh+TIIebhvju2Vtvk0zZtc=
+
+Name: res/drawable-hdpi/winset_split_opener_p.9.png
+SHA1-Digest: Ls2ubxGz2rN4eqVXbXnf9U0sJ/I=
+
+Name: res/drawable-hdpi/list_icon_html.png
+SHA1-Digest: e/ul5SDnn1gk57HFwYdGmjyg2T0=
+
+Name: res/drawable/message_composer_account_icon_btn.xml
+SHA1-Digest: H1OFm5RMwIHZAq8FrYe5FKC0Ous=
+
+Name: res/drawable-hdpi/email_icon_flog.png
+SHA1-Digest: jBmBVDt8r2ZtUuCm8xezi7D7Aew=
+
+Name: res/drawable-hdpi/email_inbox.9.png
+SHA1-Digest: vrGT8auajsL5+fgvm1zWccdTcss=
+
+Name: res/anim/icon_popup_menu_below_enter.xml
+SHA1-Digest: J4Hhys5BZjKbsQ0ICuDsKbfUFjE=
+
+Name: res/drawable-hdpi/email_drop_folder_icon.png
+SHA1-Digest: 8n+CDTjViF9VZlKNKy72Kt3k/I0=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_3.9.png
+SHA1-Digest: cubaCFO5WThnUB8bCn4ZteJipwg=
+
+Name: res/drawable/message_composer_attachment_clip_icon.xml
+SHA1-Digest: lMsVyiktA3pCrNzM+6l/axUF1Sk=
+
+Name: resources.arsc
+SHA1-Digest: 67GHVinXFOhieCm5JkuQxQzSLVY=
+
+Name: res/anim/attachment_appear.xml
+SHA1-Digest: zTy0kU4gFsAiYPVIuotVb4bSb6o=
+
+Name: res/drawable-hdpi/ic_btn_arrow_right_unselected.png
+SHA1-Digest: oniKYSMAINISceNjo0gVMxhDwg4=
+
+Name: res/drawable-hdpi/btn_01_default_selected.9.png
+SHA1-Digest: zZD6a8DUvQL11hixAZR2lL/6bys=
+
+Name: res/drawable-hdpi/stat_notify_sms.png
+SHA1-Digest: kB1R8GmoqTyuKtYk+FRfh0TsYrI=
+
+Name: res/drawable-hdpi/list_icon_03.png
+SHA1-Digest: FKMb7XdIWdvta3wZgvh5Hq4NpEM=
+
+Name: res/drawable-hdpi/textfield_pressed.9.png
+SHA1-Digest: AlmHk9e29reZ9vJEQxN2Kg8RE60=
+
+Name: res/drawable-hdpi/bg_color_2.png
+SHA1-Digest: r4r1LzWezPm9caFnFQvPpcRFyhs=
+
+Name: res/drawable-hdpi/list_icon_music.png
+SHA1-Digest: H+qNgXm+DSSt22qZxLCeX5u3bdE=
+
+Name: res/drawable/p1_mail_box_list_layou_bg_tail.xml
+SHA1-Digest: MJ9ZcgJcgiE7YXfo0w/mEBXBZ8s=
+
+Name: res/color/tw_textappearance_menusmall.xml
+SHA1-Digest: 73+GfljvGjecAxsCtu28rngZCnQ=
+
+Name: res/drawable-hdpi/email_button_arrow_open.png
+SHA1-Digest: cU3itsGoTVovnRcT+rNypnapPq4=
+
+Name: res/xml/syncadapter_notes.xml
+SHA1-Digest: wU8CcZZhl3BDT0bkMC+AjE9aleI=
+
+Name: res/drawable-hdpi/email_button_arrow_press.9.png
+SHA1-Digest: i/QA5LlAkGKqNHBylXnphDNm5DU=
+
+Name: res/drawable-hdpi/popup_bottom_medium.9.png
+SHA1-Digest: 4HT5RJEFZbW7jcdN/3VQ4ptRKG4=
+
+Name: res/layout/p1_message_list_sub_title2.xml
+SHA1-Digest: TJGzltPEaKSLg2LzXeiaa4I6IrA=
+
+Name: res/layout/account_folder_list_item.xml
+SHA1-Digest: ZOCSe7j4m9da0ljYZeWkA9i3bL8=
+
+Name: res/drawable-hdpi/list_icon_hwp.png
+SHA1-Digest: EGguX+4vgTpXVoiMdCLFWBE5qr4=
+
+Name: res/drawable-hdpi/ic_dialog_attach.png
+SHA1-Digest: m/m8pzOW66mNJBc4+HY4Tvt8PhQ=
+
+Name: res/layout/p1_recent_list.xml
+SHA1-Digest: ntI4p66WycVmxFp46g9k1GZAT7Q=
+
+Name: res/drawable-hdpi/email_icon_replay_press.png
+SHA1-Digest: Y0lB/hUsbLRc1jIntjpM1KH8mgQ=
+
+Name: res/drawable-hdpi/email_icon_delete.png
+SHA1-Digest: aaIRZVBS9W5eRdgf48TkJrNIPt4=
+
+Name: res/drawable-hdpi/email_icon_phonebook_focus.png
+SHA1-Digest: OvNEQkVp/+oeSUZKvKGcW9mG7g4=
+
+Name: res/drawable-hdpi/email_bubble_full.9.png
+SHA1-Digest: i0hWsaKDmPvS7YGM+qo1EfHdGP0=
+
+Name: res/drawable-hdpi/ic_email_thread_open_top_default.9.png
+SHA1-Digest: oekgJEpWVqGhE0GHRiLoZCt3oEU=
+
+Name: res/drawable-hdpi/ic_menu_priority.png
+SHA1-Digest: fw27HGk9l0ZM5ipmg2tbVE3ZJnU=
+
+Name: res/drawable-hdpi/background_color_popup.png
+SHA1-Digest: 2rmMboYVVQBpVuvH2UwkqXj0tBE=
+
+Name: res/layout/p1_preference_peak_day.xml
+SHA1-Digest: 26zlg2SaX4OzQG2TtigodcdDH8s=
+
+Name: res/layout/p1_mail_box_list_allaccount_main.xml
+SHA1-Digest: briHlkaXvBmJMZCe9Keb5W0QpiU=
+
+Name: res/drawable-hdpi/textfield_default.9.png
+SHA1-Digest: iuHLn0hwqXNtAxl42dbEWAptB0c=
+
+Name: res/drawable-hdpi/ta_im_btn_default_pressed.9.png
+SHA1-Digest: WWYB226VLGPN/fDCNqzfC7Fei+Y=
+
+Name: res/layout/customize_date.xml
+SHA1-Digest: wU+X+GEcijW1fz2zJVX2CMYBxfU=
+
+Name: res/layout/account_setup_other_incoming.xml
+SHA1-Digest: BC0FWA4EtQzdPzqDrjEzVAgkL6Q=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_15.9.png
+SHA1-Digest: Ly/2VoHybmXVHXtOSeM0vDMnY3E=
+
+Name: res/xml/account_sync_settings_preferences.xml
+SHA1-Digest: HEt+7YjS5iaGkDgKCS/OoCLIB2M=
+
+Name: res/drawable-hdpi/email_popup_top.9.png
+SHA1-Digest: g2mEqfNu1PpLgFKL0xnGkTVoglw=
+
+Name: res/drawable-hdpi/icon_next_dim.png
+SHA1-Digest: 4TFUcq2FM4lAArka6mWtnR+2pYk=
+
+Name: res/drawable-hdpi/email_icon_flog_dim.png
+SHA1-Digest: vvg7iP51bhc65gmNndpeicQLewg=
+
+Name: res/anim/push_left_out.xml
+SHA1-Digest: odaX8c7v5tEQVTQu4jQ3sXuxxIc=
+
+Name: res/drawable-hdpi/email_icon_save.png
+SHA1-Digest: ffJ7/zzhCh5GPIQla3aXOfV6X5w=
+
+Name: res/drawable-hdpi/ic_email_attachment_small.png
+SHA1-Digest: kTmPNm5E+RruqvUIDS3gRfb8QmQ=
+
+Name: res/drawable-hdpi/winset_split_line_01_d.png
+SHA1-Digest: goA64NCbfB5CnKaf2/6wNktePtY=
+
+Name: res/layout/message_compose.xml
+SHA1-Digest: JJvUkDq2U/+Ym820sna/9glFJdY=
+
+Name: res/drawable-hdpi/list_icon_email.png
+SHA1-Digest: sG1Lmlwm/0oVPVzYwqkYQykP30U=
+
+Name: res/drawable-hdpi/icon_popup_menu_slider_btn_focused.9.png
+SHA1-Digest: /KuCq92zcUk1qGtvVfFc9EcaZNY=
+
+Name: res/layout/p1_account_selection_after_delete_main.xml
+SHA1-Digest: GIuMOXVUL8N6V/+hbC/n64iq6qI=
+
+Name: res/drawable-hdpi/list_icon_favorite_off.png
+SHA1-Digest: AKkFv6g/Z+lwlw6jkJEIISsDcAk=
+
+Name: res/drawable-hdpi/btn_circle_normal.png
+SHA1-Digest: dJHriZlyvokqA0OSpg0ytgYmP4Y=
+
+Name: res/drawable-hdpi/list_icon_complete.png
+SHA1-Digest: xSh7QZgXwjHL5W9Sqn0m8qWmVjQ=
+
+Name: res/drawable-hdpi/icon_popup_menu_slider_background.png
+SHA1-Digest: OvlA+vxukGjhyydJ08xnQNnUbxU=
+
+Name: res/menu/certificate_list_context_menu.xml
+SHA1-Digest: riPNCZncQ8awwfAvP+Wslj+IAV4=
+
+Name: res/drawable-hdpi/popup_spin_right.png
+SHA1-Digest: tjilbKFHBCbvs44xeAx8MyEJuu0=
+
+Name: res/drawable-hdpi/popup_center_bright.9.png
+SHA1-Digest: rcBuUX6/7Nx9pCjpAOivrXjsiyw=
+
+Name: res/layout/p1_account_popup_main.xml
+SHA1-Digest: kLWlIxfHtWvWT8uX6v984caZmDI=
+
+Name: res/drawable-hdpi/email_list_color_10.9.png
+SHA1-Digest: 7uMbWs5zonsWm7TOY1vel9CFuPU=
+
+Name: res/drawable-hdpi/ic_menu_list_by.png
+SHA1-Digest: n4fOApCVq+VhkdrxrMuUaX/H9jo=
+
+Name: res/layout/icon_popup_menu.xml
+SHA1-Digest: a4HEWyjEoJulri/bTK9IooBMmyw=
+
+Name: res/drawable/selector_email_account_box.xml
+SHA1-Digest: hmWy4538I6FMdFzCb5+poPWBNIM=
+
+Name: res/layout/account_setup_accept_premium.xml
+SHA1-Digest: 4QJ+EQuq/Kosc/25hsVcttukqyk=
+
+Name: res/layout/message_list_item_largest.xml
+SHA1-Digest: eVE3SKFY3BDABKTGrpZXVzwlcYY=
+
+Name: res/xml/stores.xml
+SHA1-Digest: Uu/H2ycnMujSoVD7/0biabIaYtE=
+
+Name: res/drawable-hdpi/appointment_indicator_leftside_20.9.png
+SHA1-Digest: y9mg6I0tQv7e20nLCGfmm0THkUY=
+
+Name: res/anim/content_down_when_attachment_appear.xml
+SHA1-Digest: 7/yEDDgurxUafaG94QdzMoX0pTk=
+
+Name: res/drawable-hdpi/attach_myfiles.png
+SHA1-Digest: kFR6SH675pNzsE7utw0ssrPlJoU=
+
+Name: res/drawable-hdpi/msg_pointer.png
+SHA1-Digest: 5Yg/L4AGpkSQgW+EpJiRzHcNs+4=
+
+Name: res/drawable-hdpi/email_icon_folder_send_press.png
+SHA1-Digest: X/HsPONUhSYvBQJ/N5SH3LM3ryY=
+
+Name: res/drawable-hdpi/ic_menu_refresh.png
+SHA1-Digest: 8ljdc/TxXdC8Jj2ufFJvRQType0=
+
+Name: res/drawable-hdpi/icon_popup_menu_top_frame.9.png
+SHA1-Digest: XDZKuRa7SddrMN8V9M2QZ1pjXj4=
+
+Name: res/layout/p1_account_manager_list_item.xml
+SHA1-Digest: JOFpa2W+0CjtC44U4fOV00/gYFE=
+
+Name: res/drawable/p1_search_dropdown_bg_down.xml
+SHA1-Digest: p9tDaIiOTrH6heg/vfXSB4mbV9Y=
+
+Name: res/drawable/btn_arrow_expandable_up.xml
+SHA1-Digest: hbQ1wDW3ZQgGrHNOpZcOHYRQcDc=
+
+Name: assets/empty_black.html
+SHA1-Digest: kyqWBKgKiBOAXfe4lWpNFOzFQR8=
+
+Name: res/layout/account_setup_provisioning.xml
+SHA1-Digest: fIgzbfmnrmJ8fiApqRlqnhsf5w4=
+
+Name: res/layout/mailbox_type_list_item.xml
+SHA1-Digest: /8nQ9PIFOqQuIEoDdJuU1bqDs5s=
+
+Name: res/drawable-hdpi/email_btn_03.9.png
+SHA1-Digest: b57SZsH6kkb9sp45gzz0NYkDx6Y=
+
+Name: res/drawable-hdpi/email_inbox_line_top.9.png
+SHA1-Digest: hwKdfry6PsTuV9LwUSYzEzxhVKs=
+
+Name: res/color/tw_textappearance_listtwolinesecondary.xml
+SHA1-Digest: VKoZoldLFMx7/spk6j3g8Ggf85A=
+
+Name: res/xml/device_admin.xml
+SHA1-Digest: 5zsAKKHHXScJeVOvvQwTFk0DK14=
+
+Name: res/drawable/p1_message_list_selector_read.xml
+SHA1-Digest: 8pAcCWG99EPhaS3lZmHHo9glIQA=
+
+Name: res/drawable/icon_thread_down.xml
+SHA1-Digest: fn/RfFe95xhVU1lsKOrNbYlXAKc=
+
+Name: res/drawable-hdpi/list_icon_expandable_down.png
+SHA1-Digest: K2SxD/qn501fxDR/Xi8vgNyPJug=
+

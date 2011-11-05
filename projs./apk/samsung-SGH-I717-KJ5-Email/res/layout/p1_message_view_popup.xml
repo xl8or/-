@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:orientation="horizontal" android:id="@id/layout_root" android:layout_width="458.0px" android:layout_height="346.0px" android:layout_x="213.0px" android:layout_y="60.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/popup_top_dark" android:layout_width="458.0px" android:layout_height="95.0px" android:layout_x="0.0px" android:layout_y="0.0px" />
+    <ImageView android:background="@drawable/popup_bottom_medium" android:layout_width="458.0px" android:layout_height="119.0px" android:layout_x="0.0px" android:layout_y="227.0px" />
+    <ImageView android:gravity="top" android:id="@id/popup_spin_l" android:layout_width="26.0px" android:layout_height="26.0px" android:src="@drawable/contact_popup_move_left" android:layout_x="38.0px" android:layout_y="42.0px" />
+    <TextView android:textSize="33.0px" android:typeface="sans" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/titletext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_x="0.0px" android:layout_y="32.0px" style="@style/TextAppearanceTitleShadow" />
+    <ImageView android:gravity="top" android:id="@id/popup_spin_r" android:layout_width="26.0px" android:layout_height="26.0px" android:src="@drawable/contact_popup_move_right" android:layout_x="392.0px" android:layout_y="42.0px" />
+    <ImageView android:background="@drawable/popup_center_bright" android:layout_width="458.0px" android:layout_height="132.0px" android:layout_x="0.0px" android:layout_y="95.0px" />
+    <ImageView android:id="@id/image" android:layout_width="80.0px" android:layout_height="80.0px" android:src="@drawable/email_noimage" android:scaleType="fitCenter" android:layout_x="39.0px" android:layout_y="116.0px" />
+    <ScrollView android:scrollbars="vertical" android:layout_width="285.0px" android:layout_height="102.0px" android:layout_x="141.0px" android:layout_y="108.0px">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="28.0px" android:typeface="sans" android:textStyle="bold" android:textColor="#ff000000" android:gravity="left" android:id="@id/nametext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" />
+            <TextView android:textSize="24.0px" android:typeface="sans" android:textColor="#ff000000" android:gravity="left" android:id="@id/text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" />
+            <TextView android:textSize="24.0px" android:typeface="sans" android:textColor="#ff000000" android:gravity="left" android:id="@id/text3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_y="240.0px">
+        <Button android:gravity="center" android:id="@id/button" android:layout_width="200.0px" android:layout_height="80.0px" />
+        <Button android:gravity="center" android:id="@id/button2" android:layout_width="200.0px" android:layout_height="80.0px" />
+    </LinearLayout>
+</AbsoluteLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+        xmlns:tx="http://www.springframework.org/schema/tx"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+                http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd
+                http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+
+        <!-- Instructs the container to look for beans with @Transactional and decorate them -->
+        <tx:annotation-driven transaction-manager="transactionManager" />
+
+        <!-- Enable annotation-config, needed for @PersistenceContext annotations -->
+        <context:annotation-config />
+        
+        <jdbc:embedded-database id="hsqldbInMemory" type="HSQL">
+            <!-- 
+            	Schema file should follow some rules:
+            	  alter table should come after create table
+            	  create constraints should not have duplicates
+            	  create sequence should use 'if exists' clause 
+             -->
+        	<jdbc:script location="classpath:testdb/gs-schema.sql"/>
+        </jdbc:embedded-database>
+                
+</beans>   

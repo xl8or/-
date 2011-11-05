@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/list_title" />
+    <include layout="@layout/connection_error_banner" />
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/footer_organize" android:background="@drawable/bottom_bar" android:paddingLeft="4.0dip" android:paddingTop="5.0dip" android:paddingRight="4.0dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:ellipsize="end" android:id="@id/btn_read_unread" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_btn_mark_unread" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageButton android:ellipsize="end" android:id="@id/btn_multi_favorite" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_btn_add_star" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageButton android:ellipsize="end" android:id="@id/btn_multi_delete" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_btn_trash" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="unreadCount">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">2.0dip</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingRight">2.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:maxWidth">48.0dip</item>
+        <item name="android:minWidth">8.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="EmailTextAppearanceMiddle" parent="@android:style/TextAppearance.Medium" />
+    <style name="TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">#ffff9200</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">#ff5c5cff</item>
+    </style>
+    <style name="TextAppearance.SearchResult" parent="@style/TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+    </style>
+    <style name="TextAppearance.SearchResult.Title" parent="@style/TextAppearance.SearchResult">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="CustomDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/popup_full_bright</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TextAppearance.SearchResult.Subtitle" parent="@style/TextAppearance.SearchResult">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">?android:textColorSecondaryInverse</item>
+    </style>
+    <style name="TwTextAppearanceListTwoLinePrimary">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_textappearance_listtwolineprimary</item>
+    </style>
+    <style name="TwTextAppearanceListTwoLineSecondary">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_textappearance_listtwolinesecondary</item>
+    </style>
+    <style name="TwTextAppearanceGroupTitle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tw_textappearance_grouptitle</item>
+    </style>
+    <style name="TwTextAppearanceListTwoLineSecondaryGrey">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_textappearance_listtwolinesecondarygrey</item>
+    </style>
+    <style name="WhiteStyle" parent="@android:style/Theme.Light">
+        <item name="android:listViewStyle">@android:style/Widget.ListView.White</item>
+    </style>
+    <style name="WhiteStyleNoTitle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:listViewStyle">@android:style/Widget.ListView.White</item>
+    </style>
+    <style name="TextAppearanceTitleShadow">
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">-1.0</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">0.3</item>
+    </style>
+    <style name="TextAppearanceSeparatorShadow">
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.3</item>
+    </style>
+    <style name="AttachContextMenu" parent="@android:style/Widget.Holo.CompoundButton.Star">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="IconPopupMenu">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="IconPopupMenuAboveAnimation">
+        <item name="android:windowEnterAnimation">@anim/icon_popup_menu_above_enter</item>
+        <item name="android:windowExitAnimation">@anim/icon_popup_menu_above_exit</item>
+    </style>
+    <style name="IconPopupMenuBelowAnimation">
+        <item name="android:windowEnterAnimation">@anim/icon_popup_menu_below_enter</item>
+        <item name="android:windowExitAnimation">@anim/icon_popup_menu_below_exit</item>
+    </style>
+    <style name="Mailboxes_List_Appear" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/mailboxes_list_appear</item>
+        <item name="android:windowExitAnimation">@anim/mailboxes_list_disappear</item>
+    </style>
+    <style name="ProvFrameTheme" parent="@android:style/Theme">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:paddingBottom">7.0dip</item>
+        <item name="android:layout_margin">1.3329773dip</item>
+        <item name="android:layout_weight">300.0</item>
+    </style>
+    <style name="Font12Color3" parent="@android:style/Theme">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/color3</item>
+    </style>
+    <style name="Font14Color2" parent="@android:style/Theme">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="Font18Color1" parent="@android:style/Theme">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="Font24Color1" parent="@android:style/Theme">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="ProvFooterTheme" parent="@android:style/Theme">
+        <item name="android:gravity">center</item>
+        <item name="android:background">#ff73797b</item>
+        <item name="android:paddingLeft">40.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">40.0dip</item>
+        <item name="android:paddingBottom">7.0dip</item>
+    </style>
+    <style name="Theme.Button" parent="@android:style/Widget.Button">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="ProvHeaderText" parent="@android:style/Theme">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">-1.0</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="TaSoftKeyLayout" parent="@android:style/Theme">
+        <item name="android:paddingLeft">5.3329773dip</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingRight">5.3329773dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+    </style>
+    <style name="TaSoftKeyButtonText">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@drawable/ta_im_btn_softkey_textcolor_selector</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Z7.Theme.Button" parent="@android:style/Widget.Button">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Z7.Theme.Dialog" parent="@android:style/Theme.Dialog" />
+    <style name="Z7.Theme.TransParentDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

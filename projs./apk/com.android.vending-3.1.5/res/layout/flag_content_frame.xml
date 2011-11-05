@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="@dimen/transparent_bar_top_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:visibility="gone" layout="@layout/page_loading_indicator" />
+    <include android:visibility="gone" layout="@layout/page_error_indicator" />
+    <include android:id="@id/page_content" layout="@layout/flag_content" />
+</FrameLayout>

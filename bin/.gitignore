@@ -1,0 +1,9 @@
+*.class
+*.md.html
+*.mkd.html
+.DS_Store
+.p4config
+.settings/
+bin/
+gen/
+target/

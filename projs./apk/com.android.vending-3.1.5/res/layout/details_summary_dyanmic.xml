@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/details_summary_dynamic" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/download_progress_panel" android:background="@color/title_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" layout="@layout/details_download_progress" />
+        <include android:id="@id/download_pending_panel" android:background="@color/title_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/details_starting_download" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/grey" android:gravity="center" android:id="@id/summary_dynamic_status" android:background="@color/title_background" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </FrameLayout>
+</merge>

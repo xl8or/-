@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="save_draft_action">Αποθ.πρόχ.</string>
+    <string name="read_action">Επισ.αναγν.</string>
+    <string name="unread_action">Μρκ μη αν.</string>
+    <string name="add_cc_bcc_action">Προσθ. Κοιν./Ιδ. κοιν.</string>
+    <string name="account_folder_list_summary_inbox">Συνδ. προβολή εισερχ.</string>
+    <string name="message_list_load_more_messages_action">Φόρτωση περισσότ. μηνυμ.</string>
+    <string name="message_compose_body_hint">Εισαγάγετε το μήνυμά σας</string>
+    <string name="message_view_attachment_view_action">Άνοιγ.</string>
+    <string name="message_view_attachment_download_action">Αποθ.</string>
+    <string name="message_view_show_pictures_instructions">Επιλέξτε για λήψη και προβ. των ενσωματ. εικόνων</string>
+    <string name="message_view_show_pictures_action">Εμφ. εικόνων</string>
+    <string name="message_view_invite_view">Προβ. στο Ημ.»</string>
+    <string name="message_view_invite_title">Πρόσκλ.Ημερολ.</string>
+    <string name="account_setup_basics_manual_setup_action">Χειροκ. ρύθμ.</string>
+    <string name="account_setup_incoming_title">Ρυθμ. διακομ. εισερχομ.</string>
+    <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL(Αποδ. των πιστ.)</string>
+    <string name="account_setup_incoming_security_tls_trust_certificates_label">TLS(Αποδ. των πιστ.)</string>
+    <string name="account_setup_incoming_delete_policy_label">Διαγρ.email από διακ.</string>
+    <string name="account_setup_incoming_delete_policy_delete_label">Όταν διαγ. από Εισερ.</string>
+    <string name="account_setup_options_mail_window_label">Όγκος για συγχρονισμό</string>
+    <string name="security_notification_ticker_fmt">Ο λογ. %s απαιτεί ενημ.ρυθμ.ασφαλ.</string>
+    <string name="security_notification_content_title">Ενημέρωση ρυθμίσεων ασφαλείας</string>
+    <string name="account_settings_default_label">Προεπιλεγμ. λογαριασμ.</string>
+    <string name="account_settings_mail_check_frequency_label">Συχνότητα ελέγχ. εισερχ.</string>
+    <string name="account_settings_sync_calendar_enable">Συγχρον. ημερολογίου</string>
+    <string name="email_strings_ask_before_delete_txt">Ερ.πριν τη διαγρ.</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="25.699982dip" />
+    <Button android:textSize="13.299988sp" android:typeface="sans" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/reply_popup_button" android:background="@drawable/p1_message_list_btn" android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="2.5dip" android:layout_width="wrap_content" android:layout_height="31.299988dip" android:minWidth="112.0dip" android:text="@string/reply_action" />
+    <ImageView android:id="@id/reply_all_popup_imageview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="6.5999756dip" />
+    <Button android:textSize="13.299988sp" android:typeface="sans" android:gravity="center" android:layout_gravity="center" android:id="@id/reply_all_popup_button" android:background="@drawable/p1_message_list_btn" android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="2.5dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="31.299988dip" android:minWidth="112.0dip" android:text="@string/reply_all_action" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="6.5999756dip" />
+    <Button android:textSize="13.299988sp" android:typeface="sans" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/forward_popup_button" android:background="@drawable/p1_message_list_btn" android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="2.5dip" android:layout_width="wrap_content" android:layout_height="31.299988dip" android:minWidth="112.0dip" android:text="@string/forward_action" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="9.0dip" />
+</LinearLayout>

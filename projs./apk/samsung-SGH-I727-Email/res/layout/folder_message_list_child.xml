@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/folder_message_list_child_background" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/chip" android:background="@drawable/appointment_indicator_leftside_1" android:layout_width="4.0dip" android:layout_height="56.0dip" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/from" android:paddingLeft="30.0dip" android:paddingTop="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="4.0dip" android:layout_toRightOf="@id/chip" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignBaseline="@id/subject" android:layout_alignParentRight="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/subject" android:paddingLeft="30.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:singleLine="true" android:layout_toLeftOf="@id/date" android:layout_below="@id/from" android:layout_alignLeft="@id/from" />
+</RelativeLayout>

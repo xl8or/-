@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="search_results_estimated_in_bucket">
+        <item quantity="other">Результатов: %1$d</item>
+        <item quantity="one">Результатов: %1$d</item>
+    </plurals>
+    <plurals name="notification_updates_available_message">
+        <item quantity="other">Найдено обновлений: %1$d</item>
+        <item quantity="one">Найдено обновлений: %1$d.</item>
+    </plurals>
+    <plurals name="plus_one_multiple_global">
+        <item quantity="other">%1$s чел. добавили +1</item>
+        <item quantity="one">%1$s чел. добавили +1</item>
+    </plurals>
+    <plurals name="plus_one_multiple_friends">
+        <item quantity="other">%1$1$s и еще %2$2$s чел. добавили +1</item>
+        <item quantity="one">%1$1$s и еще %2$2$s чел. добавили +1</item>
+    </plurals>
+</resources>

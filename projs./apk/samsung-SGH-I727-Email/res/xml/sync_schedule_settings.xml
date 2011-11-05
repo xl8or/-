@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <ListPreference android:persistent="true" android:entries="@array/sync_schedule_schedule_entries" android:title="@string/sync_schedule_peak_schedule" android:key="account_sync_peaktime" android:order="1" android:disableDependentsState="true" android:entryValues="@array/sync_schedule_schedule_values" />
+    <ListPreference android:persistent="true" android:entries="@array/sync_schedule_schedule_entries" android:title="@string/sync_schedule_off_peak_schedule" android:key="account_sync_offpeaktime" android:order="2" android:disableDependentsState="true" android:entryValues="@array/sync_schedule_schedule_values" />
+    <Preference android:layout="@layout/day_of_the_week_widget" android:key="account_sync_peakdays" android:order="3" />
+    <Preference android:persistent="true" android:title="@string/sync_schedule_peak_start_time" android:key="account_sync_peakstarttime" android:order="4" />
+    <Preference android:persistent="true" android:title="@string/sync_schedule_peak_end_time" android:key="account_sync_peakendtime" android:order="5" />
+    <ListPreference android:persistent="true" android:entries="@array/sync_schedule_roaming_entries" android:title="@string/sync_schedule_while_roaming" android:key="account_sync_while_roaming" android:order="6" android:disableDependentsState="true" android:entryValues="@array/sync_chedule_roaming_values" />
+</PreferenceScreen>

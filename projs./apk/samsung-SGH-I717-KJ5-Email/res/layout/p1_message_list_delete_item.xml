@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/listDeleteItem" android:layout_width="fill_parent" android:layout_height="70.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="18.0px" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="20.0px" android:textColor="#ff000000" android:ellipsize="end" android:gravity="bottom" android:id="@id/listDeleteItem_sender" android:layout_width="fill_parent" android:layout_height="0.0dip" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0px" android:textColor="#ff000000" android:ellipsize="end" android:gravity="top" android:id="@id/listDeleteItem_title" android:layout_width="fill_parent" android:layout_height="0.0dip" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="right|center" android:id="@id/listDeleteItem_checked" android:layout_width="33.0px" android:layout_height="32.0px" android:layout_marginRight="18.0px" android:src="@drawable/phonebook_check_box" android:scaleType="center" />
+</LinearLayout>

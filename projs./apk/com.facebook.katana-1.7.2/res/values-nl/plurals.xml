@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="birthday_count">
+        <item quantity="other">%d verjaardagen</item>
+        <item quantity="one">1 verjaardag</item>
+    </plurals>
+    <plurals name="profile_info_num_likes">
+        <item quantity="other">%d personen vinden dit leuk</item>
+        <item quantity="one">1 persoon vindt dit leuk</item>
+    </plurals>
+    <plurals name="profile_info_num_checkins">
+        <item quantity="other">%d check-ins</item>
+        <item quantity="one">1 check-in</item>
+    </plurals>
+    <plurals name="requests_mutual_friends">
+        <item quantity="other">%d gemeenschappelijke vrienden</item>
+        <item quantity="zero">Geen gemeenschappelijke vrienden</item>
+        <item quantity="one">Eén gemeenschappelijke vriend</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%d personen</item>
+        <item quantity="one">1 persoon</item>
+    </plurals>
+</resources>

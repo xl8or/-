@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/page_error_indicator" android:background="@color/page_error_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/page_error_text_color" android:id="@id/error_msg" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/page_error_text_color" android:id="@id/retry_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/network_retry" />
+</LinearLayout>

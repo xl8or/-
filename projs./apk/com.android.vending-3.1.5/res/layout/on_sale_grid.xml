@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/black" android:paddingTop="@dimen/transparent_bar_top_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.finsky.layout.UnevenGrid android:id="@id/on_sale_grid" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</ScrollView>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.AccessibleTextView android:textColor="@color/bucket_header_info" android:layout_width="wrap_content" android:layout_height="@dimen/bucket_header" style="@style/BucketHeaderText"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

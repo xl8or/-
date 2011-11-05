@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping
+>
+    <class
+        name="com.gs.core.domain.events.ClinicalEvent"
+    ><!--
+        <cache usage="read-write" />
+
+        --><id
+            name="id"
+            column="id"
+            type="java.lang.Long"
+        >
+            <generator class="native">
+                <param name="sequence">clinical_event_sequence</param>
+            </generator>
+        </id>
+
+        <discriminator
+            column="eventType"
+        />
+
+		
+        <version
+            name="version"
+            column="version"
+            type="integer"
+        />
+
+		<many-to-one name="patient"  
+			cascade="none" outer-join="auto" 
+			class="com.gs.core.domain.visit.Patient" 
+			insert="true" 
+			update="true">
+		   
+		   <column name="patient_id"></column>
+		
+		</many-to-one>
+        <property
+            name="annotation"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="annotation"
+        />
+
+        <property
+            name="siblingOrder"
+            type="java.lang.Integer"
+            update="true"
+            insert="true"
+            column="siblingOrder"
+        />
+
+
+        <subclass
+            name="com.gs.core.domain.events.Allergy"
+            discriminator-value="ALLERGY"
+        >
+
+        <property
+            name="displayValue"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="allergy_display_value"
+        />
+
+        </subclass>
+        <subclass
+            name="com.gs.core.domain.visit.Visit"
+            discriminator-value="VIST"
+        >
+        
+        
+
+        <set
+            name="clinicalObservations"
+            lazy="true"
+            inverse="true"
+            cascade="all-delete-orphan"
+            sort="unsorted"
+        ><!--
+            <cache 
+                usage="read-write" 
+            />
+
+            --><key
+                column="clinical_event_id"
+            >
+            </key>
+
+            <one-to-many
+                  class="com.gs.core.domain.events.ClinicalObservation"
+            />
+
+        </set>
+
+        <property
+            name="bulletsScored"
+            type="java.lang.Long"
+            update="true"
+            insert="true"
+            column="bulletsScored"
+        />
+
+        <property
+            name="firstVisit"
+            type="java.lang.Boolean"
+            update="true"
+            insert="true"
+            column="firstVisit"
+        />
+
+        <property
+            name="scheduledStartTime"
+            type="java.util.Date"
+            update="true"
+            insert="true"
+            column="scheduled_start_timestamp"
+        />
+
+
+
+
+        </subclass>
+
+    </class>
+
+</hibernate-mapping>

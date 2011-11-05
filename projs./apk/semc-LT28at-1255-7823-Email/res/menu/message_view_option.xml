@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_reply" android:id="@id/reply" android:orderInCategory="100" android:title="@string/reply_action" android:alphabeticShortcut="r" />
+    <item android:icon="@drawable/ic_menu_reply_all" android:id="@id/reply_all" android:orderInCategory="110" android:title="@string/reply_all_action" android:alphabeticShortcut="a" />
+    <item android:icon="@drawable/ic_menu_forward_mail" android:id="@id/forward" android:orderInCategory="120" android:title="@string/forward_action" android:alphabeticShortcut="f" />
+    <item android:icon="@android:drawable/ic_menu_delete" android:id="@id/delete" android:orderInCategory="130" android:title="@string/delete_action" android:alphabeticShortcut="q" />
+    <item android:icon="@android:drawable/btn_toggle_off_holo" android:id="@id/mark_as_unread" android:orderInCategory="140" android:title="@string/mark_as_unread_action" android:alphabeticShortcut="u" />
+</menu>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings version="1">
+    <groups type="default-ux-settings">
+        <group>
+            <setting key="check-interval" runtime="true">0</setting>
+            <setting key="email-notifications" runtime="true">true
+</setting>
+            <setting key="notification-tone" runtime="true">silent
+</setting>
+            <setting key="notification-vibrate" runtime="true">false
+</setting>
+            <setting key="check-interval-list" runtime="true">0|300|600|900|1800|3600
+</setting>
+            <setting key="eas-check-interval" runtime="true">-2
+</setting>
+            <setting key="eas-check-interval-list" runtime="true">-2|0|300|600|900|1800|3600
+</setting>
+        </group>
+    </groups>
+</settings>

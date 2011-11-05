@@ -1,0 +1,2 @@
+#!/bin/bash
+java -jar `dirname $0`/fernflower.jar -dgs=1 -hdc=0 -das=0 $1 `dirname $1`/src/

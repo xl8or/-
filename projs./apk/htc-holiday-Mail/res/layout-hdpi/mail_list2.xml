@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@com.htc:layout/title_2" />
+    <include layout="@com.htc:layout/cmd_bar_2" />
+    <com.htc.widget.HtcListView android:id="@android:id/list" android:background="#ffffffff" android:visibility="gone" android:scrollbars="vertical" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:drawSelectorOnTop="false" android:stackFromBottom="false" android:cacheColorHint="@android:color/transparent" android:divider="@34080191" android:layout_weight="1.0" android:layout_above="@33685506" android:layout_below="@33685591" mail:topBorderHeight="0.0px" mail:bottomBorderHeight="8.0px" mail:shouldFillEmpty="false" style="@style/HtcListStyle"
+      xmlns:mail="http://schemas.android.com/apk/res/com.htc.android.mail" />
+    <TextView android:textSize="26.0px" android:textColor="#ff000000" android:gravity="center" android:id="@id/emptyText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_above="@33685506" android:layout_below="@33685591" />
+</RelativeLayout>

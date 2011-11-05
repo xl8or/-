@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="26.0px" android:textColor="@color/on_change_focus_text_color_show_html" android:gravity="center" android:id="@id/getunfinishedBtn" android:background="?33619982" android:layout_width="fill_parent" android:layout_height="50.0px" android:layout_marginLeft="14.0px" android:layout_marginTop="5.0dip" android:layout_marginRight="14.0px" android:singleLine="true" android:layout_weight="1.0" />
+    <ImageView android:id="@id/getunfinishedAnimation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:scaleType="center" android:layout_centerHorizontal="true" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_DL_unfinish" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" style="?android:attr/progressBarStyleSmall" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="30.0px" android:layout_below="@id/getunfinishedBtn" />
+</RelativeLayout>

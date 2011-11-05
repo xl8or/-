@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/p1_account_menu_first" android:background="@drawable/p1_mail_box_list_layou_bg_body" android:layout_width="fill_parent" android:layout_height="46.299988dip">
+        <ImageView android:layout_width="5.299988dip" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/account_image_first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.2999878dip" />
+        <TextView android:textSize="13.199982sp" android:typeface="sans" android:textColor="@drawable/p1_text_color_from000000_toffffff" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/account_title" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/p1_account_menu_body" android:background="@drawable/p1_mail_box_list_layou_bg_body" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/color" android:layout_width="5.299988dip" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/account_image_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.2999878dip" android:scaleType="fitCenter" />
+        <LinearLayout android:orientation="vertical" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip">
+            <TextView android:textSize="13.199982sp" android:typeface="sans" android:textColor="@drawable/p1_text_color_from000000_toffffff" android:ellipsize="marquee" android:gravity="bottom|left|center" android:layout_gravity="left" android:id="@id/title" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="21.199982dip" android:singleLine="true" />
+            <TextView android:layout_width="fill_parent" android:layout_height="4.5999756dip" />
+            <TextView android:textSize="10.599976sp" android:typeface="sans" android:textColor="@drawable/p1_text_color_from656565_toffffff" android:ellipsize="marquee" android:gravity="top|left|center" android:layout_gravity="left" android:id="@id/email" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="20.5dip" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

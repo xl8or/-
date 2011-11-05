@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings version="1">
+    <setting _replyWithText="1" _useSignature="1" _signature="defaultSignature" _sizelimit="2" _poll_frequency_number="3" _fetchMailNum="0" _fontSize="2" _deleteFromServer="0" _askBeforeDelete="0" _alwaysBccMyself="0" _enableSDsave="1" _emailnotifications="1" _sound="0" _vibrate="0" _smtpauth="1" />
+</settings>

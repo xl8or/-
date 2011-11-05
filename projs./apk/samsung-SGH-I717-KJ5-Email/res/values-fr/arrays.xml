@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="error_keys">
+        <item>0_text</item>
+        <item>0_title</item>
+        <item>1000_text</item>
+        <item>1000_title</item>
+        <item>1001_text</item>
+        <item>1001_title</item>
+        <item>1002_text</item>
+        <item>1002_title</item>
+        <item>1003_text</item>
+        <item>1003_title</item>
+        <item>1004_text</item>
+        <item>1004_title</item>
+        <item>1005_text</item>
+        <item>1005_title</item>
+        <item>1008_text</item>
+        <item>1008_title</item>
+        <item>100_text</item>
+        <item>100_title</item>
+        <item>1011_text</item>
+        <item>1011_title</item>
+        <item>1014_text</item>
+        <item>1014_title</item>
+        <item>1015_text</item>
+        <item>1015_title</item>
+        <item>1016_text</item>
+        <item>1016_title</item>
+        <item>101_text</item>
+        <item>101_title</item>
+        <item>1020_text</item>
+        <item>1020_title</item>
+        <item>1023_text</item>
+        <item>1023_title</item>
+        <item>1024_text</item>
+        <item>1024_title</item>
+        <item>102_text</item>
+        <item>102_title</item>
+        <item>1036_text</item>
+        <item>1036_title</item>
+        <item>1037_text</item>
+        <item>1037_title</item>
+        <item>1038_text</item>
+        <item>1038_title</item>
+        <item>1039_text</item>
+        <item>1039_title</item>
+        <item>103_text</item>
+        <item>103_title</item>
+        <item>1040_text</item>
+        <item>1040_title</item>
+        <item>104_text</item>
+        <item>104_title</item>
+        <item>1050_text</item>
+        <item>1050_title</item>
+        <item>105_text</item>
+        <item>105_title</item>
+        <item>106_text</item>
+        <item>106_title</item>
+        <item>107_text</item>
+        <item>107_title</item>
+        <item>108_text</item>
+        <item>108_title</item>
+        <item>109_text</item>
+        <item>109_title</item>
+        <item>2000_text</item>
+        <item>2000_title</item>
+        <item>200_text</item>
+        <item>200_title</item>
+        <item>2010_text</item>
+        <item>2010_title</item>
+        <item>2011_text</item>
+        <item>2011_title</item>
+        <item>2012_text</item>
+        <item>2012_title</item>
+        <item>2013_text</item>
+        <item>2013_title</item>
+        <item>2014_text</item>
+        <item>2014_title</item>
+        <item>2015_text</item>
+        <item>2015_title</item>
+        <item>2016_text</item>
+        <item>2016_title</item>
+        <item>2017_text</item>
+        <item>2017_title</item>
+        <item>201_text</item>
+        <item>201_title</item>
+        <item>202_text</item>
+        <item>202_title</item>
+        <item>203_text</item>
+        <item>203_title</item>
+        <item>204_text</item>
+        <item>204_title</item>
+        <item>205_text</item>
+        <item>205_title</item>
+        <item>206_text</item>
+        <item>206_title</item>
+        <item>2099_text</item>
+        <item>2099_title</item>
+        <item>2100_text</item>
+        <item>2100_title</item>
+        <item>2101_text</item>
+        <item>2101_title</item>
+        <item>2102_text</item>
+        <item>2102_title</item>
+        <item>2103_text</item>
+        <item>2103_title</item>
+        <item>2105_text</item>
+        <item>2105_title</item>
+        <item>2106_text</item>
+        <item>2106_title</item>
+        <item>2107_text</item>
+        <item>2107_title</item>
+        <item>2108_text</item>
+        <item>2108_title</item>
+        <item>2109_text</item>
+        <item>2109_title</item>
+        <item>2110_text</item>
+        <item>2110_title</item>
+        <item>2111_text</item>
+        <item>2111_title</item>
+        <item>2112_text</item>
+        <item>2112_title</item>
+        <item>2113_text</item>
+        <item>2113_title</item>
+        <item>2114_text</item>
+        <item>2114_title</item>
+        <item>2115_text</item>
+        <item>2115_title</item>
+        <item>2199_text</item>
+        <item>2199_title</item>
+        <item>2200_text</item>
+        <item>2200_title</item>
+        <item>2221_text</item>
+        <item>2221_title</item>
+        <item>2240_text</item>
+        <item>2240_title</item>
+        <item>2241_text</item>
+        <item>2241_title</item>
+        <item>2242_text</item>
+        <item>2242_title</item>
+        <item>2243_text</item>
+        <item>2243_title</item>
+        <item>2261_text</item>
+        <item>2261_title</item>
+        <item>2320_text</item>
+        <item>2320_title</item>
+        <item>2321_text</item>
+        <item>2321_title</item>
+        <item>2322_text</item>
+        <item>2322_title</item>
+        <item>2323_text</item>
+        <item>2323_title</item>
+        <item>2361_text</item>
+        <item>2361_title</item>
+        <item>2362_text</item>
+        <item>2362_title</item>
+        <item>2363_text</item>
+        <item>2363_title</item>
+        <item>2364_text</item>
+        <item>2364_title</item>
+        <item>2431_text</item>
+        <item>2431_title</item>
+        <item>2432_text</item>
+        <item>2432_title</item>
+        <item>2433_text</item>
+        <item>2433_title</item>
+        <item>2451_text</item>
+        <item>2451_title</item>
+        <item>2601_text</item>
+        <item>2601_title</item>
+        <item>2781_text</item>
+        <item>2781_title</item>
+        <item>2782_text</item>
+        <item>2782_title</item>
+        <item>2801_text</item>
+        <item>2801_title</item>
+        <item>2802_text</item>
+        <item>2802_title</item>
+        <item>2803_text</item>
+        <item>2803_title</item>
+        <item>3000_text</item>
+        <item>3000_title</item>
+        <item>3001_text</item>
+        <item>3001_title</item>
+        <item>3002_text</item>
+        <item>3002_title</item>
+        <item>3003_text</item>
+        <item>3003_title</item>
+        <item>3004_text</item>
+        <item>3004_title</item>
+        <item>3005_text</item>
+        <item>3005_title</item>
+        <item>3006_text</item>
+        <item>3006_title</item>
+        <item>300_text</item>
+        <item>300_title</item>
+        <item>301_text</item>
+        <item>301_title</item>
+        <item>302_text</item>
+        <item>302_title</item>
+        <item>303_text</item>
+        <item>303_title</item>
+        <item>304_text</item>
+        <item>304_title</item>
+        <item>305_text</item>
+        <item>305_title</item>
+        <item>306_text</item>
+        <item>306_title</item>
+        <item>307_text</item>
+        <item>307_title</item>
+        <item>308_text</item>
+        <item>308_title</item>
+        <item>309_text</item>
+        <item>309_title</item>
+        <item>3100_text</item>
+        <item>3100_title</item>
+        <item>310_text</item>
+        <item>310_title</item>
+        <item>311_text</item>
+        <item>311_title</item>
+        <item>312_text</item>
+        <item>312_title</item>
+        <item>313_text</item>
+        <item>313_title</item>
+        <item>314_text</item>
+        <item>314_title</item>
+        <item>315_text</item>
+        <item>315_title</item>
+        <item>316_text</item>
+        <item>316_title</item>
+        <item>317_text</item>
+        <item>317_title</item>
+        <item>318_text</item>
+        <item>318_title</item>
+        <item>319_text</item>
+        <item>319_title</item>
+        <item>320_text</item>
+        <item>320_title</item>
+        <item>321_text</item>
+        <item>321_title</item>
+        <item>322_text</item>
+        <item>322_title</item>
+        <item>323_text</item>
+        <item>323_title</item>
+        <item>324_text</item>
+        <item>324_title</item>
+        <item>325_text</item>
+        <item>325_title</item>
+        <item>326_text</item>
+        <item>326_title</item>
+        <item>327_text</item>
+        <item>327_title</item>
+        <item>328_text</item>
+        <item>328_title</item>
+        <item>329_text</item>
+        <item>329_title</item>
+        <item>4001_text</item>
+        <item>4001_title</item>
+        <item>4002_text</item>
+        <item>4002_title</item>
+        <item>400_text</item>
+        <item>400_title</item>
+        <item>5001_text</item>
+        <item>5001_title</item>
+        <item>5002_text</item>
+        <item>5002_title</item>
+        <item>5003_text</item>
+        <item>5003_title</item>
+        <item>500_text</item>
+        <item>500_title</item>
+        <item>501_text</item>
+        <item>501_title</item>
+        <item>502_text</item>
+        <item>502_title</item>
+        <item>503_text</item>
+        <item>503_title</item>
+        <item>504_text</item>
+        <item>504_title</item>
+        <item>505_text</item>
+        <item>505_title</item>
+        <item>506_text</item>
+        <item>506_title</item>
+        <item>507_text</item>
+        <item>507_title</item>
+        <item>508_text</item>
+        <item>508_title</item>
+        <item>509_text</item>
+        <item>509_title</item>
+        <item>510_text</item>
+        <item>510_title</item>
+        <item>511_text</item>
+        <item>511_title</item>
+        <item>512_text</item>
+        <item>512_title</item>
+        <item>6001_text</item>
+        <item>6001_title</item>
+        <item>6002_text</item>
+        <item>6002_title</item>
+        <item>6003_text</item>
+        <item>6003_title</item>
+        <item>6004_text</item>
+        <item>6004_title</item>
+        <item>6005_text</item>
+        <item>6005_title</item>
+        <item>6006_text</item>
+        <item>6006_title</item>
+        <item>6007_text</item>
+        <item>6007_title</item>
+        <item>6008_text</item>
+        <item>6008_title</item>
+        <item>6009_text</item>
+        <item>6009_title</item>
+        <item>6010_text</item>
+        <item>6010_title</item>
+        <item>6011_text</item>
+        <item>6011_title</item>
+        <item>6012_text</item>
+        <item>6012_title</item>
+        <item>6013_text</item>
+        <item>6013_title</item>
+        <item>6014_text</item>
+        <item>6014_title</item>
+        <item>6015_text</item>
+        <item>6015_title</item>
+        <item>6016_text</item>
+        <item>6016_title</item>
+        <item>6017_text</item>
+        <item>6017_title</item>
+        <item>6018_text</item>
+        <item>6018_title</item>
+        <item>6019_text</item>
+        <item>6019_title</item>
+        <item>6020_text</item>
+        <item>6020_title</item>
+        <item>7001_text</item>
+        <item>7001_title</item>
+        <item>7002_text</item>
+        <item>7002_title</item>
+        <item>7003_text</item>
+        <item>7003_title</item>
+        <item>7004_text</item>
+        <item>7004_title</item>
+        <item>7005_text</item>
+        <item>7005_title</item>
+        <item>8001_text</item>
+        <item>8001_title</item>
+        <item>9001_text</item>
+        <item>9001_title</item>
+    </string-array>
+    <string-array name="error_values">
+        <item>Réussite.</item>
+        <item>"Pas d'erreur"</item>
+        <item>"Limite utilisateur de l'utilisateur {0} dépassée"</item>
+        <item>Limite utilisateur dépassée</item>
+        <item>Utilisateur en double: {0}</item>
+        <item>Utilisateur en double</item>
+        <item>Appareil en double: {0}</item>
+        <item>Appareil en double</item>
+        <item>Utilisateur introuvable: {0}</item>
+        <item>Utilisateur introuvable</item>
+        <item>Format de date non valide: {0}. {1} attendu.</item>
+        <item>Format de date non valide</item>
+        <item>Format de date non valide: {0}. {1} attendu</item>
+        <item>Format de date non valide</item>
+        <item>Paramètre obligatoire manquant: {0}</item>
+        <item>Paramètre obligatoire manquant</item>
+        <item>"Une erreur s'est produite. Réessayez."</item>
+        <item>Erreur interne</item>
+        <item>"Impossible de trouver l'ID de mise en service fourni ({0}) chez un revendeur auquel l'utilisateur a accès."</item>
+        <item>Marque introuvable</item>
+        <item>"Aucune date d'expiration définie"</item>
+        <item>"Aucune date d'expiration définie"</item>
+        <item>Accès refusé</item>
+        <item>Accès refusé</item>
+        <item>Accès API non activé pour: {0}</item>
+        <item>Accès API non activé</item>
+        <item>"Une erreur s'est produite. Réessayez."</item>
+        <item>Erreur de demande incorrecte</item>
+        <item>Erreur interne: {0}</item>
+        <item>Erreur interne</item>
+        <item>Il existe déjà un abonnement avec les détails fournis</item>
+        <item>Abonnement en double</item>
+        <item>Plusieurs abonnements concordants trouvés</item>
+        <item>Plusieurs abonnements concordants trouvés</item>
+        <item>"Une erreur s'est produite au démarrage d'une session. Réessayez."</item>
+        <item>Erreur de connexion</item>
+        <item>Requête {0} introuvable</item>
+        <item>Requête introuvable</item>
+        <item>Paramètres non concordants: {0} et {1}</item>
+        <item>Paramètres incohérents</item>
+        <item>Format msisdn non valide: {0}</item>
+        <item>Format msisdn non valide</item>
+        <item>Paramètre produit non valide: {0}</item>
+        <item>Paramètre produit non valide</item>
+        <item>"Votre connecteur est introuvable. Confirmez l'ID de connecteur saisi."</item>
+        <item>Connecteur introuvable</item>
+        <item>Abonnement introuvable</item>
+        <item>Abonnement introuvable</item>
+        <item>"Une erreur s'est produite pendant l'envoi des données. Réessayez."</item>
+        <item>Erreur de données</item>
+        <item>"Echec d'appel de réplication vers la plateforme AOM"</item>
+        <item>"Echec d'appel de réplication vers la plateforme AOM"</item>
+        <item>"L'exécution de votre action a pris trop de temps et celle-ci a expiré. Réessayez."</item>
+        <item>Expiration</item>
+        <item>"Impossible de se connecter au compte de messagerie. La connexion devrait être rétablie automatiquement. Si le problème persiste, vérifiez vos paramètres réseau ou contactez le fournisseur de service pour obtenir de l'aide."</item>
+        <item>Problème de connexion</item>
+        <item>Le réseau est temporairement non disponible ou le téléphone est en mode avion. La connexion sera restaurée automatiquement une fois le réseau disponible.</item>
+        <item>Echec de la connexion</item>
+        <item>Le serveur est occupé. Réessayez ultérieurement.</item>
+        <item>Serveur occupé</item>
+        <item>"Erreur générale de demande d'IPC"</item>
+        <item>"Echec de la demande d'IPC"</item>
+        <item>"Echec d'authentification pour: {0}"</item>
+        <item>"Echec de l'authentification"</item>
+        <item>Demandez une licence valide à votre fournisseur de service.</item>
+        <item>Licence non acceptée</item>
+        <item>ID client introuvable dans le contenu du SMS</item>
+        <item>ID client introuvable dans le contenu du SMS</item>
+        <item>"Aucun client trouvé avec l'ID client ({0})."</item>
+        <item>"Aucun client trouvé avec l'ID client spécifié"</item>
+        <item>Les informations MSISDN fournies sont non valides ou manquantes: {0}</item>
+        <item>Informations MSISDN non fournies ou non valides.</item>
+        <item>Format MSISDN non valide: {0}. Valeur numérique attendue.</item>
+        <item>Format MSISDN non valide</item>
+        <item>"Format d'id client non valide: {0}. Valeur numérique attendue."</item>
+        <item>"Format d'ID client non valide"</item>
+        <item>"L'en-tête de tarification attendu est introuvable dans la demande de validation"</item>
+        <item>"Echec de la validation de l'en-tête de tarification"</item>
+        <item>MSISDN {0} existe déjà dans le système.</item>
+        <item>MSISDN existe déjà.</item>
+        <item>"MSISDN {0} n'existe pas dans le système."</item>
+        <item>"MSISDN n'existe pas."</item>
+        <item>Indiquez votre mot de passe temporaire pour réinstaller ce [connecteur].</item>
+        <item>Mot de passe requis</item>
+        <item>"L'ID sélectionné est en cours d'utilisation. Sélectionnez-en un autre."</item>
+        <item>ID déjà utilisé</item>
+        <item>Mot de passe temporaire fourni incorrect.</item>
+        <item>Erreur de connexion</item>
+        <item>Le connecteur a été désactivé.</item>
+        <item>Connecteur désactivé</item>
+        <item>"Le service n'est pas activé"</item>
+        <item>Service désactivé</item>
+        <item>"L'édition du produit fournie ne correspond pas à l'édition installée sur le relais"</item>
+        <item>Editions du produit incompatibles</item>
+        <item>Echec de la transaction pour une raison indéterminée: {0}</item>
+        <item>Echec de la transaction pour une raison indéterminée</item>
+        <item>"Echec d'authentification pour: {0}"</item>
+        <item>"Echec de l'authentification"</item>
+        <item>Accès non autorisé pour: {0}</item>
+        <item>Accès non autorisé</item>
+        <item>Le compte utilisateur {0} est bloqué</item>
+        <item>Compte bloqué</item>
+        <item>"Echec d'une partie du lot de transactions."</item>
+        <item>"Echec d'une partie d'un lot de transactions."</item>
+        <item>"L'appel de liste a renvoyé {0} enregistrements, la limite est {1}."</item>
+        <item>Renvoyer liste au-delà de la taille limite</item>
+        <item>"L'appel groupé a demandé {0} transactions, la limite est {1}."</item>
+        <item>La demande de transactions par lot dépasse la taille limite</item>
+        <item>"L'appel d'API a été effectué avec un paramètre obligatoire manquant: {0}"</item>
+        <item>"Paramètre requis manquant pour l'appel d'API."</item>
+        <item>"Paramètre {0} non valide pour cet appel d'API."</item>
+        <item>"L'appel d'API contenait un paramètre non valide."</item>
+        <item>Erreur de base de données pendant le traitement de cette demande: {0}</item>
+        <item>"Erreur de base de données renvoyée par l'appel de l'API."</item>
+        <item>"Impossible d'utiliser les caractères génériques avec ces infos de connexion d'accès."</item>
+        <item>Utilisation non autorisée de caractères génériques.</item>
+        <item>Caractère générique non valide dans le paramètre de demande: {0}</item>
+        <item>Caractères génériques non valides dans la demande.</item>
+        <item>Demande SOAP reçue avec un en-tête manquant ou non valide.</item>
+        <item>Demande SOAP reçue avec un en-tête manquant ou non valide.</item>
+        <item>"La demande SOAP a été reçue avec un paramètre d'en-tête obligatoire manquant: {0}"</item>
+        <item>"Demande SOAP reçue avec un paramètre d'en-tête manquant."</item>
+        <item>"Demande SOAP reçue de l'adresse IP: {0}. Cette adresse n'est pas autorisée à utiliser l'API."</item>
+        <item>"Demande SOAP reçue d'une adresse IP bloquée."</item>
+        <item>Accès API non activé pour: {0}</item>
+        <item>Accès API non activé</item>
+        <item>Echec de la demande SOAP pour une raison indéterminée: {0}</item>
+        <item>Echec de la demande SOAP pour une raison indéterminée</item>
+        <item>"L'appel d'API createAccountSubscription nécessite un paramètre AccountID ou MSISDN."</item>
+        <item>createAccountSubscription appelé sans AccountID ou MSISDN.</item>
+        <item>"L'utilisation d'un paramètre produit dans l'appel d'API listAccountSubscription nécessite de fournir au moins MSISDN, AccountID ou GroupID."</item>
+        <item>listAccountSubscriptions appelé avec le paramètre Produit mais aucun paramètre ID.</item>
+        <item>"Les critères d'identification d'abonnement fournis renvoient plusieurs enregistrements. Mise à jour non réalisée."</item>
+        <item>"Les critères d'identification de l'abonnement renvoient plusieurs enregistrements."</item>
+        <item>"Un jeu de paramètres d'identification non valide a été fourni."</item>
+        <item>"Jeu de paramètres d'ID fourni non valide."</item>
+        <item>"Un appel d'API updateAccountSubscription a été effectué sans champs à mettre à jour"</item>
+        <item>Aucun champ précisé pour la mise à jour.</item>
+        <item>"Les critères d'identification d'abonnement fournis ne renvoient aucun enregistrement. Aucune mise à jour réalisée."</item>
+        <item>"Les critères d'identification de l'abonnement ne renvoient aucun enregistrement."</item>
+        <item>"L'utilisation d'un paramètre produit dans l'appel d'API deleteAccountSubscription nécessite de fournir au moins MSISD, AccountID ou GroupID."</item>
+        <item>deleteAccountSubscriptions appelé avec le paramètre Produit mais aucun paramètre ID.</item>
+        <item>"Les critères d'identification d'abonnement fournis renvoient plusieurs enregistrements. Mise à jour non réalisée."</item>
+        <item>"Les critères d'identification de l'abonnement renvoient plusieurs enregistrements."</item>
+        <item>"L'appel de l'API updateConnectorSubscription nécessite un paramètre SubscriptionId ou ConnectorId."</item>
+        <item>"Jeu de paramètres d'ID fourni non valide."</item>
+        <item>"Un appel d'API updateConnectorSubscription a été effectué sans champs à mettre à jour"</item>
+        <item>Aucun champ précisé pour la mise à jour.</item>
+        <item>"Les critères d'identification d'abonnement fournis ne renvoient aucun enregistrement. Aucune mise à jour réalisée."</item>
+        <item>"Les critères d'identification de l'abonnement ne renvoient aucun enregistrement."</item>
+        <item>"Si l'appel de l'API createPreProvisionedAccount API est effectué avec un produit CE, un ID de mise en service et un ID de marque de serveur FAI doivent être fournis. Pour tout autre produit, fournissez un ID de connecteur."</item>
+        <item>createPreProvisionedAccount appelé avec des paramètres non valides.</item>
+        <item>"Le nom de société saisi est introuvable dans la base de données ou l'ID de mise en service indiqué ne correspond pas à un FAI."</item>
+        <item>Impossible de trouver une société avec les paramètres.</item>
+        <item>ID de marque de serveur FAI introuvable dans la base de données.</item>
+        <item>ID de marque de serveur FAI introuvable dans la base de données.</item>
+        <item>"Le serveur FAI trouvé pour l'ID de marque indiqué ne prend pas en charge le type de produit donné."</item>
+        <item>"Le serveur FAI trouvé pour l'ID de marque indiqué ne prend pas en charge le type de produit donné."</item>
+        <item>Plusieurs comptes correspondent à la mise à jour. Impossible de mettre le mot de passe à jour.</item>
+        <item>changeAccountPassword correspond à plusieurs comptes.</item>
+        <item>"Aucun compte correspondant à la mise à jour n'a été trouvé. Aucun mot de passe ne sera mis à jour."</item>
+        <item>changeAccountPassword ne correspond à aucun compte.</item>
+        <item>"Une erreur s'est produite pdt la tentative de mise à jour du mot de passe, ce dernier étant peut-être non valide."</item>
+        <item>Echec de mise à jour du mot de passe par changeAccountPassword.</item>
+        <item>"Une demande de liste d'informations utilisateur a été lancée, mais les paramètres donnés ne correspondent à aucun utilisateur existant"</item>
+        <item>"getUserInformation ne trouve pas l'utilisateur correspondant aux paramètres donnés"</item>
+        <item>isValidConnectorId appelé avec un ID déjà utilisé.</item>
+        <item>ID de connecteur déjà utilisé.</item>
+        <item>runScript appelé avec des paramètres non valides pour le script SQL spécifié.</item>
+        <item>Paramètres non valides pour le script SQL.</item>
+        <item>runSript appelé pour un script SQL inconnu.</item>
+        <item>Script SQL introuvable.</item>
+        <item>"La fonction d'envoi du lien de téléchargement n'est pas activée dans l'API."</item>
+        <item>Appel de sendDownloadLink avec la fonction désactivée.</item>
+        <item>Echec de demande de message sur la passerelle SMS.</item>
+        <item>Echec de demande de message sur la passerelle SMS.</item>
+        <item>Impossible de trouver un client pour les paramètres donnés.</item>
+        <item>Impossible de trouver un client pour les paramètres donnés.</item>
+        <item>Echec du test du courrier car le fournisseur indiqué est introuvable. Vous devez utiliser POP3, IMAP, POP3S, IMAPS, SMTP ou SMTPS en tant que fournisseur.</item>
+        <item>Fournisseur de messagerie introuvable</item>
+        <item>"Echec du test du courrier suite à l'échec de la connexion au serveur de messagerie spécifié. Vérifiez les paramètres de la messagerie."</item>
+        <item>Echec de la connexion</item>
+        <item>"Echec du test du courrier suite à l'échec de la connexion au serveur de messagerie spécifié. Vérifiez les paramètres de la messagerie."</item>
+        <item>Bte de récept. introuvable</item>
+        <item>"Echec du test du courrier suite à l'échec de la recherche de message dans la boîte de réception. Vérifiez les paramètres de la messagerie."</item>
+        <item>Echec de recherche de la bte de récept.</item>
+        <item>"Echec du test de courrier suite à une adresse électr. non valide. Vérifiez l'adresse fournie."</item>
+        <item>Adresse électr. non valide</item>
+        <item>Le fichier joint dépasse la taille maximale.</item>
+        <item>Taille du fichier joint trop importante.</item>
+        <item>Le corps du message est trop grand.</item>
+        <item>Taille du corps trop importante.</item>
+        <item>Echec de la tentative de connexion suite à un {0} et/ou un mot de passe non valide. Vérifiez vos {0} et mot de passe et réessayez.</item>
+        <item>Connexion incorrecte</item>
+        <item>Echec de la tentative de connexion suite à un {0}, un mot de passe ou à des réglages incorrects. Veuillez vérifier votre {0}, votre mot de passe et vos réglages sur le Web puis réessayez.</item>
+        <item>Connexion incorrecte</item>
+        <item>Echec de la tentative de connexion suite à un {0} non valide. Vérifiez votre {0} et réessayez.</item>
+        <item>Utilisateur introuvable</item>
+        <item>"Plusieurs enregistrements pour le nom d'utilisateur indiqué. Vérifiez votre {0} et votre mot de passe et réessayez."</item>
+        <item>Utilisateur introuvable</item>
+        <item>"Paramètres du serveur de messagerie introuvables. Configurez les détails du compte sur l'écran suivant."</item>
+        <item>Serveur introuvable</item>
+        <item>"Echec de la connexion. Fournissez votre nom d'utilisateur à votre compte de messagerie s'il est différent de votre adresse électr."</item>
+        <item>Echec de la connexion</item>
+        <item>"L'authentification avec ce compte a échoué trop souvent. Attendez le déverrouillage ou contactez l'administrateur."</item>
+        <item>Compte verrouillé</item>
+        <item>"Ce numéro de tél. est déjà enregistré. Confirmez que vous avez saisi le bon numéro de tél. ou contactez votre fournisseur de service pour obtenir de l'aide."</item>
+        <item>Ce compte préconfiguré existe déjà</item>
+        <item>La connexion a été redirigée vers un autre serveur pour optimiser les performances. Réessayez la dernière action.</item>
+        <item>Redirigé</item>
+        <item>Le serveur de messagerie est actuellement indisponible. Réessayez plus tard.</item>
+        <item>Echec de la connexion</item>
+        <item>Echec du test de courrier suite à une erreur {0}. Vérifiez les paramètres de la boîte de réception.</item>
+        <item>Erreur inconnue</item>
+        <item>"Echec répété d'authentification avec ce compte. D'autres connexions sont empêchées par le connecteur. Attendez le déverrouillage ou contactez l'administrateur du connecteur pour bénéficier d'autres tentatives de connexion."</item>
+        <item>Connexions désactivées</item>
+        <item>Cliquez sur OK pour vérifier votre {0} et votre mot de passe ou vérifier votre jeton RSA avant de réessayer.</item>
+        <item>Connexion RSA incorrecte</item>
+        <item>"La version du client utilisée n'est pas certifiée par ce fournisseur de messagerie. Contactez votre fournisseur pour obtenir une version certifiée."</item>
+        <item>Client non certifié pour ce FAI.</item>
+        <item>"L'adresse de serveur Microsoft Exchange fournie n'est pas une adresse Web valide. Confirmez l'adresse et réessayez."</item>
+        <item>Adresse Microsoft Exchange - non valide</item>
+        <item>Votre fournisseur est accessible en tant que service Premium. Retournez à la liste des fournisseurs et faites une nouvelle sélection.</item>
+        <item>"L'URL saisie n'est pas autorisée."</item>
+        <item>"La clé publique du nœud final distant a été modifiée. Cela peut signaler une tentative d'intrusion. Les données du nœud final distant ont été ignorées."</item>
+        <item>Clé publique non concordante.</item>
+        <item>"Reconnexion impossible. Cela indique que l'utilisateur ne peut pas saisir les nouvelles infos de connexion pour se reconnecter au service et qu'une action est requise."</item>
+        <item>Reconnexion impossible</item>
+        <item>"Le serveur à l'adresse indiquée ne répond pas. Impossible d'utiliser Microsoft Exchange pour accéder à la messagerie pro avec un portail VPN/SSL. Choisissez OK pour accéder à votre messagerie pro avec l'option de connexion suivante."</item>
+        <item>Adresse OWA - absence de réponse</item>
+        <item>"Le serveur à l'adresse indiquée n'est pas un serveur Microsoft Exchange. Confirmez l'adresse de votre serveur Microsoft Exchange et réessayez."</item>
+        <item>Adresse Microsoft Exchange - type incorrect</item>
+        <item>"Votre mot de passe a expiré. Modifiez-le à l'aide de votre PC et faites un essai avec votre nouveau mot de passe."</item>
+        <item>Mot de passe expiré</item>
+        <item>Vous avez atteint le nb max. de tél. pouvant être mis en service. Contactez votre administrateur.</item>
+        <item>Trop de téléphones</item>
+        <item>"Aucun fichier d'ID Notes n'est disponible, connexion impossible. Contactez votre administrateur."</item>
+        <item>"Aucun fichier d'ID disponible"</item>
+        <item>"Le service demandé est temporairement indisponible. Réessayez ultérieurement. Si le problème persiste, connectez-vous à votre compte à l'aide du navigateur Web."</item>
+        <item>Service FAI temporairement non disponible</item>
+        <item>Connexion Internet requise retournée du FAI. Connectez-vous sur votre compte via Internet.</item>
+        <item>Connexion Internet nécessaire</item>
+        <item>"Une erreur FAI s'est produite. Revérifiez plus tard. Si le problème persiste, essayez de vous connecter via Internet."</item>
+        <item>Erreur retournée du FAI.</item>
+        <item>Synchronisation du calendrier en cours. Réessayez ultérieurement.</item>
+        <item>"Boîte de réception en cours d'utilisation."</item>
+        <item>"Aucune réponse pour cette URL de flux. Corrigez l'URL et réessayez ultérieurement."</item>
+        <item>"Aucune réponse pour l'URL de ce flux."</item>
+        <item>Parental consent is needed.</item>
+        <item>Parental Consent Required.</item>
+        <item>The Feed Id is invalid. Please correct the id and try again later.</item>
+        <item>Invalid Feed Id</item>
+        <item>Subscription with the provided details already exists</item>
+        <item>Duplicate Feed Subscription</item>
+        <item>"Impossible de se connecter au compte de messagerie Exchange Access. La connexion devrait être rétablie automatiquement. Si le problème persiste, contactez votre administrateur informatique pour obtenir de l'aide."</item>
+        <item>Problème de connexion</item>
+        <item>"Impossible de se connecter au compte de messagerie {0}. La connexion devrait être rétablie automatiquement. Si le problème persiste, contactez {0} pour obtenir de l'aide."</item>
+        <item>Problème de connexion</item>
+        <item>Echec de la mise à jour du compte. Réessayez.</item>
+        <item>Echec de la mise à jour</item>
+        <item>"Le XML de la demande RPC n'est pas valide."</item>
+        <item>XML malformé dans RPC</item>
+        <item>"Une erreur interne s'est produite dans l'API XML RPC. Réessayez."</item>
+        <item>"Erreur interne dans l'API XML RPC"</item>
+        <item>Paramètres non valides ou manquants dans la demande XML RPC. Vérifiez les paramètres et leurs valeurs.</item>
+        <item>Paramètres non valides ou manquants.</item>
+        <item>"Le service n'a pas enregistré vos données. Réessayez."</item>
+        <item>Erreur de base de données</item>
+        <item>Une société portant ce nom existe déjà. Sélectionnez un autre nom.</item>
+        <item>Cette société existe déjà</item>
+        <item>"L'ID de connecteur spécifié est en cours d'utilisation. Sélectionnez-en un autre."</item>
+        <item>Nom déjà utilisé</item>
+        <item>"Le nom d'utilisateur spécifié est déjà utilisé. Sélectionnez-en un autre."</item>
+        <item>"Nom d'utilisateur déjà utilisé"</item>
+        <item>Cet utilisateur existe déjà.</item>
+        <item>"L'utilisateur existe déjà"</item>
+        <item>"Le compte préconfiguré que vous tentez de créer existe déjà. Le compte existant doit être supprimé par l'administrateur du connecteur avant l'ajout d'un nouveau."</item>
+        <item>Ce compte préconfiguré existe déjà</item>
+        <item>"Vous ne disposez pas des droits d'accès requis pour effectuer cette opération."</item>
+        <item>Accès refusé</item>
+        <item>"L'abonnement a expiré. Contactez votre fournisseur pour le renouveler."</item>
+        <item>Connexion impossible</item>
+        <item>"Votre abonnement n'autorise pas l'ajout de comptes suppl. Visitez http://eu020.fra.samsungsocialhub.com pour mettre votre abonnement à niveau."</item>
+        <item>Connexion impossible</item>
+        <item>Visitez le site http://eu020.fra.samsungsocialhub.com pour vous abonner à Social Hub.</item>
+        <item>Connexion impossible</item>
+        <item>Nous avons rencontré un problème avec le cert. SSL sur ce site.</item>
+        <item>Problème certificat</item>
+        <item>"L'URL indiquée n'appartient pas à un service Outlook Web Access valide. Vérifiez l'URL et réessayez."</item>
+        <item>Adresse de service non valide</item>
+        <item>Cette URL est préconfigurée. Retournez à la liste des fournisseurs préconfigurés et sélectionnez le vôtre dans la liste.</item>
+        <item>Accès refusé</item>
+        <item>"Le contact était hors ligne lorsque l'envoi d'un message a été tenté"</item>
+        <item>Contact hors ligne</item>
+        <item>"Le contact était bloqué lorsque l'envoi d'un message a été tenté"</item>
+        <item>Contact bloqué</item>
+        <item>La taille du fichier dans le transfert de fichiers ne correspond pas à la valeur spécifiée</item>
+        <item>Taille de fichier non concordante.</item>
+        <item>Session p2p max. dépassée</item>
+        <item>Session p2p max. dépassée</item>
+        <item>"Date d'anniversaire manquante"</item>
+        <item>"Date d'anniversaire manquante"</item>
+        <item>Le destinataire ne prend pas en charge le transfert de fichiers</item>
+        <item>Session p2p non prise en charge</item>
+        <item>"L'utilisateur doit s'enregistrer auprès du service de messagerie"</item>
+        <item>Enregistrement expiré</item>
+        <item>La demande ne peut pas aboutir car le serveur est trop occupé. Réessayez ultérieurement</item>
+        <item>Serveur occupé</item>
+        <item>"VoiceClip n'est pas pris en charge pour cette conversation"</item>
+        <item>"VoiceClip n'est pas pris en charge"</item>
+        <item>Seulement deux participants sont autorisés à prendre part à une conversation pour une opération de transfert de fichiers</item>
+        <item>Trop de participants</item>
+        <item>"Il n'y a aucun participant dans la conversation spécifiée"</item>
+        <item>Aucun participant présent</item>
+        <item>"Connexion Messenger non autorisée par le parent de l'utilisateur"</item>
+        <item>Autorisation du parent requise</item>
+        <item>"L'identificateur de conversation n'est pas valide. L'application cliente devrait abandonner cette conversation"</item>
+        <item>"ID d'appel non valide"</item>
+        <item>"Une demande d'invitation a été tentée et le statut de présence de l'utilisateur (sur l'appareil client) est sur Hors ligne"</item>
+        <item>Utilisateur hors ligne</item>
+        <item>"Une demande d'invitation a été tentée pour ajouter un utilisateur non valable"</item>
+        <item>Utilisateur inconnu</item>
+        <item>Pas de configuration trouvée pour le domaine de courrier spécifié.</item>
+        <item>FAI inconnu</item>
+        <item>"Les échecs d'authentification à base de jeton sont traités de manière différente, d'où cette erreur."</item>
+        <item>"Echec de l'auth. à base de jeton"</item>
+        <item>"Vous avez besoin d'un abonnement pour pouvoir utiliser ce service."</item>
+        <item>Abonnement requis</item>
+        <item>"Il n'y a pas sept services disponibles."</item>
+        <item>Pas de service disponible</item>
+        <item>Vous avez été déconnecté en raison de votre connexion sur un autre ordinateur ou périphérique</item>
+        <item>Le compte a été repris</item>
+        <item>"Echec de création de compte lors de l'enregistrement PING"</item>
+        <item>"Echec de création d'un compte"</item>
+        <item>Code de service non valable lorsque vous êtes enregistré sur le serveur hôte</item>
+        <item>Code de service non valide</item>
+        <item>Décripteur de service non valable lorsque vous êtes enregistré sur le serveur hôte</item>
+        <item>Décripteur de service non valable</item>
+        <item>Données client non valables lorsque vous êtes enregistré sur le serveur hôte</item>
+        <item>Données client non valables</item>
+        <item>"L'utilisateur est déjà enregistré sur le serveur hôte."</item>
+        <item>Utilisateur déjà enregistré</item>
+        <item>"Une erreur s'est produite lors de la recherche de services. Réessayez."</item>
+        <item>Echec de la demande</item>
+        <item>"Une erreur de facturation s'est produite. Pour plus d'informations, contactez votre opérateur."</item>
+        <item>Erreur de facturation.</item>
+    </string-array>
+    <string-array name="isp_keys">
+        <item>aim_credentials_page_lb_user_name</item>
+        <item>aim_isp_disclaimer_defaultbutton</item>
+        <item>aim_isp_disclaimer_text</item>
+        <item>aim_isp_disclaimer_textcancel</item>
+        <item>aim_isp_disclaimer_textok</item>
+        <item>aim_isp_folder_drafts</item>
+        <item>aim_isp_folder_inbox</item>
+        <item>aim_isp_folder_outbox</item>
+        <item>aim_isp_folder_saved</item>
+        <item>aim_isp_folder_sent</item>
+        <item>aim_isp_folder_spam</item>
+        <item>aim_isp_folder_trash</item>
+        <item>aim_isp_menu_compose</item>
+        <item>aim_isp_menu_receive</item>
+        <item>aim_isp_menu_send</item>
+        <item>aim_isp_save_password_on_device</item>
+        <item>aim_mail_folder_drafts</item>
+        <item>aim_mail_folder_inbox</item>
+        <item>aim_mail_folder_outbox</item>
+        <item>aim_mail_folder_saved</item>
+        <item>aim_mail_folder_sent</item>
+        <item>aim_mail_folder_spam</item>
+        <item>aim_mail_folder_trash</item>
+        <item>aim_mail_inbox_background_white</item>
+        <item>aim_mail_save_prompt</item>
+        <item>aim_sync_idle_timeout_value</item>
+        <item>aol_credentials_page_lb_user_name</item>
+        <item>aol_isp_disclaimer_defaultbutton</item>
+        <item>aol_isp_disclaimer_text</item>
+        <item>aol_isp_disclaimer_textcancel</item>
+        <item>aol_isp_disclaimer_textok</item>
+        <item>aol_isp_folder_deleted</item>
+        <item>aol_isp_folder_drafts</item>
+        <item>aol_isp_folder_inbox</item>
+        <item>aol_isp_folder_outbox</item>
+        <item>aol_isp_folder_saved</item>
+        <item>aol_isp_folder_sent</item>
+        <item>aol_isp_folder_spam</item>
+        <item>aol_isp_menu_compose</item>
+        <item>aol_isp_menu_mark_unread</item>
+        <item>aol_isp_menu_receive</item>
+        <item>aol_isp_menu_send</item>
+        <item>aol_isp_save_password_on_device</item>
+        <item>aol_mail_folder_deleted</item>
+        <item>aol_mail_folder_drafts</item>
+        <item>aol_mail_folder_inbox</item>
+        <item>aol_mail_folder_outbox</item>
+        <item>aol_mail_folder_saved</item>
+        <item>aol_mail_folder_sent</item>
+        <item>aol_mail_folder_spam</item>
+        <item>aol_mail_inbox_background_white</item>
+        <item>aol_mail_save_prompt</item>
+        <item>aol_settings_mail_signature</item>
+        <item>aol_sync_idle_timeout_value</item>
+        <item>cox_credentials_page_empty_multiserver_service</item>
+        <item>cox_credentials_page_lb_user_name</item>
+        <item>cox_credentials_page_server_selection_text</item>
+        <item>cox_credentials_page_type</item>
+        <item>cox_isp_folder_drafts</item>
+        <item>cox_isp_folder_inbox</item>
+        <item>cox_isp_folder_outbox</item>
+        <item>cox_isp_folder_sent</item>
+        <item>cox_isp_save_password_on_device</item>
+        <item>gmail_credentials_page_lb_user_name</item>
+        <item>gmail_isp_disclaimer_defaultbutton</item>
+        <item>gmail_isp_disclaimer_textcancel</item>
+        <item>gmail_isp_disclaimer_textok</item>
+        <item>gmail_isp_folder_drafts</item>
+        <item>gmail_isp_folder_inbox</item>
+        <item>gmail_isp_folder_outbox</item>
+        <item>gmail_isp_folder_sent</item>
+        <item>gmail_isp_mail_sync_maxdays_limit</item>
+        <item>gmail_isp_save_password_on_device</item>
+        <item>gmail_settings_mail_signature</item>
+        <item>msn_credentials_page_autosignin_alert_text</item>
+        <item>msn_credentials_page_autosignin_alert_title</item>
+        <item>msn_credentials_page_lb_user_name</item>
+        <item>msn_credentials_page_save_password_alert_text</item>
+        <item>msn_credentials_page_save_password_alert_title</item>
+        <item>msn_credentials_page_server_selection_text</item>
+        <item>msn_credentials_page_type</item>
+        <item>msn_isp_congrats_page_password_info</item>
+        <item>msn_isp_disclaimer_default_privacy_url</item>
+        <item>msn_isp_disclaimer_default_tou_url</item>
+        <item>msn_isp_disclaimer_defaultbutton</item>
+        <item>msn_isp_disclaimer_textcancel</item>
+        <item>msn_isp_disclaimer_textok</item>
+        <item>msn_isp_folder_deleted</item>
+        <item>msn_isp_folder_drafts</item>
+        <item>msn_isp_folder_inbox</item>
+        <item>msn_isp_folder_outbox</item>
+        <item>msn_isp_folder_saved</item>
+        <item>msn_isp_folder_sent</item>
+        <item>msn_isp_mail_sync_max_messages</item>
+        <item>msn_isp_save_password_on_device</item>
+        <item>msn_settings_mail_signature</item>
+        <item>owa_isp_mail_sync_max_messages</item>
+        <item>owa_isp_save_password_on_device</item>
+        <item>rr_credentials_page_lb_user_name</item>
+        <item>rr_credentials_page_server_selection_text</item>
+        <item>rr_credentials_page_type</item>
+        <item>rr_isp_folder_drafts</item>
+        <item>rr_isp_folder_inbox</item>
+        <item>rr_isp_folder_outbox</item>
+        <item>rr_isp_folder_sent</item>
+        <item>rr_isp_save_password_on_device</item>
+        <item>terra_credentials_page_lb_user_name</item>
+        <item>terra_isp_disclaimer_defaultbutton</item>
+        <item>terra_isp_disclaimer_text</item>
+        <item>terra_isp_disclaimer_textcancel</item>
+        <item>terra_isp_disclaimer_textok</item>
+        <item>terra_isp_folder_drafts</item>
+        <item>terra_isp_folder_inbox</item>
+        <item>terra_isp_folder_outbox</item>
+        <item>terra_isp_folder_sent</item>
+        <item>terra_isp_save_password_on_device</item>
+        <item>terra_settings_mail_signature</item>
+        <item>work_isp_folder_drafts</item>
+        <item>work_isp_folder_inbox</item>
+        <item>work_isp_folder_outbox</item>
+        <item>work_isp_folder_sent</item>
+        <item>work_isp_save_password_on_device</item>
+        <item>yahoo_credentials_page_lb_user_name</item>
+        <item>yahoo_isp_folder_drafts</item>
+        <item>yahoo_isp_folder_inbox</item>
+        <item>yahoo_isp_folder_outbox</item>
+        <item>yahoo_isp_folder_sent</item>
+        <item>yahoo_isp_save_password_on_device</item>
+        <item>yahoo_settings_mail_signature</item>
+    </string-array>
+    <string-array name="isp_values">
+        <item>Nom écran</item>
+        <item>Accepter</item>
+        <item>"Conditions générales d'utilisation d'AOL Mobile: en utilisant AOL Mobile, vous acceptez par voie électronique les conditions générales d'utilisation (CGU) d'AOL Mobile disponibles sur le site 
+http://wap.aol.com/portal/jsp/term.jsp, 
+ainsi que notre politique de confidentialité consultable à l'adresse 
+http://wap.aol.com/portal/jsp/privacypolicy.jsp. 
+Nous fournissons AOL Mobile EN L'ETAT. Nous ne vous facturons rien pour l'utilisation d'AOL Mobile; toutefois, les tarifs standard d'envoi de textos et de données peuvent s'appliquer. Consultez votre contrat sans fil. Les CGU et la politique de confidentialité d'AOL Mobile sont disponibles sur le site 
+http://mobile.aol.com/tos."</item>
+        <item>Décliner</item>
+        <item>Accepter</item>
+        <item>Brouillons</item>
+        <item>Bte de récept.</item>
+        <item>"Boîte d'envoi"</item>
+        <item>Courr. enregistré</item>
+        <item>Envoyé</item>
+        <item>Courr. indésirable</item>
+        <item>Corbeille</item>
+        <item>Composer</item>
+        <item>Recevoir courr. électr.</item>
+        <item>Envoyer courr. électr.</item>
+        <item>0</item>
+        <item>Brouillons</item>
+        <item>Bte de récept.</item>
+        <item>"Boîte d'envoi"</item>
+        <item>Courr. enregistré</item>
+        <item>Envoyé</item>
+        <item>Courr. indésirable</item>
+        <item>Corbeille</item>
+        <item>true</item>
+        <item>Une copie de votre courrier a été enregistrée sur cet appareil uniquement.</item>
+        <item>240</item>
+        <item>Nom écran</item>
+        <item>Accepter</item>
+        <item>"Conditions générales d'utilisation d'AOL Mobile: en utilisant AOL Mobile, vous acceptez par voie électronique les conditions générales d'utilisation (CGU) d'AOL Mobile disponibles sur le site 
+http://wap.aol.com/portal/jsp/term.jsp, 
+ainsi que notre politique de confidentialité consultable à l'adresse 
+http://wap.aol.com/portal/jsp/privacypolicy.jsp. 
+Nous fournissons AOL Mobile EN L'ETAT. Nous ne vous facturons rien pour l'utilisation d'AOL Mobile; toutefois, les tarifs standard d'envoi de textos et de données peuvent s'appliquer. Consultez votre contrat sans fil. Les CGU et la politique de confidentialité d'AOL Mobile sont disponibles sur le site 
+http://mobile.aol.com/tos."</item>
+        <item>Décliner</item>
+        <item>Accepter</item>
+        <item>Supprimé</item>
+        <item>Brouillons</item>
+        <item>Bte de récept.</item>
+        <item>"Boîte d'envoi"</item>
+        <item>Courr. enregistré</item>
+        <item>Courrier envoyé</item>
+        <item>Courr. indésirable</item>
+        <item>Ecrire</item>
+        <item>Garder comme nouveau</item>
+        <item>Recevoir courr. électr.</item>
+        <item>Envoyer courr. électr.</item>
+        <item>0</item>
+        <item>Récemment supprimé</item>
+        <item>Brouillons</item>
+        <item>Bte de récept.</item>
+        <item>"Boîte d'envoi"</item>
+        <item>Courr. enregistré</item>
+        <item>Courrier envoyé</item>
+        <item>Courr. indésirable</item>
+        <item>true</item>
+        <item>Une copie de votre courrier a été enregistrée sur cet appareil uniquement.</item>
+        <item>--- Envoyé avec Samsung Social Hub Premium - la nouvelle génération de messagerie mobile</item>
+        <item>240</item>
+        <item>Sélectionnez un état.</item>
+        <item>Id courr. électr. Cox</item>
+        <item>Sélect. état</item>
+        <item>2</item>
+        <item>Brouillons</item>
+        <item>Bte de récept.</item>
+        <item>"Boîte d'envoi"</item>
+        <item>Envoyé</item>
+        <item>0</item>
+        <item>Nom utilisateur</item>
+        <item>Accepter</item>
+        <item>Décliner</item>
+        <item>Accepter</item>
+        <item>Brouillons</item>
+        <item>Bte de récept.</item>
+        <item>"Boîte d'envoi"</item>
+        <item>Envoyé</item>
+        <item>30</item>
+        <item>0</item>
+        <item>--- Envoyé avec Samsung Social Hub Premium - la nouvelle génération de messagerie mobile</item>
+        <item>Cette fonction enregistre vos identifiants et, ainsi, vous connecte automatiquement la prochaine fois que vous ouvrirez cette application. Pour désactiver cette fonction, déconnectez-vous de Windows Live Messenger et videz la boîte de commande de connexion automatique.</item>
+        <item>Connexion automatique</item>
+        <item>Adresse électr.</item>
+        <item>Pour votre sécurité, si cet appareil est perdu ou volé, allez sur le site Windows Live ID de votre ordinateur et changer votre mot de passe de Windows Live ID.</item>
+        <item>Enregistrer mot de passe</item>
+        <item>Sélect. service</item>
+        <item>0</item>
+        <item>Vous allez maintenant être connecté automatiquement et recevoir les nouveaux courriers électr. sans devoir saisir une nouvelle fois votre mot de passe. Supprimez le compte courrier élect. pour vous déconnecter.</item>
+        <item>http://privacy.microsoft.com/en-us/fullnotice.aspx</item>
+        <item>http://tou.live.com/en-us/default.aspx</item>
+        <item>Accepter</item>
+        <item>Décliner</item>
+        <item>Accepter</item>
+        <item>Supprimé</item>
+        <item>Brouillons</item>
+        <item>Bte de récept.</item>
+        <item>"Boîte d'envoi"</item>
+        <item>Courr. enregistré</item>
+        <item>Envoyé</item>
+        <item>50</item>
+        <item>1</item>
+        <item>--- Envoyé avec Samsung Social Hub Premium - la nouvelle génération de messagerie mobile</item>
+        <item>100</item>
+        <item>0</item>
+        <item>Nom utilisateur</item>
+        <item>Saisissez votre adresse électronique</item>
+        <item>1</item>
+        <item>Brouillons</item>
+        <item>Bte de récept.</item>
+        <item>"Boîte d'envoi"</item>
+        <item>Envoyé</item>
+        <item>0</item>
+        <item>Adr. électr.</item>
+        <item>OK</item>
+        <item>"Vous pouvez accéder au service Terra si l'administrateur Terra a activé l'accès pour vous. Ensuite, vous devez indiquer l'adresse électr. associée au service ainsi que le mot de passe du service."</item>
+        <item>Annuler</item>
+        <item>OK</item>
+        <item>Brouillons</item>
+        <item>Bte de récept.</item>
+        <item>"Boîte d'envoi"</item>
+        <item>Envoyé</item>
+        <item>0</item>
+        <item>--- Envoyé avec Samsung Social Hub Premium - la nouvelle génération de messagerie mobile</item>
+        <item>Brouillons</item>
+        <item>Bte de récept.</item>
+        <item>"Boîte d'envoi"</item>
+        <item>Envoyé</item>
+        <item>0</item>
+        <item>ID Yahoo</item>
+        <item>Brouillons</item>
+        <item>Bte de récept.</item>
+        <item>"Boîte d'envoi"</item>
+        <item>Envoyé</item>
+        <item>0</item>
+        <item>--- Envoyé avec Samsung Social Hub Premium - la nouvelle génération de messagerie mobile</item>
+    </string-array>
+    <string-array name="search_list">
+        <item>Google</item>
+        <item>Google traduction</item>
+        <item>Wikipédia</item>
+    </string-array>
+    <string-array name="share_list">
+        <item>Partager texte</item>
+        <item>Partager image</item>
+    </string-array>
+</resources>

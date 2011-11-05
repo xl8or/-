@@ -1,0 +1,10 @@
+adb shell rm /data/system/accounts.db
+adb shell rm -r /data/data/com.htc.android.mail/databases/*
+adb shell rm -r /data/data/com.htc.android.mail/shared_prefs/*
+adb shell rm -r /data/data/com.android.email/databases/*
+adb shell rm -r /data/data/com.android.email/shared_prefs/*
+adb shell busybox killall com.htc.android.mail
+adb shell busybox killall com.android.email
+adb shell busybox killall com.google.android.gm
+adb shell busybox killall com.google.process.gapps
+# adb shell reboot

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/text_receive_settings" android:key="PreferenceCategory_title">
+        <com.htc.preference.HtcListPreference android:entries="@array/account_detail_mailsize_labels" android:title="@string/account_detail_mailsize" android:key="account_detail_mailsize_value" android:defaultValue="account_detail_mailsize_default" android:dialogTitle="@string/account_detail_mailsize" android:entryValues="@array/account_detail_mailsize_values" />
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/sync_scheduling" android:key="account_detail_poll_frequency_value" android:defaultValue="@string/account_detail_poll_frequency_default" />
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/account_detail_fetch_mail_type_label_text" android:key="account_detail_fetch_type" android:defaultValue="@string/account_detail_fetch_mail_default" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/account_auto_download_message" android:key="account_detail_auto_download_message" android:summaryOn="@string/account_auto_download_message_summary" android:summaryOff="@string/account_auto_download_message_summary" />
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/account_detail_folder_to_sync_label_text" android:key="account_folder_to_sync" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/text_send_settings" android:key="PreferenceCategory_title_send">
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/account_detail_reply_with_text" android:key="account_reply_with_text_value" android:defaultValue="false" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

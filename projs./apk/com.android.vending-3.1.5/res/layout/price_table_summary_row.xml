@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/highlight_overlay" android:paddingTop="6.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/white" android:id="@id/price_label" android:background="@drawable/expander_default_holo_dark" android:paddingLeft="0.0dip" android:paddingRight="3.0dip" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="?android:attr/textAppearanceMediumInverse" />
+    <TextView android:textColor="@color/white" android:id="@id/price_formatted" android:background="@drawable/spinner_default_holo_dark" android:paddingLeft="3.0dip" android:paddingRight="18.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/textAppearanceMediumInverse" />
+</LinearLayout>

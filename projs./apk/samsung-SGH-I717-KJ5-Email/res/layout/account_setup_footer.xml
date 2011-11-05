@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ProvFooterTheme">
+        <Button android:id="@id/done_button" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_done" style="@style/Theme.Button" />
+    </LinearLayout>
+</merge>

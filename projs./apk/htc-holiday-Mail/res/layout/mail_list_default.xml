@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.widget.HtcListView android:id="@id/list1" android:background="#ffffffff" android:visibility="gone" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:drawSelectorOnTop="false" android:stackFromBottom="false" android:cacheColorHint="@android:color/transparent" android:divider="@34080191" android:layout_weight="1.0" android:layout_above="@id/toolbarhome" android:layout_below="@33685591" mail:topBorderHeight="0.0px" mail:bottomBorderHeight="8.0px" mail:shouldFillEmpty="false"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:mail="http://schemas.android.com/apk/res/com.htc.android.mail" />

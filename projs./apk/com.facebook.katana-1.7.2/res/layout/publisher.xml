@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@drawable/publisher_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="6.0dip" android:layout_height="fill_parent" />
+    <include android:id="@id/photo_button" layout="@layout/publisher_button" />
+    <View android:id="@id/spacer1" android:layout_width="6.0dip" android:layout_height="fill_parent" />
+    <include android:id="@id/status_button" layout="@layout/publisher_button" />
+    <View android:id="@id/spacer2" android:layout_width="6.0dip" android:layout_height="fill_parent" />
+    <include android:id="@id/checkin_button" layout="@layout/publisher_button" />
+    <View android:layout_width="6.0dip" android:layout_height="fill_parent" />
+</LinearLayout>

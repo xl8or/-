@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_popup_menu_shadow_horiz">30.0dip</dimen>
+    <dimen name="icon_popup_menu_shadow_vert">37.0dip</dimen>
+    <dimen name="icon_popup_menu_shadow_touch">20.0dip</dimen>
+    <dimen name="button_minWidth">100.0sp</dimen>
+</resources>

@@ -1,0 +1,36 @@
+### toddler lock with an old verion code
+
+    adb shell busybox killall com.android.vending
+    adb shell sqlite3 /data/data/com.android.vending/databases/market_assets.db "INSERT OR REPLACE INTO asset_versions 
+    VALUES('v2:marcone.toddlerlock:1:2000','','INSTALLED',1319410428757,0,0,0,0,'marcone.toddlerlock','false',NULL,NULL,2000,'details?doc=marcone.toddlerlock',NULL,-1,'','',-1,4,-1,'','',-1,4)";
+    adb shell sqlite3 /data/data/com.android.vending/databases/market_assets.db "INSERT OR REPLACE INTO assets VALUES('marcone.toddlerlock','ENABLED','honesthenry@gmail.com')"
+    
+    adb uninstall marcone.toddlerlock
+    adb install ~/marcone.toddlerlock-1.apk
+    
+### letters with download pending
+    
+    adb shell busybox killall com.android.vending
+    adb shell sqlite3 /data/data/com.android.vending/databases/market_assets.db "INSERT OR REPLACE INTO asset_versions VALUES('v2:zok.android.letters:1:11','content://downloads/my_downloads/12','DOWNLOAD_PENDING',1319411813035,1319411815223,1319411904711,0,8874100,'zok.android.letters','false','azqy7bwFXk50cSOXy-XHVKsJWMQ',0,11,'details?doc=zok.android.letters',NULL,-1,'','',-1,4,-1,'','',-1,4)"
+    adb shell sqlite3 /data/data/com.android.vending/databases/market_assets.db "INSERT OR REPLACE INTO assets VALUES('zok.android.letters','DEFAULT','honesthenry@gmail.com')"
+
+    adb uninstall zok.android.letters
+    
+### sudoku with an old version code
+    
+    adb shell busybox killall com.android.vending
+    adb shell sqlite3 /data/data/com.android.vending/databases/market_assets.db "INSERT OR REPLACE INTO asset_versions VALUES('v2:com.nrsmagic.sudoku:1:100','content://downloads/my_downloads/19','INSTALLED',1319413072139,1319413074024,1319413085182,0,308260,'com.nrsmagic.sudoku','false','68L31tO8pwmPFMBySgDz2nvi-NU',0,100,'details?doc=com.nrsmagic.sudoku',NULL,-1,'','',-1,4,-1,'','',-1,4)"
+    adb shell sqlite3 /data/data/com.android.vending/databases/market_assets.db "INSERT OR REPLACE INTO assets VALUES('com.nrsmagic.sudoku','ENABLED','honesthenry@gmail.com')"
+    
+    adb uninstall com.icenta.sudoku.ui
+    adb install ~/com.icenta.sudoku.ui-1.apk
+    
+### tips with an old version code
+    
+    adb shell busybox killall com.android.vending
+    adb shell sqlite3 /data/data/com.android.vending/databases/market_assets.db "INSERT OR REPLACE INTO asset_versions VALUES('v2:com.cmoshe.success.tips:1:2','content://downloads/my_downloads/17','INSTALLED',1319412940471,1319412942323,1319412959021,0,547171,'com.cmoshe.success.tips','false','sHHP2YWVfSHbMFkmWZF5Bu9FACg',0,2,'details?doc=com.cmoshe.success.tips',NULL,-1,'','',-1,4,-1,'','',-1,4)"
+    adb shell sqlite3 /data/data/com.android.vending/databases/market_assets.db "INSERT OR REPLACE INTO assets VALUES('com.cmoshe.success.tips','ENABLED','honesthenry@gmail.com')"
+
+    adb uninstall com.cmoshe.success.tips
+
+###

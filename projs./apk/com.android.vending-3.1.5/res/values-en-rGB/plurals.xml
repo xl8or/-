@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="search_results_estimated_in_bucket">
+        <item quantity="other">%1$d results</item>
+        <item quantity="one">%1$d results</item>
+    </plurals>
+    <plurals name="notification_updates_available_message">
+        <item quantity="other">%1$d updates found.</item>
+        <item quantity="one">%1$d updates found.</item>
+    </plurals>
+    <plurals name="plus_one_multiple_global">
+        <item quantity="other">"%1$s people +1'd this."</item>
+        <item quantity="one">"%1$s person +1'd this"</item>
+    </plurals>
+    <plurals name="plus_one_multiple_friends">
+        <item quantity="other">"%1$1$s and %2$2$s others +1'd this."</item>
+        <item quantity="one">"%1$1$s and %2$2$s other +1'd this"</item>
+    </plurals>
+</resources>

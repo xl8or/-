@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping
+>
+    <class
+        name="com.gs.core.domain.events.ClinicalObservation"
+    >
+        <!--<cache usage="read-write" />-->
+
+        <id
+            name="id"
+            column="id"
+            type="java.lang.Long"
+        >
+            <generator class="native">
+                <param name="sequence">clinical_observation_sequence</param>
+            </generator>
+        </id>
+        <version
+            name="version"
+            column="version"
+            type="integer"
+        />
+
+        <property
+            name="annotation"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="annotation"
+        />
+
+
+        <property
+            name="siblingOrder"
+            type="java.lang.Integer"
+            update="true"
+            insert="true"
+            column="siblingOrder"
+        />
+
+
+    </class>
+
+</hibernate-mapping>

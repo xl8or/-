@@ -1,0 +1,48 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+							http://www.springframework.org/schema/aop
+							http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+			              http://www.springframework.org/schema/context
+			              http://www.springframework.org/schema/context/spring-context-3.0.xsd							
+				              ">
+
+	<bean id="someBeanScopedSingleton" class="com.jgk.springrecipes.blackbelt.general.beans.SomeBeanScopedSingleton" scope="singleton">
+	</bean>
+	
+	<bean id="someBeanScopedPrototype" class="com.jgk.springrecipes.blackbelt.general.beans.SomeBeanScopedPrototype" scope="prototype">
+	</bean>
+	
+	<bean id="someBeanWithConstructor" class="com.jgk.springrecipes.blackbelt.general.beans.SomeBeanWithConstructor">
+		<constructor-arg ref="someBeanWithProperties"/>
+	</bean>
+
+	<bean id="someBeanWithConstructorNested" class="com.jgk.springrecipes.blackbelt.general.beans.SomeBeanWithConstructorNested">
+		<constructor-arg ref="someOtherBean"/>
+	</bean>
+
+	<bean id="someBeanWithIndexedConstructorNested" class="com.jgk.springrecipes.blackbelt.general.beans.SomeBeanWithIndexedConstructor">
+		<constructor-arg index="0" value="Jed"/>
+		<constructor-arg index="1" value="Clampett"/>
+		<constructor-arg index="2" value="123 Main St."/>
+		<constructor-arg index="3" value="Beverly Hills, CA 90210"/>
+	</bean>
+	
+	<bean id="someBeanWithFactoryMethodAsConstructor" 
+			class="com.jgk.springrecipes.blackbelt.general.beans.SomeBeanWithFactoryMethodAsConstructor"
+			factory-method="createSomeBeanWithFactoryMethodAsConstructor"
+			>
+			<constructor-arg ref="someOtherBean"/>
+	
+	</bean>
+	
+	<bean id="someBeanWithProperties" class="com.jgk.springrecipes.blackbelt.general.beans.SomeBeanWithProperties">
+	   <property name="someOtherBean" ref="yetAnotherBean"/>
+	   <property name="someInteger" value="3"/>
+	   <property name="someText" value="Hello, jgk-spring-recipes"/>
+	</bean>
+	<alias name="yetAnotherBean" alias="someOtherBean"/>
+	<bean id="yetAnotherBean" class="com.jgk.springrecipes.blackbelt.general.beans.SomeOtherBean"/>	
+</beans>

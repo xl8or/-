@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_split_screen" android:id="@id/split_screen" android:orderInCategory="25" android:title="@string/email_strings_split_menu_action_txt" android:alphabeticShortcut="m" />
+</menu>

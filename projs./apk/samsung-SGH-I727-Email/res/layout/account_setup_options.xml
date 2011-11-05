@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:id="@id/account_check_frequency_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="1.0dip" android:text="@string/account_setup_options_mail_check_frequency_label" />
+                <Spinner android:id="@id/account_check_frequency" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:id="@id/account_peak_schedule_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="1.0dip" android:text="@string/sync_schedule_peak_schedule" />
+                <Spinner android:id="@id/account_peak_schedule" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:id="@id/account_offpeak_schedule_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="1.0dip" android:text="@string/sync_schedule_off_peak_schedule" />
+                <Spinner android:id="@id/account_offpeak_schedule" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:id="@id/account_sync_window_label" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="1.0dip" android:text="@string/account_setup_options_mail_window_label" />
+                <Spinner android:id="@id/account_sync_window" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:id="@id/account_email_size_label" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="1.0dip" android:text="@string/account_setup_options_mail_email_size_label" />
+                <Spinner android:id="@id/account_email_size" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:id="@id/account_calendar_sync_window_label" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="1.0dip" android:text="@string/account_setup_options_calendar_window_label" />
+                <Spinner android:id="@id/account_calendar_sync_window" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/account_default_checkbox_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                    <CheckBox android:layout_gravity="center_vertical" android:id="@id/account_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+                    <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/account_setup_options_default_label" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/account_notify_checkbox_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                        <CheckBox android:layout_gravity="center_vertical" android:id="@id/account_notify" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+                        <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/account_setup_options_notify_label" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/account_sync_contacts_checkbox_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                            <CheckBox android:layout_gravity="center_vertical" android:id="@id/account_sync_contacts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+                            <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/account_setup_options_sync_contacts_label" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/account_sync_calendar_checkbox_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                            <CheckBox android:layout_gravity="center_vertical" android:id="@id/account_sync_calendar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+                            <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/account_setup_options_sync_calendar_label" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/account_sync_tasks_checkbox_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                            <CheckBox android:layout_gravity="center_vertical" android:id="@id/account_sync_tasks" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+                            <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/account_setup_options_sync_task_label" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/account_sync_sms_checkbox_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                            <CheckBox android:layout_gravity="center_vertical" android:id="@id/account_sync_sms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+                            <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/account_setup_options_sync_sms_label" />
+                        </LinearLayout>
+                        <TextView android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>	>
+<com.sec.android.touchwiz.widget.TwSoftkeyView android:id="@id/softkeyview" android:layout_width="fill_parent" android:layout_height="57.0dip"
+      xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+        <com.android.email.EmailTwSoftkeyItem android:id="@id/tw_next" android:layout_width="wrap_content" android:layout_height="fill_parent" email:itemText="@string/next_action"
+          xmlns:email="http://schemas.android.com/apk/res/com.android.email" />
+    </com.sec.android.touchwiz.widget.TwSoftkeyView>
+</LinearLayout>

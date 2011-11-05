@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="search_results_estimated_in_bucket">
+        <item quantity="other">%1$d (de) rezultate</item>
+        <item quantity="one">%1$d rezultat</item>
+    </plurals>
+    <plurals name="notification_updates_available_message">
+        <item quantity="other">%1$d (de) actualizări găsite.</item>
+        <item quantity="one">%1$d actualizare găsită.</item>
+    </plurals>
+    <plurals name="plus_one_multiple_global">
+        <item quantity="other">Clic pe +1: %1$s (de) persoane</item>
+        <item quantity="one">Clic pe +1: %1$s persoană</item>
+    </plurals>
+    <plurals name="plus_one_multiple_friends">
+        <item quantity="other">Clic pe +1: %1$1$s şi încă %2$2$s</item>
+        <item quantity="one">Clic pe +1: %1$1$s şi încă %2$2$s</item>
+    </plurals>
+</resources>

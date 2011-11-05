@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingTop="100.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:gravity="center_horizontal" android:id="@id/message" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ProgressBar android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/progressBarStyleHorizontal" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/bottom_bar" android:paddingLeft="6.0dip" android:paddingTop="5.0dip" android:paddingRight="6.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/button_minWidth" android:text="@string/cancel_action" android:layout_weight="1.0" android:layout_centerVertical="true" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

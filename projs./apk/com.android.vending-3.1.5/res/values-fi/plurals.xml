@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="search_results_estimated_in_bucket">
+        <item quantity="other">%1$d tulosta</item>
+        <item quantity="one">%1$d tulos</item>
+    </plurals>
+    <plurals name="notification_updates_available_message">
+        <item quantity="other">Löytyi %1$d päivitystä.</item>
+        <item quantity="one">Löytyi %1$d päivitys.</item>
+    </plurals>
+    <plurals name="plus_one_multiple_global">
+        <item quantity="other">%1$s käyttäjää antoi tälle +1</item>
+        <item quantity="one">%1$s käyttäjä antoi tälle +1</item>
+    </plurals>
+    <plurals name="plus_one_multiple_friends">
+        <item quantity="other">%1$1$s ja %2$2$s muuta antoivat tälle +1</item>
+        <item quantity="one">%1$1$s ja %2$2$s muu antoivat tälle +1</item>
+    </plurals>
+</resources>

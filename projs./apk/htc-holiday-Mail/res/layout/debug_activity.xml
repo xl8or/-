@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/version" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ap_version_id" />
+    <CheckBox android:id="@id/debug" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enable_mail_debug" />
+    <CheckBox android:id="@id/debug_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enable_mail_detail_debug" />
+    <CheckBox android:id="@id/debug_exchange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enable_mail_exchange_debug" />
+    <CheckBox android:id="@id/rd_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enable_rd_version" />
+</LinearLayout>

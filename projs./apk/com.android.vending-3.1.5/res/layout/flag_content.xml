@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/main_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/item_details_panel" android:background="@color/title_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:gravity="top|center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:foreground="@drawable/title_bar_shadow" android:layout_weight="1.0">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:id="@id/flag_content_instruction" android:background="@drawable/highlight_overlay" android:padding="10.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/flag_page_description" style="@style/BaseText" />
+                <View android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <RadioGroup android:orientation="vertical" android:id="@id/flag_content_list" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RadioButton android:id="@id/sexual_content" android:text="@string/flag_sexual_content" style="@style/BaseText" />
+                    <RadioButton android:id="@id/graphic_violence" android:text="@string/flag_graphic_violence" style="@style/BaseText" />
+                    <RadioButton android:id="@id/hateful_content" android:text="@string/flag_hateful_content" style="@style/BaseText" />
+                    <RadioButton android:id="@id/harmful_to_device" android:visibility="gone" android:text="@string/flag_harmful_to_device" style="@style/BaseText" />
+                    <RadioButton android:id="@id/improper_content_rating" android:text="@string/flag_improper_content_rating" style="@style/BaseText" />
+                    <RadioButton android:id="@id/other_objection" android:text="@string/flag_other_objection" style="@style/BaseText" />
+                </RadioGroup>
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+    <LinearLayout android:id="@id/buttons" android:background="@drawable/bottombar_portrait_565" android:paddingLeft="2.0dip" android:paddingTop="4.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <Button android:enabled="false" android:id="@id/submit_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/submit" android:layout_weight="1.0" />
+        <Button android:id="@id/cancel_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+mFinishIntent	Intent  (id=830008725544)	
+	mAction	null	
+	mCategories	null	
+	mComponent	ComponentName  (id=830008726864)	
+	mData	null	
+	mExtras	Bundle  (id=830008725744)	
+	mFlags	0	
+	mPackage	null	
+	mSourceBounds	null	
+	mType	null	

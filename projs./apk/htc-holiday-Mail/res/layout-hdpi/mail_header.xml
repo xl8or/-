@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/magicLayout2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/recipientBlock" android:background="@34078829" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/sender_block" android:layout_width="fill_parent" android:layout_height="60.0px">
+            <TextView android:textSize="26.0px" android:textColor="@color/title_text_color" android:gravity="center" android:id="@id/senderLabel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/global_margin_left" android:layout_marginRight="8.0px" android:text="@string/mail_from" android:layout_centerVertical="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <Button android:layout_gravity="left|center" android:id="@id/senderBtn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0px" android:layout_marginBottom="1.0px" style="@style/recipient_button" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right|center" android:orientation="horizontal" android:id="@id/infoBlock" android:layout_width="80.0px" android:layout_height="fill_parent">
+                <ImageView android:id="@id/info2" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/global_margin_right" android:src="@drawable/attachment_collapse_selector" android:scaleType="center" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/toBtnListSapphireMain" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/global_margin_left" android:layout_marginRight="@dimen/global_margin_right">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/toLabelSapphire" android:layout_marginRight="8.0px" android:text="@string/mail_to" style="@style/readscreen_label_1" />
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/toBtnListSapphire1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/toBtnListSapphire2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/toBtnListSapphire3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ccBtnListSapphireMain" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/global_margin_left" android:layout_marginRight="@dimen/global_margin_right">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/ccLabelSapphire" android:layout_marginRight="8.0px" android:text="@string/mail_cc" style="@style/readscreen_label_1" />
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ccBtnListSapphire1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/ccBtnListSapphire2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/ccBtnListSapphire3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@34080401" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/global_margin_left" android:layout_marginRight="@dimen/global_margin_right">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0px" android:layout_weight="1.0">
+                <TextView android:textSize="26.0px" android:textStyle="bold" android:textColor="@color/readscreen_subject_color" android:id="@id/subjectSapphire" style="@style/readscreen_label_gray" />
+                <TextView android:textSize="20.0px" android:textColor="@color/readscreen_date_color" android:id="@id/dateFieldSapphire" android:visibility="invisible" android:singleLine="true" style="@style/readscreen_label_gray" />
+                <TextView android:textSize="20.0px" android:id="@id/priorityLabel" android:visibility="gone" android:layout_marginBottom="10.0px" android:singleLine="true" style="@style/readscreen_label_red" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/flagLayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/global_margin_left" android:layout_marginRight="7.0px">
+                    <ToggleButton android:layout_gravity="right|center" android:id="@id/star" android:background="@drawable/flag_button" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:orientation="vertical" android:id="@id/TopRoundInSubjectBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/top_round_small" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/attachSwitchLayout" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/listPreferredItemHeight">
+        <ImageView android:orientation="vertical" android:id="@id/attachSwitchLayoutTopRound" android:layout_alignParentTop="true" style="@style/top_round_small" />
+        <ImageView android:orientation="vertical" android:id="@id/attachSwitchLayoutBottomRound" android:layout_alignParentBottom="true" style="@style/pure_divider" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/attachSwitch" android:layout_width="fill_parent" android:layout_height="@dimen/listPreferredItemHeight" android:layout_centerInParent="true">
+            <TextView android:id="@id/attachViewOrHideStr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/global_margin_left" style="@style/attachSwitchLayoutTextStyle" />
+            <TextView android:id="@id/attachNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/attachSwitchLayoutTextStyle" />
+            <LinearLayout android:background="#ffff0000" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/attachSwitchTouchView" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:id="@id/attachSwitchBtn" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/global_margin_right" android:src="@drawable/attachment_collapse_selector" android:scaleType="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/attachlist" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/attachViewBottomRoundTop" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@34080406" android:scaleType="fitXY" />
+    <LinearLayout android:id="@id/attachBottomDivider" android:visibility="gone" style="@style/pure_divider" />
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/relatedAttachLayout" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="70.0px">
+        <Button android:textSize="24.0px" android:textColor="@color/on_change_focus_text_color" android:gravity="center" android:id="@id/relatedAttachBtn" android:background="@drawable/common_button" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/listPreferredItemHeight" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/download_html_img" android:singleLine="true" android:layout_weight="1.0" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/relatedAttachAnimation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

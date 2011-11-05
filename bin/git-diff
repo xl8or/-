@@ -1,0 +1,1 @@
+git difftool -y -x 'diff -U100'

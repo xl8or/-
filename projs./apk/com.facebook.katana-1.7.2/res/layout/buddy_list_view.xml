@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/global_title_bar" android:background="@drawable/global_top_background" android:layout_width="fill_parent" android:layout_height="48.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="23.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/title" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:scaleType="center" android:text="@string/home_chat" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:autoText="false" android:inputType="textPostalAddress|textFilter|textWebEmailAddress|textWebPassword|textNoSuggestions" />
+        <View android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <ProgressBar android:id="@id/chat_progress" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_margin="13.0dip" android:indeterminate="true" style="?android:attr/progressBarStyleLargeInverse" />
+    </LinearLayout>
+    <EditText android:id="@id/friends_filter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:drawableRight="@drawable/ic_search_text" android:imeOptions="actionDone" />
+    <com.facebook.katana.ui.SectionedListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="#ffb7b7b7" android:dividerHeight="1.0px" />
+    <include layout="@layout/empty_layout" />
+</LinearLayout>

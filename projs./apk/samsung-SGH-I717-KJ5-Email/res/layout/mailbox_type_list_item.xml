@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/p1_mail_box_list_body_L" android:background="@drawable/p1_mail_box_list_layou_bg_body" android:layout_width="fill_parent" android:layout_height="96.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/email_account_color_chip" android:visibility="invisible" android:layout_width="5.0px" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/mailbox_list_title_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="33.0px" android:typeface="sans" android:textColor="@drawable/selector_text_color_from000000_tob3b3b3" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/mailbox_list_title" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0px" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+        <TextView android:textSize="21.0px" android:typeface="sans" android:textColor="@drawable/selector_text_color_from3484c8_tob3b3b3" android:ellipsize="marquee" android:id="@id/mailbox_list_account" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0px" android:layout_marginLeft="10.0px" android:layout_marginTop="-5.0px" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+</LinearLayout>

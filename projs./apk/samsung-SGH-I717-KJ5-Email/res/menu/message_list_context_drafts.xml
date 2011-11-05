@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/open" android:title="@string/open_action" />
+    <item android:id="@id/delete" android:title="@string/discard_action" />
+    <item android:id="@id/move" android:title="@string/move_action" />
+    <item android:id="@id/forward" android:title="@string/forward_action" />
+</menu>

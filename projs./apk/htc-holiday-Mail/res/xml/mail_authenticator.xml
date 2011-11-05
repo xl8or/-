@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator android:label="@string/htc_private_app" android:icon="@drawable/app_email" android:accountType="com.htc.android.mail" android:accountPreferences="@xml/mail_account_preferences"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

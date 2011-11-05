@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingLeft="7.0dip" android:paddingTop="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/photo_thumb" android:background="@drawable/photo_frame" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:id="@id/photo_remove" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/remove_icon" android:onClick="removePhoto" />
+</FrameLayout>

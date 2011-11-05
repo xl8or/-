@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/toolbarhome" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_alignParentBottom="true" />
+    <ViewStub android:id="@id/stub_default_list" android:layout="@layout/mail_list_default" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_above="@id/toolbarhome" android:layout_below="@33685591" />
+    <ViewStub android:id="@id/stub_expand_list" android:layout="@layout/mail_list_expand" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_above="@id/toolbarhome" android:layout_below="@33685591" />
+    <TextView android:textSize="18.0px" android:textColor="#ff000000" android:gravity="center" android:id="@id/emptyText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_above="@id/toolbarhome" android:layout_below="@33685591" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/loadingLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/toolbarhome" android:layout_below="@33685591">
+        <ProgressBar android:id="@android:id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmallInverse" />
+        <TextView android:id="@id/loadingText" android:background="@color/color_255_255_255" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/progress_load_mails" style="@style/text_style_empty_view" />
+    </LinearLayout>
+    <include layout="@com.htc:layout/title_5_3" />
+</RelativeLayout>

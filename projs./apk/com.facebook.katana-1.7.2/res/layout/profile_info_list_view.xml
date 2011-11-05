@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_layout" />
+    <com.facebook.katana.view.FacebookListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="#ffffffff" android:divider="@drawable/fixed_divider_horizontal_bright" android:dividerHeight="1.0px" android:layout_weight="1.0" />
+    <include layout="@layout/empty_layout" />
+    <ViewStub android:id="@id/user_info_footer_include" android:layout="@layout/user_info_footer" android:inflatedId="@id/profile_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

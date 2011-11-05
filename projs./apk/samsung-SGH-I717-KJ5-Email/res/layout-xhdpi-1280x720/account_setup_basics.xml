@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="20.0sp" android:textColor="?android:textColorPrimary" android:id="@id/account_setup_basics_instructions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/accounts_welcome" />
+            <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:id="@id/instructions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="10.0dip" android:text="@string/auto_discover_setup_exchange_email_address_label" />
+            <AutoCompleteTextView android:id="@id/account_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_setup_basics_account_example_com" android:maxLength="320" android:completionThreshold="2" android:inputType="textEmailAddress" android:imeOptions="actionNext" />
+            <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:id="@id/pass_instructions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="1.0dip" android:text="@string/account_setup_basics_password_hint" />
+            <EditText android:id="@id/account_password" android:nextFocusDown="@id/next" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_setup_basics_password_hint" android:password="true" android:maxLength="320" android:inputType="text" android:imeOptions="actionDone" />
+            <ImageView android:background="@drawable/divider_horizontal_dark_opaque" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/premium_account_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                <LinearLayout android:orientation="horizontal" android:id="@id/premium_account_checkbox_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <CheckBox android:layout_gravity="center_vertical" android:id="@id/premium_account" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:contentDescription="@string/set_as_premium_account" />
+                    <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:maxWidth="220.0dip" android:text="@string/set_as_premium_account" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/premium_account_checkbox_layout_land" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <CheckBox android:layout_gravity="center_vertical" android:id="@id/premium_account_land" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+                    <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/set_as_premium_account" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:background="@drawable/divider_horizontal_dark_opaque" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:orientation="vertical" android:id="@id/account_default_checkbox_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <CheckBox android:layout_gravity="center_vertical" android:id="@id/account_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:contentDescription="@string/account_setup_basics_default_label" />
+                    <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/account_setup_basics_default_label" />
+                </LinearLayout>
+                <ImageView android:background="@drawable/divider_horizontal_dark_opaque" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/account_show_password_checkbox_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                <CheckBox android:layout_gravity="center_vertical" android:id="@id/show_password" android:nextFocusDown="@id/account_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:contentDescription="@string/account_setup_basic_show_password" />
+                <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/account_setup_basic_show_password" />
+            </LinearLayout>
+            <ImageView android:background="@drawable/divider_horizontal_dark_opaque" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        </LinearLayout>
+        <com.sec.android.touchwiz.widget.TwSoftkeyView android:id="@id/softkeyview" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+            <com.android.email.EmailTwSoftkeyItem android:id="@id/tw_manual_setup" android:focusable="true" android:nextFocusUp="@id/show_password" android:nextFocusDown="@id/account_email" android:layout_width="wrap_content" android:layout_height="57.0dip" email:itemText="@string/account_setup_basics_manual_setup_action"
+              xmlns:email="http://schemas.android.com/apk/res/com.android.email" />
+            <com.android.email.EmailTwSoftkeyItem android:id="@id/tw_next" android:focusable="true" android:nextFocusUp="@id/show_password" android:nextFocusDown="@id/account_email" android:layout_width="wrap_content" android:layout_height="fill_parent" email:itemImageAlign="right" email:itemText="@string/next_action" email:itemImage="@drawable/icon_next_dim"
+              xmlns:email="http://schemas.android.com/apk/res/com.android.email" />
+        </com.sec.android.touchwiz.widget.TwSoftkeyView>
+    </LinearLayout>
+</ScrollView>

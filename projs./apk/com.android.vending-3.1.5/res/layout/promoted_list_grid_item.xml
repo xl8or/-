@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.AccessibleRelativeLayout android:id="@id/promoted_cell" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/promoted_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <TextView android:textSize="@dimen/content_entry_large_size" android:textStyle="bold" android:textColor="@color/uneven_grid_cell_fg_primary" android:ellipsize="end" android:id="@id/li_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="4.0dip" android:maxLines="2" android:layout_alignParentTop="true" android:lineSpacingExtra="0.0sp" />
+    <View android:id="@id/accessibility_overlay" android:background="@drawable/highlight_overlay" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.google.android.finsky.layout.AccessibleRelativeLayout>

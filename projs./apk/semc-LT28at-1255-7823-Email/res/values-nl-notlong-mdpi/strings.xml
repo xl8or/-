@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="discard_action">Wissen</string>
+    <string name="account_folder_list_summary_inbox">Gecomb. Postvak IN</string>
+    <string name="message_list_send_pending_messages_action">Uitgaande berichten verz.</string>
+    <string name="message_view_attachment_view_action">Open</string>
+    <string name="message_view_attachment_download_action">Opsl.</string>
+    <string name="message_view_show_pictures_instructions">Selecteer optie om ingesl. afb. weer te geven.</string>
+    <string name="message_view_invite_view">In Kalender »</string>
+    <string name="message_view_invite_title">Kalenderuitnod.</string>
+    <string name="account_setup_basics_manual_setup_action">Handm. inst.</string>
+    <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL (alle cert. accept.)</string>
+    <string name="account_setup_incoming_security_tls_trust_certificates_label">TLS (alle cert. accept.)</string>
+    <string name="account_setup_incoming_delete_policy_label">E-mail vrw. van server</string>
+    <string name="account_setup_incoming_delete_policy_delete_label">Bij vrw. uit Postvak IN</string>
+    <string name="account_setup_options_mail_window_label">Hoeveelh. om te synchr.</string>
+    <string name="security_notification_ticker_fmt">Account %s vereist beveiligingsupd.</string>
+    <string name="security_notification_content_title">Beveiligingsinstellingen bijwerken</string>
+    <string name="account_settings_sync_contacts_enable">Cont. synchroniseren</string>
+</resources>

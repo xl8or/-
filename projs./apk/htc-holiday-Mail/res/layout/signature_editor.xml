@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/main_title" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/block1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@33882395" android:layout_alignParentTop="true">
+        <EditText android:textSize="20.0sp" android:textColor="#ff000000" android:gravity="top|left|center" android:id="@id/body_signature" android:background="?33619973" android:paddingLeft="@dimen/edit_text_padding_compose_body_left" android:paddingTop="@dimen/edit_text_padding_compose_body_top" android:paddingRight="@dimen/edit_text_padding_compose_body_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="348.0px" android:capitalize="sentences" android:autoText="true" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <include layout="@com.htc:layout/cmd_bar_2" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@com.htc:layout/title_1" />
+</RelativeLayout>

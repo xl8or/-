@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/details_section_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/permissions_expander" android:background="@drawable/highlight_overlay" android:paddingLeft="@dimen/permissions_content_padding" android:paddingTop="12.0dip" android:paddingRight="@dimen/permissions_content_padding" android:paddingBottom="12.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:textStyle="normal" android:text="@string/see_all_permissions" style="@style/DetailsPage_HeaderText" />
+        <ImageView android:layout_gravity="center_vertical" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_more_arrow_down" />
+    </LinearLayout>
+</FrameLayout>

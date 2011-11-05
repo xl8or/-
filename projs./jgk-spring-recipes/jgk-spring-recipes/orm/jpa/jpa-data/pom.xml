@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>jpa</artifactId>
+    <groupId>com.jgk</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.jgk</groupId>
+  <artifactId>jpa-data</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>jpa-data</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	  <slf4j-api.version>1.5.10</slf4j-api.version>
+	  <slf4j-log4j12.version>1.5.10</slf4j-log4j12.version>
+    
+  </properties>
+  <dependencies>
+<dependency>
+  <groupId>org.slf4j</groupId>
+  <artifactId>jcl104-over-slf4j</artifactId>
+  <version>1.5.8</version>
+</dependency>	
+
+    <dependency>
+	    <groupId>org.springframework.data</groupId>
+	    <artifactId>spring-data-jpa</artifactId>
+	    <version>1.0.0.M2</version>
+	    <exclusions>
+<!-- 	    
+	      <exclusion>
+		      <groupId>org.slf4j</groupId>
+		      <artifactId>slf4j-log4j12</artifactId>
+          </exclusion>
+          <exclusion>
+		      <groupId>org.slf4j</groupId>
+		      <artifactId>slf4j-api</artifactId>
+          </exclusion>
+ -->          
+	    </exclusions>
+	</dependency>  
+	<dependency>
+	    <groupId>org.springframework.data</groupId>
+	    <artifactId>spring-data-commons-core</artifactId>
+	    <version>1.0.0.M5</version>
+	</dependency>  
+  </dependencies>
+</project>

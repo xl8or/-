@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/actions_grp">
+        <item android:icon="@drawable/ic_menu_market_search" android:id="@id/search_button" android:title="@string/search_hint" android:showAsAction="always" android:actionViewClass="android.widget.SearchView" />
+        <item android:icon="@drawable/ic_menu_market_share" android:id="@id/share_button" android:visible="false" android:title="@string/content_description_share" android:showAsAction="never" />
+    </group>
+</menu>
