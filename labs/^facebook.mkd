@@ -50,7 +50,7 @@
     INSERT INTO "user_values" VALUES(9,'current_account','honesthenry@gmail.com');
     COMMIT;
 
-####
+#### JSON Response?
 
     Thread [<9> Thread-163] (Suspended (entry into method parseObjectJson in JMParser))
         JMParser.parseObjectJson(JsonParser, Class clazz) line: 499
@@ -70,4 +70,12 @@
             Exception ex: null) line: 132
         HttpOperation.run() line: 345
 
+#### JSON Request
+
+Thread [<1> main] (Suspended (entry into method <init> in HttpOperation))   
+    HttpOperation.<init>(Context, String, String, OutputStream, HttpOperation$HttpOperationListener, boolean) line: 181 
+    AuthLogin(ApiMethod).start() line: 223  
+    FacebookService.startOp(String, ApiMethod) line: 1250   
+    FacebookService.onStart(Intent, int) line: 742  
+    FacebookService(Service).onStartCommand(Intent, int, int) line: 428 
 
