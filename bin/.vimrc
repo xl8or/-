@@ -22,6 +22,7 @@ syntax on
 " set clipboard+=unnamed
 set autoread
 set encoding=utf-8
+set paste
 set pastetoggle=<F2>
 set title showmode showcmd ruler
 set laststatus=2 " always (default: only if there are 2+ windows)
