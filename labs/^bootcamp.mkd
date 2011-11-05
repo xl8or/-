@@ -363,3 +363,6 @@ little snitch, [sequel.pro](http://www.sequelpro.com/download/), [oracle.sql.dev
 * [Intro. to Maven](http://maven.apache.org/guides/introduction/introduction-to-the-pom.html)
 * [Spring for Android](http://www.springsource.org/spring-android "Android extension for Spring Framework")
 * [How to install](http://www.omappedia.org/wiki/Android_Installing_Busybox_Command_Line_Tools) [busybox](http://busybox.net/downloads/binaries/) 
+* [Administrative Scripting by Ruby](http://faculty.cs.nku.edu/~waldenj/classes/2009/fall/cit383/)
+* [Administraitve Scripting Labs](http://faculty.cs.nku.edu/~waldenj/classes/2009/fall/cit383/labs/)
+* [What to expect from the Ruby expect library?](http://www.42klines.com/2010/08/14/what-to-expect-from-the-ruby-expect-library.html)
