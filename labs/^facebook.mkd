@@ -9,3 +9,7 @@
 #### Deep-dive ...
 
     call stacks and variables ...
+    
+####
+
+    com.facebook.katana/com.facebook.kanata.LoginActivity -> login
