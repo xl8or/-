@@ -67,7 +67,8 @@ op  AuthLogin  (id=830008971544)
 
 mParams TreeMap  (id=830010267192)
 
-{api_key=882a8490361da98702bf97a021ddc14d, email=honesthenry@gmail.com, format=JSON, locale=user, method=auth.login, migrations_override={'empty_json': true}, password=passw0rd, return_ssl_resources=0, sig=5bcc3cc8aac2e2313bd9a75814650a6d, v=1.0}
+{api_key=882a8490361da98702bf97a021ddc14d, email=honesthenry@gmail.com, format=JSON, locale=user, 
+        method=auth.login, migrations_override={'empty_json': true}, password=passw0rd, return_ssl_resources=0, sig=5bcc3cc8aac2e2313bd9a75814650a6d, v=1.0}
 
 mReqIntent  Intent  (id=830010267408)
     mAction null
@@ -113,7 +114,8 @@ request HttpGet  (id=830010231272)
 
 https://api.facebook.com/restserver.php?
     api_key=882a8490361da98702bf97a021ddc14d&call_id=1320555565016&format=JSON&locale=user&
-            method=batch.run&method_feed=%5B%22
+            method=batch.run&
+            method_feed=%5B%22
         api_key%3D882a8490361da98702bf97a021ddc14d%26call_id%3D1320555564892%26format%3DJSON%26locale%3Duser%26
             method%3Dfql.query%26migrations_override%3D%257B%2527empty_json%2527%253A%2Btrue%257D%26query%3DSELECT%2Blast_name%252Cuid%252Cfirst_name%252Cpic_square%252Cname%2BFROM%2Buser%2BWHERE%2Buid%2BIN%2528647577191%2529%26return_ssl_resources%3D0%26session_key%3D90451f5fa4914f014090af50.0-647577191%26sig%3D70eb7c18aaf1f4469a61bb7721092175%26v%3D1.0%22%2C%22
         api_key%3D882a8490361da98702bf97a021ddc14d%26format%3DJSON%26locale%3Duser%26
