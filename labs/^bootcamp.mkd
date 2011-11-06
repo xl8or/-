@@ -256,6 +256,8 @@ little snitch, [sequel.pro](http://www.sequelpro.com/download/), [oracle.sql.dev
     mv com.facebook.katana-1.apk com.facebook.katana-1.7.2.apk
     apk2eclipse com.facebook.katana-1.7.2.apk
 
+#### [Java Decompiler Tests](http://www.program-transformation.org/Transform/JavaDecompilerTests)
+
 #### JD tools
 ##### [JD-GUI](http://java.decompiler.free.fr/?q=jdgui)
 
