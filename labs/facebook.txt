@@ -295,5 +295,49 @@ Thread [<1> main] (Suspended (entry into method toJSONObject in FacebookSessionI
 	ZygoteInit.main(String[]) line: 665	
 	NativeStart.main(String[]) line: not available [native method]	
 
+***
+
+{"session_key":"90451f5fa4914f014090af50.0-647577191","uid":647577191,"secret":"ac6cdf7eb71d86dae1d42d119bb1b1fa","access_token":"AAAAAUaZA8jlABAJVZC3XF1hATBr2PvexdlfaZBNjQ7ZB6op5vfJiuGz3jMukeEdaOBxzlW2T6KdDHFU9jRZCWS0Thnq6kVF8ZD"}
+
+Thread [<12> Thread-19] (Suspended (entry into method setValue in UserValuesManager))   
+    UserValuesManager.setValue(Context, String, Object) line: 252   
+    UserValuesManager.setRegisterRingtone(Context, boolean) line: 114   
+    UserValuesManager.clearUserValues(Context) line: 207    
+    FacebookDatabaseHelper.clearPrivateData(Context) line: 469  
+    AuthLogin$ClearAccountDataTask.doInBackground() line: 124   
+    AuthLogin$ClearAccountDataTask(UserTask).run() line: 40 
+
+context FacebookApplication  (id=830007773680)  
+propName    "ringtone" (id=830003520336)    
+value   Boolean  (id=830002550416)  
+    value   true    
+
+["[{\"last_name\":\"Lee\",\"uid\":647577191,\"first_name\":\"Henry Hm\",\"pic_square\":\"http:\\\/\\\/profile.ak.fbcdn.net\\\/hprofile-ak-ash2\\\/274976_647577191_931918644_q.jpg\",\"name\":\"Henry Hm Lee\"}]","[{\"uid\":647577191,\"filter_key\":\"nf\",\"name\":\"News Feed\",\"rank\":0,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/app_icons\\\/newsfeed.gif\",\"is_visible\":true,\"type\":\"newsfeed\",\"value\":null},{\"uid\":647577191,\"filter_key\":\"fl_10150315810477192\",\"name\":\"\",\"rank\":1,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/app_icons\\\/friend_list.gif\",\"is_visible\":true,\"type\":\"friendlist\",\"value\":10150315810477192},{\"uid\":647577191,\"filter_key\":\"fl_10150315810462192\",\"name\":\"\",\"rank\":2,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/app_icons\\\/friend_list.gif\",\"is_visible\":true,\"type\":\"friendlist\",\"value\":10150315810462192},{\"uid\":647577191,\"filter_key\":\"app_2915120374\",\"name\":\"Status Updates\",\"rank\":3,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/app_icons\\\/friend_guy.gif\",\"is_visible\":true,\"type\":\"application\",\"value\":2915120374},{\"uid\":647577191,\"filter_key\":\"app_2305272732\",\"name\":\"Photos\",\"rank\":4,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/icons\\\/photo.gif\",\"is_visible\":true,\"type\":\"application\",\"value\":2305272732},{\"uid\":647577191,\"filter_key\":\"app_2309869772\",\"name\":\"Links\",\"rank\":5,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/icons\\\/post.gif\",\"is_visible\":true,\"type\":\"application\",\"value\":2309869772},{\"uid\":647577191,\"filter_key\":\"fl_10150315810457192\",\"name\":\"\",\"rank\":6,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/app_icons\\\/friend_list.gif\",\"is_visible\":false,\"type\":\"friendlist\",\"value\":10150315810457192},{\"uid\":647577191,\"filter_key\":\"fl_10150315810452192\",\"name\":\"\",\"rank\":7,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/app_icons\\\/friend_list.gif\",\"is_visible\":false,\"type\":\"friendlist\",\"value\":10150315810452192},{\"uid\":647577191,\"filter_key\":\"fl_10150315810442192\",\"name\":\"\",\"rank\":8,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/app_icons\\\/friend_list.gif\",\"is_visible\":false,\"type\":\"friendlist\",\"value\":10150315810442192},{\"uid\":647577191,\"filter_key\":\"fl_10150375861002192\",\"name\":\"\",\"rank\":9,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/app_icons\\\/friend_list.gif\",\"is_visible\":false,\"type\":\"friendlist\",\"value\":10150375861002192},{\"uid\":647577191,\"filter_key\":\"fl_10150315810472192\",\"name\":\"\",\"rank\":10,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/app_icons\\\/friend_list.gif\",\"is_visible\":false,\"type\":\"friendlist\",\"value\":10150315810472192},{\"uid\":647577191,\"filter_key\":\"fl_10150365735437192\",\"name\":\"\",\"rank\":11,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/app_icons\\\/friend_list.gif\",\"is_visible\":false,\"type\":\"friendlist\",\"value\":10150365735437192},{\"uid\":647577191,\"filter_key\":\"fl_10150365735442192\",\"name\":\"\",\"rank\":12,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/app_icons\\\/friend_list.gif\",\"is_visible\":false,\"type\":\"friendlist\",\"value\":10150365735442192},{\"uid\":647577191,\"filter_key\":\"fl_10150365735432192\",\"name\":\"\",\"rank\":13,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/app_icons\\\/friend_list.gif\",\"is_visible\":false,\"type\":\"friendlist\",\"value\":10150365735432192},{\"uid\":647577191,\"filter_key\":\"fl_10150315861237192\",\"name\":\"\",\"rank\":14,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/app_icons\\\/friend_list.gif\",\"is_visible\":false,\"type\":\"friendlist\",\"value\":10150315861237192},{\"uid\":647577191,\"filter_key\":\"fl_10150338283302192\",\"name\":\"\",\"rank\":15,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/app_icons\\\/friend_list.gif\",\"is_visible\":false,\"type\":\"friendlist\",\"value\":10150338283302192},{\"uid\":647577191,\"filter_key\":\"pp\",\"name\":\"Pages\",\"rank\":16,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/app_icons\\\/fbpage.gif\",\"is_visible\":false,\"type\":\"public_profiles\",\"value\":null},{\"uid\":647577191,\"filter_key\":\"app_2392950137\",\"name\":\"Video\",\"rank\":17,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/icons\\\/motion.gif\",\"is_visible\":false,\"type\":\"application\",\"value\":2392950137},{\"uid\":647577191,\"filter_key\":\"app_2347471856\",\"name\":\"Notes\",\"rank\":18,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/icons\\\/note.gif\",\"is_visible\":false,\"type\":\"application\",\"value\":2347471856},{\"uid\":647577191,\"filter_key\":\"app_2361831622\",\"name\":\"Groups\",\"rank\":19,\"icon_url\":\"http:\\\/\\\/www.facebook.com\\\/images\\\/icons\\\/group.png\",\"is_visible\":false,\"type\":\"application\",\"value\":2361831622}]"]
+
+Thread [<1> main] (Suspended (entry into method setValue in UserValuesManager)) 
+    UserValuesManager.setValue(Context, String, Object) line: 252   
+    UserValuesManager.saveActiveSessionInfo(Context, String) line: 150  
+    FacebookService.onOperationComplete(ApiMethod, int, String, Exception) line: 830    
+    BatchRun(ApiMethod).dispatchOnOperationComplete(ApiMethod, int, String, Exception) line: 340    
+    ApiMethod$1.run() line: 322 
+
+context FacebookApplication  (id=830007773680)  
+propName    "active_session_info" (id=830008384944) 
+value   "{"uid":647577191,"secret":"ac6cdf7eb71d86dae1d42d119bb1b1fa","username":"honesthenry@gmail.com","filter":"nf","access_token":"AAAAAUaZA8jlABAJVZC3XF1hATBr2PvexdlfaZBNjQ7ZB6op5vfJiuGz3jMukeEdaOBxzlW2T6KdDHFU9jRZCWS0Thnq6kVF8ZD","session_key":"90451f5fa4914f014090af50.0-647577191","profile":{"last_name":"Lee","uid":647577191,"first_name":"Henry Hm","pic_square":"http:\\/\\/profile.ak.fbcdn.net\\/hprofile-ak-ash2\\/274976_647577191_931918644_q.jpg","name":"Henry Hm Lee"}}" (id=830008357984) 
+
+Thread [<1> main] (Suspended (entry into method setValue in UserValuesManager)) 
+    UserValuesManager.setValue(Context, String, Object) line: 252   
+    UserValuesManager.saveActiveSessionInfo(Context, String) line: 150  
+    AppSession.handleLogin(Context, FacebookSessionInfo) line: 3508 
+    AppSession.handleLoginResult(Context, String, int, String, Exception, Object, boolean) line: 2569   
+    AppSession.onOperationComplete(Context, Intent, int, String, Exception, Object, Object) line: 2718  
+    AppSession.onServiceOperationComplete(Context, Intent, int, String, Exception, Object, Object) line: 2498   
+    FacebookService.onOperationComplete(ApiMethod, int, String, Exception) line: 838    
+    BatchRun(ApiMethod).dispatchOnOperationComplete(ApiMethod, int, String, Exception) line: 340    
+    ApiMethod$1.run() line: 322 
+
+context FacebookApplication  (id=830007773680)  
+propName    "active_session_info" (id=830008384944) 
+value   "{"uid":647577191,"secret":"ac6cdf7eb71d86dae1d42d119bb1b1fa","username":"honesthenry@gmail.com","filter":"nf","access_token":"AAAAAUaZA8jlABAJVZC3XF1hATBr2PvexdlfaZBNjQ7ZB6op5vfJiuGz3jMukeEdaOBxzlW2T6KdDHFU9jRZCWS0Thnq6kVF8ZD","session_key":"90451f5fa4914f014090af50.0-647577191","profile":{"last_name":"Lee","uid":647577191,"first_name":"Henry Hm","pic_square":"http:\\/\\/profile.ak.fbcdn.net\\/hprofile-ak-ash2\\/274976_647577191_931918644_q.jpg","name":"Henry Hm Lee"}}" (id=830008625760) 
 
 
