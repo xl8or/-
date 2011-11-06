@@ -80,9 +80,10 @@ system "mkdir #{out_proj}/classes; pushd #{out_proj}/classes; pwd; jar xvf ../cl
 system "jadretro #{out_proj}/classes"
 system "jad -o -r -sjava -d#{out_proj}/src #{out_proj}/classes/**/*.class"
 
-system "jar cvf #{out_proj}/sources.jar #{out_proj}/src;"
-system "pushd #{out_proj}; jar cvf classes-retrofit.jar #{out_proj}/classes; popd;"
-system "rm -rf #{out_proj}/classes;"
+system "jar cvf #{out_proj}/sources.jar #{out_proj}/src"
+system "jar cvf #{out_proj}/classes-retrofit.jar #{out_proj}/classes"
+system "rm #{out_proj}/classes_dex2jar.jar"
+system "rm -rf #{out_proj}/classes"
 
 File.open("#{out_proj}/default.properties", "w") {|f| f.write(defaults) }
 File.open("#{out_proj}/.classpath", "w") {|f| f.write(classpath) }
