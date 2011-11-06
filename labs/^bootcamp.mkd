@@ -78,8 +78,8 @@ little snitch, [sequel.pro](http://www.sequelpro.com/download/), [oracle.sql.dev
 #### Install [VIM markdown preview](https://github.com/robgleeson/hammer.vim)
 
     rvm system
-    gem install redcarpet
-    gem install github-markup
+    sudo gem install redcarpet
+    sudo gem install github-markup
     git clone git://github.com/robgleeson/hammer.vim.git /tmp/hammer.vim
     cp -R /tmp/hammer.vim/plugin/* ~/.vim/plugin/
 
