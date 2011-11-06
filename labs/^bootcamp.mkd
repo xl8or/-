@@ -280,7 +280,7 @@ little snitch, [sequel.pro](http://www.sequelpro.com/download/), [oracle.sql.dev
 #### [JAD-Clipse](http://jadclipse.sourceforge.net/wiki/index.php/Main_Page) and [JAD](http://www.varaneckas.com/jad)
 
 * wget -P /tmp/ http://www.varaneckas.com/sites/default/files/jad/jad158g.mac.intel.zip
-* sudo unzip -o /tmp/jad158g.mac.intel.zip -d /opt/local/bin/
+* sudo unzip -o /tmp/jad158g.mac.intel.zip -d /usr/bin/
 * Help | Install New Software ... | Add ... to open the Add Repository dialog
 * Type `http://jadclipse.sourceforge.net/update/` to location | OK
 * Check `Java Decompiler Eclipse Plug-in` | `Next` twice
