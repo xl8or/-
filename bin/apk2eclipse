@@ -11,7 +11,7 @@ classpath = <<HERE
 <classpath>
 	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
-	<classpathentry kind="lib" path="classes.dex.dex2jar.jar"/>
+	<classpathentry kind="lib" path="classes-retrofit.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
 HERE
@@ -77,11 +77,12 @@ system "dex2jar #{out_proj}/classes.dex"
 system "rm #{out_proj}/classes.dex"
 
 system "mkdir #{out_proj}/classes; pushd #{out_proj}/classes; pwd; jar xvf ../classes_dex2jar.jar; popd;"
-system "jadretro #{out_proj}/classes;"
-system "jad158g -o -r -sjava -d#{out_proj}/src #{out_proj}/classes/**/*.class;"
-system "rm -rf #{out_proj}/classes;"
+system "jadretro #{out_proj}/classes"
+system "jad -o -r -sjava -d#{out_proj}/src #{out_proj}/classes/**/*.class"
 
 system "jar cvf #{out_proj}/sources.jar #{out_proj}/src;"
+system "pushd #{out_proj}; jar cvf classes-retrofit.jar #{out_proj}/classes; popd;"
+system "rm -rf #{out_proj}/classes;"
 
 File.open("#{out_proj}/default.properties", "w") {|f| f.write(defaults) }
 File.open("#{out_proj}/.classpath", "w") {|f| f.write(classpath) }
