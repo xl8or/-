@@ -294,11 +294,13 @@ little snitch, [sequel.pro](http://www.sequelpro.com/download/), [oracle.sql.dev
     java -jar \`dirname \$0\`/jadretro.jar $@
     EOF
     
-    sudo mv /opt/local/bin/jad /opt/local/bin/jad.orig
+    sudo mv /usr/bin/jad /usr/bin/jad.orig
     sudo mv /tmp/jad /usr/bin/
-    sudo mv /tmp/jadretro/jadretro.jar /opt/local/bin/
-    sudo mv /tmp/jadretro/jadretro /opt/local/bin/
-    sudo chmod +x /opt/local/bin/jadretro
+    sudo chmod +x /usr/bin/jad
+
+    sudo mv /tmp/jadretro/jadretro.jar /usr/bin/
+    sudo mv /tmp/jadretro/jadretro /usr/bin/
+    sudo chmod +x /usr/bin/jadretro
 
 #
 * Help | Install New Software ... | Add ... to open the Add Repository dialog
