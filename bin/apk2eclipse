@@ -69,7 +69,6 @@ HERE
 system "rm -rf #{out_proj}; mkdir #{out_proj};" 
 system "unzip -o #{in_apk} -d #{out_proj};"
 
-# puts <<HERE
 system "rm -rf /tmp/apk; mkdir /tmp/apk;"
 system "apktool decode -s -f #{in_apk} /tmp/apk;"
 system "cp -R /tmp/apk/ #{out_proj};"
@@ -77,15 +76,12 @@ system "cp -R /tmp/apk/ #{out_proj};"
 system "dex2jar #{out_proj}/classes.dex"
 system "rm #{out_proj}/classes.dex"
 
-# system "fernflower #{out_proj}/classes.dex.dex2jar.jar;"
-# system "mv #{out_proj}/src/classes.dex.dex2jar.jar #{out_proj}/sources.jar;"
-
-system "mkdir #{out_proj}/classes; pushd #{out_proj}/classes; jar xvf ../classes.dex.dex2jar.jar; popd;"
-system "jad -o -r -sjava -d#{out_proj}/src #{out_proj}/classes/**/*.class;"
+system "mkdir #{out_proj}/classes; pushd #{out_proj}/classes; pwd; jar xvf ../classes_dex2jar.jar; popd;"
+system "jadretro #{out_proj}/classes;"
+system "jad158g -o -r -sjava -d#{out_proj}/src #{out_proj}/classes/**/*.class;"
 system "rm -rf #{out_proj}/classes;"
 
 system "jar cvf #{out_proj}/sources.jar #{out_proj}/src;"
-# HERE
 
 File.open("#{out_proj}/default.properties", "w") {|f| f.write(defaults) }
 File.open("#{out_proj}/.classpath", "w") {|f| f.write(classpath) }
