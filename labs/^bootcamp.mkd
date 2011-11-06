@@ -277,6 +277,13 @@ little snitch, [sequel.pro](http://www.sequelpro.com/download/), [oracle.sql.dev
 * to use Realignment, it is necessary to open Preferences → General → Editors → File Associations and select "*.class" file type and to choose "Realignment for JD Class File Editor" for Associated editors. Another possibility is the batch realignment after processing JD-GUI. To work properly you must to switch on the property "Display line numbers" in Help/Preferences of JD-GUI. To use this feature it is necessary to open the menu Preferences/Java/Decompiler/Batch Realignment and click button "Open dialog".
 * existing limitation: the realignment is performed only for the methods. to work properly it is necessary that the property "Display line numbers" in menu "Preferences/Java/Decompiler" was active.
 
+#### [JAD-Clipse](http://jadclipse.sourceforge.net/wiki/index.php/Main_Page) and [JAD](http://www.varaneckas.com/jad)
+
+* Help | Install New Software ... | Add ... to open the Add Repository dialog
+* Type `http://jadclipse.sourceforge.net/update/` to location | OK
+* Check `Java Decompiler Eclipse Plug-in` | `Next` twice
+* Choose to accept the license and then `Finish`
+
 #### Install Busybox to Android
 
     wget -P /tmp/ http://busybox.net/downloads/binaries/latest/busybox-armv4tl
