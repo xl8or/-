@@ -1,6 +1,0 @@
-version: 1.4.1
-apkFileName: samsung-SGH-I727-AccountAndSyncSettings.apk
-isFrameworkApk: false
-usesFramework:
-  ids:
-  - 1

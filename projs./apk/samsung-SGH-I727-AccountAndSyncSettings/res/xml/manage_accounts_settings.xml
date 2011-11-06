@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory android:title="@string/header_general_sync_settings" />
-    <CheckBoxPreference android:persistent="false" android:title="@string/background_data" android:key="backgroundDataCheckBox" android:summary="@string/background_data_summary" />
-    <CheckBoxPreference android:persistent="false" android:title="@string/sync_automatically" android:key="syncAutomaticallyCheckBox" android:summary="@string/sync_automatically_summary" android:dependency="backgroundDataCheckBox" />
-    <PreferenceCategory android:title="@string/header_manage_accounts" android:key="manageAccountsCategory" />
-</PreferenceScreen>
