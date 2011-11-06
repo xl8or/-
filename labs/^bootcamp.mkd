@@ -81,6 +81,7 @@ little snitch, [sequel.pro](http://www.sequelpro.com/download/), [oracle.sql.dev
     sudo gem install redcarpet
     sudo gem install github-markup
     git clone git://github.com/robgleeson/hammer.vim.git /tmp/hammer.vim
+    rm -rf ~/.vim/plugin/*
     cp -R /tmp/hammer.vim/plugin/* ~/.vim/plugin/
 
 #### [Install JDK for Mac OS X](https://developer.apple.com/downloads://developer.apple.com/downloads/)
