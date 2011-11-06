@@ -284,11 +284,18 @@ little snitch, [sequel.pro](http://www.sequelpro.com/download/), [oracle.sql.dev
     sudo unzip -o /tmp/jad158g.mac.intel.zip -d /usr/bin/
     pushd /tmp/; tar xvf jadretro-1_6-jre.tar
 
+    cat <<EOF > /tmp/jad
+    #!/bin/bash
+    java -jar \`dirname \$0\`/jad $@
+    EOF
+    
     cat <<EOF > /tmp/jadretro/jadretro
     #!/bin/bash
     java -jar \`dirname \$0\`/jadretro.jar $@
     EOF
-
+    
+    sudo mv /opt/local/bin/jad /opt/local/bin/jad.orig
+    sudo mv /tmp/jad /usr/bin/
     sudo mv /tmp/jadretro/jadretro.jar /opt/local/bin/
     sudo mv /tmp/jadretro/jadretro /opt/local/bin/
     sudo chmod +x /opt/local/bin/jadretro
