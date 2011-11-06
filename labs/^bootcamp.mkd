@@ -222,7 +222,7 @@ little snitch, [sequel.pro](http://www.sequelpro.com/download/), [oracle.sql.dev
     sudo tar xvf /tmp/apktool-install-macosx-r04-brut1.tar.bz2
     popd
 
-#### [dex2jar](http://dex2jar.googlecode.com/files/dex2jar-0.0.7.11-SNAPSHOT.zip) to reverse Dalvik bytecode
+#### [dex2jar](http://code.google.com/p/dex2jar/downloads/) to reverse Dalvik bytecode
 
     wget -P /tmp/ http://dex2jar.googlecode.com/files/dex2jar-0.0.9.2-SNAPSHOT.zip
     sudo unzip -o /tmp/dex2jar-0.0.9.2-SNAPSHOT.zip -d /opt/local/share/
