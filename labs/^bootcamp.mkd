@@ -289,8 +289,8 @@ little snitch, [sequel.pro](http://www.sequelpro.com/download/), [oracle.sql.dev
     java -jar \`dirname \$0\`/jadretro.jar $@
     EOF
 
-    mv /tmp/jadretro/jadretro.jar /opt/local/bin/
-    mv /tmp/jadretro/jadretro /opt/local/bin/
+    sudo mv /tmp/jadretro/jadretro.jar /opt/local/bin/
+    sudo mv /tmp/jadretro/jadretro /opt/local/bin/
     sudo chmod +x /opt/local/bin/jadretro
 
 #
