@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.widget.QuickContactBadge android:layout_gravity="center_vertical" android:id="@id/profile_image" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/no_avatar"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

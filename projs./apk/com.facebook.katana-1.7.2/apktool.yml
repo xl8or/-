@@ -1,6 +1,0 @@
-version: 1.4.1
-apkFileName: com.facebook.katana-1.7.2.apk
-isFrameworkApk: false
-usesFramework:
-  ids:
-  - 1

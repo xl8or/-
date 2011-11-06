@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ViewStub android:id="@id/profile_pic_stub" android:layout="@layout/profile_pic_layout" android:inflatedId="@id/profile_image" android:layout_width="50.0dip" android:layout_height="50.0dip" />
-    <ViewStub android:id="@id/profile_pic_qcb_stub" android:layout="@layout/profile_pic_qcb_layout" android:inflatedId="@id/profile_image" android:layout_width="50.0dip" android:layout_height="50.0dip" />
-    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="left|center" android:id="@id/profile_name" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="50.0dip" android:lines="1" android:layout_weight="1.0" />
-    <ViewStub android:id="@id/checkbox_stub" android:layout="@layout/checkbox_layout" android:inflatedId="@id/friend_checkbox" android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_marginRight="10.0dip" />
-</LinearLayout>

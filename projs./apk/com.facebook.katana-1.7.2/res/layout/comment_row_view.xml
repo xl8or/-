@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@drawable/comment_background" android:paddingTop="3.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/comment_user_image" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="9.0dip" android:layout_marginTop="3.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" />
-    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@drawable/blue_text_color" android:id="@id/comment_name_item" android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/comment_user_image" />
-    <TextView android:textSize="10.0sp" android:textColor="@drawable/gray_text_color" android:id="@id/comment_time_item" android:paddingLeft="5.0dip" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/comment_name_item" />
-    <TextView android:textSize="12.0sp" android:textColor="@drawable/text_color" android:id="@id/comment_text_item" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/comment_user_image" android:layout_below="@id/comment_name_item" />
-</RelativeLayout>

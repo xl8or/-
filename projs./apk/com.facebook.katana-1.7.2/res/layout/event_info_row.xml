@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:background="@drawable/grey_frame" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:background="@drawable/box_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true"
-      xmlns:android="http://schemas.android.com/apk/res/android">
-        <TextView android:textSize="14.0sp" android:textColor="@color/events_subtext_color" android:gravity="right" android:layout_gravity="top" android:id="@id/event_info_label" android:layout_width="75.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="Host" />
-        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/events_title_color" android:gravity="left" android:id="@id/event_info_info" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="inf info" />
-    </LinearLayout>
-</LinearLayout>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@drawable/bg_grey_repeat" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/title_layout" />
-    <com.facebook.katana.view.FacebookListView android:id="@android:id/list" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip" android:cacheColorHint="#00000000" android:divider="@drawable/fixed_divider_horizontal_bright" android:dividerHeight="1.0px"
-      xmlns:android="http://schemas.android.com/apk/res/android" />
-    <include layout="@layout/empty_layout" />
-</LinearLayout>

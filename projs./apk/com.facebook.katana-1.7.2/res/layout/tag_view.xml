@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.katana.ui.TagView android:textColor="#ffffffff" android:id="@id/tag_view" android:background="@drawable/btn_tag" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="0.0px" android:layout_y="0.0px"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
