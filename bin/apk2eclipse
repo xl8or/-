@@ -77,10 +77,14 @@ system "cp -R /tmp/apk/ #{out_proj};"
 system "dex2jar #{out_proj}/classes.dex"
 system "rm #{out_proj}/classes.dex"
 
-system "fernflower #{out_proj}/classes.dex.dex2jar.jar;"
-system "mv #{out_proj}/src/classes.dex.dex2jar.jar #{out_proj}/sources.jar;"
+# system "fernflower #{out_proj}/classes.dex.dex2jar.jar;"
+# system "mv #{out_proj}/src/classes.dex.dex2jar.jar #{out_proj}/sources.jar;"
 
-system "cd #{out_proj}/src/; jar xvf ../sources.jar;"
+system "mkdir #{out_proj}/classes; pushd #{out_proj}/classes; jar xvf ../classes.dex.dex2jar.jar; popd;"
+system "jad -o -r -sjava -d#{out_proj}/src #{out_proj}/classes/**/*.class;"
+system "rm -rf #{out_proj}/classes;"
+
+system "jar cvf #{out_proj}/sources.jar #{out_proj}/src;"
 # HERE
 
 File.open("#{out_proj}/default.properties", "w") {|f| f.write(defaults) }
