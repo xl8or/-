@@ -282,7 +282,7 @@ little snitch, [sequel.pro](http://www.sequelpro.com/download/), [oracle.sql.dev
     wget -P /tmp/ http://www.varaneckas.com/sites/default/files/jad/jad158g.mac.intel.zip
     wget -P /tmp/ http://dl.dropbox.com/u/47820156/jadretro-1_6-jre.tar
     sudo unzip -o /tmp/jad158g.mac.intel.zip -d /usr/bin/
-    pushd /tmp/; tar xvf jadretro-1_6-jre.tar
+    pushd /tmp/; tar xvf jadretro-1_6-jre.tar; popd;
 
     cat <<EOF > /tmp/jad
     #!/bin/bash
