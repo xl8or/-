@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="5914" android:versionName="1.7.2" package="com.facebook.katana"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="7" />
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.facebook.katana.provider.ACCESS" />
+    <permission android:name="com.facebook.katana.provider.ACCESS" android:protectionLevel="signature" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <permission android:name="com.facebook.katana.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="com.facebook.katana.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application android:theme="@android:style/Theme.Light" android:label="@string/app_name" android:icon="@drawable/icon" android:name="com.facebook.katana.FacebookApplication">
+        <provider android:name="com.facebook.katana.provider.UserStatusesProvider" android:permission="com.facebook.katana.provider.ACCESS" android:authorities="com.facebook.katana.provider.UserStatusesProvider" />
+        <provider android:name="com.facebook.katana.provider.UserValuesProvider" android:permission="com.facebook.katana.provider.ACCESS" android:authorities="com.facebook.katana.provider.UserValuesProvider" />
+        <provider android:name="com.facebook.katana.provider.KeyValueProvider" android:permission="com.facebook.katana.provider.ACCESS" android:authorities="com.facebook.katana.provider.KeyValueProvider" />
+        <provider android:name="com.facebook.katana.provider.EventsProvider" android:permission="com.facebook.katana.provider.ACCESS" android:authorities="com.facebook.katana.provider.EventsProvider" />
+        <provider android:name="com.facebook.katana.provider.ConnectionsProvider" android:permission="com.facebook.katana.provider.ACCESS" android:authorities="com.facebook.katana.provider.ConnectionsProvider" />
+        <provider android:name="com.facebook.katana.provider.PagesProvider" android:permission="com.facebook.katana.provider.ACCESS" android:authorities="com.facebook.katana.provider.PagesProvider" />
+        <provider android:name="com.facebook.katana.provider.LoggingProvider" android:permission="com.facebook.katana.provider.ACCESS" android:authorities="com.facebook.katana.provider.LoggingProvider" />
+        <provider android:name="com.facebook.katana.provider.PhotosProvider" android:permission="com.facebook.katana.provider.ACCESS" android:authorities="com.facebook.katana.provider.PhotosProvider" />
+        <provider android:name="com.facebook.katana.provider.MailboxProvider" android:permission="com.facebook.katana.provider.ACCESS" android:authorities="com.facebook.katana.provider.MailboxProvider" />
+        <provider android:name="com.facebook.katana.provider.NotificationsProvider" android:permission="com.facebook.katana.provider.ACCESS" android:authorities="com.facebook.katana.provider.NotificationsProvider" />
+        <provider android:name="com.facebook.katana.provider.ChatHistoryProvider" android:permission="com.facebook.katana.provider.ACCESS" android:authorities="com.facebook.katana.provider.ChatHistoryProvider" />
+        <provider android:name="com.facebook.katana.provider.CacheProvider" android:permission="com.facebook.katana.provider.ACCESS" android:authorities="com.facebook.katana.provider.CacheProvider" />
+        <service android:name="com.facebook.katana.service.FacebookService" />
+        <service android:name="com.facebook.katana.service.BackgroundRequestService" />
+        <service android:name="com.facebook.katana.service.UploadManager" />
+        <service android:name="com.facebook.katana.RemoveRawContactsService" />
+        <activity android:theme="@style/Theme.Facebook" android:label="@string/app_name" android:name="com.facebook.katana.LoginActivity" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.HomeActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.media.AlbumsActivity" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.media.CreateEditAlbumActivity" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.media.PhotosActivity" />
+        <activity android:theme="@style/Theme.FacebookDark" android:name="com.facebook.katana.activity.media.ViewPhotoActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" />
+        <activity android:name="com.facebook.katana.activity.media.ViewVideoActivity" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.media.PhotoFeedbackActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" android:windowSoftInputMode="adjustResize" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.stream.StreamActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" android:windowSoftInputMode="adjustPan" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.faceweb.FacewebChromeActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" android:windowSoftInputMode="adjustResize" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.feedback.FeedbackActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" android:windowSoftInputMode="adjustResize" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.events.EventsActivity" android:windowSoftInputMode="adjustResize" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.events.EventBirthdaysActivity" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.events.EventDetailsActivity" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.events.EventGuestsActivity" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.places.FriendCheckinsActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" android:windowSoftInputMode="adjustResize" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.places.AddPlaceActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" android:windowSoftInputMode="adjustResize" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.places.PlacesNearbyActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" android:windowSoftInputMode="adjustResize" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.places.PlacesOptInActivity" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.places.StubPlacesActivity" android:noHistory="true" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.chat.BuddyListActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.chat.ChatConversationActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.ProfileTabHostActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.facebook.profile" android:host="com.android.contacts" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.UserInfoActivity" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.PageInfoActivity" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.places.PlacesInfoActivity" />
+        <activity android:label="@string/home_settings" android:name="com.facebook.katana.SettingsActivity" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.media.UploadPhotoActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.media.UploadVideoActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Transparent" android:label="@string/facebook_status" android:name="com.facebook.katana.WidgetActivity" android:process="com.facebook.widget.affinity" android:taskAffinity="com.facebook.widget.affinity" android:excludeFromRecents="true" android:windowSoftInputMode="adjustResize" />
+        <activity android:theme="@android:style/Theme.Dialog" android:label="@string/login_about" android:name="com.facebook.katana.HtmlAboutActivity" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.view.FacebookWebViewActivity" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.ShareLinkActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.messages.MailboxTabHostActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.messages.MailboxThreadsActivity" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.messages.MailboxMessagesActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.messages.MessageComposeActivity" />
+        <activity android:theme="@style/Theme.WhiteText" android:name="com.facebook.katana.UsersTabHostActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" />
+        <activity android:theme="@style/Theme.WhiteText" android:name="com.facebook.katana.FriendsActivity" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.RequestsActivity" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.PageSearchResultsActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" />
+        <activity android:theme="@style/Theme.WhiteText" android:name="com.facebook.katana.PickFriendsActivity" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.SyncContactsSetupActivity" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.SyncContactsChangeActivity" />
+        <activity android:name="com.facebook.katana.IntentUriHandler">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="facebook" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="fb" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.ProxyAuth" android:configChanges="locale|keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.PROXYAUTH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.profilelist.TaggedUsersActivity" />
+        <activity android:theme="@style/Theme.WhiteText" android:name="com.facebook.katana.activity.profilelist.FriendMultiSelectorActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.profilelist.GroupListActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.profilelist.GroupMemberListActivity" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.ComposerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" android:windowSoftInputMode="adjustResize" />
+        <receiver android:label="@string/app_name" android:name="com.facebook.katana.FacebookWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_provider" />
+        </receiver>
+        <receiver android:label="@string/app_name" android:name="com.facebook.katana.FacebookAccountReceiver">
+            <intent-filter>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/app_name" android:name="com.facebook.katana.service.method.ApiLogging">
+            <intent-filter>
+                <action android:name="com.facebook.katana.service.method.ApiLogging" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.katana.C2DMReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.facebook.katana" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.facebook.katana" />
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/app_name" android:name="com.facebook.katana.binding.ChatHibernateKeepalive">
+            <intent-filter>
+                <action android:name="com.facebook.katana.binding.ChatHibernateKeepalive" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.katana.binding.UploadManagerConnectivity">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.facebook.katana.platform.FacebookAuthenticationService" android:exported="true">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator" />
+        </service>
+        <service android:name="com.facebook.katana.platform.FacebookSyncAdapterService" android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter" />
+            <meta-data android:name="android.provider.CONTACTS_STRUCTURE" android:resource="@xml/contacts" />
+        </service>
+        <activity android:theme="@style/Theme.DialogNoTitle" android:name="com.facebook.katana.PasswordDialogActivity" />
+        <activity android:name="com.facebook.katana.LoginNotificationActivity" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.findfriends.LegalDisclaimerActivity" android:windowSoftInputMode="adjustResize" />
+        <activity android:theme="@style/Theme.Facebook" android:name="com.facebook.katana.activity.findfriends.FindFriendsActivity" android:configChanges="keyboard|keyboardHidden|navigation|orientation" android:windowSoftInputMode="adjustResize" />
+    </application>
+</manifest>

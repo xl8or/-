@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="clear_tint">#00000000</color>
+    <color name="mid_tint">#40000000</color>
+    <color name="dark_tint">#80000000</color>
+    <color name="header_background_color">#ffdbe4f5</color>
+    <color name="privacy_background_color">#ff95a5c6</color>
+    <color name="dialog_text_color">#ffc0c0c0</color>
+    <color name="bubble_dark_background">#b2191919</color>
+    <color name="span_color">#ff496ba2</color>
+    <color name="title_bar_shadow">#bb000000</color>
+    <color name="home_separator_color">#ff90a8c7</color>
+    <color name="home_text_color">#ff333333</color>
+    <color name="home_background">#fff7f9ff</color>
+    <color name="dark_blue_text_color">#ff39549c</color>
+    <color name="thread_topic">#ff333333</color>
+    <color name="thread_participants">#ff666666</color>
+    <color name="fb_blue">#ff3b5998</color>
+    <color name="fb_blue_sdk">#ff6d84b4</color>
+    <color name="silver_text_color">#ff444444</color>
+    <color name="events_title_color">#ff333333</color>
+    <color name="events_subtext_color">#ff777777</color>
+    <color name="requests_responded">#fffffbe2</color>
+    <color name="requests_mutual_friends">#ff777777</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="light_grey">#ffdddddd</color>
+    <color name="fbback">#ffbcc2cd</color>
+    <color name="chrome_text">#ff4f5f7f</color>
+    <color name="chrome_border">#ffacb5cd</color>
+    <color name="blue_button">#ffebedf1</color>
+    <color name="blue_button_selected">#fff67700</color>
+    <color name="blue_button_pressed">#ffffc100</color>
+    <color name="dark_gray_text_color">#ff666666</color>
+    <color name="light_gray_text_color">#ff999999</color>
+</resources>

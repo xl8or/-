@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_layout" />
+    <LinearLayout android:id="@id/threadlist_top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.facebook.orca.common.ui.widgets.refreshablelistview.RefreshableListViewContainer android:id="@id/threadlist_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.facebook.orca.common.ui.widgets.refreshablelistview.RefreshableListViewOverflowItem android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.facebook.orca.common.ui.widgets.refreshablelistview.RefreshableListViewItem android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.facebook.orca.common.ui.widgets.refreshablelistview.RefreshableListView android:id="@android:id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/white" android:divider="@drawable/fixed_divider_horizontal_bright" android:dividerHeight="1.0px" />
+        </com.facebook.orca.common.ui.widgets.refreshablelistview.RefreshableListViewContainer>
+        <include layout="@layout/empty_layout" />
+    </FrameLayout>
+</LinearLayout>

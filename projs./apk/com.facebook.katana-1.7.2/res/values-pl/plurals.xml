@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="birthday_count">
+        <item quantity="other">%d urodzin</item>
+        <item quantity="one">1 urodziny</item>
+    </plurals>
+    <plurals name="profile_info_num_likes">
+        <item quantity="other">Liczba osób, które to lubią: %d.</item>
+        <item quantity="one">1 osoba to lubi.</item>
+    </plurals>
+    <plurals name="profile_info_num_checkins">
+        <item quantity="other">Zameldowania: %d</item>
+        <item quantity="one">1 zameldowanie</item>
+    </plurals>
+    <plurals name="requests_mutual_friends">
+        <item quantity="other">%d wspólnych znajomych</item>
+        <item quantity="zero">Brak wspólnych znajomych</item>
+        <item quantity="one">Jeden wspólny znajomy</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">Osoby (%d)</item>
+        <item quantity="one">1 osoba</item>
+    </plurals>
+</resources>

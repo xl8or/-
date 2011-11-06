@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_layout" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/solid_white" android:layout_width="fill_parent" android:layout_height="55.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/thread_topic" android:ellipsize="end" android:id="@id/mailbox_subject" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="6.0dip" android:maxLines="1" android:layout_weight="1.0" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/thread_participants" android:ellipsize="end" android:id="@id/mailbox_between" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="6.0dip" android:maxLines="1" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/mailbox_prev" android:background="@drawable/btn_action" android:layout_width="44.0dip" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:src="@drawable/left_button" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/mailbox_next" android:background="@drawable/btn_action" android:layout_width="44.0dip" android:layout_height="fill_parent" android:layout_margin="6.0dip" android:src="@drawable/right_button" />
+    </LinearLayout>
+    <View android:background="@drawable/fixed_divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <com.facebook.katana.view.FacebookListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="#ffffffff" android:divider="@drawable/fixed_divider_horizontal_bright" android:dividerHeight="1.0px" android:layout_weight="1.0" />
+    <include layout="@layout/empty_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/mailbox_reply_bar" android:background="@drawable/solid_white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:gravity="top" android:id="@id/mailbox_reply_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:hint="@string/mailbox_reply_hint" android:maxLines="4" android:minLines="2" android:inputType="textCapSentences|textAutoCorrect|textMultiLine" android:imeActionLabel="@string/mailbox_send" android:imeActionId="101" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/mailbox_reply_button_bar" android:background="@drawable/bg_keyboard_btn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <Button android:textStyle="bold" android:textColor="@color/dark_blue_text_color" android:id="@id/send_button" android:background="@drawable/btn_action" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="10.0dip" android:text="@string/mailbox_send" android:layout_weight="0.5" />
+            <Button android:textStyle="bold" android:textColor="@color/dark_blue_text_color" android:id="@id/clear_button" android:background="@drawable/btn_action" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/mailbox_clear" android:layout_weight="0.5" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

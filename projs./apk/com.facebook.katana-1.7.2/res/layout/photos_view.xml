@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_layout" />
+    <include layout="@layout/fat_title_bar_layout" />
+    <GridView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="7.0dip" android:layout_marginTop="7.0dip" android:listSelector="@null" android:horizontalSpacing="7.0dip" android:verticalSpacing="7.0dip" android:stretchMode="none" android:columnWidth="72.0dip" android:numColumns="auto_fit" android:rowHeight="72.0dip" />
+    <include layout="@layout/empty_layout" />
+</LinearLayout>

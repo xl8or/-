@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/feedback_layout" android:paddingBottom="6.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@drawable/blue_text_color" android:id="@id/comments_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="61.0dip" android:drawableLeft="@drawable/ic_comment" android:drawablePadding="3.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@drawable/blue_text_color" android:id="@id/likes_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:drawableLeft="@drawable/ic_like" android:drawablePadding="3.0dip" />
+</LinearLayout>
