@@ -155,7 +155,7 @@ little snitch, [sequel.pro](http://www.sequelpro.com/download/), [oracle.sql.dev
     wget -P /tmp/ https://github.com/henry4j/-/raw/master/bin/p4merge
     wget -P /tmp/ https://github.com/henry4j/-/raw/master/bin/p4diff
     wget -P /tmp/ http://dl.dropbox.com/u/47820156/p4merge-mac-osx-july-2011.zip
-    unzip -o /tmp/p4merge-mac-osx-2011-july-18.zip -d /Applications/
+    unzip -o /tmp/p4merge-mac-osx-july-2011.zip -d /Applications/
     sudo mv /tmp/p4merge /opt/local/bin/
     sudo mv /tmp/p4diff /opt/local/bin/
     sudo chmod +x /opt/local/bin/p4merge
