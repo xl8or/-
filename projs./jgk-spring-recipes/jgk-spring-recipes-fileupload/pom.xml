@@ -19,7 +19,7 @@
 		<javax.inject.version>1.0-PFD-1</javax.inject.version>
 		<jsp-api.version>2.2</jsp-api.version>
 		<jstl.version>1.2</jstl.version>
-		<junit.version>4.8.2</junit.version>
+		<junit.version>4.13.1</junit.version>
 		<slf4j-api.version>1.5.10</slf4j-api.version>
 		<slf4j-log4j12.version>1.5.10</slf4j-log4j12.version>
 		<jcl-over-slf4j.version>1.5.10</jcl-over-slf4j.version>
