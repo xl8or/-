@@ -17,7 +17,7 @@
   	<jstl.version>1.1.2</jstl.version>
   	<servlet-api.version>2.4-20040521</servlet-api.version>
   	<slf4j-api.version>1.6.0</slf4j-api.version>
-    <spring.version>3.0.5.RELEASE</spring.version>
+    <spring.version>5.5.7</spring.version>
     <taglibs.standard.version>1.1.2</taglibs.standard.version>
   </properties>
   <dependencies>
