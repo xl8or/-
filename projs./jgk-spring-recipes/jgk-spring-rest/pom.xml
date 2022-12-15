@@ -13,7 +13,7 @@
 		<jsp-api.version>2.2</jsp-api.version>
 		<jstl.version>1.2</jstl.version>
 		<maven-jetty-plugin.version>6.1.10</maven-jetty-plugin.version>
-		<spring.version>3.0.5.RELEASE</spring.version>
+		<spring.version>5.2.20.RELEASE</spring.version>
 		<jackson-mapper-lgpl.version>1.7.4</jackson-mapper-lgpl.version>
 	</properties>
 	<repositories>
